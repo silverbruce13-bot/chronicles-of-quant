@@ -133,6 +133,17 @@ export default function Chapter({ chapter, onNext, onPrev, isFirst, isLast, tota
                         {chapter.subtitle}
                     </h2>
 
+                    {chapter.imagePath && (
+                        <div className="w-full my-8 rounded-2xl overflow-hidden border border-neutral-800 shadow-2xl relative">
+                            <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0a] via-transparent to-transparent z-10 opacity-80"></div>
+                            <img
+                                src={chapter.imagePath}
+                                alt={chapter.title}
+                                className="w-full h-auto object-cover object-center max-h-[400px]"
+                            />
+                        </div>
+                    )}
+
                     <div className="space-y-6 text-lg md:text-xl text-neutral-300 font-medium leading-relaxed flex-1">
                         {chapter.content.map((paragraph, idx) => (
                             <motion.p
