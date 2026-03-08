@@ -2,9 +2,10 @@ import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ChevronLeft, ChevronRight, BookOpen, Fingerprint, Sparkles, X } from 'lucide-react';
 import type { ChapterType } from '../data/story';
-import { mathDetails } from '../data/mathDetails';
+import { mathDetailsContent } from '../data/mathDetails';
 import TooltipText from './TooltipText';
 import { LineChart, Line, XAxis, YAxis, ResponsiveContainer, AreaChart, Area } from 'recharts';
+import { useLanguage } from '../lib/LanguageContext';
 
 interface ChapterProps {
     chapter: ChapterType;
@@ -32,12 +33,29 @@ const DUMMY_RANDOM_WALK = Array.from({ length: 50 }, (_, i) => ({ time: i, price
 
 export default function Chapter({ chapter, onNext, onPrev, isFirst, isLast, totalChapters }: ChapterProps) {
     const [isTheoryOpen, setIsTheoryOpen] = useState(false);
-    const mathData = mathDetails[chapter.tutorialType];
+    const [quizAnswers, setQuizAnswers] = useState<Record<number, number | null>>({});
+    const [quizSubmitted, setQuizSubmitted] = useState<Record<number, boolean>>({});
+    const { language, t } = useLanguage();
+    const mathData = mathDetailsContent[language][chapter.tutorialType];
 
     // Reset state when chapter changes
     useEffect(() => {
         setIsTheoryOpen(false);
+        setQuizAnswers({});
+        setQuizSubmitted({});
     }, [chapter.id]);
+
+    const handleQuizSelect = (qIndex: number, optionIndex: number) => {
+        if (!quizSubmitted[qIndex]) {
+            setQuizAnswers(prev => ({ ...prev, [qIndex]: optionIndex }));
+        }
+    };
+
+    const handleQuizSubmit = (qIndex: number) => {
+        if (quizAnswers[qIndex] !== null && quizAnswers[qIndex] !== undefined) {
+            setQuizSubmitted(prev => ({ ...prev, [qIndex]: true }));
+        }
+    };
 
     const renderTutorialGraph = () => {
         if (chapter.tutorialType === 'randomWalk') {
@@ -138,7 +156,7 @@ export default function Chapter({ chapter, onNext, onPrev, isFirst, isLast, tota
                                 className="group flex items-center gap-2 bg-gradient-to-r from-amber-600 to-amber-500 hover:from-amber-500 hover:to-amber-400 text-white px-6 py-3 rounded-full font-bold shadow-lg shadow-amber-900/20 transition-all hover:scale-105 active:scale-95"
                             >
                                 <BookOpen className="w-5 h-5 group-hover:-rotate-12 transition-transform" />
-                                <span>딥다이브: 이론 보기</span>
+                                <span>{t('chapter.theory_button')}</span>
                             </button>
                         </motion.div>
                     )}
@@ -176,7 +194,7 @@ export default function Chapter({ chapter, onNext, onPrev, isFirst, isLast, tota
 
                                 {mathData && (
                                     <div className="mt-8">
-                                        <h4 className="text-neutral-500 uppercase text-xs font-bold tracking-widest mb-4">핵심 개념</h4>
+                                        <h4 className="text-neutral-500 uppercase text-xs font-bold tracking-widest mb-4">{t('chapter.core_concepts')}</h4>
                                         <div className="grid gap-3">
                                             {mathData.concepts.map((concept, i) => (
                                                 <div key={i} className="bg-neutral-900/50 border border-neutral-800 rounded-lg p-3">
@@ -186,7 +204,25 @@ export default function Chapter({ chapter, onNext, onPrev, isFirst, isLast, tota
                                             ))}
                                         </div>
 
-                                        <h4 className="text-neutral-500 uppercase text-xs font-bold tracking-widest mt-8 mb-4">알고리즘 흐름</h4>
+                                        {mathData.detailedLearning && mathData.detailedLearning.length > 0 && (
+                                            <>
+                                                <h4 className="text-neutral-500 uppercase text-xs font-bold tracking-widest mt-8 mb-4">{t('chapter.detailed_learning')}</h4>
+                                                <div className="grid gap-4">
+                                                    {mathData.detailedLearning.map((item, i) => (
+                                                        <div key={i} className="bg-neutral-900/50 border border-neutral-800 rounded-lg p-5">
+                                                            <div className="font-bold text-amber-500 mb-2">{item.title}</div>
+                                                            <div className="space-y-2">
+                                                                {item.content.map((p, idx) => (
+                                                                    <div key={idx} className="text-sm text-neutral-300 leading-relaxed">{p}</div>
+                                                                ))}
+                                                            </div>
+                                                        </div>
+                                                    ))}
+                                                </div>
+                                            </>
+                                        )}
+
+                                        <h4 className="text-neutral-500 uppercase text-xs font-bold tracking-widest mt-8 mb-4">{t('chapter.algorithm_flow')}</h4>
                                         <div className="space-y-0 relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-neutral-800 before:to-transparent">
                                             {mathData.flowchart.map((step, i) => (
                                                 <div key={i} className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group py-3">
@@ -207,6 +243,86 @@ export default function Chapter({ chapter, onNext, onPrev, isFirst, isLast, tota
                                                 </div>
                                             ))}
                                         </div>
+
+                                        {mathData.quizzes && mathData.quizzes.length > 0 && (
+                                            <>
+                                                <h4 className="text-neutral-500 uppercase text-xs font-bold tracking-widest mt-12 mb-4">{t('chapter.quiz_title')}</h4>
+                                                <div className="space-y-6">
+                                                    {mathData.quizzes.map((quiz, qIndex) => {
+                                                        const isSubmitted = quizSubmitted[qIndex];
+                                                        const selectedAnswer = quizAnswers[qIndex];
+                                                        const isCorrect = selectedAnswer === quiz.answer;
+
+                                                        return (
+                                                            <div key={qIndex} className="bg-neutral-900 border border-neutral-800 rounded-xl p-5 shadow-inner">
+                                                                <div className="font-bold text-neutral-200 mb-4 text-sm leading-relaxed">
+                                                                    <span className="text-amber-500 mr-2">Q{qIndex + 1}.</span>
+                                                                    {quiz.question}
+                                                                </div>
+                                                                <div className="space-y-2">
+                                                                    {quiz.options.map((opt, oIndex) => {
+                                                                        const isSelected = selectedAnswer === oIndex;
+                                                                        let optClass = "border-neutral-700 bg-neutral-800/50 hover:bg-neutral-800 text-neutral-300";
+
+                                                                        if (isSelected) {
+                                                                            optClass = "border-amber-500/50 bg-amber-500/10 text-amber-400";
+                                                                        }
+
+                                                                        if (isSubmitted) {
+                                                                            if (oIndex === quiz.answer) {
+                                                                                optClass = "border-emerald-500/50 bg-emerald-500/10 text-emerald-400";
+                                                                            } else if (isSelected && !isCorrect) {
+                                                                                optClass = "border-red-500/50 bg-red-500/10 text-red-400";
+                                                                            } else {
+                                                                                optClass = "border-neutral-800 bg-neutral-900 text-neutral-600 opacity-50 cursor-not-allowed";
+                                                                            }
+                                                                        }
+
+                                                                        return (
+                                                                            <button
+                                                                                key={oIndex}
+                                                                                onClick={() => handleQuizSelect(qIndex, oIndex)}
+                                                                                disabled={isSubmitted}
+                                                                                className={`w-full text-left p-3 rounded-lg border transition-all text-sm ${optClass} ${!isSubmitted ? 'cursor-pointer hover:border-amber-500/30' : ''}`}
+                                                                            >
+                                                                                <span className="mr-2 font-mono opacity-50">{oIndex + 1}.</span>
+                                                                                {opt}
+                                                                            </button>
+                                                                        );
+                                                                    })}
+                                                                </div>
+
+                                                                {!isSubmitted ? (
+                                                                    <div className="mt-4 flex justify-end">
+                                                                        <button
+                                                                            onClick={() => handleQuizSubmit(qIndex)}
+                                                                            disabled={selectedAnswer === null || selectedAnswer === undefined}
+                                                                            className="px-4 py-2 bg-amber-500/20 hover:bg-amber-500/30 text-amber-500 rounded-lg text-sm font-bold border border-amber-500/20 disabled:opacity-50 disabled:cursor-not-allowed transition-all"
+                                                                        >
+                                                                            {t('chapter.check_answer')}
+                                                                        </button>
+                                                                    </div>
+                                                                ) : (
+                                                                    <motion.div
+                                                                        initial={{ opacity: 0, height: 0 }}
+                                                                        animate={{ opacity: 1, height: 'auto' }}
+                                                                        className={`mt-4 p-4 rounded-lg text-sm border ${isCorrect ? 'bg-emerald-500/10 border-emerald-500/20' : 'bg-red-500/10 border-red-500/20'}`}
+                                                                    >
+                                                                        <div className={`font-bold mb-2 ${isCorrect ? 'text-emerald-400' : 'text-red-400'}`}>
+                                                                            {isCorrect ? t('chapter.correct') : t('chapter.incorrect')}
+                                                                        </div>
+                                                                        <div className="text-neutral-300 leading-relaxed">
+                                                                            <span className="font-bold opacity-70 mr-2">{t('chapter.explanation')}</span>
+                                                                            {quiz.explanation}
+                                                                        </div>
+                                                                    </motion.div>
+                                                                )}
+                                                            </div>
+                                                        );
+                                                    })}
+                                                </div>
+                                            </>
+                                        )}
                                     </div>
                                 )}
                             </div>
@@ -222,7 +338,7 @@ export default function Chapter({ chapter, onNext, onPrev, isFirst, isLast, tota
             <div className="mt-8 text-neutral-600 text-sm flex flex-col items-center gap-2">
                 <div className="flex items-center gap-2">
                     <Fingerprint className="w-4 h-4 opacity-50" />
-                    <span>HEAVEN PROJECT : Sisyphus Protocol Active</span>
+                    <span>{t('chapter.footer_hint')}</span>
                 </div>
             </div>
         </motion.div>
