@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { ChevronLeft, ChevronRight, BookOpen, Fingerprint, Activity, Sparkles, X } from 'lucide-react';
+import { ChevronLeft, ChevronRight, BookOpen, Fingerprint, Sparkles, X } from 'lucide-react';
 import type { ChapterType } from '../data/story';
 import { mathDetails } from '../data/mathDetails';
 import TooltipText from './TooltipText';
-import { LineChart, Line, XAxis, YAxis, Tooltip as RechartsTooltip, ResponsiveContainer, AreaChart, Area } from 'recharts';
+import { LineChart, Line, XAxis, YAxis, ResponsiveContainer, AreaChart, Area } from 'recharts';
 
 interface ChapterProps {
     chapter: ChapterType;
