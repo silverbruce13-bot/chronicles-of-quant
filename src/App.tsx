@@ -4,6 +4,7 @@ import { storyContent } from './data/story';
 import Chapter from './components/Chapter';
 import { Network, ActivitySquare, Globe } from 'lucide-react';
 import { useLanguage } from './lib/LanguageContext';
+import TextSelectionAgent from './components/TextSelectionAgent';
 
 export default function App() {
   const [currentChapterIndex, setCurrentChapterIndex] = useState(0);
@@ -95,6 +96,7 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-neutral-950 text-neutral-200 flex flex-col font-sans selection:bg-amber-500/30">
+      <TextSelectionAgent />
       {/* Ambient background glows */}
       <div className="fixed top-0 left-0 w-full h-full overflow-hidden pointer-events-none z-0">
         <div className="absolute -top-[30%] -left-[10%] w-[50%] h-[50%] rounded-full bg-amber-500/5 blur-[120px]" />

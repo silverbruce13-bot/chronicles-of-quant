@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ChevronLeft, ChevronRight, BookOpen, Fingerprint, Sparkles, X } from 'lucide-react';
 import type { ChapterType } from '../data/story';
 import { mathDetailsContent } from '../data/mathDetails';
-import TooltipText from './TooltipText';
+// TooltipText removed, using global TextSelectionAgent instead
 import { LineChart, Line, XAxis, YAxis, ResponsiveContainer, AreaChart, Area } from 'recharts';
 import { useLanguage } from '../lib/LanguageContext';
 
@@ -16,18 +16,7 @@ interface ChapterProps {
     totalChapters: number;
 }
 
-// Helper to parse content with [[text|tooltip]] syntax
-const renderText = (text: string) => {
-    const parts = text.split(/(\[\[.*?\]\])/g);
-    return parts.map((part, i) => {
-        if (part.startsWith('[[') && part.endsWith(']]')) {
-            const inner = part.slice(2, -2);
-            const [word, tooltip] = inner.split('|');
-            return <TooltipText key={i} text={word} tooltipText={tooltip} />;
-        }
-        return <React.Fragment key={i}>{part}</React.Fragment>;
-    });
-};
+// Normal rendering function removed as text selection dynamically handles highlights
 
 const DUMMY_RANDOM_WALK = Array.from({ length: 50 }, (_, i) => ({ time: i, price: 100 + Math.random() * 40 - 20 }));
 
@@ -152,7 +141,7 @@ export default function Chapter({ chapter, onNext, onPrev, isFirst, isLast, tota
                                 animate={{ opacity: 1, y: 0 }}
                                 transition={{ delay: 0.1 * idx, duration: 0.5 }}
                             >
-                                {renderText(paragraph)}
+                                {paragraph}
                             </motion.p>
                         ))}
                     </div>
