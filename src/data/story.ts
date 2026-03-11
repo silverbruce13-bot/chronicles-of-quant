@@ -1,12 +1,12 @@
 export type ChapterType = {
     id: number;
-    volume: number;
+    volume: string | number;
     title: string;
     subtitle: string;
     year: string;
     imagePath?: string;
     content: string[];
-    tutorialType: 'compound' | 'randomWalk' | 'amm' | 'blackScholes';
+    tutorialType: 'compound' | 'randomWalk' | 'amm' | 'blackScholes' | 'portfolio' | 'derivatives' | 'calculus' | 'probability' | 'matrix' | 'behavioral' | 'algorithm' | 'ai';
     tutorialTitle?: string;
     theoryDetail?: {
         title: string;
@@ -16,183 +16,1127 @@ export type ChapterType = {
 
 export const storyContent: Record<string, ChapterType[]> = {
     ko: [
-        {
-            id: 1,
-            volume: 1,
-            title: "바빌론의 점토판",
-            subtitle: "이자의 탄생과 시간의 가치",
-            year: "B.C. 2000",
-            imagePath: '/assets/images/ch1.png',
-            content: [
-                "메소포타미아의 뜨거운 태양 아래, 상인들은 흙으로 빛어낸 점토판에 곡물과 가축을 빌려주고 그 대가로 더 많은 것을 돌려받는 최초의 규약을 새겨 넣었습니다. 인류 역사상 처음으로 '이자'라는 개념이 탄생하는 순간이었죠.",
-                "초기에는 원금에 대해서만 조심스럽게 이자를 매기는 '단리'가 쓰였지만, 르네상스 시대의 거상들과 수학자들은 머지않아 훨씬 무섭고도 매혹적인 진실을 깨닫게 됩니다. 돈이 이자를 낳고, 그 태어난 이자가 다시 새로운 이자를 낳는 기하급수적인 증식, 바로 '[[복리|안녕! 일타 강사 쌤이야! 복리는 이자에 이자가 붙는 마법이야. 눈덩이를 굴리면 처음엔 작지만 나중엔 집채만 해지잖아? 돈도 그렇게 불어나는 거지!]]'의 마법이었습니다.",
-                "이 거대한 시간의 무기는 단순한 덧셈을 폭발적인 곱셈으로 바꾸어 놓았습니다. 고대 수학자들은 원금이 대체 언제 두 배로 불어나는지를 가늠하기 위해 치열하게 머리를 맞댔고, 이는 훗날 '72의 법칙'이라는 직관적 공식으로 완성되었습니다. 복리라는 괴물은 거대한 자본을 축적시켰고, 이 자본은 머지않아 인류 최초의 '주식 시장'이라는 거대한 투기장을 탄생시킬 거름이 됩니다."
-            ],
-            tutorialType: 'compound',
-            theoryDetail: {
-                title: "시간의 마법, 복리 (Compound Interest)",
-                content: [
-                    "단리(Simple Interest)는 원금에 대해서만 이자가 붙는 방식입니다. 반면 복리(Compound Interest)는 원금과 그동안 쌓인 이자를 합친 금액에 다시 이자가 붙는 방식입니다.",
-                    "아인슈타인이 '세계 8대 불가사의'라고 불렀을 만큼, 시간이 지날수록 자산이 기하급수적으로 늘어나는 강력한 힘을 가집니다.",
-                    "72의 법칙을 사용하면 자산이 두 배가 되는 데 걸리는 시간을 쉽게 계산할 수 있습니다 (72 ÷ 연수익률)."
-                ]
-            }
-        },
-        {
-            id: 2,
-            volume: 2,
-            title: "브라운 운동과 예측 불가능성",
-            subtitle: "시장의 랜덤워크",
-            year: "1900",
-            imagePath: '/assets/images/ch2.png',
-            content: [
-                "복리의 마법으로 축적된 거대한 자본은 주식 시장으로 흘러들어갔고, 수많은 사람들은 가격이 오를지 내릴지 예측하려는 끝없는 욕망에 사로잡혔습니다. 1900년, 파리 증권거래소의 광기 어린 외침 속에서, 루이 바슐리에라는 이름 모를 젊은 수학자는 군중과는 전혀 다른 곳을 바라보고 있었습니다.",
-                "그는 과거의 어떠한 패턴이나 호재, 악재도 내일의 주가를 알려주지 못한다는 섬뜩한 진실을 수학적으로 증명해냈습니다. 시장 가격은 마치 물 위에 떠 있는 꽃가루처럼 이리저리 부딪히며 무작위로 표류할 뿐이라는 것이죠. 내일의 주가는 오직 오늘의 주가에 아무런 방향성 없는 '[[랜덤워크|마치 술 취한 사람의 걸음걸이처럼, 과거의 움직임이 미래의 방향을 전혀 예측해주지 못하는 상태를 말해요!]]'를 더한 것과 같았습니다.",
-                "당대의 당대 최고의 수학자들조차 '시장이 그저 우연의 장난일 뿐'이라는 그의 이론을 비웃으며 철저히 외면했습니다. 하지만 반세기가 지나서야, 방향은 예측할 수 없어도 그 '흔들리는 정도(변동성)'만큼은 수학적으로 측량할 수 있다는 사실이 밝혀지며, 이 잊혀진 논문은 현대 퀀트 금융을 쌓아 올리는 가장 거대한 주춧돌로 화려하게 부활하게 됩니다."
-            ],
-            tutorialType: 'randomWalk',
-            theoryDetail: {
-                title: "랜덤 워크 (Random Walk Theory)",
-                content: [
-                    "주식 시장의 가격 변동이 과거의 기록과 독립적이며 확률적이라는 이론입니다.",
-                    "따라서 기술적 분석(차트 분석)만으로는 초과 수익을 내기 어렵다는 효율적 시장 가설(EMH)과 깊은 연관이 있습니다.",
-                    "수학적으로는 Winer Process(위너 과정)로 모델링되며, 이는 블랙-숄스 모형의 핵심 가정이 됩니다."
-                ]
-            }
-        },
-        {
-            id: 3,
-            volume: 3,
-            title: "블랙-숄스 모형",
-            subtitle: "파생상품의 가격을 매기다",
-            year: "1973",
-            imagePath: '/assets/images/ch3.png',
-            content: [
-                "바슐리에가 발견한 '예측 불가능성'은 1970년대 이르러 전 세계 투자자들에게 엄청난 공포로 다가왔습니다. 주가가 미친 듯이 요동치는 이 무작위의 폭풍 속에서, 사람들은 내 자산을 안전하게 지켜줄 일종의 보험인 '옵션'이라는 방패를 원했습니다. 하지만 이 방패의 적당한 가격이 얼마인지는 아무도 몰랐습니다.",
-                "이때 시카고의 천재 학자들(블랙, 숄스, 머튼)이 등장합니다. 그들은 금속을 타고 퍼져나가는 열의 흐름을 계산하는 물리학의 열전도 방정식을 금융 시장에 가져왔습니다. 그리고 주식과 옵션을 정교한 비율로 섞어 위험(Risk)을 완벽하게 '0'으로 지워버리는 기적과도 같은 계산을 해냅니다. 이것이 바로 세상을 바꾼 '[[블랙-숄스 방정식|옵션 가격을 결정하는 노벨상 수상 공식이야. 위험을 완전히 제거하는 포트폴리오(무위험 헤지)를 수학적으로 증명해냈지!]]'입니다.",
-                "이 아름답고 차가운 공식 하나가 수백 년간 이어져 온 야성의 월스트리트를 영원히 바꾸어 놓았습니다. 직감과 짐작으로 거래하던 트레이더들의 자리를 수식을 다루는 '로켓 과학자'들이 대체했고, 인류 역사상 그 유례를 찾아볼 수 없을 만큼 거대한 수백조 달러 규모의 파생상품 제국이 탄생하게 됩니다."
-            ],
-            tutorialType: 'blackScholes',
-            theoryDetail: {
-                title: "블랙-숄스 옵션 가격 결정 모형",
-                content: [
-                    "유러피안 콜옵션과 풋옵션의 이론적 가격을 산출하는 편미분 방정식입니다.",
-                    "기초자산의 가격, 행사가격, 이자율, 만기까지의 잔존기간, 그리고 가장 중요한 기초자산의 **변동성(Volatility)** 5가지 변수로 구성됩니다.",
-                    "이 모형의 등장은 금융 공학(Financial Engineering)이라는 새로운 학문의 문을 열었습니다."
-                ]
-            }
-        },
-        {
-            id: 4,
-            volume: 4,
-            title: "DeFi와 AMM",
-            subtitle: "알고리즘이 마켓 메이커가 되다",
-            year: "2020",
-            imagePath: '/assets/images/ch4.png',
-            content: [
-                "블랙-숄스 모형이 쌓아 올린 찬란한 금융 제국은 2008년 금융위기라는 뼈아픈 대가를 치러야 했습니다. 거대 은행과 중개자들의 탐욕이 시장을 무너뜨리는 것을 목격한 이름 모를 천재들은 어두운 디지털 블록체인의 세계에서 조용한 반란을 준비합니다. '인간의 개입이나 중개자 없이도 완벽하게 돌아가는 금융 시장을 만들 수는 없을까?'",
-                "이들은 복잡한 월스트리트의 호가창 시스템을 전부 뜯어내고, 놀랍도록 단순하고 우아한 식 하나를 블록체인 위에 새겨 넣었습니다. 오직 두 자산의 곱은 항상 일정해야 한다(x*y=k)는 원리를 통해, 누군가 호가를 내지 않아도 알고리즘이 스스로 가격을 결정해 주는 '[[AMM|자동화된 마켓 메이커(Automated Market Maker). 누군가 호가를 내지 않아도, 수학 공식(x*y=k)에 의해 자동으로 가격이 결정되는 스마트 컨트랙트야!]]'를 탄생시킵니다.",
-                "바빌론의 점토판에서 시작되어 피같이 뜨거운 탐욕으로 얼룩졌던 금융의 역사는, 이제 영원히 멈추지 않고 스스로 돌아가는 수학의 기어(Gear)로 진화했습니다. 이는 소수에게 독점되던 지식과 부를 투명하게 개방하여 모두와 공유하려는 '헤븐 프로젝트'의 숭고한 정신과 맞닿아, 새로운 우주 시대의 경제 시스템으로 나아가는 첫걸음이 되고 있습니다."
-            ],
-            tutorialType: 'amm',
-            theoryDetail: {
-                title: "AMM (Automated Market Maker) & x*y=k",
-                content: [
-                    "AMM은 유동성 풀에 자산을 예치하고, 스마트 컨트랙트 알고리즘에 의해 자산 간 교환 비율(가격)이 결정되게 하는 시스템입니다.",
-                    "가장 대표적인 공식인 x * y = k (상수곱 공식)에서는 한 토큰(x)의 양이 줄어들면, 일정한 상수(k)를 유지하기 위해 다른 토큰(y)의 가격이 기하급수적으로 상승합니다.",
-                    "이는 금융의 투명성과 접근성을 극대화하며 새로운 형태의 시장을 창조해내고 있습니다."
-                ]
-            }
-        }
-    ],
+    {
+        "id": 1,
+        "volume": "VOL. 1",
+        "title": "이자의 탄생",
+        "subtitle": "돈에도 '시간의 가격'이 있다",
+        "year": "15th C",
+        "imagePath": "/assets/images/ch1.png",
+        "content": [
+            "우리는 폴샘 버추얼팀과 함께 일합니다. 모든 지식이 공유되는 이 곳, 헤븐 프로젝트의 일환으로 역사 속 금융과 수학의 만남을 추적합니다.",
+            "이 시기 가장 중요한 것은 [[이자의|선생님이 설명해주는 핵심 수학과 금융의 의미]]입니다. 이것이 인류의 자산을 어떻게 증식시켰는지 확인해봅시다.",
+            "과거의 뼈아픈 교훈이 오늘날 우리를 이 자리로 이끌었습니다. 숫자의 변동성을 이해하는 것이 곧 미래의 리스크를 줄이는 가장 완벽한 방법입니다."
+        ],
+        "tutorialType": "compound"
+    },
+    {
+        "id": 2,
+        "volume": "VOL. 1",
+        "title": "현재가치와 할인율",
+        "subtitle": "내일의 1억보다 오늘의 1억이 비싸다",
+        "year": "18th C",
+        "imagePath": "/assets/images/ch1.png",
+        "content": [
+            "우리는 폴샘 버추얼팀과 함께 일합니다. 모든 지식이 공유되는 이 곳, 헤븐 프로젝트의 일환으로 역사 속 금융과 수학의 만남을 추적합니다.",
+            "이 시기 가장 중요한 것은 [[현재가치와|선생님이 설명해주는 핵심 수학과 금융의 의미]]입니다. 이것이 인류의 자산을 어떻게 증식시켰는지 확인해봅시다.",
+            "과거의 뼈아픈 교훈이 오늘날 우리를 이 자리로 이끌었습니다. 숫자의 변동성을 이해하는 것이 곧 미래의 리스크를 줄이는 가장 완벽한 방법입니다."
+        ],
+        "tutorialType": "compound"
+    },
+    {
+        "id": 3,
+        "volume": "VOL. 1",
+        "title": "연금과 할부의 수학",
+        "subtitle": "티끌 모아 태산을 만드는 수열",
+        "year": "19th C",
+        "imagePath": "/assets/images/ch1.png",
+        "content": [
+            "우리는 폴샘 버추얼팀과 함께 일합니다. 모든 지식이 공유되는 이 곳, 헤븐 프로젝트의 일환으로 역사 속 금융과 수학의 만남을 추적합니다.",
+            "이 시기 가장 중요한 것은 [[연금과|선생님이 설명해주는 핵심 수학과 금융의 의미]]입니다. 이것이 인류의 자산을 어떻게 증식시켰는지 확인해봅시다.",
+            "과거의 뼈아픈 교훈이 오늘날 우리를 이 자리로 이끌었습니다. 숫자의 변동성을 이해하는 것이 곧 미래의 리스크를 줄이는 가장 완벽한 방법입니다."
+        ],
+        "tutorialType": "compound"
+    },
+    {
+        "id": 4,
+        "volume": "VOL. 1",
+        "title": "랜덤 워크의 발견",
+        "subtitle": "시장의 움직임은 예측 가능한가?",
+        "year": "1900",
+        "imagePath": "/assets/images/ch1.png",
+        "content": [
+            "우리는 폴샘 버추얼팀과 함께 일합니다. 모든 지식이 공유되는 이 곳, 헤븐 프로젝트의 일환으로 역사 속 금융과 수학의 만남을 추적합니다.",
+            "이 시기 가장 중요한 것은 [[랜덤|선생님이 설명해주는 핵심 수학과 금융의 의미]]입니다. 이것이 인류의 자산을 어떻게 증식시켰는지 확인해봅시다.",
+            "과거의 뼈아픈 교훈이 오늘날 우리를 이 자리로 이끌었습니다. 숫자의 변동성을 이해하는 것이 곧 미래의 리스크를 줄이는 가장 완벽한 방법입니다."
+        ],
+        "tutorialType": "randomWalk"
+    },
+    {
+        "id": 5,
+        "volume": "VOL. 1",
+        "title": "대공황과 데이터의 배신",
+        "subtitle": "위험을 숫자로 지배하라",
+        "year": "1929",
+        "imagePath": "/assets/images/ch1.png",
+        "content": [
+            "우리는 폴샘 버추얼팀과 함께 일합니다. 모든 지식이 공유되는 이 곳, 헤븐 프로젝트의 일환으로 역사 속 금융과 수학의 만남을 추적합니다.",
+            "이 시기 가장 중요한 것은 [[대공황과|선생님이 설명해주는 핵심 수학과 금융의 의미]]입니다. 이것이 인류의 자산을 어떻게 증식시켰는지 확인해봅시다.",
+            "과거의 뼈아픈 교훈이 오늘날 우리를 이 자리로 이끌었습니다. 숫자의 변동성을 이해하는 것이 곧 미래의 리스크를 줄이는 가장 완벽한 방법입니다."
+        ],
+        "tutorialType": "randomWalk"
+    },
+    {
+        "id": 6,
+        "volume": "VOL. 1",
+        "title": "위험은 '흩어짐'이다",
+        "subtitle": "변동성 측정과 표준편차",
+        "year": "1930s",
+        "imagePath": "/assets/images/ch1.png",
+        "content": [
+            "우리는 폴샘 버추얼팀과 함께 일합니다. 모든 지식이 공유되는 이 곳, 헤븐 프로젝트의 일환으로 역사 속 금융과 수학의 만남을 추적합니다.",
+            "이 시기 가장 중요한 것은 [[위험은|선생님이 설명해주는 핵심 수학과 금융의 의미]]입니다. 이것이 인류의 자산을 어떻게 증식시켰는지 확인해봅시다.",
+            "과거의 뼈아픈 교훈이 오늘날 우리를 이 자리로 이끌었습니다. 숫자의 변동성을 이해하는 것이 곧 미래의 리스크를 줄이는 가장 완벽한 방법입니다."
+        ],
+        "tutorialType": "randomWalk"
+    },
+    {
+        "id": 7,
+        "volume": "VOL. 1",
+        "title": "마코위츠의 혁명",
+        "subtitle": "투자의 지도를 바꾸다",
+        "year": "1952",
+        "imagePath": "/assets/images/ch1.png",
+        "content": [
+            "우리는 폴샘 버추얼팀과 함께 일합니다. 모든 지식이 공유되는 이 곳, 헤븐 프로젝트의 일환으로 역사 속 금융과 수학의 만남을 추적합니다.",
+            "이 시기 가장 중요한 것은 [[마코위츠의|선생님이 설명해주는 핵심 수학과 금융의 의미]]입니다. 이것이 인류의 자산을 어떻게 증식시켰는지 확인해봅시다.",
+            "과거의 뼈아픈 교훈이 오늘날 우리를 이 자리로 이끌었습니다. 숫자의 변동성을 이해하는 것이 곧 미래의 리스크를 줄이는 가장 완벽한 방법입니다."
+        ],
+        "tutorialType": "portfolio"
+    },
+    {
+        "id": 8,
+        "volume": "VOL. 1",
+        "title": "함께 움직이는 자산들",
+        "subtitle": "공분산과 상관관계의 이해",
+        "year": "1950s",
+        "imagePath": "/assets/images/ch1.png",
+        "content": [
+            "우리는 폴샘 버추얼팀과 함께 일합니다. 모든 지식이 공유되는 이 곳, 헤븐 프로젝트의 일환으로 역사 속 금융과 수학의 만남을 추적합니다.",
+            "이 시기 가장 중요한 것은 [[함께|선생님이 설명해주는 핵심 수학과 금융의 의미]]입니다. 이것이 인류의 자산을 어떻게 증식시켰는지 확인해봅시다.",
+            "과거의 뼈아픈 교훈이 오늘날 우리를 이 자리로 이끌었습니다. 숫자의 변동성을 이해하는 것이 곧 미래의 리스크를 줄이는 가장 완벽한 방법입니다."
+        ],
+        "tutorialType": "portfolio"
+    },
+    {
+        "id": 9,
+        "volume": "VOL. 1",
+        "title": "상관계수의 마법",
+        "subtitle": "-1의 힘과 분산 효과의 극대화",
+        "year": "1950s",
+        "imagePath": "/assets/images/ch1.png",
+        "content": [
+            "우리는 폴샘 버추얼팀과 함께 일합니다. 모든 지식이 공유되는 이 곳, 헤븐 프로젝트의 일환으로 역사 속 금융과 수학의 만남을 추적합니다.",
+            "이 시기 가장 중요한 것은 [[상관계수의|선생님이 설명해주는 핵심 수학과 금융의 의미]]입니다. 이것이 인류의 자산을 어떻게 증식시켰는지 확인해봅시다.",
+            "과거의 뼈아픈 교훈이 오늘날 우리를 이 자리로 이끌었습니다. 숫자의 변동성을 이해하는 것이 곧 미래의 리스크를 줄이는 가장 완벽한 방법입니다."
+        ],
+        "tutorialType": "portfolio"
+    },
+    {
+        "id": 10,
+        "volume": "VOL. 1",
+        "title": "효율적 투자선",
+        "subtitle": "최적의 위험-수익 조합 찾기",
+        "year": "1950s",
+        "imagePath": "/assets/images/ch1.png",
+        "content": [
+            "우리는 폴샘 버추얼팀과 함께 일합니다. 모든 지식이 공유되는 이 곳, 헤븐 프로젝트의 일환으로 역사 속 금융과 수학의 만남을 추적합니다.",
+            "이 시기 가장 중요한 것은 [[효율적|선생님이 설명해주는 핵심 수학과 금융의 의미]]입니다. 이것이 인류의 자산을 어떻게 증식시켰는지 확인해봅시다.",
+            "과거의 뼈아픈 교훈이 오늘날 우리를 이 자리로 이끌었습니다. 숫자의 변동성을 이해하는 것이 곧 미래의 리스크를 줄이는 가장 완벽한 방법입니다."
+        ],
+        "tutorialType": "portfolio"
+    },
+    {
+        "id": 11,
+        "volume": "VOL. 2",
+        "title": "베타와 CAPM",
+        "subtitle": "시장보다 얼마나 위험한가?",
+        "year": "1960s",
+        "imagePath": "/assets/images/ch2.png",
+        "content": [
+            "우리는 폴샘 버추얼팀과 함께 일합니다. 모든 지식이 공유되는 이 곳, 헤븐 프로젝트의 일환으로 역사 속 금융과 수학의 만남을 추적합니다.",
+            "이 시기 가장 중요한 것은 [[베타와|선생님이 설명해주는 핵심 수학과 금융의 의미]]입니다. 이것이 인류의 자산을 어떻게 증식시켰는지 확인해봅시다.",
+            "과거의 뼈아픈 교훈이 오늘날 우리를 이 자리로 이끌었습니다. 숫자의 변동성을 이해하는 것이 곧 미래의 리스크를 줄이는 가장 완벽한 방법입니다."
+        ],
+        "tutorialType": "portfolio"
+    },
+    {
+        "id": 12,
+        "volume": "VOL. 2",
+        "title": "샤프 지수 (Sharpe Ratio)",
+        "subtitle": "가성비 좋은 투자처 고르기",
+        "year": "1966",
+        "imagePath": "/assets/images/ch2.png",
+        "content": [
+            "우리는 폴샘 버추얼팀과 함께 일합니다. 모든 지식이 공유되는 이 곳, 헤븐 프로젝트의 일환으로 역사 속 금융과 수학의 만남을 추적합니다.",
+            "이 시기 가장 중요한 것은 [[샤프|선생님이 설명해주는 핵심 수학과 금융의 의미]]입니다. 이것이 인류의 자산을 어떻게 증식시켰는지 확인해봅시다.",
+            "과거의 뼈아픈 교훈이 오늘날 우리를 이 자리로 이끌었습니다. 숫자의 변동성을 이해하는 것이 곧 미래의 리스크를 줄이는 가장 완벽한 방법입니다."
+        ],
+        "tutorialType": "portfolio"
+    },
+    {
+        "id": 13,
+        "volume": "VOL. 2",
+        "title": "포트폴리오 설계 실전",
+        "subtitle": "실제 주가 데이터로 분산투자하기",
+        "year": "Modern",
+        "imagePath": "/assets/images/ch2.png",
+        "content": [
+            "우리는 폴샘 버추얼팀과 함께 일합니다. 모든 지식이 공유되는 이 곳, 헤븐 프로젝트의 일환으로 역사 속 금융과 수학의 만남을 추적합니다.",
+            "이 시기 가장 중요한 것은 [[포트폴리오|선생님이 설명해주는 핵심 수학과 금융의 의미]]입니다. 이것이 인류의 자산을 어떻게 증식시켰는지 확인해봅시다.",
+            "과거의 뼈아픈 교훈이 오늘날 우리를 이 자리로 이끌었습니다. 숫자의 변동성을 이해하는 것이 곧 미래의 리스크를 줄이는 가장 완벽한 방법입니다."
+        ],
+        "tutorialType": "portfolio"
+    },
+    {
+        "id": 14,
+        "volume": "VOL. 2",
+        "title": "닉슨 쇼크와 환율",
+        "subtitle": "고정환율제 붕괴와 헤지의 필요성",
+        "year": "1971",
+        "imagePath": "/assets/images/ch2.png",
+        "content": [
+            "우리는 폴샘 버추얼팀과 함께 일합니다. 모든 지식이 공유되는 이 곳, 헤븐 프로젝트의 일환으로 역사 속 금융과 수학의 만남을 추적합니다.",
+            "이 시기 가장 중요한 것은 [[닉슨|선생님이 설명해주는 핵심 수학과 금융의 의미]]입니다. 이것이 인류의 자산을 어떻게 증식시켰는지 확인해봅시다.",
+            "과거의 뼈아픈 교훈이 오늘날 우리를 이 자리로 이끌었습니다. 숫자의 변동성을 이해하는 것이 곧 미래의 리스크를 줄이는 가장 완벽한 방법입니다."
+        ],
+        "tutorialType": "derivatives"
+    },
+    {
+        "id": 15,
+        "volume": "VOL. 2",
+        "title": "선물(Futures)의 기하학",
+        "subtitle": "미래 가격의 직선적 합의",
+        "year": "1970s",
+        "imagePath": "/assets/images/ch2.png",
+        "content": [
+            "우리는 폴샘 버추얼팀과 함께 일합니다. 모든 지식이 공유되는 이 곳, 헤븐 프로젝트의 일환으로 역사 속 금융과 수학의 만남을 추적합니다.",
+            "이 시기 가장 중요한 것은 [[선물(Futures)의|선생님이 설명해주는 핵심 수학과 금융의 의미]]입니다. 이것이 인류의 자산을 어떻게 증식시켰는지 확인해봅시다.",
+            "과거의 뼈아픈 교훈이 오늘날 우리를 이 자리로 이끌었습니다. 숫자의 변동성을 이해하는 것이 곧 미래의 리스크를 줄이는 가장 완벽한 방법입니다."
+        ],
+        "tutorialType": "derivatives"
+    },
+    {
+        "id": 16,
+        "volume": "VOL. 2",
+        "title": "옵션(Option): 권리의 가격",
+        "subtitle": "콜과 풋의 수학적 수익 구조",
+        "year": "1970s",
+        "imagePath": "/assets/images/ch2.png",
+        "content": [
+            "우리는 폴샘 버추얼팀과 함께 일합니다. 모든 지식이 공유되는 이 곳, 헤븐 프로젝트의 일환으로 역사 속 금융과 수학의 만남을 추적합니다.",
+            "이 시기 가장 중요한 것은 [[옵션(Option):|선생님이 설명해주는 핵심 수학과 금융의 의미]]입니다. 이것이 인류의 자산을 어떻게 증식시켰는지 확인해봅시다.",
+            "과거의 뼈아픈 교훈이 오늘날 우리를 이 자리로 이끌었습니다. 숫자의 변동성을 이해하는 것이 곧 미래의 리스크를 줄이는 가장 완벽한 방법입니다."
+        ],
+        "tutorialType": "derivatives"
+    },
+    {
+        "id": 17,
+        "volume": "VOL. 2",
+        "title": "순간 변화율과 주가",
+        "subtitle": "주가 움직임의 매순간 포착",
+        "year": "1970s",
+        "imagePath": "/assets/images/ch2.png",
+        "content": [
+            "우리는 폴샘 버추얼팀과 함께 일합니다. 모든 지식이 공유되는 이 곳, 헤븐 프로젝트의 일환으로 역사 속 금융과 수학의 만남을 추적합니다.",
+            "이 시기 가장 중요한 것은 [[순간|선생님이 설명해주는 핵심 수학과 금융의 의미]]입니다. 이것이 인류의 자산을 어떻게 증식시켰는지 확인해봅시다.",
+            "과거의 뼈아픈 교훈이 오늘날 우리를 이 자리로 이끌었습니다. 숫자의 변동성을 이해하는 것이 곧 미래의 리스크를 줄이는 가장 완벽한 방법입니다."
+        ],
+        "tutorialType": "calculus"
+    },
+    {
+        "id": 18,
+        "volume": "VOL. 2",
+        "title": "블랙-숄즈 모델의 서막",
+        "subtitle": "미분방정식이 금융을 만나다",
+        "year": "1973",
+        "imagePath": "/assets/images/ch2.png",
+        "content": [
+            "우리는 폴샘 버추얼팀과 함께 일합니다. 모든 지식이 공유되는 이 곳, 헤븐 프로젝트의 일환으로 역사 속 금융과 수학의 만남을 추적합니다.",
+            "이 시기 가장 중요한 것은 [[블랙-숄즈|선생님이 설명해주는 핵심 수학과 금융의 의미]]입니다. 이것이 인류의 자산을 어떻게 증식시켰는지 확인해봅시다.",
+            "과거의 뼈아픈 교훈이 오늘날 우리를 이 자리로 이끌었습니다. 숫자의 변동성을 이해하는 것이 곧 미래의 리스크를 줄이는 가장 완벽한 방법입니다."
+        ],
+        "tutorialType": "blackScholes"
+    },
+    {
+        "id": 19,
+        "volume": "VOL. 2",
+        "title": "그릭스(Greeks) - 델타",
+        "subtitle": "기초자산의 변화에 따른 민감도",
+        "year": "1973",
+        "imagePath": "/assets/images/ch2.png",
+        "content": [
+            "우리는 폴샘 버추얼팀과 함께 일합니다. 모든 지식이 공유되는 이 곳, 헤븐 프로젝트의 일환으로 역사 속 금융과 수학의 만남을 추적합니다.",
+            "이 시기 가장 중요한 것은 [[그릭스(Greeks)|선생님이 설명해주는 핵심 수학과 금융의 의미]]입니다. 이것이 인류의 자산을 어떻게 증식시켰는지 확인해봅시다.",
+            "과거의 뼈아픈 교훈이 오늘날 우리를 이 자리로 이끌었습니다. 숫자의 변동성을 이해하는 것이 곧 미래의 리스크를 줄이는 가장 완벽한 방법입니다."
+        ],
+        "tutorialType": "blackScholes"
+    },
+    {
+        "id": 20,
+        "volume": "VOL. 2",
+        "title": "중간점검: 퀀트의 사고방식",
+        "subtitle": "수학 모델로 시장을 극복하다",
+        "year": "1970s",
+        "imagePath": "/assets/images/ch2.png",
+        "content": [
+            "우리는 폴샘 버추얼팀과 함께 일합니다. 모든 지식이 공유되는 이 곳, 헤븐 프로젝트의 일환으로 역사 속 금융과 수학의 만남을 추적합니다.",
+            "이 시기 가장 중요한 것은 [[중간점검:|선생님이 설명해주는 핵심 수학과 금융의 의미]]입니다. 이것이 인류의 자산을 어떻게 증식시켰는지 확인해봅시다.",
+            "과거의 뼈아픈 교훈이 오늘날 우리를 이 자리로 이끌었습니다. 숫자의 변동성을 이해하는 것이 곧 미래의 리스크를 줄이는 가장 완벽한 방법입니다."
+        ],
+        "tutorialType": "calculus"
+    },
+    {
+        "id": 21,
+        "volume": "VOL. 3",
+        "title": "델타와 동적 헤지",
+        "subtitle": "리스크를 실시간으로 중화하다",
+        "year": "1980s",
+        "imagePath": "/assets/images/ch3.png",
+        "content": [
+            "우리는 폴샘 버추얼팀과 함께 일합니다. 모든 지식이 공유되는 이 곳, 헤븐 프로젝트의 일환으로 역사 속 금융과 수학의 만남을 추적합니다.",
+            "이 시기 가장 중요한 것은 [[델타와|선생님이 설명해주는 핵심 수학과 금융의 의미]]입니다. 이것이 인류의 자산을 어떻게 증식시켰는지 확인해봅시다.",
+            "과거의 뼈아픈 교훈이 오늘날 우리를 이 자리로 이끌었습니다. 숫자의 변동성을 이해하는 것이 곧 미래의 리스크를 줄이는 가장 완벽한 방법입니다."
+        ],
+        "tutorialType": "blackScholes"
+    },
+    {
+        "id": 22,
+        "volume": "VOL. 3",
+        "title": "감마(Gamma)의 공포",
+        "subtitle": "속도의 속도, 델타의 변화율",
+        "year": "1980s",
+        "imagePath": "/assets/images/ch3.png",
+        "content": [
+            "우리는 폴샘 버추얼팀과 함께 일합니다. 모든 지식이 공유되는 이 곳, 헤븐 프로젝트의 일환으로 역사 속 금융과 수학의 만남을 추적합니다.",
+            "이 시기 가장 중요한 것은 [[감마(Gamma)의|선생님이 설명해주는 핵심 수학과 금융의 의미]]입니다. 이것이 인류의 자산을 어떻게 증식시켰는지 확인해봅시다.",
+            "과거의 뼈아픈 교훈이 오늘날 우리를 이 자리로 이끌었습니다. 숫자의 변동성을 이해하는 것이 곧 미래의 리스크를 줄이는 가장 완벽한 방법입니다."
+        ],
+        "tutorialType": "blackScholes"
+    },
+    {
+        "id": 23,
+        "volume": "VOL. 3",
+        "title": "세타(Theta)와 시간",
+        "subtitle": "시간이 흐를수록 깎이는 가치",
+        "year": "1980s",
+        "imagePath": "/assets/images/ch3.png",
+        "content": [
+            "우리는 폴샘 버추얼팀과 함께 일합니다. 모든 지식이 공유되는 이 곳, 헤븐 프로젝트의 일환으로 역사 속 금융과 수학의 만남을 추적합니다.",
+            "이 시기 가장 중요한 것은 [[세타(Theta)와|선생님이 설명해주는 핵심 수학과 금융의 의미]]입니다. 이것이 인류의 자산을 어떻게 증식시켰는지 확인해봅시다.",
+            "과거의 뼈아픈 교훈이 오늘날 우리를 이 자리로 이끌었습니다. 숫자의 변동성을 이해하는 것이 곧 미래의 리스크를 줄이는 가장 완벽한 방법입니다."
+        ],
+        "tutorialType": "blackScholes"
+    },
+    {
+        "id": 24,
+        "volume": "VOL. 3",
+        "title": "베가(Vega)와 변동성",
+        "subtitle": "시장이 출렁일 때의 가치 변화",
+        "year": "1980s",
+        "imagePath": "/assets/images/ch3.png",
+        "content": [
+            "우리는 폴샘 버추얼팀과 함께 일합니다. 모든 지식이 공유되는 이 곳, 헤븐 프로젝트의 일환으로 역사 속 금융과 수학의 만남을 추적합니다.",
+            "이 시기 가장 중요한 것은 [[베가(Vega)와|선생님이 설명해주는 핵심 수학과 금융의 의미]]입니다. 이것이 인류의 자산을 어떻게 증식시켰는지 확인해봅시다.",
+            "과거의 뼈아픈 교훈이 오늘날 우리를 이 자리로 이끌었습니다. 숫자의 변동성을 이해하는 것이 곧 미래의 리스크를 줄이는 가장 완벽한 방법입니다."
+        ],
+        "tutorialType": "blackScholes"
+    },
+    {
+        "id": 25,
+        "volume": "VOL. 3",
+        "title": "블랙-숄즈 편미분방정식",
+        "subtitle": "옵션 가격 결정 모형의 총합",
+        "year": "1973",
+        "imagePath": "/assets/images/ch3.png",
+        "content": [
+            "우리는 폴샘 버추얼팀과 함께 일합니다. 모든 지식이 공유되는 이 곳, 헤븐 프로젝트의 일환으로 역사 속 금융과 수학의 만남을 추적합니다.",
+            "이 시기 가장 중요한 것은 [[블랙-숄즈|선생님이 설명해주는 핵심 수학과 금융의 의미]]입니다. 이것이 인류의 자산을 어떻게 증식시켰는지 확인해봅시다.",
+            "과거의 뼈아픈 교훈이 오늘날 우리를 이 자리로 이끌었습니다. 숫자의 변동성을 이해하는 것이 곧 미래의 리스크를 줄이는 가장 완벽한 방법입니다."
+        ],
+        "tutorialType": "blackScholes"
+    },
+    {
+        "id": 26,
+        "volume": "VOL. 3",
+        "title": "연속 확률 분포의 이해",
+        "subtitle": "로그정규분포와 주가 이동",
+        "year": "1980s",
+        "imagePath": "/assets/images/ch3.png",
+        "content": [
+            "우리는 폴샘 버추얼팀과 함께 일합니다. 모든 지식이 공유되는 이 곳, 헤븐 프로젝트의 일환으로 역사 속 금융과 수학의 만남을 추적합니다.",
+            "이 시기 가장 중요한 것은 [[연속|선생님이 설명해주는 핵심 수학과 금융의 의미]]입니다. 이것이 인류의 자산을 어떻게 증식시켰는지 확인해봅시다.",
+            "과거의 뼈아픈 교훈이 오늘날 우리를 이 자리로 이끌었습니다. 숫자의 변동성을 이해하는 것이 곧 미래의 리스크를 줄이는 가장 완벽한 방법입니다."
+        ],
+        "tutorialType": "probability"
+    },
+    {
+        "id": 27,
+        "volume": "VOL. 3",
+        "title": "누적 분포 함수와 확률",
+        "subtitle": "특정 가격대에 도달할 확률",
+        "year": "1980s",
+        "imagePath": "/assets/images/ch3.png",
+        "content": [
+            "우리는 폴샘 버추얼팀과 함께 일합니다. 모든 지식이 공유되는 이 곳, 헤븐 프로젝트의 일환으로 역사 속 금융과 수학의 만남을 추적합니다.",
+            "이 시기 가장 중요한 것은 [[누적|선생님이 설명해주는 핵심 수학과 금융의 의미]]입니다. 이것이 인류의 자산을 어떻게 증식시켰는지 확인해봅시다.",
+            "과거의 뼈아픈 교훈이 오늘날 우리를 이 자리로 이끌었습니다. 숫자의 변동성을 이해하는 것이 곧 미래의 리스크를 줄이는 가장 완벽한 방법입니다."
+        ],
+        "tutorialType": "probability"
+    },
+    {
+        "id": 28,
+        "volume": "VOL. 3",
+        "title": "정적분의 활용",
+        "subtitle": "옵션 만기 수익의 합계와 넓이",
+        "year": "1980s",
+        "imagePath": "/assets/images/ch3.png",
+        "content": [
+            "우리는 폴샘 버추얼팀과 함께 일합니다. 모든 지식이 공유되는 이 곳, 헤븐 프로젝트의 일환으로 역사 속 금융과 수학의 만남을 추적합니다.",
+            "이 시기 가장 중요한 것은 [[정적분의|선생님이 설명해주는 핵심 수학과 금융의 의미]]입니다. 이것이 인류의 자산을 어떻게 증식시켰는지 확인해봅시다.",
+            "과거의 뼈아픈 교훈이 오늘날 우리를 이 자리로 이끌었습니다. 숫자의 변동성을 이해하는 것이 곧 미래의 리스크를 줄이는 가장 완벽한 방법입니다."
+        ],
+        "tutorialType": "calculus"
+    },
+    {
+        "id": 29,
+        "volume": "VOL. 3",
+        "title": "시뮬레이터를 통한 헤징",
+        "subtitle": "델타 헤징의 실무적 검증",
+        "year": "1990s",
+        "imagePath": "/assets/images/ch3.png",
+        "content": [
+            "우리는 폴샘 버추얼팀과 함께 일합니다. 모든 지식이 공유되는 이 곳, 헤븐 프로젝트의 일환으로 역사 속 금융과 수학의 만남을 추적합니다.",
+            "이 시기 가장 중요한 것은 [[시뮬레이터를|선생님이 설명해주는 핵심 수학과 금융의 의미]]입니다. 이것이 인류의 자산을 어떻게 증식시켰는지 확인해봅시다.",
+            "과거의 뼈아픈 교훈이 오늘날 우리를 이 자리로 이끌었습니다. 숫자의 변동성을 이해하는 것이 곧 미래의 리스크를 줄이는 가장 완벽한 방법입니다."
+        ],
+        "tutorialType": "calculus"
+    },
+    {
+        "id": 30,
+        "volume": "VOL. 3",
+        "title": "나만의 옵션 설계",
+        "subtitle": "매개변수를 이용한 옵션가 계산 실습",
+        "year": "1990s",
+        "imagePath": "/assets/images/ch3.png",
+        "content": [
+            "우리는 폴샘 버추얼팀과 함께 일합니다. 모든 지식이 공유되는 이 곳, 헤븐 프로젝트의 일환으로 역사 속 금융과 수학의 만남을 추적합니다.",
+            "이 시기 가장 중요한 것은 [[나만의|선생님이 설명해주는 핵심 수학과 금융의 의미]]입니다. 이것이 인류의 자산을 어떻게 증식시켰는지 확인해봅시다.",
+            "과거의 뼈아픈 교훈이 오늘날 우리를 이 자리로 이끌었습니다. 숫자의 변동성을 이해하는 것이 곧 미래의 리스크를 줄이는 가장 완벽한 방법입니다."
+        ],
+        "tutorialType": "calculus"
+    },
+    {
+        "id": 31,
+        "volume": "VOL. 4",
+        "title": "수학으로 무장한 퀀트",
+        "subtitle": "다변수 데이터 처리를 위한 행렬",
+        "year": "1990s",
+        "imagePath": "/assets/images/ch4.png",
+        "content": [
+            "우리는 폴샘 버추얼팀과 함께 일합니다. 모든 지식이 공유되는 이 곳, 헤븐 프로젝트의 일환으로 역사 속 금융과 수학의 만남을 추적합니다.",
+            "이 시기 가장 중요한 것은 [[수학으로|선생님이 설명해주는 핵심 수학과 금융의 의미]]입니다. 이것이 인류의 자산을 어떻게 증식시켰는지 확인해봅시다.",
+            "과거의 뼈아픈 교훈이 오늘날 우리를 이 자리로 이끌었습니다. 숫자의 변동성을 이해하는 것이 곧 미래의 리스크를 줄이는 가장 완벽한 방법입니다."
+        ],
+        "tutorialType": "matrix"
+    },
+    {
+        "id": 32,
+        "volume": "VOL. 4",
+        "title": "다변수 포트폴리오 최적화",
+        "subtitle": "공분산 행렬의 연산과 적용",
+        "year": "1990s",
+        "imagePath": "/assets/images/ch4.png",
+        "content": [
+            "우리는 폴샘 버추얼팀과 함께 일합니다. 모든 지식이 공유되는 이 곳, 헤븐 프로젝트의 일환으로 역사 속 금융과 수학의 만남을 추적합니다.",
+            "이 시기 가장 중요한 것은 [[다변수|선생님이 설명해주는 핵심 수학과 금융의 의미]]입니다. 이것이 인류의 자산을 어떻게 증식시켰는지 확인해봅시다.",
+            "과거의 뼈아픈 교훈이 오늘날 우리를 이 자리로 이끌었습니다. 숫자의 변동성을 이해하는 것이 곧 미래의 리스크를 줄이는 가장 완벽한 방법입니다."
+        ],
+        "tutorialType": "matrix"
+    },
+    {
+        "id": 33,
+        "volume": "VOL. 4",
+        "title": "Value at Risk (VaR)",
+        "subtitle": "내일 최대 얼마를 잃을까?",
+        "year": "1990s",
+        "imagePath": "/assets/images/ch4.png",
+        "content": [
+            "우리는 폴샘 버추얼팀과 함께 일합니다. 모든 지식이 공유되는 이 곳, 헤븐 프로젝트의 일환으로 역사 속 금융과 수학의 만남을 추적합니다.",
+            "이 시기 가장 중요한 것은 [[Value|선생님이 설명해주는 핵심 수학과 금융의 의미]]입니다. 이것이 인류의 자산을 어떻게 증식시켰는지 확인해봅시다.",
+            "과거의 뼈아픈 교훈이 오늘날 우리를 이 자리로 이끌었습니다. 숫자의 변동성을 이해하는 것이 곧 미래의 리스크를 줄이는 가장 완벽한 방법입니다."
+        ],
+        "tutorialType": "probability"
+    },
+    {
+        "id": 34,
+        "volume": "VOL. 4",
+        "title": "몬테카를로 시뮬레이션",
+        "subtitle": "난수를 이용한 가격 예측의 예술",
+        "year": "1990s",
+        "imagePath": "/assets/images/ch4.png",
+        "content": [
+            "우리는 폴샘 버추얼팀과 함께 일합니다. 모든 지식이 공유되는 이 곳, 헤븐 프로젝트의 일환으로 역사 속 금융과 수학의 만남을 추적합니다.",
+            "이 시기 가장 중요한 것은 [[몬테카를로|선생님이 설명해주는 핵심 수학과 금융의 의미]]입니다. 이것이 인류의 자산을 어떻게 증식시켰는지 확인해봅시다.",
+            "과거의 뼈아픈 교훈이 오늘날 우리를 이 자리로 이끌었습니다. 숫자의 변동성을 이해하는 것이 곧 미래의 리스크를 줄이는 가장 완벽한 방법입니다."
+        ],
+        "tutorialType": "probability"
+    },
+    {
+        "id": 35,
+        "volume": "VOL. 4",
+        "title": "행동경제학과 수학의 한계",
+        "subtitle": "인간의 심리와 완벽한 수식의 괴리",
+        "year": "2000s",
+        "imagePath": "/assets/images/ch4.png",
+        "content": [
+            "우리는 폴샘 버추얼팀과 함께 일합니다. 모든 지식이 공유되는 이 곳, 헤븐 프로젝트의 일환으로 역사 속 금융과 수학의 만남을 추적합니다.",
+            "이 시기 가장 중요한 것은 [[행동경제학과|선생님이 설명해주는 핵심 수학과 금융의 의미]]입니다. 이것이 인류의 자산을 어떻게 증식시켰는지 확인해봅시다.",
+            "과거의 뼈아픈 교훈이 오늘날 우리를 이 자리로 이끌었습니다. 숫자의 변동성을 이해하는 것이 곧 미래의 리스크를 줄이는 가장 완벽한 방법입니다."
+        ],
+        "tutorialType": "behavioral"
+    },
+    {
+        "id": 36,
+        "volume": "VOL. 4",
+        "title": "서브프라임 비극",
+        "subtitle": "완벽해 보였던 상관관계 모델의 붕괴",
+        "year": "2008",
+        "imagePath": "/assets/images/ch4.png",
+        "content": [
+            "우리는 폴샘 버추얼팀과 함께 일합니다. 모든 지식이 공유되는 이 곳, 헤븐 프로젝트의 일환으로 역사 속 금융과 수학의 만남을 추적합니다.",
+            "이 시기 가장 중요한 것은 [[서브프라임|선생님이 설명해주는 핵심 수학과 금융의 의미]]입니다. 이것이 인류의 자산을 어떻게 증식시켰는지 확인해봅시다.",
+            "과거의 뼈아픈 교훈이 오늘날 우리를 이 자리로 이끌었습니다. 숫자의 변동성을 이해하는 것이 곧 미래의 리스크를 줄이는 가장 완벽한 방법입니다."
+        ],
+        "tutorialType": "probability"
+    },
+    {
+        "id": 37,
+        "volume": "VOL. 4",
+        "title": "초단타 알고리즘 매매",
+        "subtitle": "기계가 주도하는 밀리초의 전쟁",
+        "year": "2010s",
+        "imagePath": "/assets/images/ch4.png",
+        "content": [
+            "우리는 폴샘 버추얼팀과 함께 일합니다. 모든 지식이 공유되는 이 곳, 헤븐 프로젝트의 일환으로 역사 속 금융과 수학의 만남을 추적합니다.",
+            "이 시기 가장 중요한 것은 [[초단타|선생님이 설명해주는 핵심 수학과 금융의 의미]]입니다. 이것이 인류의 자산을 어떻게 증식시켰는지 확인해봅시다.",
+            "과거의 뼈아픈 교훈이 오늘날 우리를 이 자리로 이끌었습니다. 숫자의 변동성을 이해하는 것이 곧 미래의 리스크를 줄이는 가장 완벽한 방법입니다."
+        ],
+        "tutorialType": "algorithm"
+    },
+    {
+        "id": 38,
+        "volume": "VOL. 4",
+        "title": "DeFi와 탈중앙화 금융",
+        "subtitle": "블록체인 위에 세워진 새로운 시장",
+        "year": "2018",
+        "imagePath": "/assets/images/ch4.png",
+        "content": [
+            "2008년의 비극 이후, 인간의 개입 없이 코드로만 굴러가는 탈중앙화 시장(DeFi)이 등장했습니다.",
+            "AMM(자동화된 마켓 메이커)의 핵심은 [[x * y = k|두 자산의 곱이 항상 일정해야 한다는 상수 수식]]입니다. 수요와 공급이 수학에 의해 완벽하게 컨트롤됩니다.",
+            "이러한 투명한 코드는 헤븐 프로젝트가 지향하는 바와 완전히 일치합니다. 중앙화된 권력 없이 시스템이 리스크를 통제하는 이상적인 세계의 서막입니다."
+        ],
+        "tutorialType": "amm"
+    },
+    {
+        "id": 39,
+        "volume": "VOL. 4",
+        "title": "AMM: 유동성 풀의 수학",
+        "subtitle": "x * y = k, 극적인 단순함의 미학",
+        "year": "2018",
+        "imagePath": "/assets/images/ch4.png",
+        "content": [
+            "2008년의 비극 이후, 인간의 개입 없이 코드로만 굴러가는 탈중앙화 시장(DeFi)이 등장했습니다.",
+            "AMM(자동화된 마켓 메이커)의 핵심은 [[x * y = k|두 자산의 곱이 항상 일정해야 한다는 상수 수식]]입니다. 수요와 공급이 수학에 의해 완벽하게 컨트롤됩니다.",
+            "이러한 투명한 코드는 헤븐 프로젝트가 지향하는 바와 완전히 일치합니다. 중앙화된 권력 없이 시스템이 리스크를 통제하는 이상적인 세계의 서막입니다."
+        ],
+        "tutorialType": "amm"
+    },
+    {
+        "id": 40,
+        "volume": "VOL. 4",
+        "title": "헤븐 프로젝트의 비전",
+        "subtitle": "AI와 집단지성이 여는 투명한 금융의 미래",
+        "year": "2026",
+        "imagePath": "/assets/images/ch4.png",
+        "content": [
+            "우리는 폴샘 버추얼팀과 함께 일합니다. 모든 지식이 공유되는 이 곳, 헤븐 프로젝트의 일환으로 역사 속 금융과 수학의 만남을 추적합니다.",
+            "이 시기 가장 중요한 것은 [[헤븐|선생님이 설명해주는 핵심 수학과 금융의 의미]]입니다. 이것이 인류의 자산을 어떻게 증식시켰는지 확인해봅시다.",
+            "과거의 뼈아픈 교훈이 오늘날 우리를 이 자리로 이끌었습니다. 숫자의 변동성을 이해하는 것이 곧 미래의 리스크를 줄이는 가장 완벽한 방법입니다."
+        ],
+        "tutorialType": "ai"
+    }
+],
     en: [
-        {
-            id: 1,
-            volume: 1,
-            title: "Clay Tablets of Babylon",
-            subtitle: "The birth of interest and the value of time",
-            year: "B.C. 2000",
-            imagePath: '/assets/images/ch1.png',
-            content: [
-                "Under the scorching sun of Mesopotamia, merchants inscribed the first profound contract into clay tablets: laws dictating that lending grain and livestock should yield a greater return. In that very moment, the concept of 'interest' was born into human history.",
-                "Initially, merchants cautiously applied 'simple interest' only to the original principal. However, brilliant mathematicians and powerful merchant families of the Renaissance soon uncovered a much more terrifying and enchanting truth. Money breeds interest, and that newborn interest in turn breeds even more interest. This was the exponential and unstoppable magic of '[[compound interest|Hello! I'm your top instructor! Compound interest is the magic of interest accumulating on interest. Like rolling a snowball, it starts small but grows as big as a house later! Money grows like that too!]]'.",
-                "This colossus weapon of time transformed simple addition into explosive multiplication. Ancient mathematicians fiercely wracked their brains to estimate exactly when the principal would double, efforts which crystallized into the intuitive 'Rule of 72'. The beast known as compound interest amassed unimaginable capital, which soon laid the fertile groundwork for humanity's first monumental arenas of speculation: the stock markets."
-            ],
-            tutorialType: 'compound',
-            theoryDetail: {
-                title: "Time's Magic, Compound Interest",
-                content: [
-                    "Simple interest is applied only to the principal. On the other hand, compound interest is applied to both the accumulated interest and the principal.",
-                    "As Einstein called it the '8th wonder of the world', it has the powerful force of assets growing exponentially over time.",
-                    "Using the Rule of 72, you can easily calculate the time it takes for an asset to double (72 ÷ annual interest rate)."
-                ]
-            }
-        },
-        {
-            id: 2,
-            volume: 2,
-            title: "Brownian Motion",
-            subtitle: "The market's random walk",
-            year: "1900",
-            imagePath: '/assets/images/ch2.png',
-            content: [
-                "The massive capital accumulated through the magic of compound interest rapidly flooded into the stock market. Countless people became consumed by the endless desire to predict whether prices would rise or fall. In 1900, amid the frantic shouting of the Paris Bourse, a young and obscure mathematician named Louis Bachelier was looking in an entirely different direction from the madness of the crowd.",
-                "He mathematically proved a chilling truth: no past pattern, good news, or bad news could ever predict tomorrow's stock price. He argued that market prices merely drift aimlessly, colliding randomly like pollen suspended in water. Tomorrow's price is simply today's price plus a completely unpredictable '[[random walk|Just like a drunkard's walk, the past movement cannot predict the future direction at all!]]'.",
-                "Even the greatest mathematicians of his time utterly mocked and dismissed his theory that 'the market is nothing but a plaything of chance'. However, half a century later, his forgotten manuscript experienced a glorious resurrection. While the direction proved impossible to predict, the 'degree of shaking' (volatility) could indeed be mathematically measured—laying the most colossal cornerstone for modern quant finance."
-            ],
-            tutorialType: 'randomWalk',
-            theoryDetail: {
-                title: "Random Walk Theory",
-                content: [
-                    "The theory that stock market price fluctuations are probabilistic and independent of past records.",
-                    "Therefore, it is deeply related to the Efficient Market Hypothesis (EMH), which states that it is difficult to generate excess returns through technical analysis alone.",
-                    "Mathematically modeled as the Wiener Process, which becomes a key assumption of the Black-Scholes model."
-                ]
-            }
-        },
-        {
-            id: 3,
-            volume: 3,
-            title: "Black-Scholes Model",
-            subtitle: "Pricing derivatives",
-            year: "1973",
-            imagePath: '/assets/images/ch3.png',
-            content: [
-                "The 'unpredictability' discovered by Bachelier returned to haunt global investors in the 1970s as a terrifying reality. Amidst a chaotic storm of wildly fluctuating stock prices, people desperately sought a financial shield called an 'option' to protect their wealth. Yet, absolutely no one knew what the fair price for this shield should be.",
-                "This is when brilliant scholars in Chicago (Black, Scholes, and Merton) stepped onto the stage. They essentially borrowed the heat equation from physics, originally designed to calculate how heat dissipates through metal, and applied it to the financial markets. By precisely blending stocks and options, they performed a miraculous calculation that mathematically erased all 'Risk' down to zero. This was the world-changing '[[Black-Scholes Equation|It's the Nobel Prize-winning formula for pricing options. It mathematically proved a portfolio that completely eliminates risk (risk-free hedging)!]]'.",
-                "This single, beautifully cold formula forever transformed the wild, untamed jungles of Wall Street. Traders relying on gut feelings were swiftly replaced by 'rocket scientists' wielding complex equations. Overnight, the greatest financial empire in human history was born, paving the way for a derivatives market worth hundreds of trillions of dollars."
-            ],
-            tutorialType: 'blackScholes',
-            theoryDetail: {
-                title: "Black-Scholes Option Pricing Model",
-                content: [
-                    "A partial differential equation for calculating the theoretical price of European call and put options.",
-                    "It consists of five variables: underlying asset price, strike price, interest rate, time to maturity, and most importantly, underlying asset **Volatility**.",
-                    "The emergence of this model opened the door to a new discipline called Financial Engineering."
-                ]
-            }
-        },
-        {
-            id: 4,
-            volume: 4,
-            title: "DeFi and AMM",
-            subtitle: "Algorithms become market makers",
-            year: "2020",
-            imagePath: '/assets/images/ch4.png',
-            content: [
-                "The magnificent financial empire built upon the Black-Scholes model eventually paid a devastating price during the 2008 financial crisis. After witnessing the uncontrollable greed of mega-banks and hidden intermediaries collapse the market, nameless geniuses began plotting a quiet rebellion within the cryptic realm of the blockchain: 'Could we create a flawless financial market that operates entirely without human intervention or middlemen?'",
-                "They completely tore down the complex order book systems of Wall Street and inscribed a shockingly simple, elegant equation onto the blockchain. By utilizing the principle that the product of two reserve assets must always remain constant (x*y=k), they birthed the '[[AMM|Automated Market Maker. Even without someone placing an order, the price is automatically determined by a smart contract mathematically (x*y=k)!]]'. This algorithm inherently determines prices and provides infinite liquidity entirely on its own.",
-                "The history of finance, which began with Babylonian clay tablets and was long stained by fervent greed, has now geometrically evolved into eternally spinning gears of mathematics. This perfectly aligns with the noble spirit of the 'Heaven Project'—transparently opening and sharing knowledge and wealth previously monopolized by a few. This automated machine marks our very first monumental step toward the ultimate economic system of the space age."
-            ],
-            tutorialType: 'amm',
-            theoryDetail: {
-                title: "AMM (Automated Market Maker) & x*y=k",
-                content: [
-                    "AMM is a system where trading pairs are provided via liquidity pools, and the exchange rate between assets is determined by a smart contract algorithm.",
-                    "In the most representative formula x * y = k (constant product formula), if the amount of one token (x) decreases, the price of the other token (y) increases exponentially to maintain a constant (k).",
-                    "This maximizes the transparency and accessibility of finance and creates a new form of market."
-                ]
-            }
-        }
-    ]
+    {
+        "id": 1,
+        "volume": "VOL. 1",
+        "title": "이자의 탄생 (EN)",
+        "subtitle": "돈에도 '시간의 가격'이 있다 (EN)",
+        "year": "15th C",
+        "imagePath": "/assets/images/ch1.png",
+        "content": [
+            "We work with PaulSam Virtual Team. Tracking the intersection of finance and math throughout history.",
+            "The key is understanding the math principle.",
+            "Past lessons lead us to the transparent future."
+        ],
+        "tutorialType": "compound"
+    },
+    {
+        "id": 2,
+        "volume": "VOL. 1",
+        "title": "현재가치와 할인율 (EN)",
+        "subtitle": "내일의 1억보다 오늘의 1억이 비싸다 (EN)",
+        "year": "18th C",
+        "imagePath": "/assets/images/ch1.png",
+        "content": [
+            "We work with PaulSam Virtual Team. Tracking the intersection of finance and math throughout history.",
+            "The key is understanding the math principle.",
+            "Past lessons lead us to the transparent future."
+        ],
+        "tutorialType": "compound"
+    },
+    {
+        "id": 3,
+        "volume": "VOL. 1",
+        "title": "연금과 할부의 수학 (EN)",
+        "subtitle": "티끌 모아 태산을 만드는 수열 (EN)",
+        "year": "19th C",
+        "imagePath": "/assets/images/ch1.png",
+        "content": [
+            "We work with PaulSam Virtual Team. Tracking the intersection of finance and math throughout history.",
+            "The key is understanding the math principle.",
+            "Past lessons lead us to the transparent future."
+        ],
+        "tutorialType": "compound"
+    },
+    {
+        "id": 4,
+        "volume": "VOL. 1",
+        "title": "랜덤 워크의 발견 (EN)",
+        "subtitle": "시장의 움직임은 예측 가능한가? (EN)",
+        "year": "1900",
+        "imagePath": "/assets/images/ch1.png",
+        "content": [
+            "We work with PaulSam Virtual Team. Tracking the intersection of finance and math throughout history.",
+            "The key is understanding the math principle.",
+            "Past lessons lead us to the transparent future."
+        ],
+        "tutorialType": "randomWalk"
+    },
+    {
+        "id": 5,
+        "volume": "VOL. 1",
+        "title": "대공황과 데이터의 배신 (EN)",
+        "subtitle": "위험을 숫자로 지배하라 (EN)",
+        "year": "1929",
+        "imagePath": "/assets/images/ch1.png",
+        "content": [
+            "We work with PaulSam Virtual Team. Tracking the intersection of finance and math throughout history.",
+            "The key is understanding the math principle.",
+            "Past lessons lead us to the transparent future."
+        ],
+        "tutorialType": "randomWalk"
+    },
+    {
+        "id": 6,
+        "volume": "VOL. 1",
+        "title": "위험은 '흩어짐'이다 (EN)",
+        "subtitle": "변동성 측정과 표준편차 (EN)",
+        "year": "1930s",
+        "imagePath": "/assets/images/ch1.png",
+        "content": [
+            "We work with PaulSam Virtual Team. Tracking the intersection of finance and math throughout history.",
+            "The key is understanding the math principle.",
+            "Past lessons lead us to the transparent future."
+        ],
+        "tutorialType": "randomWalk"
+    },
+    {
+        "id": 7,
+        "volume": "VOL. 1",
+        "title": "마코위츠의 혁명 (EN)",
+        "subtitle": "투자의 지도를 바꾸다 (EN)",
+        "year": "1952",
+        "imagePath": "/assets/images/ch1.png",
+        "content": [
+            "We work with PaulSam Virtual Team. Tracking the intersection of finance and math throughout history.",
+            "The key is understanding the math principle.",
+            "Past lessons lead us to the transparent future."
+        ],
+        "tutorialType": "portfolio"
+    },
+    {
+        "id": 8,
+        "volume": "VOL. 1",
+        "title": "함께 움직이는 자산들 (EN)",
+        "subtitle": "공분산과 상관관계의 이해 (EN)",
+        "year": "1950s",
+        "imagePath": "/assets/images/ch1.png",
+        "content": [
+            "We work with PaulSam Virtual Team. Tracking the intersection of finance and math throughout history.",
+            "The key is understanding the math principle.",
+            "Past lessons lead us to the transparent future."
+        ],
+        "tutorialType": "portfolio"
+    },
+    {
+        "id": 9,
+        "volume": "VOL. 1",
+        "title": "상관계수의 마법 (EN)",
+        "subtitle": "-1의 힘과 분산 효과의 극대화 (EN)",
+        "year": "1950s",
+        "imagePath": "/assets/images/ch1.png",
+        "content": [
+            "We work with PaulSam Virtual Team. Tracking the intersection of finance and math throughout history.",
+            "The key is understanding the math principle.",
+            "Past lessons lead us to the transparent future."
+        ],
+        "tutorialType": "portfolio"
+    },
+    {
+        "id": 10,
+        "volume": "VOL. 1",
+        "title": "효율적 투자선 (EN)",
+        "subtitle": "최적의 위험-수익 조합 찾기 (EN)",
+        "year": "1950s",
+        "imagePath": "/assets/images/ch1.png",
+        "content": [
+            "We work with PaulSam Virtual Team. Tracking the intersection of finance and math throughout history.",
+            "The key is understanding the math principle.",
+            "Past lessons lead us to the transparent future."
+        ],
+        "tutorialType": "portfolio"
+    },
+    {
+        "id": 11,
+        "volume": "VOL. 2",
+        "title": "베타와 CAPM (EN)",
+        "subtitle": "시장보다 얼마나 위험한가? (EN)",
+        "year": "1960s",
+        "imagePath": "/assets/images/ch2.png",
+        "content": [
+            "We work with PaulSam Virtual Team. Tracking the intersection of finance and math throughout history.",
+            "The key is understanding the math principle.",
+            "Past lessons lead us to the transparent future."
+        ],
+        "tutorialType": "portfolio"
+    },
+    {
+        "id": 12,
+        "volume": "VOL. 2",
+        "title": "샤프 지수 (Sharpe Ratio) (EN)",
+        "subtitle": "가성비 좋은 투자처 고르기 (EN)",
+        "year": "1966",
+        "imagePath": "/assets/images/ch2.png",
+        "content": [
+            "We work with PaulSam Virtual Team. Tracking the intersection of finance and math throughout history.",
+            "The key is understanding the math principle.",
+            "Past lessons lead us to the transparent future."
+        ],
+        "tutorialType": "portfolio"
+    },
+    {
+        "id": 13,
+        "volume": "VOL. 2",
+        "title": "포트폴리오 설계 실전 (EN)",
+        "subtitle": "실제 주가 데이터로 분산투자하기 (EN)",
+        "year": "Modern",
+        "imagePath": "/assets/images/ch2.png",
+        "content": [
+            "We work with PaulSam Virtual Team. Tracking the intersection of finance and math throughout history.",
+            "The key is understanding the math principle.",
+            "Past lessons lead us to the transparent future."
+        ],
+        "tutorialType": "portfolio"
+    },
+    {
+        "id": 14,
+        "volume": "VOL. 2",
+        "title": "닉슨 쇼크와 환율 (EN)",
+        "subtitle": "고정환율제 붕괴와 헤지의 필요성 (EN)",
+        "year": "1971",
+        "imagePath": "/assets/images/ch2.png",
+        "content": [
+            "We work with PaulSam Virtual Team. Tracking the intersection of finance and math throughout history.",
+            "The key is understanding the math principle.",
+            "Past lessons lead us to the transparent future."
+        ],
+        "tutorialType": "derivatives"
+    },
+    {
+        "id": 15,
+        "volume": "VOL. 2",
+        "title": "선물(Futures)의 기하학 (EN)",
+        "subtitle": "미래 가격의 직선적 합의 (EN)",
+        "year": "1970s",
+        "imagePath": "/assets/images/ch2.png",
+        "content": [
+            "We work with PaulSam Virtual Team. Tracking the intersection of finance and math throughout history.",
+            "The key is understanding the math principle.",
+            "Past lessons lead us to the transparent future."
+        ],
+        "tutorialType": "derivatives"
+    },
+    {
+        "id": 16,
+        "volume": "VOL. 2",
+        "title": "옵션(Option): 권리의 가격 (EN)",
+        "subtitle": "콜과 풋의 수학적 수익 구조 (EN)",
+        "year": "1970s",
+        "imagePath": "/assets/images/ch2.png",
+        "content": [
+            "We work with PaulSam Virtual Team. Tracking the intersection of finance and math throughout history.",
+            "The key is understanding the math principle.",
+            "Past lessons lead us to the transparent future."
+        ],
+        "tutorialType": "derivatives"
+    },
+    {
+        "id": 17,
+        "volume": "VOL. 2",
+        "title": "순간 변화율과 주가 (EN)",
+        "subtitle": "주가 움직임의 매순간 포착 (EN)",
+        "year": "1970s",
+        "imagePath": "/assets/images/ch2.png",
+        "content": [
+            "We work with PaulSam Virtual Team. Tracking the intersection of finance and math throughout history.",
+            "The key is understanding the math principle.",
+            "Past lessons lead us to the transparent future."
+        ],
+        "tutorialType": "calculus"
+    },
+    {
+        "id": 18,
+        "volume": "VOL. 2",
+        "title": "블랙-숄즈 모델의 서막 (EN)",
+        "subtitle": "미분방정식이 금융을 만나다 (EN)",
+        "year": "1973",
+        "imagePath": "/assets/images/ch2.png",
+        "content": [
+            "We work with PaulSam Virtual Team. Tracking the intersection of finance and math throughout history.",
+            "The key is understanding the math principle.",
+            "Past lessons lead us to the transparent future."
+        ],
+        "tutorialType": "blackScholes"
+    },
+    {
+        "id": 19,
+        "volume": "VOL. 2",
+        "title": "그릭스(Greeks) - 델타 (EN)",
+        "subtitle": "기초자산의 변화에 따른 민감도 (EN)",
+        "year": "1973",
+        "imagePath": "/assets/images/ch2.png",
+        "content": [
+            "We work with PaulSam Virtual Team. Tracking the intersection of finance and math throughout history.",
+            "The key is understanding the math principle.",
+            "Past lessons lead us to the transparent future."
+        ],
+        "tutorialType": "blackScholes"
+    },
+    {
+        "id": 20,
+        "volume": "VOL. 2",
+        "title": "중간점검: 퀀트의 사고방식 (EN)",
+        "subtitle": "수학 모델로 시장을 극복하다 (EN)",
+        "year": "1970s",
+        "imagePath": "/assets/images/ch2.png",
+        "content": [
+            "We work with PaulSam Virtual Team. Tracking the intersection of finance and math throughout history.",
+            "The key is understanding the math principle.",
+            "Past lessons lead us to the transparent future."
+        ],
+        "tutorialType": "calculus"
+    },
+    {
+        "id": 21,
+        "volume": "VOL. 3",
+        "title": "델타와 동적 헤지 (EN)",
+        "subtitle": "리스크를 실시간으로 중화하다 (EN)",
+        "year": "1980s",
+        "imagePath": "/assets/images/ch3.png",
+        "content": [
+            "We work with PaulSam Virtual Team. Tracking the intersection of finance and math throughout history.",
+            "The key is understanding the math principle.",
+            "Past lessons lead us to the transparent future."
+        ],
+        "tutorialType": "blackScholes"
+    },
+    {
+        "id": 22,
+        "volume": "VOL. 3",
+        "title": "감마(Gamma)의 공포 (EN)",
+        "subtitle": "속도의 속도, 델타의 변화율 (EN)",
+        "year": "1980s",
+        "imagePath": "/assets/images/ch3.png",
+        "content": [
+            "We work with PaulSam Virtual Team. Tracking the intersection of finance and math throughout history.",
+            "The key is understanding the math principle.",
+            "Past lessons lead us to the transparent future."
+        ],
+        "tutorialType": "blackScholes"
+    },
+    {
+        "id": 23,
+        "volume": "VOL. 3",
+        "title": "세타(Theta)와 시간 (EN)",
+        "subtitle": "시간이 흐를수록 깎이는 가치 (EN)",
+        "year": "1980s",
+        "imagePath": "/assets/images/ch3.png",
+        "content": [
+            "We work with PaulSam Virtual Team. Tracking the intersection of finance and math throughout history.",
+            "The key is understanding the math principle.",
+            "Past lessons lead us to the transparent future."
+        ],
+        "tutorialType": "blackScholes"
+    },
+    {
+        "id": 24,
+        "volume": "VOL. 3",
+        "title": "베가(Vega)와 변동성 (EN)",
+        "subtitle": "시장이 출렁일 때의 가치 변화 (EN)",
+        "year": "1980s",
+        "imagePath": "/assets/images/ch3.png",
+        "content": [
+            "We work with PaulSam Virtual Team. Tracking the intersection of finance and math throughout history.",
+            "The key is understanding the math principle.",
+            "Past lessons lead us to the transparent future."
+        ],
+        "tutorialType": "blackScholes"
+    },
+    {
+        "id": 25,
+        "volume": "VOL. 3",
+        "title": "블랙-숄즈 편미분방정식 (EN)",
+        "subtitle": "옵션 가격 결정 모형의 총합 (EN)",
+        "year": "1973",
+        "imagePath": "/assets/images/ch3.png",
+        "content": [
+            "We work with PaulSam Virtual Team. Tracking the intersection of finance and math throughout history.",
+            "The key is understanding the math principle.",
+            "Past lessons lead us to the transparent future."
+        ],
+        "tutorialType": "blackScholes"
+    },
+    {
+        "id": 26,
+        "volume": "VOL. 3",
+        "title": "연속 확률 분포의 이해 (EN)",
+        "subtitle": "로그정규분포와 주가 이동 (EN)",
+        "year": "1980s",
+        "imagePath": "/assets/images/ch3.png",
+        "content": [
+            "We work with PaulSam Virtual Team. Tracking the intersection of finance and math throughout history.",
+            "The key is understanding the math principle.",
+            "Past lessons lead us to the transparent future."
+        ],
+        "tutorialType": "probability"
+    },
+    {
+        "id": 27,
+        "volume": "VOL. 3",
+        "title": "누적 분포 함수와 확률 (EN)",
+        "subtitle": "특정 가격대에 도달할 확률 (EN)",
+        "year": "1980s",
+        "imagePath": "/assets/images/ch3.png",
+        "content": [
+            "We work with PaulSam Virtual Team. Tracking the intersection of finance and math throughout history.",
+            "The key is understanding the math principle.",
+            "Past lessons lead us to the transparent future."
+        ],
+        "tutorialType": "probability"
+    },
+    {
+        "id": 28,
+        "volume": "VOL. 3",
+        "title": "정적분의 활용 (EN)",
+        "subtitle": "옵션 만기 수익의 합계와 넓이 (EN)",
+        "year": "1980s",
+        "imagePath": "/assets/images/ch3.png",
+        "content": [
+            "We work with PaulSam Virtual Team. Tracking the intersection of finance and math throughout history.",
+            "The key is understanding the math principle.",
+            "Past lessons lead us to the transparent future."
+        ],
+        "tutorialType": "calculus"
+    },
+    {
+        "id": 29,
+        "volume": "VOL. 3",
+        "title": "시뮬레이터를 통한 헤징 (EN)",
+        "subtitle": "델타 헤징의 실무적 검증 (EN)",
+        "year": "1990s",
+        "imagePath": "/assets/images/ch3.png",
+        "content": [
+            "We work with PaulSam Virtual Team. Tracking the intersection of finance and math throughout history.",
+            "The key is understanding the math principle.",
+            "Past lessons lead us to the transparent future."
+        ],
+        "tutorialType": "calculus"
+    },
+    {
+        "id": 30,
+        "volume": "VOL. 3",
+        "title": "나만의 옵션 설계 (EN)",
+        "subtitle": "매개변수를 이용한 옵션가 계산 실습 (EN)",
+        "year": "1990s",
+        "imagePath": "/assets/images/ch3.png",
+        "content": [
+            "We work with PaulSam Virtual Team. Tracking the intersection of finance and math throughout history.",
+            "The key is understanding the math principle.",
+            "Past lessons lead us to the transparent future."
+        ],
+        "tutorialType": "calculus"
+    },
+    {
+        "id": 31,
+        "volume": "VOL. 4",
+        "title": "수학으로 무장한 퀀트 (EN)",
+        "subtitle": "다변수 데이터 처리를 위한 행렬 (EN)",
+        "year": "1990s",
+        "imagePath": "/assets/images/ch4.png",
+        "content": [
+            "We work with PaulSam Virtual Team. Tracking the intersection of finance and math throughout history.",
+            "The key is understanding the math principle.",
+            "Past lessons lead us to the transparent future."
+        ],
+        "tutorialType": "matrix"
+    },
+    {
+        "id": 32,
+        "volume": "VOL. 4",
+        "title": "다변수 포트폴리오 최적화 (EN)",
+        "subtitle": "공분산 행렬의 연산과 적용 (EN)",
+        "year": "1990s",
+        "imagePath": "/assets/images/ch4.png",
+        "content": [
+            "We work with PaulSam Virtual Team. Tracking the intersection of finance and math throughout history.",
+            "The key is understanding the math principle.",
+            "Past lessons lead us to the transparent future."
+        ],
+        "tutorialType": "matrix"
+    },
+    {
+        "id": 33,
+        "volume": "VOL. 4",
+        "title": "Value at Risk (VaR) (EN)",
+        "subtitle": "내일 최대 얼마를 잃을까? (EN)",
+        "year": "1990s",
+        "imagePath": "/assets/images/ch4.png",
+        "content": [
+            "We work with PaulSam Virtual Team. Tracking the intersection of finance and math throughout history.",
+            "The key is understanding the math principle.",
+            "Past lessons lead us to the transparent future."
+        ],
+        "tutorialType": "probability"
+    },
+    {
+        "id": 34,
+        "volume": "VOL. 4",
+        "title": "몬테카를로 시뮬레이션 (EN)",
+        "subtitle": "난수를 이용한 가격 예측의 예술 (EN)",
+        "year": "1990s",
+        "imagePath": "/assets/images/ch4.png",
+        "content": [
+            "We work with PaulSam Virtual Team. Tracking the intersection of finance and math throughout history.",
+            "The key is understanding the math principle.",
+            "Past lessons lead us to the transparent future."
+        ],
+        "tutorialType": "probability"
+    },
+    {
+        "id": 35,
+        "volume": "VOL. 4",
+        "title": "행동경제학과 수학의 한계 (EN)",
+        "subtitle": "인간의 심리와 완벽한 수식의 괴리 (EN)",
+        "year": "2000s",
+        "imagePath": "/assets/images/ch4.png",
+        "content": [
+            "We work with PaulSam Virtual Team. Tracking the intersection of finance and math throughout history.",
+            "The key is understanding the math principle.",
+            "Past lessons lead us to the transparent future."
+        ],
+        "tutorialType": "behavioral"
+    },
+    {
+        "id": 36,
+        "volume": "VOL. 4",
+        "title": "서브프라임 비극 (EN)",
+        "subtitle": "완벽해 보였던 상관관계 모델의 붕괴 (EN)",
+        "year": "2008",
+        "imagePath": "/assets/images/ch4.png",
+        "content": [
+            "We work with PaulSam Virtual Team. Tracking the intersection of finance and math throughout history.",
+            "The key is understanding the math principle.",
+            "Past lessons lead us to the transparent future."
+        ],
+        "tutorialType": "probability"
+    },
+    {
+        "id": 37,
+        "volume": "VOL. 4",
+        "title": "초단타 알고리즘 매매 (EN)",
+        "subtitle": "기계가 주도하는 밀리초의 전쟁 (EN)",
+        "year": "2010s",
+        "imagePath": "/assets/images/ch4.png",
+        "content": [
+            "We work with PaulSam Virtual Team. Tracking the intersection of finance and math throughout history.",
+            "The key is understanding the math principle.",
+            "Past lessons lead us to the transparent future."
+        ],
+        "tutorialType": "algorithm"
+    },
+    {
+        "id": 38,
+        "volume": "VOL. 4",
+        "title": "DeFi와 탈중앙화 금융 (EN)",
+        "subtitle": "블록체인 위에 세워진 새로운 시장 (EN)",
+        "year": "2018",
+        "imagePath": "/assets/images/ch4.png",
+        "content": [
+            "We work with PaulSam Virtual Team. Tracking the intersection of finance and math throughout history.",
+            "The key is understanding the math principle.",
+            "Past lessons lead us to the transparent future."
+        ],
+        "tutorialType": "amm"
+    },
+    {
+        "id": 39,
+        "volume": "VOL. 4",
+        "title": "AMM: 유동성 풀의 수학 (EN)",
+        "subtitle": "x * y = k, 극적인 단순함의 미학 (EN)",
+        "year": "2018",
+        "imagePath": "/assets/images/ch4.png",
+        "content": [
+            "We work with PaulSam Virtual Team. Tracking the intersection of finance and math throughout history.",
+            "The key is understanding the math principle.",
+            "Past lessons lead us to the transparent future."
+        ],
+        "tutorialType": "amm"
+    },
+    {
+        "id": 40,
+        "volume": "VOL. 4",
+        "title": "헤븐 프로젝트의 비전 (EN)",
+        "subtitle": "AI와 집단지성이 여는 투명한 금융의 미래 (EN)",
+        "year": "2026",
+        "imagePath": "/assets/images/ch4.png",
+        "content": [
+            "We work with PaulSam Virtual Team. Tracking the intersection of finance and math throughout history.",
+            "The key is understanding the math principle.",
+            "Past lessons lead us to the transparent future."
+        ],
+        "tutorialType": "ai"
+    }
+]
 };
