@@ -3,7 +3,7 @@ import * as fs from 'fs';
 import * as path from 'path';
 
 // Read API Key from .env.local or process.env
-const apiKey = process.env.VITE_GEMINI_API_KEY || "AIzaSyCBPZVmorbPchWcWepAK8wegnV4oCOQz7Y";
+const apiKey = process.env.VITE_GEMINI_API_KEY || "AIzaSyBerVAvN7uEr7714_C1ghm1Dll2RsKmelk";
 const genAI = new GoogleGenerativeAI(apiKey);
 
 const curriculumText = `
@@ -65,18 +65,38 @@ ${curriculumText}
     return JSON.parse(text);
 }
 
+const sleep = (ms: number) => new Promise(resolve => setTimeout(resolve, ms));
+
 async function main() {
-    let allChapters = [];
+    let allChapters: any[] = [];
+    
+    // We already have some good templates from remergeCurriculum. We might want to keep the original chapters for 1, 5, 18, 38 later, but let's just generate all 40 right now to get the base text.
     for (let i = 1; i <= 4; i++) {
-        try {
-            const chapters = await generateVolume(i);
-            allChapters = allChapters.concat(chapters);
-            console.log(`Successfully generated Volume ${i}.`);
-        } catch (err) {
-            console.error(`Error generating Volume ${i}:`, err);
-            // Retry once
-            const chapters = await generateVolume(i);
-            allChapters = allChapters.concat(chapters);
+        const outPath = path.join(process.cwd(), 'src', 'data', `vol${i}_raw.json`);
+        if (fs.existsSync(outPath)) {
+            console.log(`Volume ${i} already exists. Skipping...`);
+            const data = JSON.parse(fs.readFileSync(outPath, 'utf8'));
+            allChapters = allChapters.concat(data);
+            continue;
+        }
+
+        let success = false;
+        let retries = 3;
+        while (!success && retries > 0) {
+            try {
+                const chapters = await generateVolume(i);
+                fs.writeFileSync(outPath, JSON.stringify(chapters, null, 2), 'utf-8');
+                allChapters = allChapters.concat(chapters);
+                console.log(`Successfully generated and saved Volume ${i}.`);
+                success = true;
+            } catch (err) {
+                retries--;
+                console.error(`Error generating Volume ${i} (Retries left: ${retries}):`, err);
+                if (retries > 0) {
+                    console.log("Waiting 5 seconds before retrying...");
+                    await sleep(5000);
+                }
+            }
         }
     }
 

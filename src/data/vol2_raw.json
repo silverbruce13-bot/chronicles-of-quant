@@ -1,0 +1,392 @@
+[
+  {
+    "id": 11,
+    "ko": {
+      "volume": "Volume 2",
+      "year": "2024",
+      "title": "대항해시대의 서막: 위험과 기회의 교차로",
+      "subtitle": "미지의 바다, 미지의 위험",
+      "content": [
+        "15세기, 유럽은 미지의 바다 너머 황금과 향신료를 찾아 나섰다. 콜럼버스, 마젤란 같은 탐험가들의 용기는 새로운 시대를 열었지만, 항해는 미지의 위험으로 가득했다. 거친 폭풍우, 해적의 위협, 그리고 낯선 땅에서의 질병은 매 순간 선원들과 상인들을 위협했다.",
+        "그러나 위험만큼이나 큰 기회도 있었다. 성공적인 항해는 막대한 부를 안겨주었고, 이는 더 많은 이들을 모험으로 이끌었다. 이 시기, 상인들은 불확실성 속에서 이익을 극대화하고 손실을 최소화할 방법을 절실히 찾고 있었다. 그들은 본능적으로 [[위험 관리|미래의 불확실한 사건으로 인한 잠재적 손실을 예측하고 통제하려는 일련의 과정이에요. 보험이나 파생상품이 여기에 해당하죠!]]의 필요성을 깨달았다.",
+        "대항해시대는 단순히 지리적 발견의 시대를 넘어, 인간이 미지의 위험에 맞서 이성과 시스템으로 대응하기 시작한 중요한 전환점이었다. 이 과정에서 금융의 역사에 길이 남을 혁신들이 싹트기 시작했다."
+      ],
+      "theoryDetail": {
+        "content": [
+          "대항해시대는 미지의 바다를 탐험하며 새로운 무역 경로를 개척했던 시기입니다. 이 시기 상인들은 해적, 폭풍, 질병 등 막대한 위험에 직면했지만, 성공적인 무역은 상상할 수 없는 부를 가져다주었습니다. 이러한 불확실성 속에서 위험을 관리하고 기회를 포착하려는 인간의 본능적인 노력이 금융 혁신의 씨앗이 되었습니다."
+        ],
+        "title": "대항해시대의 위험과 기회"
+      }
+    },
+    "en": {
+      "volume": "Volume 2",
+      "year": "2024",
+      "title": "The Dawn of the Age of Discovery: Crossroads of Risk and Opportunity",
+      "subtitle": "Unknown Seas, Unknown Risks",
+      "content": [
+        "In the 15th century, Europe embarked on a quest for gold and spices across unknown seas. The courage of explorers like Columbus and Magellan ushered in a new era, but voyages were fraught with peril. Fierce storms, pirate threats, and diseases in unfamiliar lands constantly menaced sailors and merchants.",
+        "Yet, opportunities were as vast as the risks. A successful voyage brought immense wealth, drawing more people into adventure. During this time, merchants desperately sought ways to maximize profits and minimize losses amidst uncertainty. They instinctively recognized the need for [[risk management|A series of processes to predict and control potential losses from uncertain future events. Insurance and derivatives fall into this category!]].",
+        "The Age of Discovery was more than just a period of geographical exploration; it was a crucial turning point where humanity began to confront unknown risks with reason and systematic approaches. In this process, innovations that would shape the history of finance began to emerge."
+      ],
+      "theoryDetail": {
+        "content": [
+          "The Age of Discovery was a period of exploring unknown seas and pioneering new trade routes. During this time, merchants faced immense risks such as pirates, storms, and diseases, but successful trade brought unimaginable wealth. In this uncertainty, humanity's instinctive efforts to manage risk and seize opportunity became the seeds of financial innovation."
+        ],
+        "title": "Risks and Opportunities of the Age of Discovery"
+      }
+    },
+    "tutorialType": "derivatives",
+    "imagePath": "/assets/images/ch11.png"
+  },
+  {
+    "id": 12,
+    "ko": {
+      "volume": "Volume 2",
+      "year": "2024",
+      "title": "해상 보험의 탄생: 위험 분담의 지혜",
+      "subtitle": "런던 로이드, 위험을 나누다",
+      "content": [
+        "대항해시대의 상인들은 거대한 자본을 들여 배와 화물을 꾸렸지만, 한 번의 조난으로 모든 것을 잃을 수 있었다. 이러한 불안감 속에서, 상인들은 런던의 로이드 커피 하우스와 같은 장소에 모여 서로의 위험을 분담하는 방법을 모색했다. 이것이 바로 현대 보험의 효시인 해상 보험의 시작이었다.",
+        "여러 상인이 각자의 선박과 화물에 대한 소액의 보험료를 지불하고, 그 자금을 모아 사고 발생 시 피해를 보상하는 시스템이었다. 이로써 단 한 명의 상인이 모든 위험을 짊어지는 대신, 다수의 상인이 [[위험 풀링|여러 사람이나 단체가 각자에게 닥칠 수 있는 개별적인 위험들을 한데 모아 관리하는 방식이에요. 이렇게 하면 큰 손실이 발생해도 전체적으로 감당할 수 있게 되죠!]]을 통해 부담을 나누게 되었다.",
+        "해상 보험은 단순히 금전적 보상을 넘어, 상인들이 더 대담하게 원정 무역에 나설 수 있도록 심리적 안정감을 제공했다. 이는 불확실한 미래에 대한 인간의 통제 욕구가 금융 혁신으로 이어진 대표적인 사례로 기록된다."
+      ],
+      "theoryDetail": {
+        "content": [
+          "해상 보험은 여러 상인이 소액의 보험료를 지불하여 공동의 기금을 조성하고, 사고 발생 시 이 기금에서 손실을 보상하는 방식으로 작동합니다. 이는 개별 상인이 모든 위험을 감수하는 대신, 다수의 참여자가 위험을 분담하는 '위험 풀링'의 개념을 도입하여 대규모 무역 활동을 가능하게 했습니다."
+        ],
+        "title": "해상 보험의 작동 원리"
+      }
+    },
+    "en": {
+      "volume": "Volume 2",
+      "year": "2024",
+      "title": "The Birth of Marine Insurance: Wisdom of Risk Sharing",
+      "subtitle": "Lloyd's of London, Sharing the Risk",
+      "content": [
+        "Merchants of the Age of Discovery invested vast capital in ships and cargo, only to risk losing everything in a single shipwreck. Amidst this anxiety, merchants gathered in places like Lloyd's Coffee House in London, seeking ways to share their risks. This marked the beginning of marine insurance, the precursor to modern insurance.",
+        "It was a system where multiple merchants paid small premiums for their ships and cargo, pooling these funds to compensate for damages in case of an accident. Thus, instead of a single merchant bearing all the risk, many merchants shared the burden through [[risk pooling|A method where multiple individuals or entities collectively manage individual risks that might be befall them. This way, even if a large loss occurs, it can be absorbed by the collective!]].",
+        "Marine insurance went beyond mere monetary compensation; it provided psychological security, enabling merchants to embark on oceanic trade with greater daring. This stands as a prime example of how humanity's desire to control an uncertain future led to financial innovation."
+      ],
+      "theoryDetail": {
+        "content": [
+          "Marine insurance operates by multiple merchants paying small premiums to create a common fund, from which losses are compensated in the event of an accident. This introduced the concept of 'risk pooling,' where numerous participants share risks instead of individual merchants bearing all of them, enabling large-scale trade activities."
+        ],
+        "title": "How Marine Insurance Works"
+      }
+    },
+    "tutorialType": "derivatives",
+    "imagePath": "/assets/images/ch12.png"
+  },
+  {
+    "id": 13,
+    "ko": {
+      "volume": "Volume 2",
+      "year": "2024",
+      "title": "튤립 광풍과 최초의 파생상품",
+      "subtitle": "네덜란드, 꽃이 된 부의 상징",
+      "content": [
+        "17세기 네덜란드는 '튤립 광풍'이라는 전례 없는 투기 열풍에 휩싸였다. 이국적인 아름다움으로 귀족들의 사랑을 받던 튤립은 그 가치가 천정부지로 치솟았고, 사람들은 집과 땅을 팔아 튤립 구근에 투자하기 시작했다. 단순한 꽃이 아닌, 미래의 부를 약속하는 상징이 된 것이다.",
+        "이 광풍 속에서, 실제로 튤립 구근을 주고받는 대신, 미래의 특정 시점에 특정 가격으로 튤립을 사고팔기로 약속하는 계약이 성행했다. 이것이 바로 [[선물 계약|미래의 특정 시점에 특정 자산을 미리 정해진 가격으로 사고팔기로 약속하는 계약이에요. 실제 물건이 없어도 그 가치 변동에 투자할 수 있게 해주죠!]]의 원형이자 최초의 파생상품 중 하나였다. 사람들은 실물 없이도 튤립 가격의 상승에 베팅하거나, 하락 위험을 헤지할 수 있게 되었다.",
+        "튤립 광풍은 결국 거품이 터지면서 많은 이들에게 비극을 안겨주었지만, 이는 금융 역사상 중요한 이정표가 되었다. 미래의 가치에 대한 예측과 거래가 어떻게 이루어질 수 있는지 보여주었으며, 현대 파생상품 시장의 복잡한 구조를 이해하는 데 귀중한 교훈을 남겼다."
+      ],
+      "theoryDetail": {
+        "content": [
+          "17세기 네덜란드의 튤립 광풍은 단순한 투기 현상을 넘어, 미래의 자산 가치에 대한 거래의 가능성을 보여주었습니다. 실제로 튤립 구근을 주고받지 않고도 미래의 특정 시점에 특정 가격으로 사고팔기로 약속하는 '선물 계약'이 이때 활발하게 거래되기 시작했습니다. 이는 현대 파생상품의 중요한 기원이 됩니다."
+        ],
+        "title": "튤립 광풍과 선물 계약의 탄생"
+      }
+    },
+    "en": {
+      "volume": "Volume 2",
+      "year": "2024",
+      "title": "The Tulip Mania and the First Derivatives",
+      "subtitle": "Netherlands, A Flower as a Symbol of Wealth",
+      "content": [
+        "In the 17th century, the Netherlands was swept by an unprecedented speculative fever known as the 'Tulip Mania'. Tulips, beloved by nobles for their exotic beauty, saw their value skyrocket, and people began selling their homes and land to invest in tulip bulbs. They became a symbol promising future wealth, not just a simple flower.",
+        "Amidst this frenzy, contracts to buy and sell tulips at a specific price at a future date, without actually exchanging the bulbs, became prevalent. This was the prototype of a [[futures contract|An agreement to buy or sell a specific asset at a predetermined price at a specific future date. It allows you to invest in the value fluctuations without owning the physical item!]] and one of the first derivatives. People could bet on rising tulip prices or hedge against falling prices without holding the physical tulips.",
+        "The Tulip Mania ultimately burst, bringing tragedy to many, but it became a significant milestone in financial history. It demonstrated how predictions and trades on future value could occur, leaving valuable lessons for understanding the complex structure of modern derivatives markets."
+      ],
+      "theoryDetail": {
+        "content": [
+          "The 17th-century Tulip Mania in the Netherlands went beyond a simple speculative phenomenon, demonstrating the possibility of trading on future asset values. 'Futures contracts,' agreements to buy or sell tulips at a specific price at a future date without actual exchange of bulbs, began to be actively traded during this period. This became a significant origin of modern derivatives."
+        ],
+        "title": "Tulip Mania and the Birth of Futures Contracts"
+      }
+    },
+    "tutorialType": "derivatives",
+    "imagePath": "/assets/images/ch13.png"
+  },
+  {
+    "id": 14,
+    "ko": {
+      "volume": "Volume 2",
+      "year": "2024",
+      "title": "확률의 그림자: 우연을 계산하다",
+      "subtitle": "파스칼과 페르마, 도박에서 발견한 진리",
+      "content": [
+        "대항해시대의 위험과 튤립 광풍의 불확실성은 인간에게 우연의 본질을 탐구하게 만들었다. 17세기 중반, 프랑스의 수학자 파스칼과 페르마는 친구의 도박 문제에 대한 질문에서 영감을 받아 확률론의 기초를 다지기 시작했다. 그들은 주사위 게임이나 카드 게임에서 특정 결과가 나올 가능성을 수학적으로 계산하는 방법을 연구했다.",
+        "이들의 연구는 단순한 도박의 승패를 넘어, 불확실한 미래 사건의 발생 가능성을 정량화할 수 있다는 혁명적인 아이디어를 제시했다. 이제 사람들은 직감이나 미신에 의존하는 대신, [[기대값|어떤 사건이 일어날 확률과 그 사건이 발생했을 때 얻을 수 있는 가치를 곱해서 모두 더한 값이에요. 장기적으로 평균적으로 얼마를 얻을 수 있는지 예측할 때 유용하죠!]]이라는 개념을 통해 합리적인 의사결정을 내릴 수 있게 되었다.",
+        "확률론의 발전은 금융 시장의 위험을 평가하고 보험료를 산정하는 데 필수적인 도구가 되었다. 미래의 불확실성을 '계산 가능한 위험'으로 전환하는 이 지적 도약은 파생상품의 가격을 매기는 현대 금융 수학의 토대가 되었다."
+      ],
+      "theoryDetail": {
+        "content": [
+          "파스칼과 페르마는 도박 문제를 해결하는 과정에서 확률론의 기초를 마련했습니다. 이들의 연구는 불확실한 사건의 발생 가능성을 수학적으로 정량화하는 방법을 제시했으며, '기대값' 개념을 통해 장기적으로 예상되는 결과값을 예측할 수 있게 했습니다. 이는 금융 시장의 위험을 평가하고 보험료를 산정하는 데 필수적인 도구가 되었습니다."
+        ],
+        "title": "확률론의 기초와 기대값"
+      }
+    },
+    "en": {
+      "volume": "Volume 2",
+      "year": "2024",
+      "title": "The Shadow of Probability: Calculating Chance",
+      "subtitle": "Pascal and Fermat, Truth Found in Gambling",
+      "content": [
+        "The risks of the Age of Discovery and the uncertainties of the Tulip Mania prompted humanity to explore the nature of chance. In the mid-17th century, French mathematicians Pascal and Fermat, inspired by a friend's gambling problem, began to lay the foundations of probability theory. They studied how to mathematically calculate the likelihood of specific outcomes in dice or card games.",
+        "Their research went beyond mere gambling wins and losses, presenting the revolutionary idea that the probability of uncertain future events could be quantified. Now, instead of relying on intuition or superstition, people could make rational decisions through the concept of [[expected value|The sum of the probabilities of each possible outcome multiplied by the value of that outcome. It's useful for predicting how much you can expect to gain on average over the long term!]].",
+        "The development of probability theory became an essential tool for assessing risks in financial markets and calculating insurance premiums. This intellectual leap, transforming future uncertainty into 'calculable risk', became the foundation of modern financial mathematics for pricing derivatives."
+      ],
+      "theoryDetail": {
+        "content": [
+          "Pascal and Fermat laid the foundations of probability theory while solving gambling problems. Their research provided a method to mathematically quantify the likelihood of uncertain events and allowed for the prediction of long-term expected outcomes through the concept of 'expected value.' This became an essential tool for assessing risks in financial markets and calculating insurance premiums."
+        ],
+        "title": "Foundations of Probability Theory and Expected Value"
+      }
+    },
+    "tutorialType": "probability",
+    "imagePath": "/assets/images/ch14.png"
+  },
+  {
+    "id": 15,
+    "ko": {
+      "volume": "Volume 2",
+      "year": "2024",
+      "title": "미적분학의 서곡: 변화를 포착하는 언어",
+      "subtitle": "뉴턴과 라이프니츠, 순간의 움직임",
+      "content": [
+        "세상의 모든 것은 끊임없이 변한다. 주식 가격은 순간순간 요동치고, 이자율은 시간에 따라 미묘하게 움직인다. 이러한 '변화의 변화'를 정확하게 이해하고 예측하는 것은 금융 시장에서 성공하기 위한 핵심 열쇠였다. 17세기 후반, 아이작 뉴턴과 고트프리트 라이프니츠는 독립적으로 이 변화를 설명하는 강력한 수학적 도구, 바로 미적분학을 창조했다.",
+        "미분은 어떤 양이 아주 작은 순간에 얼마나 변하는지를 측정하는 방법을 제공했다. 이는 마치 영화의 한 장면을 정지시켜 그 순간의 움직임을 분석하는 것과 같았다. 금융에서는 주가나 자산 가치의 [[순간 변화율|아주 짧은 시간 동안 어떤 값이 얼마나 빠르게 변하는지를 나타내는 비율이에요. 주식 가격이 지금 이 순간 얼마나 오르거나 내리는지를 파악할 때 쓰이죠!]]을 파악하는 데 결정적인 역할을 했다.",
+        "미적분학의 탄생은 단순히 과학과 공학 분야에만 혁명을 가져온 것이 아니었다. 복잡한 금융 현상, 특히 시간이 지남에 따라 가치가 변하는 파생상품의 특성을 이해하고 모델링하는 데 필수적인 언어를 제공하며 금융 수학의 새로운 지평을 열었다."
+      ],
+      "theoryDetail": {
+        "content": [
+          "미적분학은 아이작 뉴턴과 고트프리트 라이프니츠에 의해 독립적으로 개발되었으며, '변화의 변화'를 다루는 수학적 도구입니다. 특히 미분은 어떤 양이 아주 짧은 순간에 얼마나 변하는지를 측정하는 방법을 제공하여, 주가나 이자율과 같이 연속적으로 변화하는 금융 자산의 순간적인 움직임을 분석하는 데 핵심적인 역할을 합니다."
+        ],
+        "title": "미적분학의 기본 개념: 변화의 측정"
+      }
+    },
+    "en": {
+      "volume": "Volume 2",
+      "year": "2024",
+      "title": "Prelude to Calculus: The Language of Capturing Change",
+      "subtitle": "Newton and Leibniz, The Movement of a Moment",
+      "content": [
+        "Everything in the world is constantly changing. Stock prices fluctuate moment by moment, and interest rates subtly shift over time. Accurately understanding and predicting these 'changes of change' was a critical key to success in financial markets. In the late 17th century, Isaac Newton and Gottfried Leibniz independently created a powerful mathematical tool to describe this change: calculus.",
+        "Differentiation provided a way to measure how much a quantity changes over an infinitesimally small moment. It was like freezing a single frame of a movie to analyze the movement at that instant. In finance, it played a crucial role in understanding the [[instantaneous rate of change|The rate at which a value is changing at a specific moment in time. It's used to determine how quickly a stock price is rising or falling right now!]] of stock prices or asset values.",
+        "The birth of calculus did not just revolutionize science and engineering. It opened new horizons in financial mathematics by providing the essential language for understanding and modeling complex financial phenomena, especially the characteristics of derivatives whose values change over time."
+      ],
+      "theoryDetail": {
+        "content": [
+          "Calculus, independently developed by Isaac Newton and Gottfried Leibniz, is a mathematical tool for dealing with 'changes of change.' Differentiation, in particular, provides a method to measure how much a quantity changes over an infinitesimally short moment, playing a crucial role in analyzing the instantaneous movements of continuously changing financial assets like stock prices or interest rates."
+        ],
+        "title": "Basic Concepts of Calculus: Measuring Change"
+      }
+    },
+    "tutorialType": "calculus",
+    "imagePath": "/assets/images/ch15.png"
+  },
+  {
+    "id": 16,
+    "ko": {
+      "volume": "Volume 2",
+      "year": "2024",
+      "title": "이자율의 미분: 시간에 따른 가치의 변화",
+      "subtitle": "연속 복리, 미적분으로 풀다",
+      "content": [
+        "이자는 돈의 시간 가치를 반영하는 핵심 요소이다. 단순 이자나 복리 이자를 넘어, 금융 세계에서는 이자가 거의 연속적으로 붙는다고 가정하는 경우가 많다. 이러한 연속적인 변화 속에서 돈의 가치가 시간에 따라 어떻게 변하는지 정확히 이해하는 것은 매우 중요했다. 미분은 이 복잡한 문제를 해결할 열쇠를 제공했다.",
+        "미분 개념을 이자율에 적용하면, 우리는 돈의 가치가 아주 짧은 시간 동안 얼마나 빠르게 증가하거나 감소하는지 측정할 수 있다. 이는 마치 강물의 유속을 측정하여 특정 순간에 물이 얼마나 빨리 흐르는지 아는 것과 같다. 특히 [[연속 복리|이자가 무한히 짧은 시간 간격으로 계산되어 원금에 계속 더해지는 방식이에요. 미적분학을 이용해 가장 현실적인 금융 모델을 만들 때 쓰이죠!]]의 개념은 미적분학 없이는 상상하기 어려웠다.",
+        "이자율의 미분적 분석은 미래 가치를 현재 가치로 할인하거나, 현재 가치를 미래 가치로 증폭시키는 과정에서 정밀도를 극대화했다. 이는 채권, 대출, 그리고 궁극적으로 파생상품의 가격을 결정하는 데 필수적인 요소가 되었으며, 금융 모델링의 정교함을 한 단계 끌어올렸다."
+      ],
+      "theoryDetail": {
+        "content": [
+          "연속 복리는 이자가 무한히 짧은 시간 간격으로 계산되어 원금에 계속 더해지는 개념입니다. 미적분학을 활용하면 이러한 연속적인 이자율 변화를 정확히 모델링할 수 있습니다. 이자율의 미분적 분석은 미래 가치를 현재 가치로 할인하거나 그 반대의 과정을 매우 정밀하게 수행할 수 있게 하여, 채권 및 파생상품 가격 결정의 정확도를 높였습니다."
+        ],
+        "title": "연속 복리와 이자율 미분"
+      }
+    },
+    "en": {
+      "volume": "Volume 2",
+      "year": "2024",
+      "title": "Differentiation of Interest Rates: Value Change Over Time",
+      "subtitle": "Continuous Compounding, Solved by Calculus",
+      "content": [
+        "Interest is a core factor reflecting the time value of money. Beyond simple or compound interest, the financial world often assumes that interest accrues almost continuously. Accurately understanding how the value of money changes over time amidst this continuous variation was crucial. Differentiation provided the key to solving this complex problem.",
+        "Applying the concept of differentiation to interest rates allows us to measure how quickly the value of money increases or decreases over an infinitesimally small period. It's like measuring the flow rate of a river to know how fast the water is moving at a specific instant. The concept of [[continuous compounding|A method where interest is calculated and added to the principal over infinitely short time intervals. It's used to create the most realistic financial models using calculus!]] was particularly difficult to imagine without calculus.",
+        "The differential analysis of interest rates maximized precision in discounting future values to present values or compounding present values to future values. This became an essential element in pricing bonds, loans, and ultimately, derivatives, elevating the sophistication of financial modeling."
+      ],
+      "theoryDetail": {
+        "content": [
+          "Continuous compounding is the concept where interest is calculated and added to the principal over infinitely short time intervals. Using calculus, these continuous interest rate changes can be modeled precisely. The differential analysis of interest rates allows for highly accurate discounting of future values to present values, and vice versa, thereby enhancing the precision of bond and derivative pricing."
+        ],
+        "title": "Continuous Compounding and Interest Rate Differentiation"
+      }
+    },
+    "tutorialType": "calculus",
+    "imagePath": "/assets/images/ch16.png"
+  },
+  {
+    "id": 17,
+    "ko": {
+      "volume": "Volume 2",
+      "year": "2024",
+      "title": "선물과 선도: 미래를 약속하는 계약",
+      "subtitle": "헤지와 투기, 두 얼굴의 파생상품",
+      "content": [
+        "튤립 광풍에서 시작된 미래 거래의 개념은 시간이 지나며 더욱 정교해졌다. 농부들은 수확 전에 곡물 가격이 떨어질까 걱정했고, 제분업자들은 미래에 곡물 가격이 오를까 불안해했다. 이러한 불확실성을 해소하기 위해 '선도 계약'이 등장했다. 이는 두 당사자가 미래의 특정 시점에 특정 자산을 미리 정해진 가격으로 사고팔기로 개별적으로 약속하는 비표준화된 계약이었다.",
+        "선도 계약은 맞춤형이라는 장점이 있었지만, 거래 상대방이 약속을 이행하지 않을 위험, 즉 [[신용 위험|거래 상대방이 계약상의 의무를 이행하지 못하여 손실을 입을 가능성을 말해요. 금융 거래에서 아주 중요하게 고려되는 위험 중 하나죠!]]이 존재했다. 이를 보완하고 유동성을 높이기 위해 중앙화된 거래소에서 표준화된 '선물 계약'이 탄생했다. 선물 계약은 일일 정산(marking-to-market)과 증거금 제도를 통해 신용 위험을 크게 낮추었다.",
+        "선도와 선물 계약은 미래의 가격 불확실성에 대한 헤지 수단이자, 가격 변동을 이용한 투기 수단으로 발전했다. 이들은 금융 시장에서 위험을 전가하고 가격을 발견하는 중요한 메커니즘을 제공하며, 현대 파생상품 시장의 근간을 이루게 되었다."
+      ],
+      "theoryDetail": {
+        "content": [
+          "선도 계약은 두 당사자 간의 비표준화된 맞춤형 계약으로, 거래 상대방 위험(신용 위험)이 존재합니다. 반면 선물 계약은 중앙 거래소에서 표준화되어 거래되며, 일일 정산(marking-to-market)과 증거금 제도를 통해 신용 위험을 관리하고 유동성을 높입니다. 둘 다 미래의 가격 불확실성에 대한 헤지 및 투기 수단으로 활용됩니다."
+        ],
+        "title": "선도와 선물 계약의 차이"
+      }
+    },
+    "en": {
+      "volume": "Volume 2",
+      "year": "2024",
+      "title": "Futures and Forwards: Contracts Promising the Future",
+      "subtitle": "Hedging and Speculation, Two Faces of Derivatives",
+      "content": [
+        "The concept of future trading, which began with the Tulip Mania, became more sophisticated over time. Farmers worried about grain prices falling before harvest, while millers were anxious about future grain price increases. To alleviate this uncertainty, 'forward contracts' emerged. These were non-standardized agreements where two parties privately agreed to buy or sell a specific asset at a predetermined price at a specific future date.",
+        "While forward contracts offered the advantage of customization, they carried the risk that a counterparty might default on their promise, known as [[credit risk|The possibility of incurring a loss due to a counterparty's failure to fulfill its contractual obligations. It's one of the most crucial risks considered in financial transactions!]]. To mitigate this and enhance liquidity, standardized 'futures contracts' were born on centralized exchanges. Futures contracts significantly reduced credit risk through daily settlement (marking-to-market) and margin systems.",
+        "Both forward and futures contracts evolved into tools for hedging against future price uncertainty and for speculating on price movements. They provided crucial mechanisms for transferring risk and discovering prices in financial markets, forming the bedrock of modern derivatives markets."
+      ],
+      "theoryDetail": {
+        "content": [
+          "Forward contracts are non-standardized, customized agreements between two parties, carrying counterparty risk (credit risk). Futures contracts, on the other hand, are standardized and traded on a central exchange, managing credit risk and enhancing liquidity through daily settlement (marking-to-market) and margin systems. Both are used for hedging against future price uncertainty and for speculation."
+        ],
+        "title": "Differences Between Forward and Futures Contracts"
+      }
+    },
+    "tutorialType": "derivatives",
+    "imagePath": "/assets/images/ch17.png"
+  },
+  {
+    "id": 18,
+    "ko": {
+      "volume": "Volume 2",
+      "year": "2024",
+      "title": "옵션의 등장: 선택의 가치를 찾아서",
+      "subtitle": "탈레스의 지혜, 금융 상품이 되다",
+      "content": [
+        "선물과 선도 계약이 '미래에 무조건 사고팔겠다'는 의무를 지우는 계약이었다면, '옵션'은 미래에 특정 자산을 특정 가격으로 사고팔 '권리'를 부여하는 계약이었다. 이 권리는 행사할 수도 있고, 하지 않을 수도 있다는 점에서 혁명적이었다. 고대 그리스의 탈레스가 올리브 압착기 사용 권리를 미리 사두었던 일화처럼, 선택의 가치는 오래 전부터 인식되어 왔다.",
+        "옵션은 투자자에게 유리할 때만 권리를 행사하고, 불리할 때는 포기함으로써 손실을 제한하고 이익을 극대화할 수 있는 비대칭적인 수익 구조를 제공했다. 주식을 정해진 가격에 살 수 있는 [[콜 옵션|미래의 특정 시점이나 그 이전에 특정 주식이나 자산을 미리 정해진 가격으로 살 수 있는 권리를 말해요. 가격이 오를 것 같을 때 유용하죠!]]과 팔 수 있는 풋 옵션이 대표적이다. 이러한 유연성은 금융 시장에 새로운 차원의 전략적 사고를 도입했다.",
+        "옵션의 등장은 미래의 불확실성에 대응하는 또 다른 강력한 도구를 제공했다. 이는 단순히 위험을 전가하는 것을 넘어, 미래의 가능성에 대한 '선택권' 자체를 거래하는 새로운 시장을 열었으며, 이는 블랙-숄즈 모형으로 이어지는 중요한 기반이 되었다."
+      ],
+      "theoryDetail": {
+        "content": [
+          "옵션은 미래에 특정 자산을 특정 가격으로 사고팔 '권리'를 부여하는 계약입니다. 주식을 정해진 가격에 살 수 있는 권리인 콜 옵션과 팔 수 있는 권리인 풋 옵션이 대표적입니다. 옵션은 행사할 의무가 없으므로, 투자자에게 유리할 때만 권리를 행사하여 손실을 제한하고 이익을 극대화할 수 있는 비대칭적 수익 구조를 제공합니다."
+        ],
+        "title": "옵션의 기본 개념: 콜과 풋"
+      }
+    },
+    "en": {
+      "volume": "Volume 2",
+      "year": "2024",
+      "title": "The Emergence of Options: Discovering the Value of Choice",
+      "subtitle": "Thales' Wisdom Becomes a Financial Product",
+      "content": [
+        "While futures and forward contracts imposed an obligation to 'unconditionally buy or sell in the future,' 'options' granted the 'right' to buy or sell a specific asset at a specific price in the future. This right, which could be exercised or not, was revolutionary. The value of choice has been recognized since ancient times, as seen in the anecdote of Thales in ancient Greece, who bought the right to use olive presses in advance.",
+        "Options offered an asymmetric payoff structure, allowing investors to limit losses and maximize profits by exercising the right only when advantageous and abandoning it when unfavorable. Representative examples include [[call options|The right to buy a specific stock or asset at a predetermined price on or before a specific future date. It's useful when you expect the price to rise!]] to buy stock at a set price, and put options to sell. This flexibility introduced a new dimension of strategic thinking into financial markets.",
+        "The emergence of options provided another powerful tool for responding to future uncertainty. It went beyond merely transferring risk, opening a new market for trading 'choices' over future possibilities, which became a crucial foundation leading to the Black-Scholes model."
+      ],
+      "theoryDetail": {
+        "content": [
+          "An option is a contract that grants the 'right' to buy or sell a specific asset at a specific price in the future. Call options, the right to buy a stock at a set price, and put options, the right to sell, are typical examples. Since there is no obligation to exercise, options offer an asymmetric payoff structure that allows investors to limit losses and maximize profits by exercising the right only when it is advantageous."
+        ],
+        "title": "Basic Concepts of Options: Calls and Puts"
+      }
+    },
+    "tutorialType": "derivatives",
+    "imagePath": "/assets/images/ch18.png"
+  },
+  {
+    "id": 19,
+    "ko": {
+      "volume": "Volume 2",
+      "year": "2024",
+      "title": "이항 모형: 옵션 가격 결정의 첫걸음",
+      "subtitle": "단순한 가정으로 복잡한 가치를 풀다",
+      "content": [
+        "옵션이 금융 시장에 등장했지만, 그 가치를 어떻게 정량적으로 평가할 것인가는 오랫동안 풀리지 않는 숙제였다. 주식 가격처럼 시장에서 직접 결정되는 것이 아니라, 미래의 불확실한 움직임에 따라 가치가 변하는 '파생' 상품이었기 때문이다. 1970년대, 코스(Cox), 로스(Ross), 루빈스타인(Rubinstein)은 이 문제를 해결하기 위한 첫 번째 실용적인 모델인 '이항 옵션 가격 결정 모형'을 제시했다.",
+        "이 모델은 주식 가격이 미래의 특정 시점에 오르거나 내리는 두 가지 경우 중 하나로만 움직인다는 단순한 가정을 기반으로 한다. 마치 동전을 던졌을 때 앞면 아니면 뒷면이 나오는 것처럼 말이다. 이 단순한 이분법적 접근 방식을 반복하여 적용하면, 복잡한 주가 경로를 모델링하고 옵션의 [[무위험 차익거래|어떤 자산의 가격 불균형을 이용해서 위험 없이 확정적인 이익을 얻는 거래 전략이에요. 이항 모형은 이런 기회가 없다는 가정하에 옵션 가격을 정하죠!]] 원리를 통해 옵션의 공정한 가치를 계산할 수 있었다.",
+        "이항 모형은 실제 시장의 복잡성을 완벽히 반영하지는 못했지만, 옵션 가격 결정의 핵심 논리를 명확하게 보여주었다. 이는 미래의 불확실한 사건에 대한 확률적 사고와 무위험 차익거래의 개념을 결합하여 파생상품의 가치를 평가하는 현대 금융 공학의 출발점이 되었다."
+      ],
+      "theoryDetail": {
+        "content": [
+          "이항 모형은 주식 가격이 미래의 특정 시점에 오르거나 내리는 두 가지 경우 중 하나로만 움직인다는 단순한 가정을 기반으로 옵션 가격을 결정하는 모델입니다. 이분법적 접근 방식을 반복 적용하고, 무위험 차익거래의 원리를 활용하여 옵션의 공정한 가치를 계산합니다. 이는 복잡한 옵션 가격 결정의 핵심 논리를 이해하는 데 중요한 첫걸음이 됩니다."
+        ],
+        "title": "이항 옵션 가격 결정 모형"
+      }
+    },
+    "en": {
+      "volume": "Volume 2",
+      "year": "2024",
+      "title": "The Binomial Model: The First Step in Option Pricing",
+      "subtitle": "Solving Complex Values with Simple Assumptions",
+      "content": [
+        "Although options emerged in financial markets, how to quantitatively value them remained an unsolved puzzle for a long time. This was because they were 'derivative' products whose value changed based on uncertain future movements, rather than being directly determined by the market like stock prices. In the 1970s, Cox, Ross, and Rubinstein presented the 'Binomial Option Pricing Model,' the first practical model to address this problem.",
+        "This model is based on the simple assumption that a stock price can only move in one of two ways at a specific future point: either up or down. It's like flipping a coin where it can only land on heads or tails. By repeatedly applying this simple dichotomous approach, one could model complex stock price paths and calculate the fair value of an option using the principle of [[risk-free arbitrage|A trading strategy that exploits price imbalances of an asset to obtain a guaranteed profit without any risk. The binomial model prices options under the assumption that such opportunities do not exist!]].",
+        "While the binomial model did not perfectly reflect the complexity of real markets, it clearly demonstrated the core logic of option pricing. It became the starting point for modern financial engineering, combining probabilistic thinking about uncertain future events with the concept of risk-free arbitrage to value derivatives."
+      ],
+      "theoryDetail": {
+        "content": [
+          "The binomial model is a model that determines option prices based on the simple assumption that a stock price can only move in one of two ways at a specific future point: either up or down. By repeatedly applying this dichotomous approach and utilizing the principle of risk-free arbitrage, it calculates the fair value of an option. This represents an important first step in understanding the core logic of complex option pricing."
+        ],
+        "title": "Binomial Option Pricing Model"
+      }
+    },
+    "tutorialType": "derivatives",
+    "imagePath": "/assets/images/ch19.png"
+  },
+  {
+    "id": 20,
+    "ko": {
+      "volume": "Volume 2",
+      "year": "2024",
+      "title": "블랙-숄즈 모형의 서막: 혁명으로 가는 길",
+      "subtitle": "연속적인 변화, 미분 방정식으로 풀다",
+      "content": [
+        "이항 모형이 옵션 가격 결정의 중요한 첫걸음이었지만, 주식 가격이 단 두 가지 방향으로만 움직인다는 가정은 현실성이 떨어졌다. 실제 주식 가격은 끊임없이 변하며, 그 변화는 무수히 많은 미세한 움직임의 연속이다. 이러한 연속적인 변화를 포착하고 옵션 가격을 보다 정확하게 계산할 수 있는 더 강력한 도구가 필요했다.",
+        "1973년, 피셔 블랙(Fischer Black)과 마이런 숄즈(Myron Scholes)는 획기적인 옵션 가격 결정 모형을 발표했다. 이들은 주식 가격이 [[기하 브라운 운동|주식이나 자산 가격이 시간이 지남에 따라 무작위로 움직이지만, 그 변화율은 로그 정규 분포를 따른다고 가정하는 수학적 모델이에요. 블랙-숄즈 모형의 핵심 가정 중 하나죠!]]을 따른다는 가정하에, 미적분학의 미분 방정식을 사용하여 옵션의 공정한 가치를 도출했다. 이는 마치 복잡한 날씨 변화를 수학적으로 예측하려는 시도와 같았다.",
+        "블랙-숄즈 모형은 옵션 가격에 영향을 미치는 다섯 가지 요소(주가, 행사가격, 만기까지 남은 시간, 변동성, 무위험 이자율)를 통합하여, 옵션 시장에 혁명적인 변화를 가져왔다. 이 모형은 단순한 이론적 발전을 넘어, 파생상품 시장의 폭발적인 성장을 이끌고 현대 금융의 초석이 되었다. 다음 볼륨에서는 이 블랙-숄즈 모형의 심층적인 세계로 들어가 볼 것이다."
+      ],
+      "theoryDetail": {
+        "content": [
+          "블랙-숄즈 모형은 주식 가격이 기하 브라운 운동을 따른다는 핵심 가정하에 미분 방정식을 사용하여 옵션 가격을 결정합니다. 이는 연속적인 주가 변화를 모델링하여 이항 모형보다 더 정교한 가격을 산출합니다. 이 모형은 주가, 행사가격, 만기, 변동성, 무위험 이자율의 다섯 가지 변수를 통합하여 옵션의 가치를 평가합니다."
+        ],
+        "title": "블랙-숄즈 모형의 주요 가정"
+      }
+    },
+    "en": {
+      "volume": "Volume 2",
+      "year": "2024",
+      "title": "Prelude to Black-Scholes: The Road to Revolution",
+      "subtitle": "Continuous Change, Solved by Differential Equations",
+      "content": [
+        "While the binomial model was an important first step in option pricing, the assumption that stock prices move in only two directions was unrealistic. Actual stock prices change continuously, and their movements are a series of infinitely many tiny fluctuations. A more powerful tool was needed to capture these continuous changes and calculate option prices more accurately.",
+        "In 1973, Fischer Black and Myron Scholes published a groundbreaking option pricing model. They derived the fair value of an option using differential equations from calculus, under the assumption that stock prices follow [[geometric Brownian motion|A mathematical model that assumes stock or asset prices move randomly over time, but their rates of change follow a log-normal distribution. It's one of the core assumptions of the Black-Scholes model!]]. This was akin to attempting to mathematically predict complex weather changes.",
+        "The Black-Scholes model integrated five factors influencing option prices (stock price, strike price, time to expiration, volatility, and risk-free interest rate), bringing about a revolutionary change in the options market. This model was more than just a theoretical advancement; it spurred the explosive growth of the derivatives market and became a cornerstone of modern finance. In the next volume, we will delve into the profound world of the Black-Scholes model."
+      ],
+      "theoryDetail": {
+        "content": [
+          "The Black-Scholes model determines option prices using differential equations under the core assumption that stock prices follow geometric Brownian motion. This models continuous stock price changes, yielding more sophisticated prices than the binomial model. This model integrates five variables - stock price, strike price, time to expiration, volatility, and risk-free interest rate - to value options."
+        ],
+        "title": "Key Assumptions of the Black-Scholes Model"
+      }
+    },
+    "tutorialType": "blackScholes",
+    "imagePath": "/assets/images/ch20.png"
+  }
+]

@@ -1,0 +1,432 @@
+[
+  {
+    "id": 1,
+    "ko": {
+      "volume": "Volume 1",
+      "year": "BC 3000",
+      "title": "메소포타미아의 흙판, 이자의 탄생",
+      "subtitle": "인류 최초의 금융 계약",
+      "content": [
+        "기원전 3000년경, 비옥한 초승달 지역, 메소포타미아의 우르크 도시는 번성하고 있었다. 쐐기 문자가 새겨진 흙판은 단순한 기록을 넘어, 인류 최초의 복잡한 사회 시스템을 증명했다.",
+        "이 흙판들 중에는 곡물이나 은을 빌려주고 정해진 기간 후에 더 많은 양을 돌려받기로 하는 계약들이 있었다. 이것이 바로 [[이자|빌린 돈에 대해 지급하는 추가 금액이야. 은행에서 돈 빌리면 이자를 내야 하고, 예금하면 이자를 받지? 시간의 가치를 돈으로 표현한 거라고 보면 돼!]]의 시초였다. 고대인들은 이미 시간의 가치를 어렴풋이 이해하고 있었던 것이다.",
+        "수메르인들은 빚을 갚지 못할 경우의 조항까지 명시하며, 원시적인 형태의 금융 시스템을 구축했다. 이는 문명의 발전과 함께 금융이 어떻게 시작되었는지를 보여주는 중요한 증거다."
+      ],
+      "theoryDetail": {
+        "content": [
+          "메소포타미아 문명은 기록을 통해 이자를 처음으로 제도화한 문명으로 알려져 있습니다. 주로 곡물이나 가축, 은과 같은 실물 자산 대여에 이자가 부과되었습니다.",
+          "초기 이자율은 매우 높았으며, 이는 농업 생산의 불확실성과 당시 사회의 경제적 위험을 반영하는 것이었습니다.",
+          "함무라비 법전에는 이자율에 대한 규정이 명시되어 있어, 고대에도 이자율이 사회 질서 유지에 중요한 요소였음을 알 수 있습니다."
+        ],
+        "title": "고대 이자의 기원"
+      }
+    },
+    "en": {
+      "volume": "Volume 1",
+      "year": "BC 3000",
+      "title": "Mesopotamian Clay Tablets, The Birth of Interest",
+      "subtitle": "Humanity's First Financial Contract",
+      "content": [
+        "Around 3000 BCE, in the fertile crescent, the city of Uruk in Mesopotamia flourished. Clay tablets inscribed with cuneiform script proved not just simple records, but humanity's first complex social system.",
+        "Among these tablets were contracts for lending grain or silver, with the agreement to return a larger quantity after a specified period. This was the genesis of [[interest|It's an additional amount paid for borrowed money. If you borrow money from a bank, you pay interest, and if you deposit money, you receive interest, right? Think of it as expressing the value of time in terms of money!]]. Ancient people already had a vague understanding of the value of time.",
+        "The Sumerians even specified clauses for failure to repay debts, establishing a primitive form of financial system. This is crucial evidence showing how finance began with the development of civilization."
+      ],
+      "theoryDetail": {
+        "content": [
+          "Mesopotamian civilization is known as the first civilization to institutionalize interest through records. Interest was primarily levied on the lending of real assets such as grain, livestock, and silver.",
+          "Early interest rates were very high, reflecting the uncertainties of agricultural production and the economic risks of society at the time.",
+          "The Code of Hammurabi contains regulations on interest rates, indicating that interest rates were an important factor in maintaining social order even in ancient times."
+        ],
+        "title": "Origins of Ancient Interest"
+      }
+    },
+    "tutorialType": "compound",
+    "imagePath": "/assets/images/ch1.png"
+  },
+  {
+    "id": 2,
+    "ko": {
+      "volume": "Volume 1",
+      "year": "BC 1000",
+      "title": "시간의 마법, 복리의 발견",
+      "subtitle": "단순한 성장을 넘어서",
+      "content": [
+        "고대 사회에서 이자는 단순한 대여료를 넘어, 시간과 함께 자산이 불어나는 신비로운 현상으로 인식되기 시작했다. 특히 복리의 개념은 인류의 경제적 사고에 혁명적인 변화를 가져왔다.",
+        "초기 문명에서는 빌려준 곡물에 대해 매년 일정한 비율로 이자를 붙였고, 다음 해에는 원금뿐만 아니라 그 이자에도 다시 이자가 붙는 방식이 자연스럽게 발견되었다. 이것이 바로 [[복리|원금에만 이자가 붙는 게 아니라, 이자에 이자가 또 붙는 방식이야! 시간이 지날수록 돈이 눈덩이처럼 불어나는 마법 같은 효과를 내지!]]의 시작이었다. 이 작은 깨달음은 미래의 부를 예측하고 계획하는 기초가 되었다.",
+        "바빌로니아의 점토판 기록에서도 복리 계산의 흔적을 찾아볼 수 있다. 이는 인류가 오래전부터 돈의 시간 가치를 이해하고 이를 활용하려 했음을 보여준다. 복리는 단순한 계산법이 아니라, 시간의 힘을 빌려 부를 축적하는 인간의 지혜였다."
+      ],
+      "theoryDetail": {
+        "content": [
+          "복리 이자는 원금에 대한 이자뿐만 아니라, 발생한 이자에도 다시 이자가 붙는 방식입니다. 이는 장기적으로 자산 증식에 매우 강력한 효과를 발휘합니다.",
+          "단리 이자가 매년 원금에 대해서만 이자를 계산하는 반면, 복리는 이자가 원금에 합산되어 다음 기간의 이자 계산의 기반이 됩니다.",
+          "알버트 아인슈타인은 복리를 '세계 8대 불가사의'라고 칭했을 정도로 그 효과를 강조했습니다."
+        ],
+        "title": "복리 이자의 이해"
+      }
+    },
+    "en": {
+      "volume": "Volume 1",
+      "year": "BC 1000",
+      "title": "The Magic of Time, The Discovery of Compound Interest",
+      "subtitle": "Beyond Simple Growth",
+      "content": [
+        "In ancient societies, interest began to be perceived not merely as a lending fee, but as a mysterious phenomenon where assets grew with time. The concept of compound interest, in particular, brought about a revolutionary change in human economic thought.",
+        "In early civilizations, a fixed percentage of interest was added annually to lent grain, and naturally, a method was discovered where not only the principal but also that interest would accrue further interest the following year. This was the beginning of [[compound interest|It's not just interest on the principal, but interest on the interest too! It creates a magical effect where money grows like a snowball over time!]]. This small realization became the foundation for predicting and planning future wealth.",
+        "Traces of compound interest calculations can also be found in Babylonian clay tablet records. This shows that humanity understood and tried to utilize the time value of money from ancient times. Compound interest was not just a simple calculation method, but human wisdom to accumulate wealth by harnessing the power of time."
+      ],
+      "theoryDetail": {
+        "content": [
+          "Compound interest is a method where interest is applied not only to the principal but also to the accumulated interest. This has a very powerful effect on asset growth in the long run.",
+          "While simple interest calculates interest only on the principal each year, compound interest adds the interest to the principal, forming the base for the next period's interest calculation.",
+          "Albert Einstein famously called compound interest the 'eighth wonder of the world,' emphasizing its profound effect."
+        ],
+        "title": "Understanding Compound Interest"
+      }
+    },
+    "tutorialType": "compound",
+    "imagePath": "/assets/images/ch2.png"
+  },
+  {
+    "id": 3,
+    "ko": {
+      "volume": "Volume 1",
+      "year": "AD 1300",
+      "title": "피렌체의 상인들, 현재 가치와 미래 가치",
+      "subtitle": "시간을 넘나드는 돈의 가치",
+      "content": [
+        "중세 후기, 이탈리아 피렌체는 유럽 상업의 중심지였다. 메디치 가문과 같은 강력한 상인들은 먼 곳과의 무역을 통해 막대한 부를 축적했으며, 이 과정에서 미래의 현금 흐름을 현재의 가치로 평가하는 것이 중요해졌다.",
+        "그들은 오늘 100 플로린을 받는 것과 1년 후 110 플로린을 받는 것 중 어느 것이 더 가치 있는지를 계산해야 했다. 바로 [[화폐의 시간 가치|오늘의 1만원이 내년의 1만원보다 더 가치 있다는 개념이야. 왜냐하면 오늘의 1만원은 투자해서 이자를 불릴 수 있고, 당장 쓸 수 있으니까!]] 개념이 상인들의 머릿속에 자리 잡기 시작한 것이다. 이는 단순한 이자 계산을 넘어, 투자와 대출 결정의 핵심 원리가 되었다.",
+        "미래에 받을 돈을 현재 시점으로 할인하여 그 가치를 평가하는 기술은, 당시의 상인들에게 복잡한 무역 계약과 투자 결정을 내리는 데 필수적인 도구였다. 이는 현대 금융의 현재 가치(PV) 및 미래 가치(FV) 개념의 초기 형태였다."
+      ],
+      "theoryDetail": {
+        "content": [
+          "화폐의 시간 가치(Time Value of Money, TVM)는 동일한 금액이라도 현재의 돈이 미래의 돈보다 더 가치 있다는 개념입니다.",
+          "이는 돈을 투자하여 수익을 창출할 수 있는 기회비용, 인플레이션으로 인한 구매력 감소, 그리고 미래에 대한 불확실성 때문에 발생합니다.",
+          "현재 가치(Present Value, PV)는 미래의 특정 시점에 발생할 현금 흐름을 현재 시점의 가치로 환산하는 것이고, 미래 가치(Future Value, FV)는 현재의 돈이 미래에 얼마의 가치를 가질지 계산하는 것입니다."
+        ],
+        "title": "화폐의 시간 가치 기초"
+      }
+    },
+    "en": {
+      "volume": "Volume 1",
+      "year": "AD 1300",
+      "title": "Merchants of Florence, Present Value and Future Value",
+      "subtitle": "The Value of Money Across Time",
+      "content": [
+        "In the late Middle Ages, Florence, Italy, was the center of European commerce. Powerful merchants, such as the Medici family, accumulated immense wealth through long-distance trade, and in this process, it became crucial to evaluate future cash flows at their present value.",
+        "They had to calculate which was more valuable: receiving 100 florins today or 110 florins a year later. This is where the concept of [[time value of money|It's the idea that 10,000 won today is worth more than 10,000 won next year. Why? Because today's 10,000 won can be invested to earn interest, and you can use it right away!]] began to take root in the minds of merchants. This went beyond simple interest calculations, becoming a core principle for investment and lending decisions.",
+        "The technique of discounting future money to its present value was an essential tool for merchants of the time to make complex trade contracts and investment decisions. This was an early form of the modern financial concepts of Present Value (PV) and Future Value (FV)."
+      ],
+      "theoryDetail": {
+        "content": [
+          "The Time Value of Money (TVM) is the concept that a sum of money is worth more now than the same sum will be at a future date.",
+          "This arises due to the opportunity cost of investing money to generate returns, the erosion of purchasing power due to inflation, and uncertainty about the future.",
+          "Present Value (PV) is the current value of a future sum of money or stream of cash flows given a specified rate of return, while Future Value (FV) is the value of a current asset at a future date based on an assumed rate of growth."
+        ],
+        "title": "Basics of Time Value of Money"
+      }
+    },
+    "tutorialType": "compound",
+    "imagePath": "/assets/images/ch3.png"
+  },
+  {
+    "id": 4,
+    "ko": {
+      "volume": "Volume 1",
+      "year": "AD 1600",
+      "title": "대항해시대, 위험과 불확실성의 그림자",
+      "subtitle": "새로운 항로, 새로운 도전",
+      "content": [
+        "17세기, 유럽은 대항해시대를 맞이하며 미지의 바다를 향해 돛을 올렸다. 신대륙과의 무역은 엄청난 부를 약속했지만, 동시에 폭풍, 해적, 그리고 알 수 없는 질병이라는 막대한 위험을 안고 있었다.",
+        "상인들은 배 한 척에 모든 재산을 싣는 것이 얼마나 위험한 일인지 깨달았다. 배가 침몰하거나 약탈당하면 모든 것이 사라지는 것이다. 이러한 [[불확실성|미래에 어떤 일이 일어날지 정확히 예측할 수 없는 상황을 말해. 주식 시장이 오를지 내릴지 모르는 것처럼 말이지!]]은 그들에게 새로운 사고방식을 요구했다. 이 시기부터 사람들은 위험을 측정하고 관리하려는 시도를 시작했다.",
+        "이러한 위험에 대한 인식이 점차 보험이라는 개념으로 발전하게 된다. 여러 상인이 소액을 모아 만약의 사태에 대비하는 방식은, 현대 금융에서 위험 분담의 초기 형태를 보여준다."
+      ],
+      "theoryDetail": {
+        "content": [
+          "대항해시대는 상인들에게 막대한 수익의 기회를 제공했지만, 동시에 해상 운송의 본질적인 위험(침몰, 해적, 상품 손실 등)을 명확히 보여주었습니다.",
+          "단일 투자에 대한 높은 의존도는 전 재산 손실로 이어질 수 있다는 인식이 확산되면서, 위험을 분산하거나 보험을 통해 전가하려는 시도가 시작되었습니다.",
+          "이 시기의 경험은 미래의 사건에 대한 확률적 사고와 위험 관리의 필요성을 금융 분야에 도입하는 계기가 되었습니다."
+        ],
+        "title": "위험과 불확실성의 초기 인식"
+      }
+    },
+    "en": {
+      "volume": "Volume 1",
+      "year": "AD 1600",
+      "title": "Age of Exploration, The Shadow of Risk and Uncertainty",
+      "subtitle": "New Routes, New Challenges",
+      "content": [
+        "In the 17th century, Europe embarked on the Age of Exploration, setting sail towards unknown seas. Trade with the New World promised immense wealth, but simultaneously carried enormous risks: storms, pirates, and unknown diseases.",
+        "Merchants realized how dangerous it was to put all their wealth into a single ship. If the ship sank or was plundered, everything would be lost. This [[uncertainty|It refers to a situation where you cannot accurately predict what will happen in the future. Like not knowing if the stock market will go up or down!]] demanded a new way of thinking from them. From this period, people began to attempt to measure and manage risk.",
+        "This awareness of risk gradually evolved into the concept of insurance. The method of several merchants pooling small amounts to prepare for unforeseen circumstances shows an early form of risk sharing in modern finance."
+      ],
+      "theoryDetail": {
+        "content": [
+          "The Age of Exploration offered immense profit opportunities to merchants but also clearly demonstrated the inherent risks of maritime transport (sinking, piracy, loss of goods, etc.).",
+          "As the realization spread that high dependence on a single investment could lead to total loss, attempts began to diversify risk or transfer it through insurance.",
+          "The experiences of this period served as a catalyst for introducing probabilistic thinking about future events and the necessity of risk management into the financial sector."
+        ],
+        "title": "Early Recognition of Risk and Uncertainty"
+      }
+    },
+    "tutorialType": "probability",
+    "imagePath": "/assets/images/ch4.png"
+  },
+  {
+    "id": 5,
+    "ko": {
+      "volume": "Volume 1",
+      "year": "AD 1700",
+      "title": "네덜란드의 튤립, 분산 투자의 교훈",
+      "subtitle": "한 바구니에 모든 달걀을 담지 마라",
+      "content": [
+        "17세기 네덜란드를 휩쓴 튤립 광풍은 역사상 가장 유명한 투기 거품 중 하나였다. 한때 튤립 구근 하나가 집 한 채 값에 육박할 정도로 가격이 폭등했지만, 결국 거품은 꺼지고 수많은 투자자가 파산했다.",
+        "이 비극적인 사건은 투자자들에게 중요한 교훈을 남겼다. 즉, 모든 자산을 단 하나의 자산에 집중하는 것이 얼마나 위험한 일인지를 여실히 보여준 것이다. 사람들은 점차 [[분산 투자|여러 종류의 자산에 돈을 나눠서 투자하는 거야. 예를 들어 주식만 사는 게 아니라 채권이나 부동산에도 조금씩 투자하는 거지. 한쪽이 망해도 다른 쪽에서 손실을 막아줄 수 있으니까!]]의 필요성을 깨닫기 시작했다.",
+        "튤립 광풍 이후, 현명한 상인들은 다양한 종류의 상품, 여러 지역의 무역선, 그리고 심지어는 여러 사업에 자금을 나누어 투자하기 시작했다. 이는 현대 포트폴리오 이론의 기본적인 아이디어, 즉 위험을 줄이기 위한 자산 배분의 초기 형태였다."
+      ],
+      "theoryDetail": {
+        "content": [
+          "분산 투자(Diversification)는 투자 위험을 줄이기 위해 여러 종류의 자산이나 투자처에 자금을 나누어 투자하는 전략입니다.",
+          "네덜란드 튤립 파동과 같은 역사적 사건들은 단일 자산에 대한 과도한 집중이 가져올 수 있는 파멸적인 결과를 보여주며 분산 투자의 중요성을 부각시켰습니다.",
+          "위험은 줄이면서도 합리적인 수익을 추구하는 것은 인류의 오랜 경제적 고민이었으며, 분산 투자는 그 해결책 중 하나로 발전해왔습니다."
+        ],
+        "title": "분산 투자의 개념과 역사적 배경"
+      }
+    },
+    "en": {
+      "volume": "Volume 1",
+      "year": "AD 1700",
+      "title": "Dutch Tulips, The Lesson of Diversification",
+      "subtitle": "Don't Put All Your Eggs in One Basket",
+      "content": [
+        "The Tulip Mania that swept through 17th-century Netherlands was one of the most famous speculative bubbles in history. At one point, the price of a single tulip bulb soared to nearly the cost of a house, but eventually, the bubble burst, and countless investors went bankrupt.",
+        "This tragic event left investors with an important lesson: it vividly demonstrated how dangerous it was to concentrate all assets in a single one. People gradually began to realize the necessity of [[diversification|It's investing your money across various types of assets. For example, not just buying stocks, but also investing a bit in bonds or real estate. Even if one part fails, the others can help cushion the loss!]].",
+        "After the Tulip Mania, wise merchants began to invest their funds in various types of goods, multiple trade ships in different regions, and even diverse businesses. This was an early form of asset allocation, a basic idea of modern portfolio theory, aimed at reducing risk."
+      ],
+      "theoryDetail": {
+        "content": [
+          "Diversification is a strategy of investing funds across various types of assets or investment venues to reduce investment risk.",
+          "Historical events like the Dutch Tulip Mania highlighted the importance of diversification by demonstrating the catastrophic consequences that excessive concentration in a single asset can bring.",
+          "Seeking reasonable returns while reducing risk has been a long-standing economic concern for humanity, and diversification has evolved as one of its solutions."
+        ],
+        "title": "Concept and Historical Background of Diversification"
+      }
+    },
+    "tutorialType": "portfolio",
+    "imagePath": "/assets/images/ch5.png"
+  },
+  {
+    "id": 6,
+    "ko": {
+      "volume": "Volume 1",
+      "year": "AD 1800",
+      "title": "산업혁명 시대, 포트폴리오 이론의 씨앗",
+      "subtitle": "복잡해지는 경제, 체계적인 투자",
+      "content": [
+        "18세기 후반부터 19세기까지 이어진 산업혁명은 인류 사회에 전례 없는 변화를 가져왔다. 증기기관과 공장 시스템은 생산성을 폭발적으로 증가시켰고, 새로운 기업들이 우후죽순처럼 생겨났다.",
+        "이러한 변화는 투자 환경을 더욱 복잡하게 만들었다. 단순히 부동산이나 무역에 투자하는 것을 넘어, 철도, 섬유, 광업 등 다양한 산업 분야에 자본이 흘러들었다. 투자자들은 이제 어떤 기업에, 얼마나 투자해야 할지 고민하기 시작했다. 이는 여러 자산을 묶어 하나의 [[포트폴리오|여러 종류의 주식, 채권, 부동산 등 다양한 자산을 섞어서 만든 '투자 목록'이라고 생각하면 돼. 한 바구니에 달걀을 다 넣지 않는 것처럼, 여러 곳에 나눠서 투자하는 거야!]]로 관리하는 개념의 씨앗이 되었다.",
+        "초기 형태의 주식 시장과 채권 시장이 발달하면서, 투자자들은 개별 자산의 위험과 수익률을 고려하여 자신만의 투자 조합을 구성하려는 시도를 하게 되었다. 이는 현대 포트폴리오 이론의 발전으로 이어지는 중요한 단계였다."
+      ],
+      "theoryDetail": {
+        "content": [
+          "산업혁명은 다양한 산업 분야의 성장을 촉진하며 투자 가능한 자산의 종류를 확대시켰습니다. 이는 투자자들이 자연스럽게 여러 자산에 걸쳐 투자하는 방식을 모색하게 만들었습니다.",
+          "이 시기에는 아직 통계적 분석이나 수학적 모델링은 미미했지만, 경험적 지혜를 바탕으로 '바구니에 달걀을 나눠 담는' 방식의 투자가 일반화되기 시작했습니다.",
+          "개별 기업의 성공과 실패가 특정 산업이나 시장 전체에 미치는 영향에 대한 인식이 생겨나면서, 상호 보완적인 자산을 묶어 위험을 줄이려는 시도가 나타났습니다."
+        ],
+        "title": "초기 포트폴리오 개념"
+      }
+    },
+    "en": {
+      "volume": "Volume 1",
+      "year": "AD 1800",
+      "title": "Industrial Revolution Era, Seeds of Portfolio Theory",
+      "subtitle": "Complex Economy, Systematic Investment",
+      "content": [
+        "The Industrial Revolution, which spanned from the late 18th to the 19th century, brought unprecedented changes to human society. Steam engines and factory systems explosively increased productivity, and new enterprises sprang up like mushrooms.",
+        "These changes made the investment environment even more complex. Beyond simply investing in real estate or trade, capital flowed into various industrial sectors such as railways, textiles, and mining. Investors now began to ponder which companies to invest in, and how much. This became the seed of the concept of managing multiple assets as a single [[portfolio|Think of it as an 'investment list' made up of various assets like different stocks, bonds, and real estate. Just like you don't put all your eggs in one basket, you invest in various places!]].",
+        "As early forms of stock and bond markets developed, investors attempted to create their own investment combinations, considering the risk and return of individual assets. This was a crucial step leading to the development of modern portfolio theory."
+      ],
+      "theoryDetail": {
+        "content": [
+          "The Industrial Revolution fostered the growth of various industrial sectors, expanding the types of investable assets. This naturally led investors to seek ways to invest across multiple assets.",
+          "While statistical analysis and mathematical modeling were still rudimentary at this time, investment methods based on empirical wisdom, such as 'spreading eggs across multiple baskets,' began to become common.",
+          "As awareness grew about the impact of individual company successes and failures on specific industries or the market as a whole, attempts emerged to combine complementary assets to reduce risk."
+        ],
+        "title": "Early Portfolio Concepts"
+      }
+    },
+    "tutorialType": "portfolio",
+    "imagePath": "/assets/images/ch6.png"
+  },
+  {
+    "id": 7,
+    "ko": {
+      "volume": "Volume 1",
+      "year": "AD 1900",
+      "title": "주식 시장의 혼돈, 랜덤워크 이론의 등장",
+      "subtitle": "예측 불가능한 움직임 속에서",
+      "content": [
+        "20세기 초, 주식 시장은 점차 현대적인 형태로 발전했지만, 그 움직임은 여전히 예측 불가능하고 혼란스러워 보였다. 수많은 투자자와 학자들은 시장의 패턴을 찾아내어 미래를 예측하려 애썼다.",
+        "이때 프랑스의 수학자 루이 바슐리에(Louis Bachelier)는 주식 가격의 움직임이 마치 술 취한 사람의 걸음처럼 [[랜덤워크|정해진 방향 없이 무작위로 움직이는 걸 말해. 주식 가격이 내일 오를지 내릴지 아무도 정확히 모르는 것처럼 예측하기 어려운 움직임을 설명할 때 쓰이는 개념이야!]]와 같다는 혁명적인 아이디어를 제시했다. 즉, 과거의 주가 움직임으로는 미래의 주가를 예측할 수 없다는 것이다.",
+        "바슐리에의 연구는 당시에는 크게 주목받지 못했지만, 이는 현대 금융 이론, 특히 효율적 시장 가설과 옵션 가격 결정 모형의 중요한 기초가 되었다. 시장의 본질적인 불확실성을 이해하는 첫걸음이었다."
+      ],
+      "theoryDetail": {
+        "content": [
+          "랜덤워크 이론(Random Walk Theory)은 주식 가격의 움직임이 과거의 움직임과 독립적으로 무작위로 발생한다는 이론입니다. 즉, 미래의 주가 방향을 예측하는 것이 불가능하다고 봅니다.",
+          "루이 바슐리에는 1900년 그의 박사 학위 논문 '투기 이론(Theorie de la Speculation)'에서 이 개념을 처음으로 제시했습니다.",
+          "이 이론은 시장이 효율적이라면 모든 알려진 정보가 즉시 가격에 반영되므로, 과거 정보를 이용한 초과 수익 창출이 어렵다는 효율적 시장 가설(Efficient Market Hypothesis)의 기반이 됩니다."
+        ],
+        "title": "랜덤워크 이론의 기초"
+      }
+    },
+    "en": {
+      "volume": "Volume 1",
+      "year": "AD 1900",
+      "title": "Chaos in the Stock Market, The Emergence of Random Walk Theory",
+      "subtitle": "Amidst Unpredictable Movements",
+      "content": [
+        "In the early 20th century, the stock market gradually evolved into its modern form, but its movements still appeared unpredictable and chaotic. Numerous investors and scholars struggled to find patterns in the market to predict the future.",
+        "It was then that French mathematician Louis Bachelier proposed the revolutionary idea that stock price movements were like a [[random walk|It means moving randomly without a fixed direction. It's a concept used to explain unpredictable movements, like how no one can accurately know if stock prices will go up or down tomorrow!]]. That is, past stock price movements cannot predict future stock prices.",
+        "Bachelier's research did not receive much attention at the time, but it became an important foundation for modern financial theory, especially the efficient market hypothesis and option pricing models. It was the first step in understanding the inherent uncertainty of the market."
+      ],
+      "theoryDetail": {
+        "content": [
+          "Random Walk Theory posits that stock price movements occur randomly and independently of past movements. In other words, it suggests that predicting the future direction of stock prices is impossible.",
+          "Louis Bachelier first introduced this concept in his 1900 doctoral thesis, 'Theorie de la Speculation (The Theory of Speculation).'",
+          "This theory forms the basis of the Efficient Market Hypothesis, which states that if a market is efficient, all known information is immediately reflected in prices, making it difficult to generate excess returns using past information."
+        ],
+        "title": "Basics of Random Walk Theory"
+      }
+    },
+    "tutorialType": "randomWalk",
+    "imagePath": "/assets/images/ch7.png"
+  },
+  {
+    "id": 8,
+    "ko": {
+      "volume": "Volume 1",
+      "year": "AD 1930",
+      "title": "대공황의 그림자, 기대수익률과 위험의 계량화",
+      "subtitle": "불확실성 속에서 가치를 찾다",
+      "content": [
+        "1929년 월스트리트 대폭락으로 시작된 대공황은 전 세계 경제를 충격에 빠뜨렸다. 이 비극적인 사건은 단순히 시장의 붕괴를 넘어, 투자자들이 '위험'이라는 요소를 얼마나 간과했는지를 극명하게 보여주었다.",
+        "이후 투자자들은 막연한 기대감이나 소문에 의존하는 대신, 투자의 [[기대수익률|미래에 어떤 투자를 했을 때 평균적으로 얼마만큼의 이득을 얻을 수 있을지 예상하는 값이야. 물론 예상치일 뿐 실제 수익은 달라질 수 있어!]]과 그에 따르는 위험을 보다 체계적으로 분석하려는 노력을 시작했다. 과거 데이터를 통해 개별 자산의 변동성을 측정하고, 미래에 발생할 수 있는 여러 시나리오를 가정하여 예상 수익과 손실의 폭을 가늠하기 시작한 것이다.",
+        "이러한 시도들은 단순히 '돈을 벌 수 있을까'라는 질문을 넘어, '얼마나 벌 수 있고, 그 과정에서 얼마나 잃을 위험이 있는가'라는 보다 심층적인 질문으로 나아가게 했다. 이는 현대 금융에서 위험-수익 균형을 이해하는 데 필수적인 기초가 되었다."
+      ],
+      "theoryDetail": {
+        "content": [
+          "기대수익률(Expected Return)은 특정 투자로부터 미래에 얻을 것으로 예상되는 평균적인 수익률을 의미합니다. 이는 각 시나리오별 수익률에 해당 시나리오가 발생할 확률을 곱하여 합산한 값입니다.",
+          "위험(Risk)은 기대수익률로부터 실제 수익률이 벗어날 가능성을 의미하며, 주로 표준편차나 분산과 같은 통계적 지표로 측정됩니다.",
+          "대공황 이후, 투자 결정 과정에서 기대수익률과 위험을 동시에 고려하는 것이 중요하다는 인식이 확산되었고, 이는 포트폴리오 이론 발전의 중요한 동기가 되었습니다."
+        ],
+        "title": "기대수익률과 위험의 측정"
+      }
+    },
+    "en": {
+      "volume": "Volume 1",
+      "year": "AD 1930",
+      "title": "Shadow of the Great Depression, Quantifying Expected Return and Risk",
+      "subtitle": "Finding Value Amidst Uncertainty",
+      "content": [
+        "The Great Depression, which began with the Wall Street Crash of 1929, plunged the global economy into shock. This tragic event not only represented a market collapse but also vividly demonstrated how much investors had overlooked the factor of 'risk'.",
+        "Thereafter, investors began efforts to more systematically analyze the [[expected return|It's the estimated average profit you can expect from a certain investment in the future. Of course, it's just an estimate, and the actual return can be different!]] of an investment and the associated risk, instead of relying on vague expectations or rumors. They started measuring the volatility of individual assets through past data and assessing the range of expected profits and losses by assuming various future scenarios.",
+        "These attempts moved beyond simply asking 'Can I make money?' to a more in-depth question: 'How much can I make, and what is the risk of losing money in the process?' This became an essential foundation for understanding the risk-return balance in modern finance."
+      ],
+      "theoryDetail": {
+        "content": [
+          "Expected Return refers to the average rate of return anticipated from a particular investment in the future. It is calculated by multiplying the return for each scenario by the probability of that scenario occurring and summing them up.",
+          "Risk refers to the possibility that the actual return will deviate from the expected return, and it is typically measured by statistical indicators such as standard deviation or variance.",
+          "After the Great Depression, the recognition that it is important to consider both expected return and risk simultaneously in the investment decision-making process spread, becoming a significant impetus for the development of portfolio theory."
+        ],
+        "title": "Measuring Expected Return and Risk"
+      }
+    },
+    "tutorialType": "portfolio",
+    "imagePath": "/assets/images/ch8.png"
+  },
+  {
+    "id": 9,
+    "ko": {
+      "volume": "Volume 1",
+      "year": "AD 1952",
+      "title": "마코위츠의 혁명, 현대 포트폴리오 이론의 서막",
+      "subtitle": "위험과 수익의 과학적 조화",
+      "content": [
+        "1952년, 한 젊은 경제학자가 금융계에 지각 변동을 일으킬 논문을 발표했다. 바로 해리 마코위츠(Harry Markowitz)의 '포트폴리오 선택(Portfolio Selection)'이었다. 이 논문은 투자자들이 단순히 개별 자산의 수익률만 보는 것이 아니라, 여러 자산을 어떻게 조합하느냐에 따라 전체 포트폴리오의 위험과 수익이 달라진다는 것을 수학적으로 증명했다.",
+        "마코위츠는 투자자들이 특정 수익률을 목표로 할 때, 가장 낮은 위험을 가진 포트폴리오를 선택하거나, 특정 위험 수준에서 가장 높은 수익률을 제공하는 포트폴리오를 선택해야 한다고 주장했다. 이것이 바로 [[효율적 프론티어|어떤 투자 위험 수준에서 얻을 수 있는 '가장 좋은 수익률'들을 점으로 이은 선이라고 생각하면 돼. 이 선 위에 있는 포트폴리오들만이 합리적인 투자 선택지가 되는 거지!]]라는 개념의 시작이었다. 그의 연구는 '분산 투자는 좋다'는 막연한 통념을 '어떻게 분산해야 가장 좋은가'라는 과학적 질문으로 바꾸어 놓았다.",
+        "이 이론은 개별 자산의 상관관계를 고려하여 포트폴리오 전체의 위험을 최소화하면서도 기대수익률을 극대화하는 방법을 제시했다. 이는 현대 금융 투자 전략의 초석이 되었으며, 마코위츠는 이 공로로 노벨 경제학상을 수상하게 된다."
+      ],
+      "theoryDetail": {
+        "content": [
+          "현대 포트폴리오 이론(Modern Portfolio Theory, MPT)은 해리 마코위츠가 1952년에 제시한 이론으로, 투자 포트폴리오의 위험과 기대수익률을 동시에 고려하여 최적의 포트폴리오를 구성하는 방법을 제시합니다.",
+          "MPT의 핵심은 '분산 효과'입니다. 즉, 개별 자산의 위험이 높더라도 서로 다른 움직임을 보이는 자산들을 함께 묶으면 전체 포트폴리오의 위험을 줄일 수 있다는 것입니다.",
+          "효율적 프론티어(Efficient Frontier)는 주어진 위험 수준에서 최대의 기대수익률을 제공하거나, 주어진 기대수익률에서 최소의 위험을 제공하는 포트폴리오들의 집합을 나타내는 곡선입니다."
+        ],
+        "title": "현대 포트폴리오 이론(MPT)의 개요"
+      }
+    },
+    "en": {
+      "volume": "Volume 1",
+      "year": "AD 1952",
+      "title": "Markowitz's Revolution, The Dawn of Modern Portfolio Theory",
+      "subtitle": "Scientific Harmony of Risk and Return",
+      "content": [
+        "In 1952, a young economist published a paper that would shake the financial world. It was Harry Markowitz's 'Portfolio Selection.' This paper mathematically proved that investors should not just look at the returns of individual assets, but that the overall portfolio's risk and return change depending on how multiple assets are combined.",
+        "Markowitz argued that when investors aim for a specific rate of return, they should choose the portfolio with the lowest risk, or at a specific risk level, choose the portfolio that offers the highest return. This was the beginning of the concept known as the [[efficient frontier|Think of it as a line connecting all the 'best possible returns' you can get for any given level of investment risk. Only portfolios on this line are considered rational investment choices!]]. His research transformed the vague notion that 'diversification is good' into the scientific question of 'how to diversify optimally'.",
+        "This theory presented a method to maximize expected returns while minimizing the overall portfolio risk by considering the correlation between individual assets. It became the cornerstone of modern financial investment strategies, and Markowitz was awarded the Nobel Memorial Prize in Economic Sciences for this contribution."
+      ],
+      "theoryDetail": {
+        "content": [
+          "Modern Portfolio Theory (MPT) is a theory introduced by Harry Markowitz in 1952, which provides a method for constructing an optimal portfolio by simultaneously considering the risk and expected return of an investment portfolio.",
+          "The core of MPT is the 'diversification effect.' That is, even if individual assets have high risk, combining assets that move differently can reduce the overall portfolio's risk.",
+          "The Efficient Frontier is a curve representing the set of portfolios that offer the maximum expected return for a given level of risk, or the minimum risk for a given expected return."
+        ],
+        "title": "Overview of Modern Portfolio Theory (MPT)"
+      }
+    },
+    "tutorialType": "portfolio",
+    "imagePath": "/assets/images/ch9.png"
+  },
+  {
+    "id": 10,
+    "ko": {
+      "volume": "Volume 1",
+      "year": "AD 1960",
+      "title": "나만의 최적 포트폴리오를 찾아서",
+      "subtitle": "개인의 위험 성향과 투자 목표",
+      "content": [
+        "마코위츠의 현대 포트폴리오 이론은 투자자들에게 혁명적인 통찰력을 제공했지만, 모든 사람에게 '하나의' 최적 포트폴리오가 존재한다는 의미는 아니었다. 투자자의 나이, 재정 상태, 그리고 가장 중요한 [[위험 성향|투자로 인해 손실을 볼 가능성에 대해 어느 정도까지 받아들일 수 있는지를 말해. 어떤 사람은 아예 손실을 싫어하고, 어떤 사람은 높은 수익을 위해 큰 위험도 감수할 수 있지!]]에 따라 최적의 포트폴리오는 달라질 수 있었다.",
+        "이제 투자자들은 단순히 '좋은 주식'을 찾는 것을 넘어, 자신의 고유한 상황에 맞는 위험-수익 균형점을 찾아야 했다. 이는 개인의 투자 목표(예: 은퇴 자금, 주택 구매)와 투자 기간을 고려하여 주식, 채권, 부동산 등 다양한 자산에 어떻게 비중을 둘 것인지 결정하는 과정을 포함한다.",
+        "현대 금융은 이러한 개인화된 접근 방식을 통해 투자자들이 자신에게 가장 적합한 '최적 포트폴리오'를 구성할 수 있도록 돕는다. 이는 고대 메소포타미아의 단순한 이자에서 시작된 금융의 여정이 개인의 삶과 밀접하게 연결되는 지점이었다."
+      ],
+      "theoryDetail": {
+        "content": [
+          "최적 포트폴리오는 단순히 효율적 프론티어 상의 한 점을 의미하는 것이 아니라, 투자자의 개별적인 위험 성향과 투자 목표를 반영하여 선택된 포트폴리오입니다.",
+          "위험 회피적인 투자자는 효율적 프론티어 상에서 위험이 낮은 쪽에 위치한 포트폴리오를 선호할 것이고, 위험 선호적인 투자자는 더 높은 기대수익률을 위해 위험이 높은 포트폴리오를 선택할 수 있습니다.",
+          "투자자의 나이, 소득 수준, 투자 기간, 유동성 요구 등 다양한 요소들이 개인의 최적 포트폴리오를 결정하는 데 중요한 역할을 합니다."
+        ],
+        "title": "개인의 최적 포트폴리오"
+      }
+    },
+    "en": {
+      "volume": "Volume 1",
+      "year": "AD 1960",
+      "title": "Searching for My Optimal Portfolio",
+      "subtitle": "Individual Risk Tolerance and Investment Goals",
+      "content": [
+        "Markowitz's Modern Portfolio Theory offered revolutionary insights to investors, but it didn't mean that there was 'one' optimal portfolio for everyone. The optimal portfolio could vary depending on an investor's age, financial status, and most importantly, their [[risk tolerance|It refers to how much potential loss you are willing to accept from an investment. Some people hate any loss, while others are willing to take big risks for high returns!]].",
+        "Now, investors had to go beyond simply looking for 'good stocks' and find a risk-return balance point that suited their unique situation. This involved deciding how to allocate weights to various assets like stocks, bonds, and real estate, considering individual investment goals (e.g., retirement funds, home purchase) and investment horizons.",
+        "Modern finance helps investors construct their most suitable 'optimal portfolio' through this personalized approach. This was the point where the financial journey, which began with simple interest in ancient Mesopotamia, became intimately connected with individual lives."
+      ],
+      "theoryDetail": {
+        "content": [
+          "An optimal portfolio does not simply mean a point on the efficient frontier, but rather a portfolio chosen to reflect an investor's individual risk tolerance and investment goals.",
+          "A risk-averse investor would prefer a portfolio located on the lower-risk side of the efficient frontier, while a risk-tolerant investor might choose a higher-risk portfolio for higher expected returns.",
+          "Various factors such as an investor's age, income level, investment horizon, and liquidity needs play crucial roles in determining their individual optimal portfolio."
+        ],
+        "title": "Individual Optimal Portfolio"
+      }
+    },
+    "tutorialType": "portfolio",
+    "imagePath": "/assets/images/ch10.png"
+  }
+]

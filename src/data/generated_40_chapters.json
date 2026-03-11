@@ -1,1002 +1,1686 @@
 [
   {
     "id": 1,
-    "volume": "VOL. 1",
-    "year": "15th C",
-    "tutorialType": "compound",
-    "imagePath": "/assets/images/ch1.png",
     "ko": {
-      "title": "이자의 탄생",
-      "subtitle": "돈에도 '시간의 가격'이 있다",
+      "volume": "Volume 1",
+      "year": "BC 3000",
+      "title": "메소포타미아의 흙판, 이자의 탄생",
+      "subtitle": "인류 최초의 금융 계약",
       "content": [
-        "우리는 폴샘 버추얼팀과 함께 일합니다. 모든 지식이 공유되는 이 곳, 헤븐 프로젝트의 일환으로 역사 속 금융과 수학의 만남을 추적합니다.",
-        "이 시기 가장 중요한 것은 [[이자의|선생님이 설명해주는 핵심 수학과 금융의 의미]]입니다. 이것이 인류의 자산을 어떻게 증식시켰는지 확인해봅시다.",
-        "과거의 뼈아픈 교훈이 오늘날 우리를 이 자리로 이끌었습니다. 숫자의 변동성을 이해하는 것이 곧 미래의 리스크를 줄이는 가장 완벽한 방법입니다."
-      ]
+        "기원전 3000년경, 비옥한 초승달 지역, 메소포타미아의 우르크 도시는 번성하고 있었다. 쐐기 문자가 새겨진 흙판은 단순한 기록을 넘어, 인류 최초의 복잡한 사회 시스템을 증명했다.",
+        "이 흙판들 중에는 곡물이나 은을 빌려주고 정해진 기간 후에 더 많은 양을 돌려받기로 하는 계약들이 있었다. 이것이 바로 [[이자|빌린 돈에 대해 지급하는 추가 금액이야. 은행에서 돈 빌리면 이자를 내야 하고, 예금하면 이자를 받지? 시간의 가치를 돈으로 표현한 거라고 보면 돼!]]의 시초였다. 고대인들은 이미 시간의 가치를 어렴풋이 이해하고 있었던 것이다.",
+        "수메르인들은 빚을 갚지 못할 경우의 조항까지 명시하며, 원시적인 형태의 금융 시스템을 구축했다. 이는 문명의 발전과 함께 금융이 어떻게 시작되었는지를 보여주는 중요한 증거다."
+      ],
+      "theoryDetail": {
+        "content": [
+          "메소포타미아 문명은 기록을 통해 이자를 처음으로 제도화한 문명으로 알려져 있습니다. 주로 곡물이나 가축, 은과 같은 실물 자산 대여에 이자가 부과되었습니다.",
+          "초기 이자율은 매우 높았으며, 이는 농업 생산의 불확실성과 당시 사회의 경제적 위험을 반영하는 것이었습니다.",
+          "함무라비 법전에는 이자율에 대한 규정이 명시되어 있어, 고대에도 이자율이 사회 질서 유지에 중요한 요소였음을 알 수 있습니다."
+        ],
+        "title": "고대 이자의 기원"
+      }
     },
     "en": {
-      "title": "이자의 탄생 (EN)",
-      "subtitle": "돈에도 '시간의 가격'이 있다 (EN)",
+      "volume": "Volume 1",
+      "year": "BC 3000",
+      "title": "Mesopotamian Clay Tablets, The Birth of Interest",
+      "subtitle": "Humanity's First Financial Contract",
       "content": [
-        "We work with PaulSam Virtual Team. Tracking the intersection of finance and math throughout history.",
-        "The key is understanding the math principle.",
-        "Past lessons lead us to the transparent future."
-      ]
-    }
+        "Around 3000 BCE, in the fertile crescent, the city of Uruk in Mesopotamia flourished. Clay tablets inscribed with cuneiform script proved not just simple records, but humanity's first complex social system.",
+        "Among these tablets were contracts for lending grain or silver, with the agreement to return a larger quantity after a specified period. This was the genesis of [[interest|It's an additional amount paid for borrowed money. If you borrow money from a bank, you pay interest, and if you deposit money, you receive interest, right? Think of it as expressing the value of time in terms of money!]]. Ancient people already had a vague understanding of the value of time.",
+        "The Sumerians even specified clauses for failure to repay debts, establishing a primitive form of financial system. This is crucial evidence showing how finance began with the development of civilization."
+      ],
+      "theoryDetail": {
+        "content": [
+          "Mesopotamian civilization is known as the first civilization to institutionalize interest through records. Interest was primarily levied on the lending of real assets such as grain, livestock, and silver.",
+          "Early interest rates were very high, reflecting the uncertainties of agricultural production and the economic risks of society at the time.",
+          "The Code of Hammurabi contains regulations on interest rates, indicating that interest rates were an important factor in maintaining social order even in ancient times."
+        ],
+        "title": "Origins of Ancient Interest"
+      }
+    },
+    "tutorialType": "compound",
+    "imagePath": "/assets/images/ch1.png"
   },
   {
     "id": 2,
-    "volume": "VOL. 1",
-    "year": "18th C",
-    "tutorialType": "compound",
-    "imagePath": "/assets/images/ch1.png",
     "ko": {
-      "title": "현재가치와 할인율",
-      "subtitle": "내일의 1억보다 오늘의 1억이 비싸다",
+      "volume": "Volume 1",
+      "year": "BC 1000",
+      "title": "시간의 마법, 복리의 발견",
+      "subtitle": "단순한 성장을 넘어서",
       "content": [
-        "우리는 폴샘 버추얼팀과 함께 일합니다. 모든 지식이 공유되는 이 곳, 헤븐 프로젝트의 일환으로 역사 속 금융과 수학의 만남을 추적합니다.",
-        "이 시기 가장 중요한 것은 [[현재가치와|선생님이 설명해주는 핵심 수학과 금융의 의미]]입니다. 이것이 인류의 자산을 어떻게 증식시켰는지 확인해봅시다.",
-        "과거의 뼈아픈 교훈이 오늘날 우리를 이 자리로 이끌었습니다. 숫자의 변동성을 이해하는 것이 곧 미래의 리스크를 줄이는 가장 완벽한 방법입니다."
-      ]
+        "고대 사회에서 이자는 단순한 대여료를 넘어, 시간과 함께 자산이 불어나는 신비로운 현상으로 인식되기 시작했다. 특히 복리의 개념은 인류의 경제적 사고에 혁명적인 변화를 가져왔다.",
+        "초기 문명에서는 빌려준 곡물에 대해 매년 일정한 비율로 이자를 붙였고, 다음 해에는 원금뿐만 아니라 그 이자에도 다시 이자가 붙는 방식이 자연스럽게 발견되었다. 이것이 바로 [[복리|원금에만 이자가 붙는 게 아니라, 이자에 이자가 또 붙는 방식이야! 시간이 지날수록 돈이 눈덩이처럼 불어나는 마법 같은 효과를 내지!]]의 시작이었다. 이 작은 깨달음은 미래의 부를 예측하고 계획하는 기초가 되었다.",
+        "바빌로니아의 점토판 기록에서도 복리 계산의 흔적을 찾아볼 수 있다. 이는 인류가 오래전부터 돈의 시간 가치를 이해하고 이를 활용하려 했음을 보여준다. 복리는 단순한 계산법이 아니라, 시간의 힘을 빌려 부를 축적하는 인간의 지혜였다."
+      ],
+      "theoryDetail": {
+        "content": [
+          "복리 이자는 원금에 대한 이자뿐만 아니라, 발생한 이자에도 다시 이자가 붙는 방식입니다. 이는 장기적으로 자산 증식에 매우 강력한 효과를 발휘합니다.",
+          "단리 이자가 매년 원금에 대해서만 이자를 계산하는 반면, 복리는 이자가 원금에 합산되어 다음 기간의 이자 계산의 기반이 됩니다.",
+          "알버트 아인슈타인은 복리를 '세계 8대 불가사의'라고 칭했을 정도로 그 효과를 강조했습니다."
+        ],
+        "title": "복리 이자의 이해"
+      }
     },
     "en": {
-      "title": "현재가치와 할인율 (EN)",
-      "subtitle": "내일의 1억보다 오늘의 1억이 비싸다 (EN)",
+      "volume": "Volume 1",
+      "year": "BC 1000",
+      "title": "The Magic of Time, The Discovery of Compound Interest",
+      "subtitle": "Beyond Simple Growth",
       "content": [
-        "We work with PaulSam Virtual Team. Tracking the intersection of finance and math throughout history.",
-        "The key is understanding the math principle.",
-        "Past lessons lead us to the transparent future."
-      ]
-    }
+        "In ancient societies, interest began to be perceived not merely as a lending fee, but as a mysterious phenomenon where assets grew with time. The concept of compound interest, in particular, brought about a revolutionary change in human economic thought.",
+        "In early civilizations, a fixed percentage of interest was added annually to lent grain, and naturally, a method was discovered where not only the principal but also that interest would accrue further interest the following year. This was the beginning of [[compound interest|It's not just interest on the principal, but interest on the interest too! It creates a magical effect where money grows like a snowball over time!]]. This small realization became the foundation for predicting and planning future wealth.",
+        "Traces of compound interest calculations can also be found in Babylonian clay tablet records. This shows that humanity understood and tried to utilize the time value of money from ancient times. Compound interest was not just a simple calculation method, but human wisdom to accumulate wealth by harnessing the power of time."
+      ],
+      "theoryDetail": {
+        "content": [
+          "Compound interest is a method where interest is applied not only to the principal but also to the accumulated interest. This has a very powerful effect on asset growth in the long run.",
+          "While simple interest calculates interest only on the principal each year, compound interest adds the interest to the principal, forming the base for the next period's interest calculation.",
+          "Albert Einstein famously called compound interest the 'eighth wonder of the world,' emphasizing its profound effect."
+        ],
+        "title": "Understanding Compound Interest"
+      }
+    },
+    "tutorialType": "compound",
+    "imagePath": "/assets/images/ch2.png"
   },
   {
     "id": 3,
-    "volume": "VOL. 1",
-    "year": "19th C",
-    "tutorialType": "compound",
-    "imagePath": "/assets/images/ch1.png",
     "ko": {
-      "title": "연금과 할부의 수학",
-      "subtitle": "티끌 모아 태산을 만드는 수열",
+      "volume": "Volume 1",
+      "year": "AD 1300",
+      "title": "피렌체의 상인들, 현재 가치와 미래 가치",
+      "subtitle": "시간을 넘나드는 돈의 가치",
       "content": [
-        "우리는 폴샘 버추얼팀과 함께 일합니다. 모든 지식이 공유되는 이 곳, 헤븐 프로젝트의 일환으로 역사 속 금융과 수학의 만남을 추적합니다.",
-        "이 시기 가장 중요한 것은 [[연금과|선생님이 설명해주는 핵심 수학과 금융의 의미]]입니다. 이것이 인류의 자산을 어떻게 증식시켰는지 확인해봅시다.",
-        "과거의 뼈아픈 교훈이 오늘날 우리를 이 자리로 이끌었습니다. 숫자의 변동성을 이해하는 것이 곧 미래의 리스크를 줄이는 가장 완벽한 방법입니다."
-      ]
+        "중세 후기, 이탈리아 피렌체는 유럽 상업의 중심지였다. 메디치 가문과 같은 강력한 상인들은 먼 곳과의 무역을 통해 막대한 부를 축적했으며, 이 과정에서 미래의 현금 흐름을 현재의 가치로 평가하는 것이 중요해졌다.",
+        "그들은 오늘 100 플로린을 받는 것과 1년 후 110 플로린을 받는 것 중 어느 것이 더 가치 있는지를 계산해야 했다. 바로 [[화폐의 시간 가치|오늘의 1만원이 내년의 1만원보다 더 가치 있다는 개념이야. 왜냐하면 오늘의 1만원은 투자해서 이자를 불릴 수 있고, 당장 쓸 수 있으니까!]] 개념이 상인들의 머릿속에 자리 잡기 시작한 것이다. 이는 단순한 이자 계산을 넘어, 투자와 대출 결정의 핵심 원리가 되었다.",
+        "미래에 받을 돈을 현재 시점으로 할인하여 그 가치를 평가하는 기술은, 당시의 상인들에게 복잡한 무역 계약과 투자 결정을 내리는 데 필수적인 도구였다. 이는 현대 금융의 현재 가치(PV) 및 미래 가치(FV) 개념의 초기 형태였다."
+      ],
+      "theoryDetail": {
+        "content": [
+          "화폐의 시간 가치(Time Value of Money, TVM)는 동일한 금액이라도 현재의 돈이 미래의 돈보다 더 가치 있다는 개념입니다.",
+          "이는 돈을 투자하여 수익을 창출할 수 있는 기회비용, 인플레이션으로 인한 구매력 감소, 그리고 미래에 대한 불확실성 때문에 발생합니다.",
+          "현재 가치(Present Value, PV)는 미래의 특정 시점에 발생할 현금 흐름을 현재 시점의 가치로 환산하는 것이고, 미래 가치(Future Value, FV)는 현재의 돈이 미래에 얼마의 가치를 가질지 계산하는 것입니다."
+        ],
+        "title": "화폐의 시간 가치 기초"
+      }
     },
     "en": {
-      "title": "연금과 할부의 수학 (EN)",
-      "subtitle": "티끌 모아 태산을 만드는 수열 (EN)",
+      "volume": "Volume 1",
+      "year": "AD 1300",
+      "title": "Merchants of Florence, Present Value and Future Value",
+      "subtitle": "The Value of Money Across Time",
       "content": [
-        "We work with PaulSam Virtual Team. Tracking the intersection of finance and math throughout history.",
-        "The key is understanding the math principle.",
-        "Past lessons lead us to the transparent future."
-      ]
-    }
+        "In the late Middle Ages, Florence, Italy, was the center of European commerce. Powerful merchants, such as the Medici family, accumulated immense wealth through long-distance trade, and in this process, it became crucial to evaluate future cash flows at their present value.",
+        "They had to calculate which was more valuable: receiving 100 florins today or 110 florins a year later. This is where the concept of [[time value of money|It's the idea that 10,000 won today is worth more than 10,000 won next year. Why? Because today's 10,000 won can be invested to earn interest, and you can use it right away!]] began to take root in the minds of merchants. This went beyond simple interest calculations, becoming a core principle for investment and lending decisions.",
+        "The technique of discounting future money to its present value was an essential tool for merchants of the time to make complex trade contracts and investment decisions. This was an early form of the modern financial concepts of Present Value (PV) and Future Value (FV)."
+      ],
+      "theoryDetail": {
+        "content": [
+          "The Time Value of Money (TVM) is the concept that a sum of money is worth more now than the same sum will be at a future date.",
+          "This arises due to the opportunity cost of investing money to generate returns, the erosion of purchasing power due to inflation, and uncertainty about the future.",
+          "Present Value (PV) is the current value of a future sum of money or stream of cash flows given a specified rate of return, while Future Value (FV) is the value of a current asset at a future date based on an assumed rate of growth."
+        ],
+        "title": "Basics of Time Value of Money"
+      }
+    },
+    "tutorialType": "compound",
+    "imagePath": "/assets/images/ch3.png"
   },
   {
     "id": 4,
-    "volume": "VOL. 1",
-    "year": "1900",
-    "tutorialType": "randomWalk",
-    "imagePath": "/assets/images/ch1.png",
     "ko": {
-      "title": "랜덤 워크의 발견",
-      "subtitle": "시장의 움직임은 예측 가능한가?",
+      "volume": "Volume 1",
+      "year": "AD 1600",
+      "title": "대항해시대, 위험과 불확실성의 그림자",
+      "subtitle": "새로운 항로, 새로운 도전",
       "content": [
-        "우리는 폴샘 버추얼팀과 함께 일합니다. 모든 지식이 공유되는 이 곳, 헤븐 프로젝트의 일환으로 역사 속 금융과 수학의 만남을 추적합니다.",
-        "이 시기 가장 중요한 것은 [[랜덤|선생님이 설명해주는 핵심 수학과 금융의 의미]]입니다. 이것이 인류의 자산을 어떻게 증식시켰는지 확인해봅시다.",
-        "과거의 뼈아픈 교훈이 오늘날 우리를 이 자리로 이끌었습니다. 숫자의 변동성을 이해하는 것이 곧 미래의 리스크를 줄이는 가장 완벽한 방법입니다."
-      ]
+        "17세기, 유럽은 대항해시대를 맞이하며 미지의 바다를 향해 돛을 올렸다. 신대륙과의 무역은 엄청난 부를 약속했지만, 동시에 폭풍, 해적, 그리고 알 수 없는 질병이라는 막대한 위험을 안고 있었다.",
+        "상인들은 배 한 척에 모든 재산을 싣는 것이 얼마나 위험한 일인지 깨달았다. 배가 침몰하거나 약탈당하면 모든 것이 사라지는 것이다. 이러한 [[불확실성|미래에 어떤 일이 일어날지 정확히 예측할 수 없는 상황을 말해. 주식 시장이 오를지 내릴지 모르는 것처럼 말이지!]]은 그들에게 새로운 사고방식을 요구했다. 이 시기부터 사람들은 위험을 측정하고 관리하려는 시도를 시작했다.",
+        "이러한 위험에 대한 인식이 점차 보험이라는 개념으로 발전하게 된다. 여러 상인이 소액을 모아 만약의 사태에 대비하는 방식은, 현대 금융에서 위험 분담의 초기 형태를 보여준다."
+      ],
+      "theoryDetail": {
+        "content": [
+          "대항해시대는 상인들에게 막대한 수익의 기회를 제공했지만, 동시에 해상 운송의 본질적인 위험(침몰, 해적, 상품 손실 등)을 명확히 보여주었습니다.",
+          "단일 투자에 대한 높은 의존도는 전 재산 손실로 이어질 수 있다는 인식이 확산되면서, 위험을 분산하거나 보험을 통해 전가하려는 시도가 시작되었습니다.",
+          "이 시기의 경험은 미래의 사건에 대한 확률적 사고와 위험 관리의 필요성을 금융 분야에 도입하는 계기가 되었습니다."
+        ],
+        "title": "위험과 불확실성의 초기 인식"
+      }
     },
     "en": {
-      "title": "랜덤 워크의 발견 (EN)",
-      "subtitle": "시장의 움직임은 예측 가능한가? (EN)",
+      "volume": "Volume 1",
+      "year": "AD 1600",
+      "title": "Age of Exploration, The Shadow of Risk and Uncertainty",
+      "subtitle": "New Routes, New Challenges",
       "content": [
-        "We work with PaulSam Virtual Team. Tracking the intersection of finance and math throughout history.",
-        "The key is understanding the math principle.",
-        "Past lessons lead us to the transparent future."
-      ]
-    }
+        "In the 17th century, Europe embarked on the Age of Exploration, setting sail towards unknown seas. Trade with the New World promised immense wealth, but simultaneously carried enormous risks: storms, pirates, and unknown diseases.",
+        "Merchants realized how dangerous it was to put all their wealth into a single ship. If the ship sank or was plundered, everything would be lost. This [[uncertainty|It refers to a situation where you cannot accurately predict what will happen in the future. Like not knowing if the stock market will go up or down!]] demanded a new way of thinking from them. From this period, people began to attempt to measure and manage risk.",
+        "This awareness of risk gradually evolved into the concept of insurance. The method of several merchants pooling small amounts to prepare for unforeseen circumstances shows an early form of risk sharing in modern finance."
+      ],
+      "theoryDetail": {
+        "content": [
+          "The Age of Exploration offered immense profit opportunities to merchants but also clearly demonstrated the inherent risks of maritime transport (sinking, piracy, loss of goods, etc.).",
+          "As the realization spread that high dependence on a single investment could lead to total loss, attempts began to diversify risk or transfer it through insurance.",
+          "The experiences of this period served as a catalyst for introducing probabilistic thinking about future events and the necessity of risk management into the financial sector."
+        ],
+        "title": "Early Recognition of Risk and Uncertainty"
+      }
+    },
+    "tutorialType": "probability",
+    "imagePath": "/assets/images/ch4.png"
   },
   {
     "id": 5,
-    "volume": "VOL. 1",
-    "year": "1929",
-    "tutorialType": "randomWalk",
-    "imagePath": "/assets/images/ch1.png",
     "ko": {
-      "title": "대공황과 데이터의 배신",
-      "subtitle": "위험을 숫자로 지배하라",
+      "volume": "Volume 1",
+      "year": "AD 1700",
+      "title": "네덜란드의 튤립, 분산 투자의 교훈",
+      "subtitle": "한 바구니에 모든 달걀을 담지 마라",
       "content": [
-        "우리는 폴샘 버추얼팀과 함께 일합니다. 모든 지식이 공유되는 이 곳, 헤븐 프로젝트의 일환으로 역사 속 금융과 수학의 만남을 추적합니다.",
-        "이 시기 가장 중요한 것은 [[대공황과|선생님이 설명해주는 핵심 수학과 금융의 의미]]입니다. 이것이 인류의 자산을 어떻게 증식시켰는지 확인해봅시다.",
-        "과거의 뼈아픈 교훈이 오늘날 우리를 이 자리로 이끌었습니다. 숫자의 변동성을 이해하는 것이 곧 미래의 리스크를 줄이는 가장 완벽한 방법입니다."
-      ]
+        "17세기 네덜란드를 휩쓴 튤립 광풍은 역사상 가장 유명한 투기 거품 중 하나였다. 한때 튤립 구근 하나가 집 한 채 값에 육박할 정도로 가격이 폭등했지만, 결국 거품은 꺼지고 수많은 투자자가 파산했다.",
+        "이 비극적인 사건은 투자자들에게 중요한 교훈을 남겼다. 즉, 모든 자산을 단 하나의 자산에 집중하는 것이 얼마나 위험한 일인지를 여실히 보여준 것이다. 사람들은 점차 [[분산 투자|여러 종류의 자산에 돈을 나눠서 투자하는 거야. 예를 들어 주식만 사는 게 아니라 채권이나 부동산에도 조금씩 투자하는 거지. 한쪽이 망해도 다른 쪽에서 손실을 막아줄 수 있으니까!]]의 필요성을 깨닫기 시작했다.",
+        "튤립 광풍 이후, 현명한 상인들은 다양한 종류의 상품, 여러 지역의 무역선, 그리고 심지어는 여러 사업에 자금을 나누어 투자하기 시작했다. 이는 현대 포트폴리오 이론의 기본적인 아이디어, 즉 위험을 줄이기 위한 자산 배분의 초기 형태였다."
+      ],
+      "theoryDetail": {
+        "content": [
+          "분산 투자(Diversification)는 투자 위험을 줄이기 위해 여러 종류의 자산이나 투자처에 자금을 나누어 투자하는 전략입니다.",
+          "네덜란드 튤립 파동과 같은 역사적 사건들은 단일 자산에 대한 과도한 집중이 가져올 수 있는 파멸적인 결과를 보여주며 분산 투자의 중요성을 부각시켰습니다.",
+          "위험은 줄이면서도 합리적인 수익을 추구하는 것은 인류의 오랜 경제적 고민이었으며, 분산 투자는 그 해결책 중 하나로 발전해왔습니다."
+        ],
+        "title": "분산 투자의 개념과 역사적 배경"
+      }
     },
     "en": {
-      "title": "대공황과 데이터의 배신 (EN)",
-      "subtitle": "위험을 숫자로 지배하라 (EN)",
+      "volume": "Volume 1",
+      "year": "AD 1700",
+      "title": "Dutch Tulips, The Lesson of Diversification",
+      "subtitle": "Don't Put All Your Eggs in One Basket",
       "content": [
-        "We work with PaulSam Virtual Team. Tracking the intersection of finance and math throughout history.",
-        "The key is understanding the math principle.",
-        "Past lessons lead us to the transparent future."
-      ]
-    }
+        "The Tulip Mania that swept through 17th-century Netherlands was one of the most famous speculative bubbles in history. At one point, the price of a single tulip bulb soared to nearly the cost of a house, but eventually, the bubble burst, and countless investors went bankrupt.",
+        "This tragic event left investors with an important lesson: it vividly demonstrated how dangerous it was to concentrate all assets in a single one. People gradually began to realize the necessity of [[diversification|It's investing your money across various types of assets. For example, not just buying stocks, but also investing a bit in bonds or real estate. Even if one part fails, the others can help cushion the loss!]].",
+        "After the Tulip Mania, wise merchants began to invest their funds in various types of goods, multiple trade ships in different regions, and even diverse businesses. This was an early form of asset allocation, a basic idea of modern portfolio theory, aimed at reducing risk."
+      ],
+      "theoryDetail": {
+        "content": [
+          "Diversification is a strategy of investing funds across various types of assets or investment venues to reduce investment risk.",
+          "Historical events like the Dutch Tulip Mania highlighted the importance of diversification by demonstrating the catastrophic consequences that excessive concentration in a single asset can bring.",
+          "Seeking reasonable returns while reducing risk has been a long-standing economic concern for humanity, and diversification has evolved as one of its solutions."
+        ],
+        "title": "Concept and Historical Background of Diversification"
+      }
+    },
+    "tutorialType": "portfolio",
+    "imagePath": "/assets/images/ch5.png"
   },
   {
     "id": 6,
-    "volume": "VOL. 1",
-    "year": "1930s",
-    "tutorialType": "randomWalk",
-    "imagePath": "/assets/images/ch1.png",
     "ko": {
-      "title": "위험은 '흩어짐'이다",
-      "subtitle": "변동성 측정과 표준편차",
+      "volume": "Volume 1",
+      "year": "AD 1800",
+      "title": "산업혁명 시대, 포트폴리오 이론의 씨앗",
+      "subtitle": "복잡해지는 경제, 체계적인 투자",
       "content": [
-        "우리는 폴샘 버추얼팀과 함께 일합니다. 모든 지식이 공유되는 이 곳, 헤븐 프로젝트의 일환으로 역사 속 금융과 수학의 만남을 추적합니다.",
-        "이 시기 가장 중요한 것은 [[위험은|선생님이 설명해주는 핵심 수학과 금융의 의미]]입니다. 이것이 인류의 자산을 어떻게 증식시켰는지 확인해봅시다.",
-        "과거의 뼈아픈 교훈이 오늘날 우리를 이 자리로 이끌었습니다. 숫자의 변동성을 이해하는 것이 곧 미래의 리스크를 줄이는 가장 완벽한 방법입니다."
-      ]
+        "18세기 후반부터 19세기까지 이어진 산업혁명은 인류 사회에 전례 없는 변화를 가져왔다. 증기기관과 공장 시스템은 생산성을 폭발적으로 증가시켰고, 새로운 기업들이 우후죽순처럼 생겨났다.",
+        "이러한 변화는 투자 환경을 더욱 복잡하게 만들었다. 단순히 부동산이나 무역에 투자하는 것을 넘어, 철도, 섬유, 광업 등 다양한 산업 분야에 자본이 흘러들었다. 투자자들은 이제 어떤 기업에, 얼마나 투자해야 할지 고민하기 시작했다. 이는 여러 자산을 묶어 하나의 [[포트폴리오|여러 종류의 주식, 채권, 부동산 등 다양한 자산을 섞어서 만든 '투자 목록'이라고 생각하면 돼. 한 바구니에 달걀을 다 넣지 않는 것처럼, 여러 곳에 나눠서 투자하는 거야!]]로 관리하는 개념의 씨앗이 되었다.",
+        "초기 형태의 주식 시장과 채권 시장이 발달하면서, 투자자들은 개별 자산의 위험과 수익률을 고려하여 자신만의 투자 조합을 구성하려는 시도를 하게 되었다. 이는 현대 포트폴리오 이론의 발전으로 이어지는 중요한 단계였다."
+      ],
+      "theoryDetail": {
+        "content": [
+          "산업혁명은 다양한 산업 분야의 성장을 촉진하며 투자 가능한 자산의 종류를 확대시켰습니다. 이는 투자자들이 자연스럽게 여러 자산에 걸쳐 투자하는 방식을 모색하게 만들었습니다.",
+          "이 시기에는 아직 통계적 분석이나 수학적 모델링은 미미했지만, 경험적 지혜를 바탕으로 '바구니에 달걀을 나눠 담는' 방식의 투자가 일반화되기 시작했습니다.",
+          "개별 기업의 성공과 실패가 특정 산업이나 시장 전체에 미치는 영향에 대한 인식이 생겨나면서, 상호 보완적인 자산을 묶어 위험을 줄이려는 시도가 나타났습니다."
+        ],
+        "title": "초기 포트폴리오 개념"
+      }
     },
     "en": {
-      "title": "위험은 '흩어짐'이다 (EN)",
-      "subtitle": "변동성 측정과 표준편차 (EN)",
+      "volume": "Volume 1",
+      "year": "AD 1800",
+      "title": "Industrial Revolution Era, Seeds of Portfolio Theory",
+      "subtitle": "Complex Economy, Systematic Investment",
       "content": [
-        "We work with PaulSam Virtual Team. Tracking the intersection of finance and math throughout history.",
-        "The key is understanding the math principle.",
-        "Past lessons lead us to the transparent future."
-      ]
-    }
+        "The Industrial Revolution, which spanned from the late 18th to the 19th century, brought unprecedented changes to human society. Steam engines and factory systems explosively increased productivity, and new enterprises sprang up like mushrooms.",
+        "These changes made the investment environment even more complex. Beyond simply investing in real estate or trade, capital flowed into various industrial sectors such as railways, textiles, and mining. Investors now began to ponder which companies to invest in, and how much. This became the seed of the concept of managing multiple assets as a single [[portfolio|Think of it as an 'investment list' made up of various assets like different stocks, bonds, and real estate. Just like you don't put all your eggs in one basket, you invest in various places!]].",
+        "As early forms of stock and bond markets developed, investors attempted to create their own investment combinations, considering the risk and return of individual assets. This was a crucial step leading to the development of modern portfolio theory."
+      ],
+      "theoryDetail": {
+        "content": [
+          "The Industrial Revolution fostered the growth of various industrial sectors, expanding the types of investable assets. This naturally led investors to seek ways to invest across multiple assets.",
+          "While statistical analysis and mathematical modeling were still rudimentary at this time, investment methods based on empirical wisdom, such as 'spreading eggs across multiple baskets,' began to become common.",
+          "As awareness grew about the impact of individual company successes and failures on specific industries or the market as a whole, attempts emerged to combine complementary assets to reduce risk."
+        ],
+        "title": "Early Portfolio Concepts"
+      }
+    },
+    "tutorialType": "portfolio",
+    "imagePath": "/assets/images/ch6.png"
   },
   {
     "id": 7,
-    "volume": "VOL. 1",
-    "year": "1952",
-    "tutorialType": "portfolio",
-    "imagePath": "/assets/images/ch1.png",
     "ko": {
-      "title": "마코위츠의 혁명",
-      "subtitle": "투자의 지도를 바꾸다",
+      "volume": "Volume 1",
+      "year": "AD 1900",
+      "title": "주식 시장의 혼돈, 랜덤워크 이론의 등장",
+      "subtitle": "예측 불가능한 움직임 속에서",
       "content": [
-        "우리는 폴샘 버추얼팀과 함께 일합니다. 모든 지식이 공유되는 이 곳, 헤븐 프로젝트의 일환으로 역사 속 금융과 수학의 만남을 추적합니다.",
-        "이 시기 가장 중요한 것은 [[마코위츠의|선생님이 설명해주는 핵심 수학과 금융의 의미]]입니다. 이것이 인류의 자산을 어떻게 증식시켰는지 확인해봅시다.",
-        "과거의 뼈아픈 교훈이 오늘날 우리를 이 자리로 이끌었습니다. 숫자의 변동성을 이해하는 것이 곧 미래의 리스크를 줄이는 가장 완벽한 방법입니다."
-      ]
+        "20세기 초, 주식 시장은 점차 현대적인 형태로 발전했지만, 그 움직임은 여전히 예측 불가능하고 혼란스러워 보였다. 수많은 투자자와 학자들은 시장의 패턴을 찾아내어 미래를 예측하려 애썼다.",
+        "이때 프랑스의 수학자 루이 바슐리에(Louis Bachelier)는 주식 가격의 움직임이 마치 술 취한 사람의 걸음처럼 [[랜덤워크|정해진 방향 없이 무작위로 움직이는 걸 말해. 주식 가격이 내일 오를지 내릴지 아무도 정확히 모르는 것처럼 예측하기 어려운 움직임을 설명할 때 쓰이는 개념이야!]]와 같다는 혁명적인 아이디어를 제시했다. 즉, 과거의 주가 움직임으로는 미래의 주가를 예측할 수 없다는 것이다.",
+        "바슐리에의 연구는 당시에는 크게 주목받지 못했지만, 이는 현대 금융 이론, 특히 효율적 시장 가설과 옵션 가격 결정 모형의 중요한 기초가 되었다. 시장의 본질적인 불확실성을 이해하는 첫걸음이었다."
+      ],
+      "theoryDetail": {
+        "content": [
+          "랜덤워크 이론(Random Walk Theory)은 주식 가격의 움직임이 과거의 움직임과 독립적으로 무작위로 발생한다는 이론입니다. 즉, 미래의 주가 방향을 예측하는 것이 불가능하다고 봅니다.",
+          "루이 바슐리에는 1900년 그의 박사 학위 논문 '투기 이론(Theorie de la Speculation)'에서 이 개념을 처음으로 제시했습니다.",
+          "이 이론은 시장이 효율적이라면 모든 알려진 정보가 즉시 가격에 반영되므로, 과거 정보를 이용한 초과 수익 창출이 어렵다는 효율적 시장 가설(Efficient Market Hypothesis)의 기반이 됩니다."
+        ],
+        "title": "랜덤워크 이론의 기초"
+      }
     },
     "en": {
-      "title": "마코위츠의 혁명 (EN)",
-      "subtitle": "투자의 지도를 바꾸다 (EN)",
+      "volume": "Volume 1",
+      "year": "AD 1900",
+      "title": "Chaos in the Stock Market, The Emergence of Random Walk Theory",
+      "subtitle": "Amidst Unpredictable Movements",
       "content": [
-        "We work with PaulSam Virtual Team. Tracking the intersection of finance and math throughout history.",
-        "The key is understanding the math principle.",
-        "Past lessons lead us to the transparent future."
-      ]
-    }
+        "In the early 20th century, the stock market gradually evolved into its modern form, but its movements still appeared unpredictable and chaotic. Numerous investors and scholars struggled to find patterns in the market to predict the future.",
+        "It was then that French mathematician Louis Bachelier proposed the revolutionary idea that stock price movements were like a [[random walk|It means moving randomly without a fixed direction. It's a concept used to explain unpredictable movements, like how no one can accurately know if stock prices will go up or down tomorrow!]]. That is, past stock price movements cannot predict future stock prices.",
+        "Bachelier's research did not receive much attention at the time, but it became an important foundation for modern financial theory, especially the efficient market hypothesis and option pricing models. It was the first step in understanding the inherent uncertainty of the market."
+      ],
+      "theoryDetail": {
+        "content": [
+          "Random Walk Theory posits that stock price movements occur randomly and independently of past movements. In other words, it suggests that predicting the future direction of stock prices is impossible.",
+          "Louis Bachelier first introduced this concept in his 1900 doctoral thesis, 'Theorie de la Speculation (The Theory of Speculation).'",
+          "This theory forms the basis of the Efficient Market Hypothesis, which states that if a market is efficient, all known information is immediately reflected in prices, making it difficult to generate excess returns using past information."
+        ],
+        "title": "Basics of Random Walk Theory"
+      }
+    },
+    "tutorialType": "randomWalk",
+    "imagePath": "/assets/images/ch7.png"
   },
   {
     "id": 8,
-    "volume": "VOL. 1",
-    "year": "1950s",
-    "tutorialType": "portfolio",
-    "imagePath": "/assets/images/ch1.png",
     "ko": {
-      "title": "함께 움직이는 자산들",
-      "subtitle": "공분산과 상관관계의 이해",
+      "volume": "Volume 1",
+      "year": "AD 1930",
+      "title": "대공황의 그림자, 기대수익률과 위험의 계량화",
+      "subtitle": "불확실성 속에서 가치를 찾다",
       "content": [
-        "우리는 폴샘 버추얼팀과 함께 일합니다. 모든 지식이 공유되는 이 곳, 헤븐 프로젝트의 일환으로 역사 속 금융과 수학의 만남을 추적합니다.",
-        "이 시기 가장 중요한 것은 [[함께|선생님이 설명해주는 핵심 수학과 금융의 의미]]입니다. 이것이 인류의 자산을 어떻게 증식시켰는지 확인해봅시다.",
-        "과거의 뼈아픈 교훈이 오늘날 우리를 이 자리로 이끌었습니다. 숫자의 변동성을 이해하는 것이 곧 미래의 리스크를 줄이는 가장 완벽한 방법입니다."
-      ]
+        "1929년 월스트리트 대폭락으로 시작된 대공황은 전 세계 경제를 충격에 빠뜨렸다. 이 비극적인 사건은 단순히 시장의 붕괴를 넘어, 투자자들이 '위험'이라는 요소를 얼마나 간과했는지를 극명하게 보여주었다.",
+        "이후 투자자들은 막연한 기대감이나 소문에 의존하는 대신, 투자의 [[기대수익률|미래에 어떤 투자를 했을 때 평균적으로 얼마만큼의 이득을 얻을 수 있을지 예상하는 값이야. 물론 예상치일 뿐 실제 수익은 달라질 수 있어!]]과 그에 따르는 위험을 보다 체계적으로 분석하려는 노력을 시작했다. 과거 데이터를 통해 개별 자산의 변동성을 측정하고, 미래에 발생할 수 있는 여러 시나리오를 가정하여 예상 수익과 손실의 폭을 가늠하기 시작한 것이다.",
+        "이러한 시도들은 단순히 '돈을 벌 수 있을까'라는 질문을 넘어, '얼마나 벌 수 있고, 그 과정에서 얼마나 잃을 위험이 있는가'라는 보다 심층적인 질문으로 나아가게 했다. 이는 현대 금융에서 위험-수익 균형을 이해하는 데 필수적인 기초가 되었다."
+      ],
+      "theoryDetail": {
+        "content": [
+          "기대수익률(Expected Return)은 특정 투자로부터 미래에 얻을 것으로 예상되는 평균적인 수익률을 의미합니다. 이는 각 시나리오별 수익률에 해당 시나리오가 발생할 확률을 곱하여 합산한 값입니다.",
+          "위험(Risk)은 기대수익률로부터 실제 수익률이 벗어날 가능성을 의미하며, 주로 표준편차나 분산과 같은 통계적 지표로 측정됩니다.",
+          "대공황 이후, 투자 결정 과정에서 기대수익률과 위험을 동시에 고려하는 것이 중요하다는 인식이 확산되었고, 이는 포트폴리오 이론 발전의 중요한 동기가 되었습니다."
+        ],
+        "title": "기대수익률과 위험의 측정"
+      }
     },
     "en": {
-      "title": "함께 움직이는 자산들 (EN)",
-      "subtitle": "공분산과 상관관계의 이해 (EN)",
+      "volume": "Volume 1",
+      "year": "AD 1930",
+      "title": "Shadow of the Great Depression, Quantifying Expected Return and Risk",
+      "subtitle": "Finding Value Amidst Uncertainty",
       "content": [
-        "We work with PaulSam Virtual Team. Tracking the intersection of finance and math throughout history.",
-        "The key is understanding the math principle.",
-        "Past lessons lead us to the transparent future."
-      ]
-    }
+        "The Great Depression, which began with the Wall Street Crash of 1929, plunged the global economy into shock. This tragic event not only represented a market collapse but also vividly demonstrated how much investors had overlooked the factor of 'risk'.",
+        "Thereafter, investors began efforts to more systematically analyze the [[expected return|It's the estimated average profit you can expect from a certain investment in the future. Of course, it's just an estimate, and the actual return can be different!]] of an investment and the associated risk, instead of relying on vague expectations or rumors. They started measuring the volatility of individual assets through past data and assessing the range of expected profits and losses by assuming various future scenarios.",
+        "These attempts moved beyond simply asking 'Can I make money?' to a more in-depth question: 'How much can I make, and what is the risk of losing money in the process?' This became an essential foundation for understanding the risk-return balance in modern finance."
+      ],
+      "theoryDetail": {
+        "content": [
+          "Expected Return refers to the average rate of return anticipated from a particular investment in the future. It is calculated by multiplying the return for each scenario by the probability of that scenario occurring and summing them up.",
+          "Risk refers to the possibility that the actual return will deviate from the expected return, and it is typically measured by statistical indicators such as standard deviation or variance.",
+          "After the Great Depression, the recognition that it is important to consider both expected return and risk simultaneously in the investment decision-making process spread, becoming a significant impetus for the development of portfolio theory."
+        ],
+        "title": "Measuring Expected Return and Risk"
+      }
+    },
+    "tutorialType": "portfolio",
+    "imagePath": "/assets/images/ch8.png"
   },
   {
     "id": 9,
-    "volume": "VOL. 1",
-    "year": "1950s",
-    "tutorialType": "portfolio",
-    "imagePath": "/assets/images/ch1.png",
     "ko": {
-      "title": "상관계수의 마법",
-      "subtitle": "-1의 힘과 분산 효과의 극대화",
+      "volume": "Volume 1",
+      "year": "AD 1952",
+      "title": "마코위츠의 혁명, 현대 포트폴리오 이론의 서막",
+      "subtitle": "위험과 수익의 과학적 조화",
       "content": [
-        "우리는 폴샘 버추얼팀과 함께 일합니다. 모든 지식이 공유되는 이 곳, 헤븐 프로젝트의 일환으로 역사 속 금융과 수학의 만남을 추적합니다.",
-        "이 시기 가장 중요한 것은 [[상관계수의|선생님이 설명해주는 핵심 수학과 금융의 의미]]입니다. 이것이 인류의 자산을 어떻게 증식시켰는지 확인해봅시다.",
-        "과거의 뼈아픈 교훈이 오늘날 우리를 이 자리로 이끌었습니다. 숫자의 변동성을 이해하는 것이 곧 미래의 리스크를 줄이는 가장 완벽한 방법입니다."
-      ]
+        "1952년, 한 젊은 경제학자가 금융계에 지각 변동을 일으킬 논문을 발표했다. 바로 해리 마코위츠(Harry Markowitz)의 '포트폴리오 선택(Portfolio Selection)'이었다. 이 논문은 투자자들이 단순히 개별 자산의 수익률만 보는 것이 아니라, 여러 자산을 어떻게 조합하느냐에 따라 전체 포트폴리오의 위험과 수익이 달라진다는 것을 수학적으로 증명했다.",
+        "마코위츠는 투자자들이 특정 수익률을 목표로 할 때, 가장 낮은 위험을 가진 포트폴리오를 선택하거나, 특정 위험 수준에서 가장 높은 수익률을 제공하는 포트폴리오를 선택해야 한다고 주장했다. 이것이 바로 [[효율적 프론티어|어떤 투자 위험 수준에서 얻을 수 있는 '가장 좋은 수익률'들을 점으로 이은 선이라고 생각하면 돼. 이 선 위에 있는 포트폴리오들만이 합리적인 투자 선택지가 되는 거지!]]라는 개념의 시작이었다. 그의 연구는 '분산 투자는 좋다'는 막연한 통념을 '어떻게 분산해야 가장 좋은가'라는 과학적 질문으로 바꾸어 놓았다.",
+        "이 이론은 개별 자산의 상관관계를 고려하여 포트폴리오 전체의 위험을 최소화하면서도 기대수익률을 극대화하는 방법을 제시했다. 이는 현대 금융 투자 전략의 초석이 되었으며, 마코위츠는 이 공로로 노벨 경제학상을 수상하게 된다."
+      ],
+      "theoryDetail": {
+        "content": [
+          "현대 포트폴리오 이론(Modern Portfolio Theory, MPT)은 해리 마코위츠가 1952년에 제시한 이론으로, 투자 포트폴리오의 위험과 기대수익률을 동시에 고려하여 최적의 포트폴리오를 구성하는 방법을 제시합니다.",
+          "MPT의 핵심은 '분산 효과'입니다. 즉, 개별 자산의 위험이 높더라도 서로 다른 움직임을 보이는 자산들을 함께 묶으면 전체 포트폴리오의 위험을 줄일 수 있다는 것입니다.",
+          "효율적 프론티어(Efficient Frontier)는 주어진 위험 수준에서 최대의 기대수익률을 제공하거나, 주어진 기대수익률에서 최소의 위험을 제공하는 포트폴리오들의 집합을 나타내는 곡선입니다."
+        ],
+        "title": "현대 포트폴리오 이론(MPT)의 개요"
+      }
     },
     "en": {
-      "title": "상관계수의 마법 (EN)",
-      "subtitle": "-1의 힘과 분산 효과의 극대화 (EN)",
+      "volume": "Volume 1",
+      "year": "AD 1952",
+      "title": "Markowitz's Revolution, The Dawn of Modern Portfolio Theory",
+      "subtitle": "Scientific Harmony of Risk and Return",
       "content": [
-        "We work with PaulSam Virtual Team. Tracking the intersection of finance and math throughout history.",
-        "The key is understanding the math principle.",
-        "Past lessons lead us to the transparent future."
-      ]
-    }
+        "In 1952, a young economist published a paper that would shake the financial world. It was Harry Markowitz's 'Portfolio Selection.' This paper mathematically proved that investors should not just look at the returns of individual assets, but that the overall portfolio's risk and return change depending on how multiple assets are combined.",
+        "Markowitz argued that when investors aim for a specific rate of return, they should choose the portfolio with the lowest risk, or at a specific risk level, choose the portfolio that offers the highest return. This was the beginning of the concept known as the [[efficient frontier|Think of it as a line connecting all the 'best possible returns' you can get for any given level of investment risk. Only portfolios on this line are considered rational investment choices!]]. His research transformed the vague notion that 'diversification is good' into the scientific question of 'how to diversify optimally'.",
+        "This theory presented a method to maximize expected returns while minimizing the overall portfolio risk by considering the correlation between individual assets. It became the cornerstone of modern financial investment strategies, and Markowitz was awarded the Nobel Memorial Prize in Economic Sciences for this contribution."
+      ],
+      "theoryDetail": {
+        "content": [
+          "Modern Portfolio Theory (MPT) is a theory introduced by Harry Markowitz in 1952, which provides a method for constructing an optimal portfolio by simultaneously considering the risk and expected return of an investment portfolio.",
+          "The core of MPT is the 'diversification effect.' That is, even if individual assets have high risk, combining assets that move differently can reduce the overall portfolio's risk.",
+          "The Efficient Frontier is a curve representing the set of portfolios that offer the maximum expected return for a given level of risk, or the minimum risk for a given expected return."
+        ],
+        "title": "Overview of Modern Portfolio Theory (MPT)"
+      }
+    },
+    "tutorialType": "portfolio",
+    "imagePath": "/assets/images/ch9.png"
   },
   {
     "id": 10,
-    "volume": "VOL. 1",
-    "year": "1950s",
-    "tutorialType": "portfolio",
-    "imagePath": "/assets/images/ch1.png",
     "ko": {
-      "title": "효율적 투자선",
-      "subtitle": "최적의 위험-수익 조합 찾기",
+      "volume": "Volume 1",
+      "year": "AD 1960",
+      "title": "나만의 최적 포트폴리오를 찾아서",
+      "subtitle": "개인의 위험 성향과 투자 목표",
       "content": [
-        "우리는 폴샘 버추얼팀과 함께 일합니다. 모든 지식이 공유되는 이 곳, 헤븐 프로젝트의 일환으로 역사 속 금융과 수학의 만남을 추적합니다.",
-        "이 시기 가장 중요한 것은 [[효율적|선생님이 설명해주는 핵심 수학과 금융의 의미]]입니다. 이것이 인류의 자산을 어떻게 증식시켰는지 확인해봅시다.",
-        "과거의 뼈아픈 교훈이 오늘날 우리를 이 자리로 이끌었습니다. 숫자의 변동성을 이해하는 것이 곧 미래의 리스크를 줄이는 가장 완벽한 방법입니다."
-      ]
+        "마코위츠의 현대 포트폴리오 이론은 투자자들에게 혁명적인 통찰력을 제공했지만, 모든 사람에게 '하나의' 최적 포트폴리오가 존재한다는 의미는 아니었다. 투자자의 나이, 재정 상태, 그리고 가장 중요한 [[위험 성향|투자로 인해 손실을 볼 가능성에 대해 어느 정도까지 받아들일 수 있는지를 말해. 어떤 사람은 아예 손실을 싫어하고, 어떤 사람은 높은 수익을 위해 큰 위험도 감수할 수 있지!]]에 따라 최적의 포트폴리오는 달라질 수 있었다.",
+        "이제 투자자들은 단순히 '좋은 주식'을 찾는 것을 넘어, 자신의 고유한 상황에 맞는 위험-수익 균형점을 찾아야 했다. 이는 개인의 투자 목표(예: 은퇴 자금, 주택 구매)와 투자 기간을 고려하여 주식, 채권, 부동산 등 다양한 자산에 어떻게 비중을 둘 것인지 결정하는 과정을 포함한다.",
+        "현대 금융은 이러한 개인화된 접근 방식을 통해 투자자들이 자신에게 가장 적합한 '최적 포트폴리오'를 구성할 수 있도록 돕는다. 이는 고대 메소포타미아의 단순한 이자에서 시작된 금융의 여정이 개인의 삶과 밀접하게 연결되는 지점이었다."
+      ],
+      "theoryDetail": {
+        "content": [
+          "최적 포트폴리오는 단순히 효율적 프론티어 상의 한 점을 의미하는 것이 아니라, 투자자의 개별적인 위험 성향과 투자 목표를 반영하여 선택된 포트폴리오입니다.",
+          "위험 회피적인 투자자는 효율적 프론티어 상에서 위험이 낮은 쪽에 위치한 포트폴리오를 선호할 것이고, 위험 선호적인 투자자는 더 높은 기대수익률을 위해 위험이 높은 포트폴리오를 선택할 수 있습니다.",
+          "투자자의 나이, 소득 수준, 투자 기간, 유동성 요구 등 다양한 요소들이 개인의 최적 포트폴리오를 결정하는 데 중요한 역할을 합니다."
+        ],
+        "title": "개인의 최적 포트폴리오"
+      }
     },
     "en": {
-      "title": "효율적 투자선 (EN)",
-      "subtitle": "최적의 위험-수익 조합 찾기 (EN)",
+      "volume": "Volume 1",
+      "year": "AD 1960",
+      "title": "Searching for My Optimal Portfolio",
+      "subtitle": "Individual Risk Tolerance and Investment Goals",
       "content": [
-        "We work with PaulSam Virtual Team. Tracking the intersection of finance and math throughout history.",
-        "The key is understanding the math principle.",
-        "Past lessons lead us to the transparent future."
-      ]
-    }
+        "Markowitz's Modern Portfolio Theory offered revolutionary insights to investors, but it didn't mean that there was 'one' optimal portfolio for everyone. The optimal portfolio could vary depending on an investor's age, financial status, and most importantly, their [[risk tolerance|It refers to how much potential loss you are willing to accept from an investment. Some people hate any loss, while others are willing to take big risks for high returns!]].",
+        "Now, investors had to go beyond simply looking for 'good stocks' and find a risk-return balance point that suited their unique situation. This involved deciding how to allocate weights to various assets like stocks, bonds, and real estate, considering individual investment goals (e.g., retirement funds, home purchase) and investment horizons.",
+        "Modern finance helps investors construct their most suitable 'optimal portfolio' through this personalized approach. This was the point where the financial journey, which began with simple interest in ancient Mesopotamia, became intimately connected with individual lives."
+      ],
+      "theoryDetail": {
+        "content": [
+          "An optimal portfolio does not simply mean a point on the efficient frontier, but rather a portfolio chosen to reflect an investor's individual risk tolerance and investment goals.",
+          "A risk-averse investor would prefer a portfolio located on the lower-risk side of the efficient frontier, while a risk-tolerant investor might choose a higher-risk portfolio for higher expected returns.",
+          "Various factors such as an investor's age, income level, investment horizon, and liquidity needs play crucial roles in determining their individual optimal portfolio."
+        ],
+        "title": "Individual Optimal Portfolio"
+      }
+    },
+    "tutorialType": "portfolio",
+    "imagePath": "/assets/images/ch10.png"
   },
   {
     "id": 11,
-    "volume": "VOL. 2",
-    "year": "1960s",
-    "tutorialType": "portfolio",
-    "imagePath": "/assets/images/ch2.png",
     "ko": {
-      "title": "베타와 CAPM",
-      "subtitle": "시장보다 얼마나 위험한가?",
+      "volume": "Volume 2",
+      "year": "2024",
+      "title": "대항해시대의 서막: 위험과 기회의 교차로",
+      "subtitle": "미지의 바다, 미지의 위험",
       "content": [
-        "우리는 폴샘 버추얼팀과 함께 일합니다. 모든 지식이 공유되는 이 곳, 헤븐 프로젝트의 일환으로 역사 속 금융과 수학의 만남을 추적합니다.",
-        "이 시기 가장 중요한 것은 [[베타와|선생님이 설명해주는 핵심 수학과 금융의 의미]]입니다. 이것이 인류의 자산을 어떻게 증식시켰는지 확인해봅시다.",
-        "과거의 뼈아픈 교훈이 오늘날 우리를 이 자리로 이끌었습니다. 숫자의 변동성을 이해하는 것이 곧 미래의 리스크를 줄이는 가장 완벽한 방법입니다."
-      ]
+        "15세기, 유럽은 미지의 바다 너머 황금과 향신료를 찾아 나섰다. 콜럼버스, 마젤란 같은 탐험가들의 용기는 새로운 시대를 열었지만, 항해는 미지의 위험으로 가득했다. 거친 폭풍우, 해적의 위협, 그리고 낯선 땅에서의 질병은 매 순간 선원들과 상인들을 위협했다.",
+        "그러나 위험만큼이나 큰 기회도 있었다. 성공적인 항해는 막대한 부를 안겨주었고, 이는 더 많은 이들을 모험으로 이끌었다. 이 시기, 상인들은 불확실성 속에서 이익을 극대화하고 손실을 최소화할 방법을 절실히 찾고 있었다. 그들은 본능적으로 [[위험 관리|미래의 불확실한 사건으로 인한 잠재적 손실을 예측하고 통제하려는 일련의 과정이에요. 보험이나 파생상품이 여기에 해당하죠!]]의 필요성을 깨달았다.",
+        "대항해시대는 단순히 지리적 발견의 시대를 넘어, 인간이 미지의 위험에 맞서 이성과 시스템으로 대응하기 시작한 중요한 전환점이었다. 이 과정에서 금융의 역사에 길이 남을 혁신들이 싹트기 시작했다."
+      ],
+      "theoryDetail": {
+        "content": [
+          "대항해시대는 미지의 바다를 탐험하며 새로운 무역 경로를 개척했던 시기입니다. 이 시기 상인들은 해적, 폭풍, 질병 등 막대한 위험에 직면했지만, 성공적인 무역은 상상할 수 없는 부를 가져다주었습니다. 이러한 불확실성 속에서 위험을 관리하고 기회를 포착하려는 인간의 본능적인 노력이 금융 혁신의 씨앗이 되었습니다."
+        ],
+        "title": "대항해시대의 위험과 기회"
+      }
     },
     "en": {
-      "title": "베타와 CAPM (EN)",
-      "subtitle": "시장보다 얼마나 위험한가? (EN)",
+      "volume": "Volume 2",
+      "year": "2024",
+      "title": "The Dawn of the Age of Discovery: Crossroads of Risk and Opportunity",
+      "subtitle": "Unknown Seas, Unknown Risks",
       "content": [
-        "We work with PaulSam Virtual Team. Tracking the intersection of finance and math throughout history.",
-        "The key is understanding the math principle.",
-        "Past lessons lead us to the transparent future."
-      ]
-    }
+        "In the 15th century, Europe embarked on a quest for gold and spices across unknown seas. The courage of explorers like Columbus and Magellan ushered in a new era, but voyages were fraught with peril. Fierce storms, pirate threats, and diseases in unfamiliar lands constantly menaced sailors and merchants.",
+        "Yet, opportunities were as vast as the risks. A successful voyage brought immense wealth, drawing more people into adventure. During this time, merchants desperately sought ways to maximize profits and minimize losses amidst uncertainty. They instinctively recognized the need for [[risk management|A series of processes to predict and control potential losses from uncertain future events. Insurance and derivatives fall into this category!]].",
+        "The Age of Discovery was more than just a period of geographical exploration; it was a crucial turning point where humanity began to confront unknown risks with reason and systematic approaches. In this process, innovations that would shape the history of finance began to emerge."
+      ],
+      "theoryDetail": {
+        "content": [
+          "The Age of Discovery was a period of exploring unknown seas and pioneering new trade routes. During this time, merchants faced immense risks such as pirates, storms, and diseases, but successful trade brought unimaginable wealth. In this uncertainty, humanity's instinctive efforts to manage risk and seize opportunity became the seeds of financial innovation."
+        ],
+        "title": "Risks and Opportunities of the Age of Discovery"
+      }
+    },
+    "tutorialType": "derivatives",
+    "imagePath": "/assets/images/ch11.png"
   },
   {
     "id": 12,
-    "volume": "VOL. 2",
-    "year": "1966",
-    "tutorialType": "portfolio",
-    "imagePath": "/assets/images/ch2.png",
     "ko": {
-      "title": "샤프 지수 (Sharpe Ratio)",
-      "subtitle": "가성비 좋은 투자처 고르기",
+      "volume": "Volume 2",
+      "year": "2024",
+      "title": "해상 보험의 탄생: 위험 분담의 지혜",
+      "subtitle": "런던 로이드, 위험을 나누다",
       "content": [
-        "우리는 폴샘 버추얼팀과 함께 일합니다. 모든 지식이 공유되는 이 곳, 헤븐 프로젝트의 일환으로 역사 속 금융과 수학의 만남을 추적합니다.",
-        "이 시기 가장 중요한 것은 [[샤프|선생님이 설명해주는 핵심 수학과 금융의 의미]]입니다. 이것이 인류의 자산을 어떻게 증식시켰는지 확인해봅시다.",
-        "과거의 뼈아픈 교훈이 오늘날 우리를 이 자리로 이끌었습니다. 숫자의 변동성을 이해하는 것이 곧 미래의 리스크를 줄이는 가장 완벽한 방법입니다."
-      ]
+        "대항해시대의 상인들은 거대한 자본을 들여 배와 화물을 꾸렸지만, 한 번의 조난으로 모든 것을 잃을 수 있었다. 이러한 불안감 속에서, 상인들은 런던의 로이드 커피 하우스와 같은 장소에 모여 서로의 위험을 분담하는 방법을 모색했다. 이것이 바로 현대 보험의 효시인 해상 보험의 시작이었다.",
+        "여러 상인이 각자의 선박과 화물에 대한 소액의 보험료를 지불하고, 그 자금을 모아 사고 발생 시 피해를 보상하는 시스템이었다. 이로써 단 한 명의 상인이 모든 위험을 짊어지는 대신, 다수의 상인이 [[위험 풀링|여러 사람이나 단체가 각자에게 닥칠 수 있는 개별적인 위험들을 한데 모아 관리하는 방식이에요. 이렇게 하면 큰 손실이 발생해도 전체적으로 감당할 수 있게 되죠!]]을 통해 부담을 나누게 되었다.",
+        "해상 보험은 단순히 금전적 보상을 넘어, 상인들이 더 대담하게 원정 무역에 나설 수 있도록 심리적 안정감을 제공했다. 이는 불확실한 미래에 대한 인간의 통제 욕구가 금융 혁신으로 이어진 대표적인 사례로 기록된다."
+      ],
+      "theoryDetail": {
+        "content": [
+          "해상 보험은 여러 상인이 소액의 보험료를 지불하여 공동의 기금을 조성하고, 사고 발생 시 이 기금에서 손실을 보상하는 방식으로 작동합니다. 이는 개별 상인이 모든 위험을 감수하는 대신, 다수의 참여자가 위험을 분담하는 '위험 풀링'의 개념을 도입하여 대규모 무역 활동을 가능하게 했습니다."
+        ],
+        "title": "해상 보험의 작동 원리"
+      }
     },
     "en": {
-      "title": "샤프 지수 (Sharpe Ratio) (EN)",
-      "subtitle": "가성비 좋은 투자처 고르기 (EN)",
+      "volume": "Volume 2",
+      "year": "2024",
+      "title": "The Birth of Marine Insurance: Wisdom of Risk Sharing",
+      "subtitle": "Lloyd's of London, Sharing the Risk",
       "content": [
-        "We work with PaulSam Virtual Team. Tracking the intersection of finance and math throughout history.",
-        "The key is understanding the math principle.",
-        "Past lessons lead us to the transparent future."
-      ]
-    }
+        "Merchants of the Age of Discovery invested vast capital in ships and cargo, only to risk losing everything in a single shipwreck. Amidst this anxiety, merchants gathered in places like Lloyd's Coffee House in London, seeking ways to share their risks. This marked the beginning of marine insurance, the precursor to modern insurance.",
+        "It was a system where multiple merchants paid small premiums for their ships and cargo, pooling these funds to compensate for damages in case of an accident. Thus, instead of a single merchant bearing all the risk, many merchants shared the burden through [[risk pooling|A method where multiple individuals or entities collectively manage individual risks that might be befall them. This way, even if a large loss occurs, it can be absorbed by the collective!]].",
+        "Marine insurance went beyond mere monetary compensation; it provided psychological security, enabling merchants to embark on oceanic trade with greater daring. This stands as a prime example of how humanity's desire to control an uncertain future led to financial innovation."
+      ],
+      "theoryDetail": {
+        "content": [
+          "Marine insurance operates by multiple merchants paying small premiums to create a common fund, from which losses are compensated in the event of an accident. This introduced the concept of 'risk pooling,' where numerous participants share risks instead of individual merchants bearing all of them, enabling large-scale trade activities."
+        ],
+        "title": "How Marine Insurance Works"
+      }
+    },
+    "tutorialType": "derivatives",
+    "imagePath": "/assets/images/ch12.png"
   },
   {
     "id": 13,
-    "volume": "VOL. 2",
-    "year": "Modern",
-    "tutorialType": "portfolio",
-    "imagePath": "/assets/images/ch2.png",
     "ko": {
-      "title": "포트폴리오 설계 실전",
-      "subtitle": "실제 주가 데이터로 분산투자하기",
+      "volume": "Volume 2",
+      "year": "2024",
+      "title": "튤립 광풍과 최초의 파생상품",
+      "subtitle": "네덜란드, 꽃이 된 부의 상징",
       "content": [
-        "우리는 폴샘 버추얼팀과 함께 일합니다. 모든 지식이 공유되는 이 곳, 헤븐 프로젝트의 일환으로 역사 속 금융과 수학의 만남을 추적합니다.",
-        "이 시기 가장 중요한 것은 [[포트폴리오|선생님이 설명해주는 핵심 수학과 금융의 의미]]입니다. 이것이 인류의 자산을 어떻게 증식시켰는지 확인해봅시다.",
-        "과거의 뼈아픈 교훈이 오늘날 우리를 이 자리로 이끌었습니다. 숫자의 변동성을 이해하는 것이 곧 미래의 리스크를 줄이는 가장 완벽한 방법입니다."
-      ]
+        "17세기 네덜란드는 '튤립 광풍'이라는 전례 없는 투기 열풍에 휩싸였다. 이국적인 아름다움으로 귀족들의 사랑을 받던 튤립은 그 가치가 천정부지로 치솟았고, 사람들은 집과 땅을 팔아 튤립 구근에 투자하기 시작했다. 단순한 꽃이 아닌, 미래의 부를 약속하는 상징이 된 것이다.",
+        "이 광풍 속에서, 실제로 튤립 구근을 주고받는 대신, 미래의 특정 시점에 특정 가격으로 튤립을 사고팔기로 약속하는 계약이 성행했다. 이것이 바로 [[선물 계약|미래의 특정 시점에 특정 자산을 미리 정해진 가격으로 사고팔기로 약속하는 계약이에요. 실제 물건이 없어도 그 가치 변동에 투자할 수 있게 해주죠!]]의 원형이자 최초의 파생상품 중 하나였다. 사람들은 실물 없이도 튤립 가격의 상승에 베팅하거나, 하락 위험을 헤지할 수 있게 되었다.",
+        "튤립 광풍은 결국 거품이 터지면서 많은 이들에게 비극을 안겨주었지만, 이는 금융 역사상 중요한 이정표가 되었다. 미래의 가치에 대한 예측과 거래가 어떻게 이루어질 수 있는지 보여주었으며, 현대 파생상품 시장의 복잡한 구조를 이해하는 데 귀중한 교훈을 남겼다."
+      ],
+      "theoryDetail": {
+        "content": [
+          "17세기 네덜란드의 튤립 광풍은 단순한 투기 현상을 넘어, 미래의 자산 가치에 대한 거래의 가능성을 보여주었습니다. 실제로 튤립 구근을 주고받지 않고도 미래의 특정 시점에 특정 가격으로 사고팔기로 약속하는 '선물 계약'이 이때 활발하게 거래되기 시작했습니다. 이는 현대 파생상품의 중요한 기원이 됩니다."
+        ],
+        "title": "튤립 광풍과 선물 계약의 탄생"
+      }
     },
     "en": {
-      "title": "포트폴리오 설계 실전 (EN)",
-      "subtitle": "실제 주가 데이터로 분산투자하기 (EN)",
+      "volume": "Volume 2",
+      "year": "2024",
+      "title": "The Tulip Mania and the First Derivatives",
+      "subtitle": "Netherlands, A Flower as a Symbol of Wealth",
       "content": [
-        "We work with PaulSam Virtual Team. Tracking the intersection of finance and math throughout history.",
-        "The key is understanding the math principle.",
-        "Past lessons lead us to the transparent future."
-      ]
-    }
+        "In the 17th century, the Netherlands was swept by an unprecedented speculative fever known as the 'Tulip Mania'. Tulips, beloved by nobles for their exotic beauty, saw their value skyrocket, and people began selling their homes and land to invest in tulip bulbs. They became a symbol promising future wealth, not just a simple flower.",
+        "Amidst this frenzy, contracts to buy and sell tulips at a specific price at a future date, without actually exchanging the bulbs, became prevalent. This was the prototype of a [[futures contract|An agreement to buy or sell a specific asset at a predetermined price at a specific future date. It allows you to invest in the value fluctuations without owning the physical item!]] and one of the first derivatives. People could bet on rising tulip prices or hedge against falling prices without holding the physical tulips.",
+        "The Tulip Mania ultimately burst, bringing tragedy to many, but it became a significant milestone in financial history. It demonstrated how predictions and trades on future value could occur, leaving valuable lessons for understanding the complex structure of modern derivatives markets."
+      ],
+      "theoryDetail": {
+        "content": [
+          "The 17th-century Tulip Mania in the Netherlands went beyond a simple speculative phenomenon, demonstrating the possibility of trading on future asset values. 'Futures contracts,' agreements to buy or sell tulips at a specific price at a future date without actual exchange of bulbs, began to be actively traded during this period. This became a significant origin of modern derivatives."
+        ],
+        "title": "Tulip Mania and the Birth of Futures Contracts"
+      }
+    },
+    "tutorialType": "derivatives",
+    "imagePath": "/assets/images/ch13.png"
   },
   {
     "id": 14,
-    "volume": "VOL. 2",
-    "year": "1971",
-    "tutorialType": "derivatives",
-    "imagePath": "/assets/images/ch2.png",
     "ko": {
-      "title": "닉슨 쇼크와 환율",
-      "subtitle": "고정환율제 붕괴와 헤지의 필요성",
+      "volume": "Volume 2",
+      "year": "2024",
+      "title": "확률의 그림자: 우연을 계산하다",
+      "subtitle": "파스칼과 페르마, 도박에서 발견한 진리",
       "content": [
-        "우리는 폴샘 버추얼팀과 함께 일합니다. 모든 지식이 공유되는 이 곳, 헤븐 프로젝트의 일환으로 역사 속 금융과 수학의 만남을 추적합니다.",
-        "이 시기 가장 중요한 것은 [[닉슨|선생님이 설명해주는 핵심 수학과 금융의 의미]]입니다. 이것이 인류의 자산을 어떻게 증식시켰는지 확인해봅시다.",
-        "과거의 뼈아픈 교훈이 오늘날 우리를 이 자리로 이끌었습니다. 숫자의 변동성을 이해하는 것이 곧 미래의 리스크를 줄이는 가장 완벽한 방법입니다."
-      ]
+        "대항해시대의 위험과 튤립 광풍의 불확실성은 인간에게 우연의 본질을 탐구하게 만들었다. 17세기 중반, 프랑스의 수학자 파스칼과 페르마는 친구의 도박 문제에 대한 질문에서 영감을 받아 확률론의 기초를 다지기 시작했다. 그들은 주사위 게임이나 카드 게임에서 특정 결과가 나올 가능성을 수학적으로 계산하는 방법을 연구했다.",
+        "이들의 연구는 단순한 도박의 승패를 넘어, 불확실한 미래 사건의 발생 가능성을 정량화할 수 있다는 혁명적인 아이디어를 제시했다. 이제 사람들은 직감이나 미신에 의존하는 대신, [[기대값|어떤 사건이 일어날 확률과 그 사건이 발생했을 때 얻을 수 있는 가치를 곱해서 모두 더한 값이에요. 장기적으로 평균적으로 얼마를 얻을 수 있는지 예측할 때 유용하죠!]]이라는 개념을 통해 합리적인 의사결정을 내릴 수 있게 되었다.",
+        "확률론의 발전은 금융 시장의 위험을 평가하고 보험료를 산정하는 데 필수적인 도구가 되었다. 미래의 불확실성을 '계산 가능한 위험'으로 전환하는 이 지적 도약은 파생상품의 가격을 매기는 현대 금융 수학의 토대가 되었다."
+      ],
+      "theoryDetail": {
+        "content": [
+          "파스칼과 페르마는 도박 문제를 해결하는 과정에서 확률론의 기초를 마련했습니다. 이들의 연구는 불확실한 사건의 발생 가능성을 수학적으로 정량화하는 방법을 제시했으며, '기대값' 개념을 통해 장기적으로 예상되는 결과값을 예측할 수 있게 했습니다. 이는 금융 시장의 위험을 평가하고 보험료를 산정하는 데 필수적인 도구가 되었습니다."
+        ],
+        "title": "확률론의 기초와 기대값"
+      }
     },
     "en": {
-      "title": "닉슨 쇼크와 환율 (EN)",
-      "subtitle": "고정환율제 붕괴와 헤지의 필요성 (EN)",
+      "volume": "Volume 2",
+      "year": "2024",
+      "title": "The Shadow of Probability: Calculating Chance",
+      "subtitle": "Pascal and Fermat, Truth Found in Gambling",
       "content": [
-        "We work with PaulSam Virtual Team. Tracking the intersection of finance and math throughout history.",
-        "The key is understanding the math principle.",
-        "Past lessons lead us to the transparent future."
-      ]
-    }
+        "The risks of the Age of Discovery and the uncertainties of the Tulip Mania prompted humanity to explore the nature of chance. In the mid-17th century, French mathematicians Pascal and Fermat, inspired by a friend's gambling problem, began to lay the foundations of probability theory. They studied how to mathematically calculate the likelihood of specific outcomes in dice or card games.",
+        "Their research went beyond mere gambling wins and losses, presenting the revolutionary idea that the probability of uncertain future events could be quantified. Now, instead of relying on intuition or superstition, people could make rational decisions through the concept of [[expected value|The sum of the probabilities of each possible outcome multiplied by the value of that outcome. It's useful for predicting how much you can expect to gain on average over the long term!]].",
+        "The development of probability theory became an essential tool for assessing risks in financial markets and calculating insurance premiums. This intellectual leap, transforming future uncertainty into 'calculable risk', became the foundation of modern financial mathematics for pricing derivatives."
+      ],
+      "theoryDetail": {
+        "content": [
+          "Pascal and Fermat laid the foundations of probability theory while solving gambling problems. Their research provided a method to mathematically quantify the likelihood of uncertain events and allowed for the prediction of long-term expected outcomes through the concept of 'expected value.' This became an essential tool for assessing risks in financial markets and calculating insurance premiums."
+        ],
+        "title": "Foundations of Probability Theory and Expected Value"
+      }
+    },
+    "tutorialType": "probability",
+    "imagePath": "/assets/images/ch14.png"
   },
   {
     "id": 15,
-    "volume": "VOL. 2",
-    "year": "1970s",
-    "tutorialType": "derivatives",
-    "imagePath": "/assets/images/ch2.png",
     "ko": {
-      "title": "선물(Futures)의 기하학",
-      "subtitle": "미래 가격의 직선적 합의",
+      "volume": "Volume 2",
+      "year": "2024",
+      "title": "미적분학의 서곡: 변화를 포착하는 언어",
+      "subtitle": "뉴턴과 라이프니츠, 순간의 움직임",
       "content": [
-        "우리는 폴샘 버추얼팀과 함께 일합니다. 모든 지식이 공유되는 이 곳, 헤븐 프로젝트의 일환으로 역사 속 금융과 수학의 만남을 추적합니다.",
-        "이 시기 가장 중요한 것은 [[선물(Futures)의|선생님이 설명해주는 핵심 수학과 금융의 의미]]입니다. 이것이 인류의 자산을 어떻게 증식시켰는지 확인해봅시다.",
-        "과거의 뼈아픈 교훈이 오늘날 우리를 이 자리로 이끌었습니다. 숫자의 변동성을 이해하는 것이 곧 미래의 리스크를 줄이는 가장 완벽한 방법입니다."
-      ]
+        "세상의 모든 것은 끊임없이 변한다. 주식 가격은 순간순간 요동치고, 이자율은 시간에 따라 미묘하게 움직인다. 이러한 '변화의 변화'를 정확하게 이해하고 예측하는 것은 금융 시장에서 성공하기 위한 핵심 열쇠였다. 17세기 후반, 아이작 뉴턴과 고트프리트 라이프니츠는 독립적으로 이 변화를 설명하는 강력한 수학적 도구, 바로 미적분학을 창조했다.",
+        "미분은 어떤 양이 아주 작은 순간에 얼마나 변하는지를 측정하는 방법을 제공했다. 이는 마치 영화의 한 장면을 정지시켜 그 순간의 움직임을 분석하는 것과 같았다. 금융에서는 주가나 자산 가치의 [[순간 변화율|아주 짧은 시간 동안 어떤 값이 얼마나 빠르게 변하는지를 나타내는 비율이에요. 주식 가격이 지금 이 순간 얼마나 오르거나 내리는지를 파악할 때 쓰이죠!]]을 파악하는 데 결정적인 역할을 했다.",
+        "미적분학의 탄생은 단순히 과학과 공학 분야에만 혁명을 가져온 것이 아니었다. 복잡한 금융 현상, 특히 시간이 지남에 따라 가치가 변하는 파생상품의 특성을 이해하고 모델링하는 데 필수적인 언어를 제공하며 금융 수학의 새로운 지평을 열었다."
+      ],
+      "theoryDetail": {
+        "content": [
+          "미적분학은 아이작 뉴턴과 고트프리트 라이프니츠에 의해 독립적으로 개발되었으며, '변화의 변화'를 다루는 수학적 도구입니다. 특히 미분은 어떤 양이 아주 짧은 순간에 얼마나 변하는지를 측정하는 방법을 제공하여, 주가나 이자율과 같이 연속적으로 변화하는 금융 자산의 순간적인 움직임을 분석하는 데 핵심적인 역할을 합니다."
+        ],
+        "title": "미적분학의 기본 개념: 변화의 측정"
+      }
     },
     "en": {
-      "title": "선물(Futures)의 기하학 (EN)",
-      "subtitle": "미래 가격의 직선적 합의 (EN)",
+      "volume": "Volume 2",
+      "year": "2024",
+      "title": "Prelude to Calculus: The Language of Capturing Change",
+      "subtitle": "Newton and Leibniz, The Movement of a Moment",
       "content": [
-        "We work with PaulSam Virtual Team. Tracking the intersection of finance and math throughout history.",
-        "The key is understanding the math principle.",
-        "Past lessons lead us to the transparent future."
-      ]
-    }
+        "Everything in the world is constantly changing. Stock prices fluctuate moment by moment, and interest rates subtly shift over time. Accurately understanding and predicting these 'changes of change' was a critical key to success in financial markets. In the late 17th century, Isaac Newton and Gottfried Leibniz independently created a powerful mathematical tool to describe this change: calculus.",
+        "Differentiation provided a way to measure how much a quantity changes over an infinitesimally small moment. It was like freezing a single frame of a movie to analyze the movement at that instant. In finance, it played a crucial role in understanding the [[instantaneous rate of change|The rate at which a value is changing at a specific moment in time. It's used to determine how quickly a stock price is rising or falling right now!]] of stock prices or asset values.",
+        "The birth of calculus did not just revolutionize science and engineering. It opened new horizons in financial mathematics by providing the essential language for understanding and modeling complex financial phenomena, especially the characteristics of derivatives whose values change over time."
+      ],
+      "theoryDetail": {
+        "content": [
+          "Calculus, independently developed by Isaac Newton and Gottfried Leibniz, is a mathematical tool for dealing with 'changes of change.' Differentiation, in particular, provides a method to measure how much a quantity changes over an infinitesimally short moment, playing a crucial role in analyzing the instantaneous movements of continuously changing financial assets like stock prices or interest rates."
+        ],
+        "title": "Basic Concepts of Calculus: Measuring Change"
+      }
+    },
+    "tutorialType": "calculus",
+    "imagePath": "/assets/images/ch15.png"
   },
   {
     "id": 16,
-    "volume": "VOL. 2",
-    "year": "1970s",
-    "tutorialType": "derivatives",
-    "imagePath": "/assets/images/ch2.png",
     "ko": {
-      "title": "옵션(Option): 권리의 가격",
-      "subtitle": "콜과 풋의 수학적 수익 구조",
+      "volume": "Volume 2",
+      "year": "2024",
+      "title": "이자율의 미분: 시간에 따른 가치의 변화",
+      "subtitle": "연속 복리, 미적분으로 풀다",
       "content": [
-        "우리는 폴샘 버추얼팀과 함께 일합니다. 모든 지식이 공유되는 이 곳, 헤븐 프로젝트의 일환으로 역사 속 금융과 수학의 만남을 추적합니다.",
-        "이 시기 가장 중요한 것은 [[옵션(Option):|선생님이 설명해주는 핵심 수학과 금융의 의미]]입니다. 이것이 인류의 자산을 어떻게 증식시켰는지 확인해봅시다.",
-        "과거의 뼈아픈 교훈이 오늘날 우리를 이 자리로 이끌었습니다. 숫자의 변동성을 이해하는 것이 곧 미래의 리스크를 줄이는 가장 완벽한 방법입니다."
-      ]
+        "이자는 돈의 시간 가치를 반영하는 핵심 요소이다. 단순 이자나 복리 이자를 넘어, 금융 세계에서는 이자가 거의 연속적으로 붙는다고 가정하는 경우가 많다. 이러한 연속적인 변화 속에서 돈의 가치가 시간에 따라 어떻게 변하는지 정확히 이해하는 것은 매우 중요했다. 미분은 이 복잡한 문제를 해결할 열쇠를 제공했다.",
+        "미분 개념을 이자율에 적용하면, 우리는 돈의 가치가 아주 짧은 시간 동안 얼마나 빠르게 증가하거나 감소하는지 측정할 수 있다. 이는 마치 강물의 유속을 측정하여 특정 순간에 물이 얼마나 빨리 흐르는지 아는 것과 같다. 특히 [[연속 복리|이자가 무한히 짧은 시간 간격으로 계산되어 원금에 계속 더해지는 방식이에요. 미적분학을 이용해 가장 현실적인 금융 모델을 만들 때 쓰이죠!]]의 개념은 미적분학 없이는 상상하기 어려웠다.",
+        "이자율의 미분적 분석은 미래 가치를 현재 가치로 할인하거나, 현재 가치를 미래 가치로 증폭시키는 과정에서 정밀도를 극대화했다. 이는 채권, 대출, 그리고 궁극적으로 파생상품의 가격을 결정하는 데 필수적인 요소가 되었으며, 금융 모델링의 정교함을 한 단계 끌어올렸다."
+      ],
+      "theoryDetail": {
+        "content": [
+          "연속 복리는 이자가 무한히 짧은 시간 간격으로 계산되어 원금에 계속 더해지는 개념입니다. 미적분학을 활용하면 이러한 연속적인 이자율 변화를 정확히 모델링할 수 있습니다. 이자율의 미분적 분석은 미래 가치를 현재 가치로 할인하거나 그 반대의 과정을 매우 정밀하게 수행할 수 있게 하여, 채권 및 파생상품 가격 결정의 정확도를 높였습니다."
+        ],
+        "title": "연속 복리와 이자율 미분"
+      }
     },
     "en": {
-      "title": "옵션(Option): 권리의 가격 (EN)",
-      "subtitle": "콜과 풋의 수학적 수익 구조 (EN)",
+      "volume": "Volume 2",
+      "year": "2024",
+      "title": "Differentiation of Interest Rates: Value Change Over Time",
+      "subtitle": "Continuous Compounding, Solved by Calculus",
       "content": [
-        "We work with PaulSam Virtual Team. Tracking the intersection of finance and math throughout history.",
-        "The key is understanding the math principle.",
-        "Past lessons lead us to the transparent future."
-      ]
-    }
+        "Interest is a core factor reflecting the time value of money. Beyond simple or compound interest, the financial world often assumes that interest accrues almost continuously. Accurately understanding how the value of money changes over time amidst this continuous variation was crucial. Differentiation provided the key to solving this complex problem.",
+        "Applying the concept of differentiation to interest rates allows us to measure how quickly the value of money increases or decreases over an infinitesimally small period. It's like measuring the flow rate of a river to know how fast the water is moving at a specific instant. The concept of [[continuous compounding|A method where interest is calculated and added to the principal over infinitely short time intervals. It's used to create the most realistic financial models using calculus!]] was particularly difficult to imagine without calculus.",
+        "The differential analysis of interest rates maximized precision in discounting future values to present values or compounding present values to future values. This became an essential element in pricing bonds, loans, and ultimately, derivatives, elevating the sophistication of financial modeling."
+      ],
+      "theoryDetail": {
+        "content": [
+          "Continuous compounding is the concept where interest is calculated and added to the principal over infinitely short time intervals. Using calculus, these continuous interest rate changes can be modeled precisely. The differential analysis of interest rates allows for highly accurate discounting of future values to present values, and vice versa, thereby enhancing the precision of bond and derivative pricing."
+        ],
+        "title": "Continuous Compounding and Interest Rate Differentiation"
+      }
+    },
+    "tutorialType": "calculus",
+    "imagePath": "/assets/images/ch16.png"
   },
   {
     "id": 17,
-    "volume": "VOL. 2",
-    "year": "1970s",
-    "tutorialType": "calculus",
-    "imagePath": "/assets/images/ch2.png",
     "ko": {
-      "title": "순간 변화율과 주가",
-      "subtitle": "주가 움직임의 매순간 포착",
+      "volume": "Volume 2",
+      "year": "2024",
+      "title": "선물과 선도: 미래를 약속하는 계약",
+      "subtitle": "헤지와 투기, 두 얼굴의 파생상품",
       "content": [
-        "우리는 폴샘 버추얼팀과 함께 일합니다. 모든 지식이 공유되는 이 곳, 헤븐 프로젝트의 일환으로 역사 속 금융과 수학의 만남을 추적합니다.",
-        "이 시기 가장 중요한 것은 [[순간|선생님이 설명해주는 핵심 수학과 금융의 의미]]입니다. 이것이 인류의 자산을 어떻게 증식시켰는지 확인해봅시다.",
-        "과거의 뼈아픈 교훈이 오늘날 우리를 이 자리로 이끌었습니다. 숫자의 변동성을 이해하는 것이 곧 미래의 리스크를 줄이는 가장 완벽한 방법입니다."
-      ]
+        "튤립 광풍에서 시작된 미래 거래의 개념은 시간이 지나며 더욱 정교해졌다. 농부들은 수확 전에 곡물 가격이 떨어질까 걱정했고, 제분업자들은 미래에 곡물 가격이 오를까 불안해했다. 이러한 불확실성을 해소하기 위해 '선도 계약'이 등장했다. 이는 두 당사자가 미래의 특정 시점에 특정 자산을 미리 정해진 가격으로 사고팔기로 개별적으로 약속하는 비표준화된 계약이었다.",
+        "선도 계약은 맞춤형이라는 장점이 있었지만, 거래 상대방이 약속을 이행하지 않을 위험, 즉 [[신용 위험|거래 상대방이 계약상의 의무를 이행하지 못하여 손실을 입을 가능성을 말해요. 금융 거래에서 아주 중요하게 고려되는 위험 중 하나죠!]]이 존재했다. 이를 보완하고 유동성을 높이기 위해 중앙화된 거래소에서 표준화된 '선물 계약'이 탄생했다. 선물 계약은 일일 정산(marking-to-market)과 증거금 제도를 통해 신용 위험을 크게 낮추었다.",
+        "선도와 선물 계약은 미래의 가격 불확실성에 대한 헤지 수단이자, 가격 변동을 이용한 투기 수단으로 발전했다. 이들은 금융 시장에서 위험을 전가하고 가격을 발견하는 중요한 메커니즘을 제공하며, 현대 파생상품 시장의 근간을 이루게 되었다."
+      ],
+      "theoryDetail": {
+        "content": [
+          "선도 계약은 두 당사자 간의 비표준화된 맞춤형 계약으로, 거래 상대방 위험(신용 위험)이 존재합니다. 반면 선물 계약은 중앙 거래소에서 표준화되어 거래되며, 일일 정산(marking-to-market)과 증거금 제도를 통해 신용 위험을 관리하고 유동성을 높입니다. 둘 다 미래의 가격 불확실성에 대한 헤지 및 투기 수단으로 활용됩니다."
+        ],
+        "title": "선도와 선물 계약의 차이"
+      }
     },
     "en": {
-      "title": "순간 변화율과 주가 (EN)",
-      "subtitle": "주가 움직임의 매순간 포착 (EN)",
+      "volume": "Volume 2",
+      "year": "2024",
+      "title": "Futures and Forwards: Contracts Promising the Future",
+      "subtitle": "Hedging and Speculation, Two Faces of Derivatives",
       "content": [
-        "We work with PaulSam Virtual Team. Tracking the intersection of finance and math throughout history.",
-        "The key is understanding the math principle.",
-        "Past lessons lead us to the transparent future."
-      ]
-    }
+        "The concept of future trading, which began with the Tulip Mania, became more sophisticated over time. Farmers worried about grain prices falling before harvest, while millers were anxious about future grain price increases. To alleviate this uncertainty, 'forward contracts' emerged. These were non-standardized agreements where two parties privately agreed to buy or sell a specific asset at a predetermined price at a specific future date.",
+        "While forward contracts offered the advantage of customization, they carried the risk that a counterparty might default on their promise, known as [[credit risk|The possibility of incurring a loss due to a counterparty's failure to fulfill its contractual obligations. It's one of the most crucial risks considered in financial transactions!]]. To mitigate this and enhance liquidity, standardized 'futures contracts' were born on centralized exchanges. Futures contracts significantly reduced credit risk through daily settlement (marking-to-market) and margin systems.",
+        "Both forward and futures contracts evolved into tools for hedging against future price uncertainty and for speculating on price movements. They provided crucial mechanisms for transferring risk and discovering prices in financial markets, forming the bedrock of modern derivatives markets."
+      ],
+      "theoryDetail": {
+        "content": [
+          "Forward contracts are non-standardized, customized agreements between two parties, carrying counterparty risk (credit risk). Futures contracts, on the other hand, are standardized and traded on a central exchange, managing credit risk and enhancing liquidity through daily settlement (marking-to-market) and margin systems. Both are used for hedging against future price uncertainty and for speculation."
+        ],
+        "title": "Differences Between Forward and Futures Contracts"
+      }
+    },
+    "tutorialType": "derivatives",
+    "imagePath": "/assets/images/ch17.png"
   },
   {
     "id": 18,
-    "volume": "VOL. 2",
-    "year": "1973",
-    "tutorialType": "blackScholes",
-    "imagePath": "/assets/images/ch2.png",
     "ko": {
-      "title": "블랙-숄즈 모델의 서막",
-      "subtitle": "미분방정식이 금융을 만나다",
+      "volume": "Volume 2",
+      "year": "2024",
+      "title": "옵션의 등장: 선택의 가치를 찾아서",
+      "subtitle": "탈레스의 지혜, 금융 상품이 되다",
       "content": [
-        "우리는 폴샘 버추얼팀과 함께 일합니다. 모든 지식이 공유되는 이 곳, 헤븐 프로젝트의 일환으로 역사 속 금융과 수학의 만남을 추적합니다.",
-        "이 시기 가장 중요한 것은 [[블랙-숄즈|선생님이 설명해주는 핵심 수학과 금융의 의미]]입니다. 이것이 인류의 자산을 어떻게 증식시켰는지 확인해봅시다.",
-        "과거의 뼈아픈 교훈이 오늘날 우리를 이 자리로 이끌었습니다. 숫자의 변동성을 이해하는 것이 곧 미래의 리스크를 줄이는 가장 완벽한 방법입니다."
-      ]
+        "선물과 선도 계약이 '미래에 무조건 사고팔겠다'는 의무를 지우는 계약이었다면, '옵션'은 미래에 특정 자산을 특정 가격으로 사고팔 '권리'를 부여하는 계약이었다. 이 권리는 행사할 수도 있고, 하지 않을 수도 있다는 점에서 혁명적이었다. 고대 그리스의 탈레스가 올리브 압착기 사용 권리를 미리 사두었던 일화처럼, 선택의 가치는 오래 전부터 인식되어 왔다.",
+        "옵션은 투자자에게 유리할 때만 권리를 행사하고, 불리할 때는 포기함으로써 손실을 제한하고 이익을 극대화할 수 있는 비대칭적인 수익 구조를 제공했다. 주식을 정해진 가격에 살 수 있는 [[콜 옵션|미래의 특정 시점이나 그 이전에 특정 주식이나 자산을 미리 정해진 가격으로 살 수 있는 권리를 말해요. 가격이 오를 것 같을 때 유용하죠!]]과 팔 수 있는 풋 옵션이 대표적이다. 이러한 유연성은 금융 시장에 새로운 차원의 전략적 사고를 도입했다.",
+        "옵션의 등장은 미래의 불확실성에 대응하는 또 다른 강력한 도구를 제공했다. 이는 단순히 위험을 전가하는 것을 넘어, 미래의 가능성에 대한 '선택권' 자체를 거래하는 새로운 시장을 열었으며, 이는 블랙-숄즈 모형으로 이어지는 중요한 기반이 되었다."
+      ],
+      "theoryDetail": {
+        "content": [
+          "옵션은 미래에 특정 자산을 특정 가격으로 사고팔 '권리'를 부여하는 계약입니다. 주식을 정해진 가격에 살 수 있는 권리인 콜 옵션과 팔 수 있는 권리인 풋 옵션이 대표적입니다. 옵션은 행사할 의무가 없으므로, 투자자에게 유리할 때만 권리를 행사하여 손실을 제한하고 이익을 극대화할 수 있는 비대칭적 수익 구조를 제공합니다."
+        ],
+        "title": "옵션의 기본 개념: 콜과 풋"
+      }
     },
     "en": {
-      "title": "블랙-숄즈 모델의 서막 (EN)",
-      "subtitle": "미분방정식이 금융을 만나다 (EN)",
+      "volume": "Volume 2",
+      "year": "2024",
+      "title": "The Emergence of Options: Discovering the Value of Choice",
+      "subtitle": "Thales' Wisdom Becomes a Financial Product",
       "content": [
-        "We work with PaulSam Virtual Team. Tracking the intersection of finance and math throughout history.",
-        "The key is understanding the math principle.",
-        "Past lessons lead us to the transparent future."
-      ]
-    }
+        "While futures and forward contracts imposed an obligation to 'unconditionally buy or sell in the future,' 'options' granted the 'right' to buy or sell a specific asset at a specific price in the future. This right, which could be exercised or not, was revolutionary. The value of choice has been recognized since ancient times, as seen in the anecdote of Thales in ancient Greece, who bought the right to use olive presses in advance.",
+        "Options offered an asymmetric payoff structure, allowing investors to limit losses and maximize profits by exercising the right only when advantageous and abandoning it when unfavorable. Representative examples include [[call options|The right to buy a specific stock or asset at a predetermined price on or before a specific future date. It's useful when you expect the price to rise!]] to buy stock at a set price, and put options to sell. This flexibility introduced a new dimension of strategic thinking into financial markets.",
+        "The emergence of options provided another powerful tool for responding to future uncertainty. It went beyond merely transferring risk, opening a new market for trading 'choices' over future possibilities, which became a crucial foundation leading to the Black-Scholes model."
+      ],
+      "theoryDetail": {
+        "content": [
+          "An option is a contract that grants the 'right' to buy or sell a specific asset at a specific price in the future. Call options, the right to buy a stock at a set price, and put options, the right to sell, are typical examples. Since there is no obligation to exercise, options offer an asymmetric payoff structure that allows investors to limit losses and maximize profits by exercising the right only when it is advantageous."
+        ],
+        "title": "Basic Concepts of Options: Calls and Puts"
+      }
+    },
+    "tutorialType": "derivatives",
+    "imagePath": "/assets/images/ch18.png"
   },
   {
     "id": 19,
-    "volume": "VOL. 2",
-    "year": "1973",
-    "tutorialType": "blackScholes",
-    "imagePath": "/assets/images/ch2.png",
     "ko": {
-      "title": "그릭스(Greeks) - 델타",
-      "subtitle": "기초자산의 변화에 따른 민감도",
+      "volume": "Volume 2",
+      "year": "2024",
+      "title": "이항 모형: 옵션 가격 결정의 첫걸음",
+      "subtitle": "단순한 가정으로 복잡한 가치를 풀다",
       "content": [
-        "우리는 폴샘 버추얼팀과 함께 일합니다. 모든 지식이 공유되는 이 곳, 헤븐 프로젝트의 일환으로 역사 속 금융과 수학의 만남을 추적합니다.",
-        "이 시기 가장 중요한 것은 [[그릭스(Greeks)|선생님이 설명해주는 핵심 수학과 금융의 의미]]입니다. 이것이 인류의 자산을 어떻게 증식시켰는지 확인해봅시다.",
-        "과거의 뼈아픈 교훈이 오늘날 우리를 이 자리로 이끌었습니다. 숫자의 변동성을 이해하는 것이 곧 미래의 리스크를 줄이는 가장 완벽한 방법입니다."
-      ]
+        "옵션이 금융 시장에 등장했지만, 그 가치를 어떻게 정량적으로 평가할 것인가는 오랫동안 풀리지 않는 숙제였다. 주식 가격처럼 시장에서 직접 결정되는 것이 아니라, 미래의 불확실한 움직임에 따라 가치가 변하는 '파생' 상품이었기 때문이다. 1970년대, 코스(Cox), 로스(Ross), 루빈스타인(Rubinstein)은 이 문제를 해결하기 위한 첫 번째 실용적인 모델인 '이항 옵션 가격 결정 모형'을 제시했다.",
+        "이 모델은 주식 가격이 미래의 특정 시점에 오르거나 내리는 두 가지 경우 중 하나로만 움직인다는 단순한 가정을 기반으로 한다. 마치 동전을 던졌을 때 앞면 아니면 뒷면이 나오는 것처럼 말이다. 이 단순한 이분법적 접근 방식을 반복하여 적용하면, 복잡한 주가 경로를 모델링하고 옵션의 [[무위험 차익거래|어떤 자산의 가격 불균형을 이용해서 위험 없이 확정적인 이익을 얻는 거래 전략이에요. 이항 모형은 이런 기회가 없다는 가정하에 옵션 가격을 정하죠!]] 원리를 통해 옵션의 공정한 가치를 계산할 수 있었다.",
+        "이항 모형은 실제 시장의 복잡성을 완벽히 반영하지는 못했지만, 옵션 가격 결정의 핵심 논리를 명확하게 보여주었다. 이는 미래의 불확실한 사건에 대한 확률적 사고와 무위험 차익거래의 개념을 결합하여 파생상품의 가치를 평가하는 현대 금융 공학의 출발점이 되었다."
+      ],
+      "theoryDetail": {
+        "content": [
+          "이항 모형은 주식 가격이 미래의 특정 시점에 오르거나 내리는 두 가지 경우 중 하나로만 움직인다는 단순한 가정을 기반으로 옵션 가격을 결정하는 모델입니다. 이분법적 접근 방식을 반복 적용하고, 무위험 차익거래의 원리를 활용하여 옵션의 공정한 가치를 계산합니다. 이는 복잡한 옵션 가격 결정의 핵심 논리를 이해하는 데 중요한 첫걸음이 됩니다."
+        ],
+        "title": "이항 옵션 가격 결정 모형"
+      }
     },
     "en": {
-      "title": "그릭스(Greeks) - 델타 (EN)",
-      "subtitle": "기초자산의 변화에 따른 민감도 (EN)",
+      "volume": "Volume 2",
+      "year": "2024",
+      "title": "The Binomial Model: The First Step in Option Pricing",
+      "subtitle": "Solving Complex Values with Simple Assumptions",
       "content": [
-        "We work with PaulSam Virtual Team. Tracking the intersection of finance and math throughout history.",
-        "The key is understanding the math principle.",
-        "Past lessons lead us to the transparent future."
-      ]
-    }
+        "Although options emerged in financial markets, how to quantitatively value them remained an unsolved puzzle for a long time. This was because they were 'derivative' products whose value changed based on uncertain future movements, rather than being directly determined by the market like stock prices. In the 1970s, Cox, Ross, and Rubinstein presented the 'Binomial Option Pricing Model,' the first practical model to address this problem.",
+        "This model is based on the simple assumption that a stock price can only move in one of two ways at a specific future point: either up or down. It's like flipping a coin where it can only land on heads or tails. By repeatedly applying this simple dichotomous approach, one could model complex stock price paths and calculate the fair value of an option using the principle of [[risk-free arbitrage|A trading strategy that exploits price imbalances of an asset to obtain a guaranteed profit without any risk. The binomial model prices options under the assumption that such opportunities do not exist!]].",
+        "While the binomial model did not perfectly reflect the complexity of real markets, it clearly demonstrated the core logic of option pricing. It became the starting point for modern financial engineering, combining probabilistic thinking about uncertain future events with the concept of risk-free arbitrage to value derivatives."
+      ],
+      "theoryDetail": {
+        "content": [
+          "The binomial model is a model that determines option prices based on the simple assumption that a stock price can only move in one of two ways at a specific future point: either up or down. By repeatedly applying this dichotomous approach and utilizing the principle of risk-free arbitrage, it calculates the fair value of an option. This represents an important first step in understanding the core logic of complex option pricing."
+        ],
+        "title": "Binomial Option Pricing Model"
+      }
+    },
+    "tutorialType": "derivatives",
+    "imagePath": "/assets/images/ch19.png"
   },
   {
     "id": 20,
-    "volume": "VOL. 2",
-    "year": "1970s",
-    "tutorialType": "calculus",
-    "imagePath": "/assets/images/ch2.png",
     "ko": {
-      "title": "중간점검: 퀀트의 사고방식",
-      "subtitle": "수학 모델로 시장을 극복하다",
+      "volume": "Volume 2",
+      "year": "2024",
+      "title": "블랙-숄즈 모형의 서막: 혁명으로 가는 길",
+      "subtitle": "연속적인 변화, 미분 방정식으로 풀다",
       "content": [
-        "우리는 폴샘 버추얼팀과 함께 일합니다. 모든 지식이 공유되는 이 곳, 헤븐 프로젝트의 일환으로 역사 속 금융과 수학의 만남을 추적합니다.",
-        "이 시기 가장 중요한 것은 [[중간점검:|선생님이 설명해주는 핵심 수학과 금융의 의미]]입니다. 이것이 인류의 자산을 어떻게 증식시켰는지 확인해봅시다.",
-        "과거의 뼈아픈 교훈이 오늘날 우리를 이 자리로 이끌었습니다. 숫자의 변동성을 이해하는 것이 곧 미래의 리스크를 줄이는 가장 완벽한 방법입니다."
-      ]
+        "이항 모형이 옵션 가격 결정의 중요한 첫걸음이었지만, 주식 가격이 단 두 가지 방향으로만 움직인다는 가정은 현실성이 떨어졌다. 실제 주식 가격은 끊임없이 변하며, 그 변화는 무수히 많은 미세한 움직임의 연속이다. 이러한 연속적인 변화를 포착하고 옵션 가격을 보다 정확하게 계산할 수 있는 더 강력한 도구가 필요했다.",
+        "1973년, 피셔 블랙(Fischer Black)과 마이런 숄즈(Myron Scholes)는 획기적인 옵션 가격 결정 모형을 발표했다. 이들은 주식 가격이 [[기하 브라운 운동|주식이나 자산 가격이 시간이 지남에 따라 무작위로 움직이지만, 그 변화율은 로그 정규 분포를 따른다고 가정하는 수학적 모델이에요. 블랙-숄즈 모형의 핵심 가정 중 하나죠!]]을 따른다는 가정하에, 미적분학의 미분 방정식을 사용하여 옵션의 공정한 가치를 도출했다. 이는 마치 복잡한 날씨 변화를 수학적으로 예측하려는 시도와 같았다.",
+        "블랙-숄즈 모형은 옵션 가격에 영향을 미치는 다섯 가지 요소(주가, 행사가격, 만기까지 남은 시간, 변동성, 무위험 이자율)를 통합하여, 옵션 시장에 혁명적인 변화를 가져왔다. 이 모형은 단순한 이론적 발전을 넘어, 파생상품 시장의 폭발적인 성장을 이끌고 현대 금융의 초석이 되었다. 다음 볼륨에서는 이 블랙-숄즈 모형의 심층적인 세계로 들어가 볼 것이다."
+      ],
+      "theoryDetail": {
+        "content": [
+          "블랙-숄즈 모형은 주식 가격이 기하 브라운 운동을 따른다는 핵심 가정하에 미분 방정식을 사용하여 옵션 가격을 결정합니다. 이는 연속적인 주가 변화를 모델링하여 이항 모형보다 더 정교한 가격을 산출합니다. 이 모형은 주가, 행사가격, 만기, 변동성, 무위험 이자율의 다섯 가지 변수를 통합하여 옵션의 가치를 평가합니다."
+        ],
+        "title": "블랙-숄즈 모형의 주요 가정"
+      }
     },
     "en": {
-      "title": "중간점검: 퀀트의 사고방식 (EN)",
-      "subtitle": "수학 모델로 시장을 극복하다 (EN)",
+      "volume": "Volume 2",
+      "year": "2024",
+      "title": "Prelude to Black-Scholes: The Road to Revolution",
+      "subtitle": "Continuous Change, Solved by Differential Equations",
       "content": [
-        "We work with PaulSam Virtual Team. Tracking the intersection of finance and math throughout history.",
-        "The key is understanding the math principle.",
-        "Past lessons lead us to the transparent future."
-      ]
-    }
+        "While the binomial model was an important first step in option pricing, the assumption that stock prices move in only two directions was unrealistic. Actual stock prices change continuously, and their movements are a series of infinitely many tiny fluctuations. A more powerful tool was needed to capture these continuous changes and calculate option prices more accurately.",
+        "In 1973, Fischer Black and Myron Scholes published a groundbreaking option pricing model. They derived the fair value of an option using differential equations from calculus, under the assumption that stock prices follow [[geometric Brownian motion|A mathematical model that assumes stock or asset prices move randomly over time, but their rates of change follow a log-normal distribution. It's one of the core assumptions of the Black-Scholes model!]]. This was akin to attempting to mathematically predict complex weather changes.",
+        "The Black-Scholes model integrated five factors influencing option prices (stock price, strike price, time to expiration, volatility, and risk-free interest rate), bringing about a revolutionary change in the options market. This model was more than just a theoretical advancement; it spurred the explosive growth of the derivatives market and became a cornerstone of modern finance. In the next volume, we will delve into the profound world of the Black-Scholes model."
+      ],
+      "theoryDetail": {
+        "content": [
+          "The Black-Scholes model determines option prices using differential equations under the core assumption that stock prices follow geometric Brownian motion. This models continuous stock price changes, yielding more sophisticated prices than the binomial model. This model integrates five variables - stock price, strike price, time to expiration, volatility, and risk-free interest rate - to value options."
+        ],
+        "title": "Key Assumptions of the Black-Scholes Model"
+      }
+    },
+    "tutorialType": "blackScholes",
+    "imagePath": "/assets/images/ch20.png"
   },
   {
     "id": 21,
-    "volume": "VOL. 3",
-    "year": "1980s",
-    "tutorialType": "blackScholes",
-    "imagePath": "/assets/images/ch3.png",
     "ko": {
-      "title": "델타와 동적 헤지",
-      "subtitle": "리스크를 실시간으로 중화하다",
+      "volume": "Vol 3",
+      "year": "2024",
+      "title": "델타의 그림자 - 시장의 방향을 읽다",
+      "subtitle": "옵션 가격 변화의 첫 번째 열쇠",
       "content": [
-        "우리는 폴샘 버추얼팀과 함께 일합니다. 모든 지식이 공유되는 이 곳, 헤븐 프로젝트의 일환으로 역사 속 금융과 수학의 만남을 추적합니다.",
-        "이 시기 가장 중요한 것은 [[델타와|선생님이 설명해주는 핵심 수학과 금융의 의미]]입니다. 이것이 인류의 자산을 어떻게 증식시켰는지 확인해봅시다.",
-        "과거의 뼈아픈 교훈이 오늘날 우리를 이 자리로 이끌었습니다. 숫자의 변동성을 이해하는 것이 곧 미래의 리스크를 줄이는 가장 완벽한 방법입니다."
-      ]
+        "엘라라는 어둠이 깔린 퀀트 연구실에서 모니터 화면을 응시했다. 수많은 숫자들이 춤추는 가운데, 그녀의 눈은 한 가지 지표에 고정되어 있었다. 바로 '델타'였다. 옵션 시장의 복잡한 움직임을 이해하기 위한 첫걸음, 그것은 델타의 그림자를 쫓는 것이었다.",
+        "그녀는 델타가 마치 시장의 나침반과 같다고 생각했다. 기초자산 가격이 변할 때 옵션 가격이 얼마나 빠르게 반응하는지, 그 민감도를 델타가 알려주었기 때문이다. 델타 값이 0.5라면, 기초자산이 1달러 오를 때 옵션 가격은 0.5달러 오를 것이라는 의미였다.",
+        "엘라라는 이 델타 값을 활용하여 포지션의 방향성을 예측하고, 시장의 흐름에 따라 전략을 조절하는 연습을 반복했다. 그녀에게 델타는 단순한 숫자가 아니라, 시장의 숨결을 느끼게 해주는 [[델타|옵션 가격이 기초자산 가격 변동에 얼마나 민감하게 반응하는지를 나타내는 지표예요. 기초자산이 1단위 변할 때 옵션 가격이 얼마나 변하는지 알려주죠.]]였다."
+      ],
+      "theoryDetail": {
+        "content": [
+          "델타는 옵션 가격의 기초자산 가격에 대한 민감도를 나타내는 지표입니다. 기초자산 가격이 1단위 변할 때 옵션 가격이 얼마나 변하는지를 의미합니다.",
+          "콜옵션의 델타는 0과 1 사이의 값을 가지며, 풋옵션의 델타는 -1과 0 사이의 값을 가집니다. 이는 콜옵션이 기초자산 가격과 같은 방향으로 움직이고, 풋옵션은 반대 방향으로 움직이기 때문입니다.",
+          "델타는 옵션의 내가격, 등가격, 외가격 여부에 따라 달라집니다. 내가격 옵션은 델타가 1(콜) 또는 -1(풋)에 가까워지고, 외가격 옵션은 델타가 0에 가까워집니다. 등가격 옵션은 대략 0.5(콜) 또는 -0.5(풋)의 델타를 가집니다.",
+          "델타는 또한 델타 헤징(Delta Hedging) 전략의 핵심 요소로, 포트폴리오의 기초자산 가격 변동 위험을 상쇄하는 데 사용됩니다."
+        ],
+        "title": "델타(Delta) 심층 분석"
+      }
     },
     "en": {
-      "title": "델타와 동적 헤지 (EN)",
-      "subtitle": "리스크를 실시간으로 중화하다 (EN)",
+      "volume": "Vol 3",
+      "year": "2024",
+      "title": "The Shadow of Delta - Reading Market Direction",
+      "subtitle": "The First Key to Option Price Changes",
       "content": [
-        "We work with PaulSam Virtual Team. Tracking the intersection of finance and math throughout history.",
-        "The key is understanding the math principle.",
-        "Past lessons lead us to the transparent future."
-      ]
-    }
+        "Elara stared at the monitor screen in the dimly lit quant lab. Amidst the dance of countless numbers, her eyes were fixed on one indicator: 'Delta'. The first step to understanding the complex movements of the options market was to chase the shadow of Delta.",
+        "She thought of Delta as the market's compass. Delta told her how sensitively option prices reacted to changes in the underlying asset's price. A Delta value of 0.5 meant that if the underlying asset rose by 1 dollar, the option price would rise by 0.5 dollars.",
+        "Elara repeatedly practiced using this Delta value to predict the direction of her positions and adjust her strategy according to market trends. To her, Delta was not just a number, but a [[Delta|It's an indicator that shows how sensitive an option's price is to changes in the underlying asset's price. It tells you how much the option price changes when the underlying asset changes by one unit.]] that allowed her to feel the market's breath."
+      ],
+      "theoryDetail": {
+        "content": [
+          "Delta is an indicator that represents the sensitivity of an option's price to the underlying asset's price. It signifies how much the option price changes when the underlying asset's price changes by one unit.",
+          "The Delta of a call option ranges between 0 and 1, while the Delta of a put option ranges between -1 and 0. This is because call options move in the same direction as the underlying asset price, and put options move in the opposite direction.",
+          "Delta varies depending on whether the option is in-the-money, at-the-money, or out-of-the-money. In-the-money options have a Delta closer to 1 (calls) or -1 (puts), while out-of-the-money options have a Delta closer to 0. At-the-money options typically have a Delta of approximately 0.5 (calls) or -0.5 (puts).",
+          "Delta is also a key component of the Delta Hedging strategy, used to offset the risk of underlying asset price fluctuations in a portfolio."
+        ],
+        "title": "In-depth Analysis of Delta"
+      }
+    },
+    "tutorialType": "derivatives",
+    "imagePath": "/assets/images/ch21.png"
   },
   {
     "id": 22,
-    "volume": "VOL. 3",
-    "year": "1980s",
-    "tutorialType": "blackScholes",
-    "imagePath": "/assets/images/ch3.png",
     "ko": {
-      "title": "감마(Gamma)의 공포",
-      "subtitle": "속도의 속도, 델타의 변화율",
+      "volume": "Vol 3",
+      "year": "2024",
+      "title": "감마의 변덕 - 델타의 델타",
+      "subtitle": "가속도처럼 변하는 델타의 민감도",
       "content": [
-        "우리는 폴샘 버추얼팀과 함께 일합니다. 모든 지식이 공유되는 이 곳, 헤븐 프로젝트의 일환으로 역사 속 금융과 수학의 만남을 추적합니다.",
-        "이 시기 가장 중요한 것은 [[감마(Gamma)의|선생님이 설명해주는 핵심 수학과 금융의 의미]]입니다. 이것이 인류의 자산을 어떻게 증식시켰는지 확인해봅시다.",
-        "과거의 뼈아픈 교훈이 오늘날 우리를 이 자리로 이끌었습니다. 숫자의 변동성을 이해하는 것이 곧 미래의 리스크를 줄이는 가장 완벽한 방법입니다."
-      ]
+        "델타를 이해한 엘라라는 곧 새로운 문제에 직면했다. 시장이 급변할 때, 델타 값 자체가 놀라울 정도로 빠르게 변한다는 사실이었다. 그녀의 헤지 전략은 한순간에 무용지물이 될 수 있었다. 마치 자동차의 속도(델타)가 가속도(감마)에 의해 끊임없이 변하는 것과 같았다.",
+        "선배 퀀트인 제이콥은 엘라라에게 '감마'라는 개념을 소개했다. \"델타는 시장의 방향을 알려주지만, 감마는 그 방향이 얼마나 빠르게 변할지 알려주는 거야.\" 제이콥의 말에 엘라라의 머릿속에 복잡했던 퍼즐 조각이 맞춰지는 느낌이었다.",
+        "감마는 델타의 변화율, 즉 옵션 가격이 기초자산 가격 변화에 대해 얼마나 가속도적으로 반응하는지를 나타내는 지표였다. 엘라라는 감마를 이해함으로써 변동성이 큰 시장에서 [[감마|델타가 기초자산 가격 변동에 얼마나 민감하게 반응하는지를 나타내는 지표예요. 즉, 기초자산이 움직일 때 델타가 얼마나 빠르게 변하는지 보여주죠.]]를 관리하는 방법을 깨닫기 시작했다."
+      ],
+      "theoryDetail": {
+        "content": [
+          "감마는 옵션의 델타가 기초자산 가격 변화에 대해 얼마나 민감하게 반응하는지를 나타내는 지표입니다. 즉, 기초자산 가격이 1단위 변할 때 델타가 얼마나 변하는지를 측정합니다.",
+          "감마는 옵션 가격의 볼록성(convexity)을 나타내며, 특히 등가격 옵션에서 감마 값이 가장 커집니다. 이는 등가격 옵션의 델타가 기초자산 가격 변화에 가장 민감하게 반응한다는 것을 의미합니다.",
+          "감마는 헤징 전략에서 매우 중요합니다. 높은 감마 값은 델타가 빠르게 변한다는 것을 의미하므로, 델타 헤징 포지션을 자주 조정해야 할 필요성을 시사합니다. 감마가 양수이면 기초자산 가격이 오를 때 포지션 가치가 더 빠르게 증가하고, 내릴 때는 더 느리게 감소합니다.",
+          "감마 헤징(Gamma Hedging)은 포트폴리오의 델타를 중립으로 유지하면서 동시에 감마도 중립으로 만들어, 기초자산 가격의 큰 변동에도 포트폴리오 가치의 변화를 최소화하는 전략입니다."
+        ],
+        "title": "감마(Gamma) 심층 분석"
+      }
     },
     "en": {
-      "title": "감마(Gamma)의 공포 (EN)",
-      "subtitle": "속도의 속도, 델타의 변화율 (EN)",
+      "volume": "Vol 3",
+      "year": "2024",
+      "title": "The Fickleness of Gamma - The Delta of Delta",
+      "subtitle": "The Sensitivity of Delta Changing Like Acceleration",
       "content": [
-        "We work with PaulSam Virtual Team. Tracking the intersection of finance and math throughout history.",
-        "The key is understanding the math principle.",
-        "Past lessons lead us to the transparent future."
-      ]
-    }
+        "Having understood Delta, Elara soon faced a new problem. When the market changed rapidly, the Delta value itself changed surprisingly quickly. Her hedging strategy could become useless in an instant. It was like a car's speed (Delta) constantly changing due to acceleration (Gamma).",
+        "Jacob, a senior quant, introduced Elara to the concept of 'Gamma'. \"Delta tells you the market's direction, but Gamma tells you how fast that direction will change.\" Jacob's words made the complex puzzle pieces in Elara's mind click into place.",
+        "Gamma was the rate of change of Delta, an indicator that showed how acceleratively option prices reacted to changes in the underlying asset's price. By understanding Gamma, Elara began to realize how to manage [[Gamma|It's an indicator that shows how sensitive Delta is to changes in the underlying asset's price. In other words, it shows how quickly Delta changes when the underlying asset moves.]] in volatile markets."
+      ],
+      "theoryDetail": {
+        "content": [
+          "Gamma is an indicator that represents how sensitively an option's Delta reacts to changes in the underlying asset's price. In other words, it measures how much Delta changes when the underlying asset's price changes by one unit.",
+          "Gamma represents the convexity of an option's price, and Gamma values are highest for at-the-money options. This means that the Delta of at-the-money options is most sensitive to changes in the underlying asset's price.",
+          "Gamma is very important in hedging strategies. A high Gamma value implies that Delta changes rapidly, suggesting the need for frequent adjustments to Delta-hedged positions. If Gamma is positive, the portfolio value increases faster when the underlying asset price rises and decreases slower when it falls.",
+          "Gamma Hedging is a strategy that aims to keep both Delta and Gamma neutral in a portfolio, minimizing changes in portfolio value even with large fluctuations in the underlying asset price."
+        ],
+        "title": "In-depth Analysis of Gamma"
+      }
+    },
+    "tutorialType": "derivatives",
+    "imagePath": "/assets/images/ch22.png"
   },
   {
     "id": 23,
-    "volume": "VOL. 3",
-    "year": "1980s",
-    "tutorialType": "blackScholes",
-    "imagePath": "/assets/images/ch3.png",
     "ko": {
-      "title": "세타(Theta)와 시간",
-      "subtitle": "시간이 흐를수록 깎이는 가치",
+      "volume": "Vol 3",
+      "year": "2024",
+      "title": "세타의 속삭임 - 시간의 침식",
+      "subtitle": "옵션 가치를 갉아먹는 시간의 힘",
       "content": [
-        "우리는 폴샘 버추얼팀과 함께 일합니다. 모든 지식이 공유되는 이 곳, 헤븐 프로젝트의 일환으로 역사 속 금융과 수학의 만남을 추적합니다.",
-        "이 시기 가장 중요한 것은 [[세타(Theta)와|선생님이 설명해주는 핵심 수학과 금융의 의미]]입니다. 이것이 인류의 자산을 어떻게 증식시켰는지 확인해봅시다.",
-        "과거의 뼈아픈 교훈이 오늘날 우리를 이 자리로 이끌었습니다. 숫자의 변동성을 이해하는 것이 곧 미래의 리스크를 줄이는 가장 완벽한 방법입니다."
-      ]
+        "어느 날, 엘라라는 자신이 보유한 옵션 포지션의 가치가 특별한 시장 변동 없이도 서서히 줄어드는 것을 발견했다. 마치 모래시계의 모래가 끊임없이 흘러내리듯, 시간의 흐름이 옵션 가치를 갉아먹고 있었다. 그녀는 이 불가피한 현상의 원인을 파고들었다.",
+        "제이콥은 그녀에게 '세타'의 개념을 설명했다. \"옵션은 만기일이 다가올수록 가치가 줄어드는 경향이 있어. 이걸 시간 가치 하락이라고 하는데, 세타가 이 시간 가치 하락의 속도를 알려주는 지표야.\" 그의 말에 엘라라는 고개를 끄덕였다.",
+        "세타는 옵션의 잔존 만기일이 하루 감소할 때 옵션 가격이 얼마나 변하는지를 나타내는 지표였다. 특히 만기일이 임박한 등가격 옵션에서 세타 값이 크게 나타났다. 엘라라는 세타를 이해함으로써 [[세타|옵션의 잔존 만기일이 하루 감소할 때 옵션 가격이 얼마나 변하는지를 나타내는 지표예요. 시간이 흐르면 옵션 가치가 줄어드는 '시간 가치 하락'을 측정하죠.]]를 활용한 현명한 투자 시점을 결정할 수 있게 되었다."
+      ],
+      "theoryDetail": {
+        "content": [
+          "세타는 옵션의 시간 가치 하락(Time Decay)을 측정하는 지표입니다. 잔존 만기일이 하루 감소할 때 옵션 가격이 얼마나 변하는지를 나타냅니다.",
+          "대부분의 옵션, 특히 매수 포지션의 경우 세타 값은 음수입니다. 이는 시간이 흐를수록 옵션 가치가 감소한다는 것을 의미합니다. 반대로 옵션 매도 포지션은 양의 세타를 가져 시간 경과에 따른 이익을 얻습니다.",
+          "세타의 영향은 만기일이 가까워질수록 더욱 커집니다. 특히 등가격 옵션의 경우 만기일이 임박할수록 세타 값이 절댓값 기준으로 급격히 증가합니다.",
+          "세타는 옵션 전략을 수립할 때 중요한 고려 사항입니다. 장기 옵션은 세타의 영향이 비교적 적지만, 단기 옵션은 세타의 영향이 매우 커서 만기일 관리가 중요합니다."
+        ],
+        "title": "세타(Theta) 심층 분석"
+      }
     },
     "en": {
-      "title": "세타(Theta)와 시간 (EN)",
-      "subtitle": "시간이 흐를수록 깎이는 가치 (EN)",
+      "volume": "Vol 3",
+      "year": "2024",
+      "title": "The Whisper of Theta - The Erosion of Time",
+      "subtitle": "The Power of Time Eating Away at Option Value",
       "content": [
-        "We work with PaulSam Virtual Team. Tracking the intersection of finance and math throughout history.",
-        "The key is understanding the math principle.",
-        "Past lessons lead us to the transparent future."
-      ]
-    }
+        "One day, Elara discovered that the value of her option positions was slowly decreasing even without significant market fluctuations. Just as sand constantly flows through an hourglass, the passage of time was eroding the option's value. She delved into the cause of this inevitable phenomenon.",
+        "Jacob explained the concept of 'Theta' to her. \"Options tend to lose value as their expiration date approaches. This is called time decay, and Theta is the indicator that tells you the rate of this time decay.\" Elara nodded at his words.",
+        "Theta was an indicator that showed how much an option's price changed when its remaining time to expiration decreased by one day. Theta values were particularly large for at-the-money options nearing expiration. By understanding Theta, Elara was able to determine smart investment timing using [[Theta|It's an indicator that shows how much an option's price changes when its remaining time to expiration decreases by one day. It measures the 'time value decay' where option value decreases as time passes.]]"
+      ],
+      "theoryDetail": {
+        "content": [
+          "Theta is an indicator that measures the time decay of an option. It represents how much the option price changes when the remaining time to expiration decreases by one day.",
+          "For most options, especially long positions, Theta values are negative. This means that the option value decreases as time passes. Conversely, option short positions have positive Theta, benefiting from the passage of time.",
+          "The impact of Theta becomes more significant as the expiration date approaches. Especially for at-the-money options, Theta values increase sharply in absolute terms as the expiration date nears.",
+          "Theta is an important consideration when formulating option strategies. Long-term options are relatively less affected by Theta, but short-term options are highly affected, making expiration date management crucial."
+        ],
+        "title": "In-depth Analysis of Theta"
+      }
+    },
+    "tutorialType": "derivatives",
+    "imagePath": "/assets/images/ch23.png"
   },
   {
     "id": 24,
-    "volume": "VOL. 3",
-    "year": "1980s",
-    "tutorialType": "blackScholes",
-    "imagePath": "/assets/images/ch3.png",
     "ko": {
-      "title": "베가(Vega)와 변동성",
-      "subtitle": "시장이 출렁일 때의 가치 변화",
+      "volume": "Vol 3",
+      "year": "2024",
+      "title": "베가의 폭풍 - 변동성의 그림자",
+      "subtitle": "시장의 불확실성을 측정하는 척도",
       "content": [
-        "우리는 폴샘 버추얼팀과 함께 일합니다. 모든 지식이 공유되는 이 곳, 헤븐 프로젝트의 일환으로 역사 속 금융과 수학의 만남을 추적합니다.",
-        "이 시기 가장 중요한 것은 [[베가(Vega)와|선생님이 설명해주는 핵심 수학과 금융의 의미]]입니다. 이것이 인류의 자산을 어떻게 증식시켰는지 확인해봅시다.",
-        "과거의 뼈아픈 교훈이 오늘날 우리를 이 자리로 이끌었습니다. 숫자의 변동성을 이해하는 것이 곧 미래의 리스크를 줄이는 가장 완벽한 방법입니다."
-      ]
+        "어느 날, 시장에 예상치 못한 급격한 변동성이 몰아쳤다. 엘라라의 포지션은 델타와 감마 헤징에도 불구하고 큰 흔들림을 보였다. 그녀는 시장의 공포와 탐욕이 만들어내는 '불확실성'이라는 거대한 힘 앞에서 무력감을 느꼈다. 대체 무엇이 이토록 옵션 가치를 뒤흔드는 것일까?",
+        "제이콥은 차분하게 '베가'라는 개념을 설명했다. \"옵션 가격은 기초자산의 가격 변동성에도 크게 영향을 받아. 시장이 불안정해질수록 변동성이 커지고, 옵션의 가치도 덩달아 오르는 경향이 있지. 베가는 바로 이 변동성에 대한 옵션 가격의 민감도를 나타내는 지표야.\"",
+        "베가는 기초자산의 내재 변동성이 1% 변할 때 옵션 가격이 얼마나 변하는지를 나타내는 지표였다. 엘라라는 베가를 통해 시장의 불확실성이 옵션 가치에 미치는 영향을 이해하고, [[베가|기초자산의 내재 변동성이 1% 변할 때 옵션 가격이 얼마나 변하는지를 나타내는 지표예요. 변동성이 높으면 옵션 가치가 올라가는 경향이 있죠.]]를 활용하여 변동성 변화에 대비하는 전략을 세울 수 있게 되었다."
+      ],
+      "theoryDetail": {
+        "content": [
+          "베가는 옵션 가격의 기초자산 내재 변동성에 대한 민감도를 나타내는 지표입니다. 내재 변동성이 1% 변할 때 옵션 가격이 얼마나 변하는지를 의미합니다.",
+          "콜옵션과 풋옵션 모두 베가 값은 양수입니다. 이는 변동성이 증가하면 옵션의 가치(시간 가치)가 증가하고, 변동성이 감소하면 옵션의 가치가 감소한다는 것을 의미합니다. 옵션 매수자는 변동성 증가에 이득을 보고, 옵션 매도자는 변동성 감소에 이득을 봅니다.",
+          "베가는 특히 등가격 옵션과 만기까지 시간이 많이 남은 옵션에서 높게 나타납니다. 이는 이러한 옵션들이 변동성 변화에 가장 민감하게 반응하기 때문입니다.",
+          "베가는 변동성 거래 전략(Volatility Trading)의 핵심 요소입니다. 시장의 변동성 변화를 예측하여 옵션 포지션을 조정하거나, 변동성 자체를 거래하는 데 활용됩니다."
+        ],
+        "title": "베가(Vega) 심층 분석"
+      }
     },
     "en": {
-      "title": "베가(Vega)와 변동성 (EN)",
-      "subtitle": "시장이 출렁일 때의 가치 변화 (EN)",
+      "volume": "Vol 3",
+      "year": "2024",
+      "title": "The Storm of Vega - The Shadow of Volatility",
+      "subtitle": "A Measure of Market Uncertainty",
       "content": [
-        "We work with PaulSam Virtual Team. Tracking the intersection of finance and math throughout history.",
-        "The key is understanding the math principle.",
-        "Past lessons lead us to the transparent future."
-      ]
-    }
+        "One day, an unexpected surge of volatility swept through the market. Elara's positions showed significant fluctuations despite Delta and Gamma hedging. She felt helpless in the face of the immense power of 'uncertainty' created by market fear and greed. What on earth was shaking option values so much?",
+        "Jacob calmly explained the concept of 'Vega'. \"Option prices are also greatly affected by the volatility of the underlying asset. As the market becomes more unstable, volatility increases, and the value of options tends to rise with it. Vega is the indicator that represents the sensitivity of option prices to this volatility.\"",
+        "Vega was an indicator that showed how much an option's price changed when the implied volatility of the underlying asset changed by 1%. Through Vega, Elara understood the impact of market uncertainty on option values and could formulate strategies to prepare for volatility changes using [[Vega|It's an indicator that shows how much an option's price changes when the implied volatility of the underlying asset changes by 1%. When volatility is high, option values tend to go up.]]"
+      ],
+      "theoryDetail": {
+        "content": [
+          "Vega is an indicator that represents the sensitivity of an option's price to the implied volatility of the underlying asset. It signifies how much the option price changes when implied volatility changes by 1%.",
+          "Both call and put options have positive Vega values. This means that if volatility increases, the value (time value) of the option increases, and if volatility decreases, the value of the option decreases. Option buyers benefit from increased volatility, and option sellers benefit from decreased volatility.",
+          "Vega is particularly high for at-the-money options and options with a long time to expiration. This is because these options are most sensitive to changes in volatility.",
+          "Vega is a key component of Volatility Trading strategies. It is used to adjust option positions based on anticipated changes in market volatility or to trade volatility itself."
+        ],
+        "title": "In-depth Analysis of Vega"
+      }
+    },
+    "tutorialType": "derivatives",
+    "imagePath": "/assets/images/ch24.png"
   },
   {
     "id": 25,
-    "volume": "VOL. 3",
-    "year": "1973",
-    "tutorialType": "blackScholes",
-    "imagePath": "/assets/images/ch3.png",
     "ko": {
-      "title": "블랙-숄즈 편미분방정식",
-      "subtitle": "옵션 가격 결정 모형의 총합",
+      "volume": "Vol 3",
+      "year": "2024",
+      "title": "로의 미소 - 금리의 파동",
+      "subtitle": "옵션 가격에 미치는 금리 변화의 영향",
       "content": [
-        "우리는 폴샘 버추얼팀과 함께 일합니다. 모든 지식이 공유되는 이 곳, 헤븐 프로젝트의 일환으로 역사 속 금융과 수학의 만남을 추적합니다.",
-        "이 시기 가장 중요한 것은 [[블랙-숄즈|선생님이 설명해주는 핵심 수학과 금융의 의미]]입니다. 이것이 인류의 자산을 어떻게 증식시켰는지 확인해봅시다.",
-        "과거의 뼈아픈 교훈이 오늘날 우리를 이 자리로 이끌었습니다. 숫자의 변동성을 이해하는 것이 곧 미래의 리스크를 줄이는 가장 완벽한 방법입니다."
-      ]
+        "시장은 언제나 예상치 못한 변수들로 가득했다. 엘라라가 모든 위험 요소를 고려했다고 생각했을 때, 미묘한 금리 변화가 그녀의 포트폴리오에 잔잔한 파동을 일으키는 것을 발견했다. 작은 변화였지만, 장기적인 관점에서는 무시할 수 없는 영향이었다. 그녀는 이 숨겨진 힘의 정체를 밝히기로 했다.",
+        "제이콥은 '로(Rho)'라는 마지막 그리스 문자를 소개하며 말했다. \"금리도 옵션 가격에 영향을 미쳐. 특히 만기까지 시간이 긴 옵션일수록 그 영향이 커지지. 로는 바로 이 무위험 이자율 변화에 대한 옵션 가격의 민감도를 나타내.\"",
+        "로는 무위험 이자율이 1% 변할 때 옵션 가격이 얼마나 변하는지를 나타내는 지표였다. 엘라라는 로를 이해함으로써 거시 경제 지표인 금리 변화가 옵션 포트폴리오에 미치는 영향을 파악하고, [[로|무위험 이자율이 1% 변할 때 옵션 가격이 얼마나 변하는지를 나타내는 지표예요. 특히 장기 옵션이나 금리 변화에 민감한 상품에서 중요하게 다뤄져요.]]를 활용하여 금리 변동 위험에 대비하는 통찰력을 얻게 되었다."
+      ],
+      "theoryDetail": {
+        "content": [
+          "로는 옵션 가격의 무위험 이자율에 대한 민감도를 나타내는 지표입니다. 무위험 이자율이 1% 변할 때 옵션 가격이 얼마나 변하는지를 의미합니다.",
+          "일반적으로 콜옵션의 로는 양수이고, 풋옵션의 로는 음수입니다. 이는 금리가 상승하면 콜옵션 가치는 증가하고, 풋옵션 가치는 감소하는 경향이 있기 때문입니다. (단, 배당금이 있는 경우나 외가격 풋옵션의 경우 예외가 있을 수 있습니다.)",
+          "로의 영향은 만기까지 남은 시간이 길수록 커집니다. 단기 옵션의 경우 로의 영향은 미미하지만, 장기 옵션의 경우 금리 변화가 옵션 가격에 미치는 영향이 유의미해집니다.",
+          "로는 주로 장기 옵션 포지션을 관리하거나, 금리 변동 위험에 노출된 포트폴리오를 헤지할 때 중요한 고려 요소가 됩니다."
+        ],
+        "title": "로(Rho) 심층 분석"
+      }
     },
     "en": {
-      "title": "블랙-숄즈 편미분방정식 (EN)",
-      "subtitle": "옵션 가격 결정 모형의 총합 (EN)",
+      "volume": "Vol 3",
+      "year": "2024",
+      "title": "The Smile of Rho - The Ripple of Interest Rates",
+      "subtitle": "The Impact of Interest Rate Changes on Option Prices",
       "content": [
-        "We work with PaulSam Virtual Team. Tracking the intersection of finance and math throughout history.",
-        "The key is understanding the math principle.",
-        "Past lessons lead us to the transparent future."
-      ]
-    }
+        "The market was always full of unexpected variables. Just when Elara thought she had considered all risk factors, she discovered that subtle changes in interest rates were creating gentle ripples in her portfolio. It was a small change, but its long-term impact was not to be ignored. She decided to uncover the identity of this hidden force.",
+        "Jacob introduced the last Greek letter, 'Rho', saying, \"Interest rates also affect option prices. The longer the time to expiration, the greater the impact. Rho represents the sensitivity of option prices to changes in this risk-free interest rate.\"",
+        "Rho was an indicator that showed how much an option's price changed when the risk-free interest rate changed by 1%. By understanding Rho, Elara gained insight into the impact of macroeconomic indicators like interest rate changes on option portfolios and how to prepare for interest rate volatility using [[Rho|It's an indicator that shows how much an option's price changes when the risk-free interest rate changes by 1%. It's particularly important for long-term options or products sensitive to interest rate changes.]]"
+      ],
+      "theoryDetail": {
+        "content": [
+          "Rho is an indicator that represents the sensitivity of an option's price to the risk-free interest rate. It signifies how much the option price changes when the risk-free interest rate changes by 1%.",
+          "Generally, the Rho of a call option is positive, and the Rho of a put option is negative. This is because call option values tend to increase and put option values tend to decrease when interest rates rise. (However, there may be exceptions for options with dividends or out-of-the-money put options.)",
+          "The impact of Rho increases with the length of time remaining until expiration. For short-term options, the impact of Rho is negligible, but for long-term options, interest rate changes have a significant impact on option prices.",
+          "Rho is mainly an important consideration when managing long-term option positions or hedging portfolios exposed to interest rate volatility."
+        ],
+        "title": "In-depth Analysis of Rho"
+      }
+    },
+    "tutorialType": "derivatives",
+    "imagePath": "/assets/images/ch25.png"
   },
   {
     "id": 26,
-    "volume": "VOL. 3",
-    "year": "1980s",
-    "tutorialType": "probability",
-    "imagePath": "/assets/images/ch3.png",
     "ko": {
-      "title": "연속 확률 분포의 이해",
-      "subtitle": "로그정규분포와 주가 이동",
+      "volume": "Vol 3",
+      "year": "2024",
+      "title": "그리스의 춤 - 헤지 전략의 서막",
+      "subtitle": "다양한 위험을 통제하는 퀀트의 기술",
       "content": [
-        "우리는 폴샘 버추얼팀과 함께 일합니다. 모든 지식이 공유되는 이 곳, 헤븐 프로젝트의 일환으로 역사 속 금융과 수학의 만남을 추적합니다.",
-        "이 시기 가장 중요한 것은 [[연속|선생님이 설명해주는 핵심 수학과 금융의 의미]]입니다. 이것이 인류의 자산을 어떻게 증식시켰는지 확인해봅시다.",
-        "과거의 뼈아픈 교훈이 오늘날 우리를 이 자리로 이끌었습니다. 숫자의 변동성을 이해하는 것이 곧 미래의 리스크를 줄이는 가장 완벽한 방법입니다."
-      ]
+        "엘라라는 이제 델타, 감마, 세타, 베가, 로까지, 다섯 가지 주요 그리스 지표들을 모두 이해하게 되었다. 각각의 지표는 시장의 특정 위험에 대한 옵션 가격의 민감도를 나타내고 있었다. 그녀는 이 지표들을 단순히 개별적으로 보는 것을 넘어, 서로 유기적으로 연결된 춤처럼 활용하는 방법을 고민했다.",
+        "제이콥은 여러 그리스 지표를 동시에 관리하는 '그리스 중립 헤징' 전략을 소개했다. \"우리는 시장의 다양한 움직임에 대비해야 해. 델타만 헤지해서는 부족해. 감마, 세타, 베가까지 모두 고려해서 포트폴리오를 균형 있게 만들어야 진정한 위험 관리가 가능해.\"",
+        "엘라라는 이제 하나의 포지션이 아니라 포트폴리오 전체의 그리스 지표들을 분석하고, 특정 위험에 대한 노출을 줄이기 위해 다양한 옵션과 기초자산을 조합하기 시작했다. 그녀에게 [[헤지|미래에 발생할 수 있는 불리한 가격 변동 위험을 줄이기 위해 현재 반대 포지션을 취하는 전략이에요. 보험을 드는 것과 비슷하다고 생각하면 쉬워요!]]는 단순히 손실을 막는 것을 넘어, 시장의 불확실성 속에서 안정적인 수익을 추구하는 예술이 되었다."
+      ],
+      "theoryDetail": {
+        "content": [
+          "헤징(Hedging)은 미래에 발생할 수 있는 불리한 가격 변동 위험을 줄이기 위해 현재 반대 포지션을 취하는 전략입니다. 옵션 시장에서는 주로 '그리스 중립 헤징' 전략이 사용됩니다.",
+          "델타 헤징(Delta Hedging)은 포트폴리오의 델타를 0으로 만들어 기초자산 가격 변동에 대한 노출을 없애는 가장 기본적인 헤징 방법입니다. 하지만 델타가 계속 변하기 때문에 지속적인 조정이 필요합니다.",
+          "감마 헤징(Gamma Hedging)은 델타가 변하는 속도를 통제하여 델타 헤징의 효율성을 높입니다. 감마를 0으로 만들면 기초자산 가격이 크게 변해도 델타가 크게 변하지 않아 재조정 빈도를 줄일 수 있습니다.",
+          "베가 헤징(Vega Hedging)은 변동성 변화에 대한 포트폴리오의 민감도를 줄이는 전략입니다. 시장의 변동성이 급변할 때 포트폴리오 가치의 손실을 막는 데 중요합니다.",
+          "그리스 중립 헤징은 델타, 감마, 베가 등 여러 그리스 지표를 동시에 0에 가깝게 만들어 포트폴리오를 다양한 시장 위험으로부터 보호하는 고급 헤징 전략입니다."
+        ],
+        "title": "그리스(Greeks)를 활용한 헤지 전략"
+      }
     },
     "en": {
-      "title": "연속 확률 분포의 이해 (EN)",
-      "subtitle": "로그정규분포와 주가 이동 (EN)",
+      "volume": "Vol 3",
+      "year": "2024",
+      "title": "The Dance of Greeks - The Overture of Hedging Strategies",
+      "subtitle": "The Quant's Art of Controlling Diverse Risks",
       "content": [
-        "We work with PaulSam Virtual Team. Tracking the intersection of finance and math throughout history.",
-        "The key is understanding the math principle.",
-        "Past lessons lead us to the transparent future."
-      ]
-    }
+        "Elara now understood all five major Greek indicators: Delta, Gamma, Theta, Vega, and Rho. Each indicator represented the sensitivity of option prices to specific market risks. She pondered how to use these indicators not just individually, but like an organically connected dance.",
+        "Jacob introduced the 'Greeks-neutral hedging' strategy, which manages multiple Greek indicators simultaneously. \"We need to prepare for various market movements. Delta hedging alone isn't enough. True risk management is possible only by considering Gamma, Theta, and Vega to create a balanced portfolio.\"",
+        "Elara began to analyze the Greek indicators of her entire portfolio, not just a single position, and combine various options and underlying assets to reduce exposure to specific risks. For her, [[Hedging|It's a strategy to take an opposite position now to reduce the risk of unfavorable price changes that might occur in the future. It's similar to taking out insurance!]] became not just about preventing losses, but an art of pursuing stable returns amidst market uncertainty."
+      ],
+      "theoryDetail": {
+        "content": [
+          "Hedging is a strategy to take an opposite position now to reduce the risk of unfavorable price changes that may occur in the future. In the options market, 'Greeks-neutral hedging' strategies are primarily used.",
+          "Delta Hedging is the most basic hedging method that makes the portfolio's Delta zero, eliminating exposure to underlying asset price fluctuations. However, continuous adjustments are required as Delta constantly changes.",
+          "Gamma Hedging enhances the efficiency of Delta hedging by controlling the rate at which Delta changes. By making Gamma zero, Delta does not change significantly even with large changes in the underlying asset price, reducing the frequency of rebalancing.",
+          "Vega Hedging is a strategy that reduces the portfolio's sensitivity to volatility changes. It is important in preventing losses in portfolio value when market volatility changes rapidly.",
+          "Greeks-neutral hedging is an advanced hedging strategy that simultaneously brings multiple Greek indicators such as Delta, Gamma, and Vega close to zero, protecting the portfolio from various market risks."
+        ],
+        "title": "Hedging Strategies Using Greeks"
+      }
+    },
+    "tutorialType": "portfolio",
+    "imagePath": "/assets/images/ch26.png"
   },
   {
     "id": 27,
-    "volume": "VOL. 3",
-    "year": "1980s",
-    "tutorialType": "probability",
-    "imagePath": "/assets/images/ch3.png",
     "ko": {
-      "title": "누적 분포 함수와 확률",
-      "subtitle": "특정 가격대에 도달할 확률",
+      "volume": "Vol 3",
+      "year": "2024",
+      "title": "블랙-숄즈의 재발견 - 가정과 한계",
+      "subtitle": "완벽한 이론의 그림자 속 현실",
       "content": [
-        "우리는 폴샘 버추얼팀과 함께 일합니다. 모든 지식이 공유되는 이 곳, 헤븐 프로젝트의 일환으로 역사 속 금융과 수학의 만남을 추적합니다.",
-        "이 시기 가장 중요한 것은 [[누적|선생님이 설명해주는 핵심 수학과 금융의 의미]]입니다. 이것이 인류의 자산을 어떻게 증식시켰는지 확인해봅시다.",
-        "과거의 뼈아픈 교훈이 오늘날 우리를 이 자리로 이끌었습니다. 숫자의 변동성을 이해하는 것이 곧 미래의 리스크를 줄이는 가장 완벽한 방법입니다."
-      ]
+        "그리스 지표들을 완벽하게 이해하고 헤지 전략을 구사하게 된 엘라라는 이제 옵션 가격 결정의 근간인 블랙-숄즈 모형을 다시 들여다보았다. 이 모형은 마치 퀀트 세계의 성서와 같았지만, 그녀는 그 완벽함 뒤에 숨겨진 현실적인 한계들을 탐구하고 싶었다.",
+        "제이콥은 말했다. \"블랙-숄즈는 위대한 모형이지만, 현실은 그 모형이 가정하는 것처럼 항상 완벽하지만은 않아. 예를 들어, 변동성이 항상 일정하다는 가정은 실제 시장에서는 거의 불가능한 이야기지.\" 그의 말에 엘라라는 고개를 끄덕였다.",
+        "블랙-숄즈 모형은 무위험 이자율 일정, 배당금 없음, 유럽형 옵션 등 여러 가지 이상적인 가정을 전제로 하고 있었다. 엘라라는 이러한 가정이 현실 시장에서 어떻게 벗어나는지 이해하는 것이 중요하다고 느꼈다. 완벽한 이론은 현실을 설명하는 강력한 도구이지만, 그 [[블랙-숄즈 모형|옵션 가격을 이론적으로 계산하는 가장 유명한 수학적 모형이에요. 특정 가정들 위에서 작동하며, 유럽형 옵션의 가격을 구하는 데 주로 사용되죠.]]의 한계를 아는 것이야말로 진정한 퀀트의 지혜였다."
+      ],
+      "theoryDetail": {
+        "content": [
+          "블랙-숄즈 모형(Black-Scholes Model)은 1973년 피셔 블랙, 마이런 숄즈, 로버트 머튼이 개발한 옵션 가격 결정 모형으로, 금융 공학의 초석이 되었습니다.",
+          "주요 가정은 다음과 같습니다: 1) 기초자산 가격은 기하 브라운 운동을 따릅니다(로그 정규 분포). 2) 변동성은 일정합니다. 3) 무위험 이자율은 일정합니다. 4) 배당금은 없습니다. 5) 거래 비용과 세금이 없습니다. 6) 공매도가 가능하며 무제한입니다. 7) 시장은 효율적입니다. 8) 유럽형 옵션에만 적용됩니다.",
+          "블랙-숄즈 모형의 한계는 이러한 가정들이 현실 시장과 괴리가 있다는 점입니다. 특히 변동성이 일정하다는 가정은 실제 시장의 '변동성 미소(Volatility Smile)' 현상을 설명하지 못합니다.",
+          "또한, 갑작스러운 시장의 '점프(Jump)'나 '꼬리 위험(Tail Risk)'을 반영하지 못하며, 미국형 옵션의 조기 행사 가능성도 고려하지 못합니다. 이러한 한계점들을 보완하기 위한 다양한 확장 모형들이 개발되었습니다."
+        ],
+        "title": "블랙-숄즈 모형의 가정과 한계"
+      }
     },
     "en": {
-      "title": "누적 분포 함수와 확률 (EN)",
-      "subtitle": "특정 가격대에 도달할 확률 (EN)",
+      "volume": "Vol 3",
+      "year": "2024",
+      "title": "Rediscovering Black-Scholes - Assumptions and Limitations",
+      "subtitle": "Reality in the Shadow of a Perfect Theory",
       "content": [
-        "We work with PaulSam Virtual Team. Tracking the intersection of finance and math throughout history.",
-        "The key is understanding the math principle.",
-        "Past lessons lead us to the transparent future."
-      ]
-    }
+        "Having perfectly understood the Greek indicators and mastered hedging strategies, Elara now revisited the Black-Scholes model, the foundation of option pricing. This model was like the scripture of the quant world, but she wanted to explore the realistic limitations hidden behind its perfection.",
+        "Jacob said, \"Black-Scholes is a great model, but reality is not always as perfect as the model assumes. For example, the assumption that volatility is always constant is almost impossible in real markets.\" Elara nodded at his words.",
+        "The Black-Scholes model was based on several ideal assumptions, such as a constant risk-free interest rate, no dividends, and European-style options. Elara felt it was crucial to understand how these assumptions deviated from real markets. A perfect theory is a powerful tool for explaining reality, but knowing the limitations of the [[Black-Scholes Model|It's the most famous mathematical model for theoretically calculating option prices. It operates under specific assumptions and is primarily used to price European-style options.]] was the true wisdom of a quant."
+      ],
+      "theoryDetail": {
+        "content": [
+          "The Black-Scholes Model, developed in 1973 by Fischer Black, Myron Scholes, and Robert Merton, is an option pricing model that became the cornerstone of financial engineering.",
+          "Its main assumptions are: 1) The underlying asset price follows a geometric Brownian motion (log-normal distribution). 2) Volatility is constant. 3) The risk-free interest rate is constant. 4) There are no dividends. 5) There are no transaction costs or taxes. 6) Short selling is possible and unlimited. 7) Markets are efficient. 8) It applies only to European-style options.",
+          "The limitation of the Black-Scholes model is that these assumptions diverge from real markets. In particular, the assumption of constant volatility cannot explain the 'Volatility Smile' phenomenon observed in actual markets.",
+          "Furthermore, it cannot account for sudden market 'jumps' or 'tail risks', nor can it consider the possibility of early exercise for American-style options. Various extended models have been developed to complement these limitations."
+        ],
+        "title": "Assumptions and Limitations of the Black-Scholes Model"
+      }
+    },
+    "tutorialType": "blackScholes",
+    "imagePath": "/assets/images/ch27.png"
   },
   {
     "id": 28,
-    "volume": "VOL. 3",
-    "year": "1980s",
-    "tutorialType": "calculus",
-    "imagePath": "/assets/images/ch3.png",
     "ko": {
-      "title": "정적분의 활용",
-      "subtitle": "옵션 만기 수익의 합계와 넓이",
+      "volume": "Vol 3",
+      "year": "2024",
+      "title": "내재 변동성의 미스터리 - 시장의 속삭임",
+      "subtitle": "옵션 가격에 숨겨진 시장의 기대",
       "content": [
-        "우리는 폴샘 버추얼팀과 함께 일합니다. 모든 지식이 공유되는 이 곳, 헤븐 프로젝트의 일환으로 역사 속 금융과 수학의 만남을 추적합니다.",
-        "이 시기 가장 중요한 것은 [[정적분의|선생님이 설명해주는 핵심 수학과 금융의 의미]]입니다. 이것이 인류의 자산을 어떻게 증식시켰는지 확인해봅시다.",
-        "과거의 뼈아픈 교훈이 오늘날 우리를 이 자리로 이끌었습니다. 숫자의 변동성을 이해하는 것이 곧 미래의 리스크를 줄이는 가장 완벽한 방법입니다."
-      ]
+        "블랙-숄즈 모형의 한계를 인지한 엘라라는 새로운 의문에 사로잡혔다. 만약 변동성이 일정하지 않다면, 옵션 가격에 반영된 '시장 참여자들의 미래 변동성 예상치'는 어떻게 측정할 수 있을까? 그녀는 시장 자체가 변동성에 대한 중요한 정보를 담고 있을 것이라고 직감했다.",
+        "제이콥은 그녀에게 '내재 변동성'이라는 개념을 설명했다. \"우리는 블랙-숄즈 모형에 현재 시장에서 거래되는 옵션 가격을 대입해서, 그 가격을 만들어내기 위해 필요한 변동성 값을 역으로 찾아낼 수 있어. 그게 바로 내재 변동성이고, 시장이 미래에 변동성이 어떻게 될 것이라고 기대하는지를 알려주는 중요한 지표지.\"",
+        "내재 변동성은 옵션 가격 결정 모형을 거꾸로 사용하여 현재 시장 가격으로부터 도출되는 변동성 값이었다. 엘라라는 다양한 행사가격과 만기일을 가진 옵션들의 내재 변동성을 분석하면서, [[내재 변동성|현재 시장에서 거래되는 옵션 가격에 내포된 미래 변동성 예상치예요. 시장 참여자들이 앞으로 변동성이 어떻게 될 것이라고 보는지 알려주는 지표죠.]]가 행사가격에 따라 미소를 짓거나 찡그리는 '변동성 미소/찡그림(Volatility Smile/Smirk)' 현상을 발견하고 깊은 통찰력을 얻었다."
+      ],
+      "theoryDetail": {
+        "content": [
+          "내재 변동성(Implied Volatility)은 현재 시장에서 거래되는 옵션의 가격을 블랙-숄즈 모형(또는 다른 옵션 가격 결정 모형)에 대입하여 역산해낸 변동성 값입니다.",
+          "이는 시장 참여자들이 미래에 기초자산의 변동성이 어떻게 될 것이라고 기대하는지를 나타내는 지표로 해석됩니다. 따라서 시장의 기대와 공포, 탐욕 등이 반영된 '미래 변동성 예상치'라고 할 수 있습니다.",
+          "내재 변동성은 종종 '변동성 미소(Volatility Smile)' 또는 '변동성 찡그림(Volatility Smirk)' 현상을 보입니다. 이는 등가격 옵션의 내재 변동성보다 외가격 옵션(특히 풋옵션)의 내재 변동성이 더 높게 나타나는 현상으로, 블랙-숄즈 모형의 '변동성 일정' 가정에 대한 위반을 보여줍니다.",
+          "이러한 변동성 곡선은 시장이 급격한 하락(꼬리 위험)에 대한 보험료를 더 높게 책정하고 있음을 시사하며, 시장의 위험 인식을 이해하는 데 중요한 정보를 제공합니다."
+        ],
+        "title": "내재 변동성과 변동성 미소/찡그림"
+      }
     },
     "en": {
-      "title": "정적분의 활용 (EN)",
-      "subtitle": "옵션 만기 수익의 합계와 넓이 (EN)",
+      "volume": "Vol 3",
+      "year": "2024",
+      "title": "The Mystery of Implied Volatility - The Market's Whisper",
+      "subtitle": "Market Expectations Hidden in Option Prices",
       "content": [
-        "We work with PaulSam Virtual Team. Tracking the intersection of finance and math throughout history.",
-        "The key is understanding the math principle.",
-        "Past lessons lead us to the transparent future."
-      ]
-    }
+        "Aware of the limitations of the Black-Scholes model, Elara was gripped by a new question. If volatility was not constant, how could she measure the 'market participants' expected future volatility' reflected in option prices? She had a hunch that the market itself contained crucial information about volatility.",
+        "Jacob explained the concept of 'Implied Volatility' to her. \"We can plug the current market price of an option into the Black-Scholes model (or another option pricing model) and inversely find the volatility value needed to generate that price. That's implied volatility, and it's an important indicator that tells us what the market expects future volatility to be.\"",
+        "Implied volatility was the volatility value derived from current market prices by using an option pricing model in reverse. By analyzing the implied volatility of options with various strike prices and expiration dates, Elara gained deep insights, discovering the 'Volatility Smile/Smirk' phenomenon where [[Implied Volatility|It's the estimated future volatility embedded in the current market price of an option. It tells you what market participants expect volatility to be in the future.]] smiles or frowns depending on the strike price."
+      ],
+      "theoryDetail": {
+        "content": [
+          "Implied Volatility is the volatility value derived by plugging the current market price of an option into the Black-Scholes model (or another option pricing model) and solving for volatility.",
+          "It is interpreted as an indicator of what market participants expect the future volatility of the underlying asset to be. Thus, it can be called an 'expected future volatility' that reflects market expectations, fear, and greed.",
+          "Implied volatility often exhibits a 'Volatility Smile' or 'Volatility Smirk' phenomenon. This is a phenomenon where the implied volatility of out-of-the-money options (especially put options) appears higher than that of at-the-money options, demonstrating a violation of the Black-Scholes model's 'constant volatility' assumption.",
+          "These volatility curves suggest that the market is pricing insurance against sharp declines (tail risk) at a higher premium, providing important information for understanding market risk perception."
+        ],
+        "title": "Implied Volatility and Volatility Smile/Smirk"
+      }
+    },
+    "tutorialType": "blackScholes",
+    "imagePath": "/assets/images/ch28.png"
   },
   {
     "id": 29,
-    "volume": "VOL. 3",
-    "year": "1990s",
-    "tutorialType": "calculus",
-    "imagePath": "/assets/images/ch3.png",
     "ko": {
-      "title": "시뮬레이터를 통한 헤징",
-      "subtitle": "델타 헤징의 실무적 검증",
+      "volume": "Vol 3",
+      "year": "2024",
+      "title": "블랙-숄즈를 넘어서 - 점프와 확률",
+      "subtitle": "현실 시장의 불연속성을 포착하다",
       "content": [
-        "우리는 폴샘 버추얼팀과 함께 일합니다. 모든 지식이 공유되는 이 곳, 헤븐 프로젝트의 일환으로 역사 속 금융과 수학의 만남을 추적합니다.",
-        "이 시기 가장 중요한 것은 [[시뮬레이터를|선생님이 설명해주는 핵심 수학과 금융의 의미]]입니다. 이것이 인류의 자산을 어떻게 증식시켰는지 확인해봅시다.",
-        "과거의 뼈아픈 교훈이 오늘날 우리를 이 자리로 이끌었습니다. 숫자의 변동성을 이해하는 것이 곧 미래의 리스크를 줄이는 가장 완벽한 방법입니다."
-      ]
+        "엘라라는 블랙-숄즈 모형이 시장의 '연속적인 움직임'만을 가정한다는 한계를 깨달았다. 하지만 현실 시장에서는 갑작스러운 뉴스나 이벤트로 인해 주가가 급등락하는 '점프' 현상이 빈번하게 발생했다. 그녀는 이러한 불연속적인 움직임을 포착하고 싶었다.",
+        "제이콥은 그녀에게 '점프 확산 모형'과 '확률 변동성 모형'을 소개했다. \"블랙-숄즈는 주가가 부드럽게 움직인다고 보지만, 실제로는 갑자기 튀어 오르거나 떨어지기도 해. 점프 확산 모형은 이런 갑작스러운 변화까지 설명하려고 하고, 확률 변동성 모형은 변동성 자체도 시간에 따라 변한다는 걸 인정하는 거지.\"",
+        "엘라라는 이러한 고급 모형들이 블랙-숄즈 모형의 한계를 보완하며, 특히 극단적인 시장 상황이나 '꼬리 위험'을 더 잘 설명한다는 것을 이해했다. 그녀는 [[점프 확산 모형|주가 변동을 연속적인 움직임뿐만 아니라 갑작스러운 '점프'까지 고려하여 설명하는 모형이에요. 시장의 급격한 변화를 더 잘 반영할 수 있죠.]]과 같은 모형들을 통해 시장의 예측 불가능한 면모를 수학적으로 모델링하는 퀀트의 역할을 더욱 깊이 깨달았다."
+      ],
+      "theoryDetail": {
+        "content": [
+          "블랙-숄즈 모형은 기초자산 가격이 연속적으로 움직이는 '기하 브라운 운동'을 따른다고 가정합니다. 하지만 실제 시장에서는 기업 실적 발표, 거시 경제 지표 발표, 지정학적 이벤트 등으로 인해 주가가 갑자기 급등락하는 '점프(Jump)' 현상이 발생할 수 있습니다.",
+          "점프 확산 모형(Jump Diffusion Model)은 블랙-숄즈 모형의 연속적인 움직임에 더해, 푸아송 과정(Poisson Process)을 통해 갑작스러운 점프 현상을 모델링하여 시장의 불연속성을 설명합니다. 이는 특히 외가격 옵션의 가격을 더 정확하게 산출하고, '꼬리 위험(Tail Risk)'을 더 잘 반영합니다.",
+          "확률 변동성 모형(Stochastic Volatility Model)은 블랙-숄즈 모형의 '변동성 일정' 가정을 완화하여, 변동성 자체도 시간에 따라 확률적으로 변한다고 가정하는 모형입니다. 헤스톤 모형(Heston Model)이 대표적이며, 변동성 미소/찡그림 현상을 설명하는 데 유용합니다.",
+          "이러한 고급 모형들은 블랙-숄즈 모형의 한계를 보완하고, 현실 시장의 복잡성을 더 잘 포착하여 보다 정교한 옵션 가격 결정 및 위험 관리를 가능하게 합니다."
+        ],
+        "title": "블랙-숄즈를 넘어서는 고급 모형"
+      }
     },
     "en": {
-      "title": "시뮬레이터를 통한 헤징 (EN)",
-      "subtitle": "델타 헤징의 실무적 검증 (EN)",
+      "volume": "Vol 3",
+      "year": "2024",
+      "title": "Beyond Black-Scholes - Jumps and Probability",
+      "subtitle": "Capturing Discontinuity in Real Markets",
       "content": [
-        "We work with PaulSam Virtual Team. Tracking the intersection of finance and math throughout history.",
-        "The key is understanding the math principle.",
-        "Past lessons lead us to the transparent future."
-      ]
-    }
+        "Elara realized the limitation of the Black-Scholes model, which assumes only 'continuous movements' in the market. However, in real markets, 'jump' phenomena, where stock prices fluctuate sharply due to sudden news or events, occurred frequently. She wanted to capture these discontinuous movements.",
+        "Jacob introduced her to 'Jump Diffusion Models' and 'Stochastic Volatility Models'. \"Black-Scholes assumes stock prices move smoothly, but in reality, they can suddenly jump up or down. Jump diffusion models try to explain these sudden changes, and stochastic volatility models acknowledge that volatility itself also changes over time.\"",
+        "Elara understood that these advanced models complemented the limitations of the Black-Scholes model and better explained extreme market conditions or 'tail risks'. Through models like the [[Jump Diffusion Model|It's a model that explains stock price movements by considering not only continuous movements but also sudden 'jumps'. It can better reflect rapid market changes.]] she gained a deeper understanding of the quant's role in mathematically modeling the unpredictable aspects of the market."
+      ],
+      "theoryDetail": {
+        "content": [
+          "The Black-Scholes model assumes that the underlying asset price follows a 'geometric Brownian motion', which implies continuous movement. However, in real markets, 'jump' phenomena, where stock prices suddenly surge or plummet due to corporate earnings announcements, macroeconomic data releases, or geopolitical events, can occur.",
+          "The Jump Diffusion Model extends the continuous movement of the Black-Scholes model by modeling sudden jump phenomena through a Poisson Process to explain market discontinuities. This allows for more accurate pricing of out-of-the-money options and better reflects 'Tail Risk'.",
+          "The Stochastic Volatility Model relaxes the 'constant volatility' assumption of the Black-Sholes model, assuming that volatility itself changes stochastically over time. The Heston Model is a prominent example and is useful for explaining the volatility smile/smirk phenomenon.",
+          "These advanced models complement the limitations of the Black-Scholes model, better capture the complexities of real markets, and enable more sophisticated option pricing and risk management."
+        ],
+        "title": "Advanced Models Beyond Black-Scholes"
+      }
+    },
+    "tutorialType": "derivatives",
+    "imagePath": "/assets/images/ch29.png"
   },
   {
     "id": 30,
-    "volume": "VOL. 3",
-    "year": "1990s",
-    "tutorialType": "calculus",
-    "imagePath": "/assets/images/ch3.png",
     "ko": {
-      "title": "나만의 옵션 설계",
-      "subtitle": "매개변수를 이용한 옵션가 계산 실습",
+      "volume": "Vol 3",
+      "year": "2024",
+      "title": "퀀트의 완성 - 위험 관리의 심장",
+      "subtitle": "그리스와 고급 모형으로 구축하는 견고한 방패",
       "content": [
-        "우리는 폴샘 버추얼팀과 함께 일합니다. 모든 지식이 공유되는 이 곳, 헤븐 프로젝트의 일환으로 역사 속 금융과 수학의 만남을 추적합니다.",
-        "이 시기 가장 중요한 것은 [[나만의|선생님이 설명해주는 핵심 수학과 금융의 의미]]입니다. 이것이 인류의 자산을 어떻게 증식시켰는지 확인해봅시다.",
-        "과거의 뼈아픈 교훈이 오늘날 우리를 이 자리로 이끌었습니다. 숫자의 변동성을 이해하는 것이 곧 미래의 리스크를 줄이는 가장 완벽한 방법입니다."
-      ]
+        "수년간의 학습과 실전을 거치며, 엘라라는 이제 노련한 퀀트 금융가로 성장했다. 그녀는 단순한 옵션 가격 계산을 넘어, 그리스 지표와 블랙-숄즈 모형의 심층적인 이해, 그리고 그 한계를 보완하는 고급 모형들을 자유자재로 활용하여 복잡한 금융 시장의 위험을 관리할 수 있게 되었다. 그녀의 책상 위에는 수많은 차트와 데이터가 펼쳐져 있었지만, 그녀의 눈은 언제나 전체적인 균형을 향하고 있었다.",
+        "제이콥은 흐뭇한 미소를 지으며 말했다. \"이제 너는 시장의 단순한 파동뿐만 아니라, 예상치 못한 폭풍까지 대비할 수 있는 진정한 퀀트가 되었어. 그리스 지표는 너의 눈이고, 고급 모형들은 너의 방패가 될 거야. 하지만 가장 중요한 건, 언제나 시장을 겸손하게 대하고 끊임없이 배우려는 자세지.\"",
+        "엘라라는 자신의 포트폴리오를 구성하는 모든 자산과 파생상품의 그리스 지표를 실시간으로 모니터링하며, 잠재적인 위험을 사전에 파악하고 헤지 전략을 조정했다. 그녀에게 [[위험 관리|금융 시장에서 발생할 수 있는 손실 가능성을 사전에 파악하고, 이를 줄이거나 통제하는 일련의 과정이에요. 투자를 할 때 꼭 필요한 부분이죠!]]는 더 이상 피상적인 개념이 아니었다. 그것은 복잡한 금융 세계를 항해하는 퀀트의 심장이자, 끊임없는 탐구와 지혜가 필요한 예술이었다."
+      ],
+      "theoryDetail": {
+        "content": [
+          "옵션 그리스(Delta, Gamma, Theta, Vega, Rho)는 포트폴리오의 다양한 위험 요인에 대한 민감도를 측정하는 핵심 도구입니다. 이들을 통합적으로 관리하여 포트폴리오의 위험 노출을 줄이는 것이 위험 관리의 기본입니다.",
+          "블랙-숄즈 모형과 그 한계를 이해하는 것은 내재 변동성, 변동성 미소/찡그림과 같은 시장 현상을 파악하는 데 필수적입니다. 이를 통해 시장 참여자들의 미래 기대치를 읽어낼 수 있습니다.",
+          "점프 확산 모형, 확률 변동성 모형 등 블랙-숄즈를 넘어서는 고급 모형들은 시장의 불연속성, 변동성의 동적인 변화, 꼬리 위험과 같은 복잡한 현상을 더 잘 모델링하여 정교한 위험 관리를 가능하게 합니다.",
+          "실제 위험 관리에서는 VaR(Value at Risk)이나 스트레스 테스트(Stress Testing)와 같은 기법을 활용하여 포트폴리오의 잠재적 손실을 측정하고, 시장의 극단적인 시나리오에 대비합니다. 그리스 지표들은 이러한 위험 관리 기법들을 보완하고 강화하는 역할을 합니다.",
+          "결론적으로, 퀀트의 위험 관리는 단순한 공식 적용을 넘어, 시장에 대한 깊은 이해, 다양한 모형의 활용, 그리고 끊임없는 학습을 통해 이루어지는 종합적인 예술입니다."
+        ],
+        "title": "종합적인 위험 관리와 퀀트의 역할"
+      }
     },
     "en": {
-      "title": "나만의 옵션 설계 (EN)",
-      "subtitle": "매개변수를 이용한 옵션가 계산 실습 (EN)",
+      "volume": "Vol 3",
+      "year": "2024",
+      "title": "The Completion of a Quant - The Heart of Risk Management",
+      "subtitle": "A Robust Shield Built with Greeks and Advanced Models",
       "content": [
-        "We work with PaulSam Virtual Team. Tracking the intersection of finance and math throughout history.",
-        "The key is understanding the math principle.",
-        "Past lessons lead us to the transparent future."
-      ]
-    }
+        "Through years of learning and practical experience, Elara had grown into a seasoned quant financial professional. Beyond simple option price calculations, she could now manage the complex risks of the financial market by freely utilizing a deep understanding of Greek indicators and the Black-Scholes model, as well as advanced models that compensated for its limitations. While countless charts and data were spread across her desk, her eyes were always focused on the overall balance.",
+        "Jacob smiled contentedly and said, \"Now you've become a true quant who can prepare not only for simple market ripples but also for unexpected storms. Greek indicators will be your eyes, and advanced models will be your shield. But most importantly, it's about always approaching the market with humility and a continuous desire to learn.\"",
+        "Elara monitored the Greek indicators of all assets and derivatives in her portfolio in real-time, identifying potential risks in advance and adjusting her hedging strategies. To her, [[Risk Management|It's a series of processes to identify potential losses that may occur in financial markets in advance, and to reduce or control them. It's an essential part of investing!]] was no longer a superficial concept. It was the heart of a quant navigating the complex financial world, an art requiring continuous exploration and wisdom."
+      ],
+      "theoryDetail": {
+        "content": [
+          "Option Greeks (Delta, Gamma, Theta, Vega, Rho) are key tools for measuring the sensitivity of a portfolio to various risk factors. Managing them holistically to reduce portfolio risk exposure is fundamental to risk management.",
+          "Understanding the Black-Scholes model and its limitations is essential for grasping market phenomena such as implied volatility and volatility smiles/smirks. This allows for reading market participants' future expectations.",
+          "Advanced models beyond Black-Scholes, such as jump diffusion models and stochastic volatility models, better model complex phenomena like market discontinuities, dynamic changes in volatility, and tail risk, enabling sophisticated risk management.",
+          "In practical risk management, techniques such as VaR (Value at Risk) and Stress Testing are used to measure potential portfolio losses and prepare for extreme market scenarios. Greek indicators complement and strengthen these risk management techniques.",
+          "In conclusion, quant risk management is a comprehensive art that goes beyond simple formula application, achieved through a deep understanding of the market, the use of various models, and continuous learning."
+        ],
+        "title": "Comprehensive Risk Management and the Role of Quants"
+      }
+    },
+    "tutorialType": "portfolio",
+    "imagePath": "/assets/images/ch30.png"
   },
   {
     "id": 31,
-    "volume": "VOL. 4",
-    "year": "1990s",
-    "tutorialType": "matrix",
-    "imagePath": "/assets/images/ch4.png",
     "ko": {
-      "title": "수학으로 무장한 퀀트",
-      "subtitle": "다변수 데이터 처리를 위한 행렬",
+      "volume": "Volume 4",
+      "year": "2008",
+      "title": "2008 서브프라임 위기: 신뢰의 붕괴",
+      "subtitle": "데이터와 탐욕이 빚어낸 비극",
       "content": [
-        "우리는 폴샘 버추얼팀과 함께 일합니다. 모든 지식이 공유되는 이 곳, 헤븐 프로젝트의 일환으로 역사 속 금융과 수학의 만남을 추적합니다.",
-        "이 시기 가장 중요한 것은 [[수학으로|선생님이 설명해주는 핵심 수학과 금융의 의미]]입니다. 이것이 인류의 자산을 어떻게 증식시켰는지 확인해봅시다.",
-        "과거의 뼈아픈 교훈이 오늘날 우리를 이 자리로 이끌었습니다. 숫자의 변동성을 이해하는 것이 곧 미래의 리스크를 줄이는 가장 완벽한 방법입니다."
-      ]
+        "2008년, 세계 경제는 유령에게 홀린 듯 혼란에 빠졌습니다. 복잡하게 얽힌 금융 상품들이 겉으로는 번영의 상징처럼 보였지만, 그 속에는 썩어가는 씨앗이 심겨져 있었죠.",
+        "모두가 탐욕에 눈이 멀어 위험을 무시하고, 상상조차 할 수 없었던 비극이 시작되었습니다. 주택 시장의 거품이 터지면서 전 세계 금융 시스템이 뿌리째 흔들렸습니다.",
+        "이 사건은 금융 공학의 어두운 면과 데이터의 오용이 얼마나 치명적인 결과를 초래할 수 있는지 여실히 보여주었습니다. 특히 [[서브프라임 모기지|신용도가 낮은 사람들에게 주택을 담보로 빌려주는 대출인데, 금리가 높아 이자 상환 부담이 컸어요. 이게 문제가 된 거죠.]]가 핵심적인 역할을 했습니다."
+      ],
+      "theoryDetail": {
+        "content": [
+          "서브프라임 모기지는 신용도가 낮은 차주에게 주택을 담보로 제공하는 고금리 대출을 의미합니다. 2000년대 중반 주택 가격 상승기에 이러한 대출이 무분별하게 확대되었고, 이를 기초자산으로 하는 주택담보부증권(MBS)과 부채담보부증권(CDO) 등 복잡한 파생상품이 대량 발행되었습니다.",
+          "주택 가격 하락과 함께 차주들의 채무 불이행이 급증하자, MBS와 CDO의 가치가 폭락하며 관련 금융기관들이 막대한 손실을 입었습니다. 이는 전 세계적인 금융 위기로 확산되었습니다."
+        ],
+        "title": "서브프라임 모기지와 파생상품의 위험"
+      }
     },
     "en": {
-      "title": "수학으로 무장한 퀀트 (EN)",
-      "subtitle": "다변수 데이터 처리를 위한 행렬 (EN)",
+      "volume": "Volume 4",
+      "year": "2008",
+      "title": "2008 Subprime Crisis: The Collapse of Trust",
+      "subtitle": "A Tragedy Born of Data and Greed",
       "content": [
-        "We work with PaulSam Virtual Team. Tracking the intersection of finance and math throughout history.",
-        "The key is understanding the math principle.",
-        "Past lessons lead us to the transparent future."
-      ]
-    }
+        "In 2008, the global economy plunged into chaos as if possessed by a ghost. Complex financial products, seemingly symbols of prosperity, harbored a rotting seed within.",
+        "Everyone, blinded by greed, ignored the risks, and a tragedy beyond imagination began. As the housing bubble burst, the global financial system was shaken to its core.",
+        "This event vividly demonstrated how the dark side of financial engineering and the misuse of data could lead to catastrophic consequences. In particular, [[Subprime Mortgage|Loans given to individuals with poor credit history, secured by their homes. These loans carried high interest rates, making repayment a significant burden, which ultimately led to the crisis.]] played a pivotal role."
+      ],
+      "theoryDetail": {
+        "content": [
+          "Subprime mortgages refer to high-interest loans provided to borrowers with poor credit histories, secured by their homes. In the mid-2000s, during a period of rising housing prices, these loans expanded indiscriminately, and complex derivatives such as Mortgage-Backed Securities (MBS) and Collateralized Debt Obligations (CDO) were issued in large quantities, using these loans as underlying assets.",
+          "As housing prices fell and borrower defaults surged, the value of MBS and CDOs plummeted, causing massive losses for related financial institutions. This escalated into a global financial crisis."
+        ],
+        "title": "Subprime Mortgages and the Risk of Derivatives"
+      }
+    },
+    "tutorialType": "behavioral",
+    "imagePath": "/assets/images/ch31.png"
   },
   {
     "id": 32,
-    "volume": "VOL. 4",
-    "year": "1990s",
-    "tutorialType": "matrix",
-    "imagePath": "/assets/images/ch4.png",
     "ko": {
-      "title": "다변수 포트폴리오 최적화",
-      "subtitle": "공분산 행렬의 연산과 적용",
+      "volume": "Volume 4",
+      "year": "2000s Late",
+      "title": "알고리즘의 부상: 초단타매매의 시대",
+      "subtitle": "인간의 한계를 넘어선 속도 경쟁",
       "content": [
-        "우리는 폴샘 버추얼팀과 함께 일합니다. 모든 지식이 공유되는 이 곳, 헤븐 프로젝트의 일환으로 역사 속 금융과 수학의 만남을 추적합니다.",
-        "이 시기 가장 중요한 것은 [[다변수|선생님이 설명해주는 핵심 수학과 금융의 의미]]입니다. 이것이 인류의 자산을 어떻게 증식시켰는지 확인해봅시다.",
-        "과거의 뼈아픈 교훈이 오늘날 우리를 이 자리로 이끌었습니다. 숫자의 변동성을 이해하는 것이 곧 미래의 리스크를 줄이는 가장 완벽한 방법입니다."
-      ]
+        "2000년대 후반, 금융 시장에 새로운 지배자가 등장했습니다. 바로 알고리즘이었죠. 인간의 판단보다 빠르고, 감정 없이 거래를 수행하는 이 기계들은 시장의 속도를 혁명적으로 바꾸어 놓았습니다.",
+        "찰나의 순간에 수백, 수천 번의 거래가 이루어지는 시대가 열린 것입니다. 이들은 미세한 가격 차이와 시장의 불균형을 포착하여 순식간에 이익을 취했습니다.",
+        "이러한 [[초단타매매|아주 짧은 시간 동안 주식이나 다른 금융 상품을 사고팔아 작은 가격 변동에서도 이익을 얻으려는 전략이에요. 속도가 생명이죠!]]는 시장의 유동성을 높였지만, 동시에 새로운 종류의 위험과 도전을 가져왔습니다."
+      ],
+      "theoryDetail": {
+        "content": [
+          "초단타매매(HFT)는 밀리초(1/1000초) 단위의 극히 짧은 시간 동안 수많은 거래를 실행하여 미세한 가격 변동에서 이익을 얻는 전략입니다. 이를 위해 고성능 컴퓨터 시스템과 시장과 가까운 서버(Colocation)를 활용하여 거래 지연 시간(Latency)을 최소화합니다.",
+          "HFT는 시장에 유동성을 공급하고 가격 발견 효율성을 높이는 긍정적인 측면도 있지만, 시장 변동성을 증가시키고 불공정 경쟁을 유발할 수 있다는 비판도 받습니다."
+        ],
+        "title": "초단타매매(HFT)의 원리와 영향"
+      }
     },
     "en": {
-      "title": "다변수 포트폴리오 최적화 (EN)",
-      "subtitle": "공분산 행렬의 연산과 적용 (EN)",
+      "volume": "Volume 4",
+      "year": "2000s Late",
+      "title": "The Rise of Algorithms: The Era of High-Frequency Trading",
+      "subtitle": "A Speed Race Beyond Human Limits",
       "content": [
-        "We work with PaulSam Virtual Team. Tracking the intersection of finance and math throughout history.",
-        "The key is understanding the math principle.",
-        "Past lessons lead us to the transparent future."
-      ]
-    }
+        "In the late 2000s, a new ruler emerged in financial markets: algorithms. Faster than human judgment and executing trades without emotion, these machines revolutionized the speed of the market.",
+        "An era began where hundreds, even thousands, of trades occurred in mere moments. They captured tiny price differences and market imbalances, seizing profits in an instant.",
+        "This [[High-Frequency Trading (HFT)|A strategy involving buying and selling stocks or other financial instruments in extremely short periods to profit from tiny price fluctuations. Speed is of the essence!]] increased market liquidity but simultaneously introduced new types of risks and challenges."
+      ],
+      "theoryDetail": {
+        "content": [
+          "High-Frequency Trading (HFT) is a strategy that executes numerous trades in extremely short periods, measured in milliseconds (1/1000th of a second), to profit from tiny price fluctuations. This involves utilizing high-performance computer systems and servers located close to the market (Colocation) to minimize trading latency.",
+          "While HFT has positive aspects, such as providing market liquidity and improving price discovery efficiency, it also faces criticism for potentially increasing market volatility and creating unfair competition."
+        ],
+        "title": "Principles and Impact of High-Frequency Trading (HFT)"
+      }
+    },
+    "tutorialType": "algorithm",
+    "imagePath": "/assets/images/ch32.png"
   },
   {
     "id": 33,
-    "volume": "VOL. 4",
-    "year": "1990s",
-    "tutorialType": "probability",
-    "imagePath": "/assets/images/ch4.png",
     "ko": {
-      "title": "Value at Risk (VaR)",
-      "subtitle": "내일 최대 얼마를 잃을까?",
+      "volume": "Volume 4",
+      "year": "2010",
+      "title": "플래시 크래시: 알고리즘이 폭주할 때",
+      "subtitle": "통제 불능의 시장과 시스템의 취약점",
       "content": [
-        "우리는 폴샘 버추얼팀과 함께 일합니다. 모든 지식이 공유되는 이 곳, 헤븐 프로젝트의 일환으로 역사 속 금융과 수학의 만남을 추적합니다.",
-        "이 시기 가장 중요한 것은 [[Value|선생님이 설명해주는 핵심 수학과 금융의 의미]]입니다. 이것이 인류의 자산을 어떻게 증식시켰는지 확인해봅시다.",
-        "과거의 뼈아픈 교훈이 오늘날 우리를 이 자리로 이끌었습니다. 숫자의 변동성을 이해하는 것이 곧 미래의 리스크를 줄이는 가장 완벽한 방법입니다."
-      ]
+        "2010년 5월 6일, 뉴욕 증시는 단 몇 분 만에 1,000포인트 가까이 폭락하는 전례 없는 사건을 겪었습니다. 인간의 개입 없이 알고리즘들이 서로에게 반응하며 시장을 나락으로 끌고 내려간 것이었죠.",
+        "이는 알고리즘의 힘과 동시에 그 위험성을 전 세계에 각인시킨 충격적인 순간이었습니다. 고도화된 시스템이 어떻게 한순간에 통제 불능 상태가 될 수 있는지를 보여주었습니다.",
+        "이 사건은 [[플래시 크래시|알고리즘 매매가 폭주하면서 순식간에 주가가 급락했다가 다시 회복된 사건이에요. 시장의 취약성을 보여준 사례죠.]]로 불리며, 금융 시장 규제 당국과 퀀트들에게 시스템 안정성에 대한 깊은 고민을 안겨주었습니다."
+      ],
+      "theoryDetail": {
+        "content": [
+          "2010년 플래시 크래시는 대규모 알고리즘 매도 주문이 연쇄적으로 다른 알고리즘의 매도를 유발하며 발생했습니다. 특정 주식의 가격이 급락하자 다른 알고리즘들이 이를 위험 신호로 인식하고 추가 매도에 나서면서 시장 전체로 확산되었습니다.",
+          "이 사건은 시장의 유동성이 순식간에 사라질 수 있음을 보여주었으며, 이후 시장 서킷 브레이커(Circuit Breaker)와 같은 자동 거래 중단 시스템의 중요성이 강조되었습니다. 또한, 알고리즘의 설계와 테스트 과정에서 잠재적 위험 요소를 면밀히 검토해야 할 필요성을 제기했습니다."
+        ],
+        "title": "플래시 크래시의 원인과 시장 안정성"
+      }
     },
     "en": {
-      "title": "Value at Risk (VaR) (EN)",
-      "subtitle": "내일 최대 얼마를 잃을까? (EN)",
+      "volume": "Volume 4",
+      "year": "2010",
+      "title": "The Flash Crash: When Algorithms Go Rogue",
+      "subtitle": "Uncontrolled Markets and System Vulnerabilities",
       "content": [
-        "We work with PaulSam Virtual Team. Tracking the intersection of finance and math throughout history.",
-        "The key is understanding the math principle.",
-        "Past lessons lead us to the transparent future."
-      ]
-    }
+        "On May 6, 2010, the New York stock market experienced an unprecedented event, plummeting nearly 1,000 points in just minutes. Without human intervention, algorithms reacted to each other, dragging the market into an abyss.",
+        "It was a shocking moment that imprinted on the world both the power and the danger of algorithms, demonstrating how a highly advanced system could become uncontrollable in an instant.",
+        "This event, known as the [[Flash Crash|An event where stock prices rapidly plummeted and then recovered, primarily due to runaway algorithmic trading. It showcased the market's vulnerability.]], prompted deep concerns among financial market regulators and quants about system stability."
+      ],
+      "theoryDetail": {
+        "content": [
+          "The 2010 Flash Crash occurred when a large algorithmic sell order triggered a chain reaction of other algorithms selling. As the price of a specific stock plummeted, other algorithms perceived this as a risk signal and engaged in further selling, spreading across the entire market.",
+          "This event demonstrated that market liquidity can disappear in an instant, highlighting the importance of automatic trading halt systems like market circuit breakers. It also raised the need for careful consideration of potential risks during the design and testing of algorithms."
+        ],
+        "title": "Causes of the Flash Crash and Market Stability"
+      }
+    },
+    "tutorialType": "algorithm",
+    "imagePath": "/assets/images/ch33.png"
   },
   {
     "id": 34,
-    "volume": "VOL. 4",
-    "year": "1990s",
-    "tutorialType": "probability",
-    "imagePath": "/assets/images/ch4.png",
     "ko": {
-      "title": "몬테카를로 시뮬레이션",
-      "subtitle": "난수를 이용한 가격 예측의 예술",
+      "volume": "Volume 4",
+      "year": "2010s",
+      "title": "금융 데이터 과학: 예측의 힘",
+      "subtitle": "빅데이터와 머신러닝의 시대",
       "content": [
-        "우리는 폴샘 버추얼팀과 함께 일합니다. 모든 지식이 공유되는 이 곳, 헤븐 프로젝트의 일환으로 역사 속 금융과 수학의 만남을 추적합니다.",
-        "이 시기 가장 중요한 것은 [[몬테카를로|선생님이 설명해주는 핵심 수학과 금융의 의미]]입니다. 이것이 인류의 자산을 어떻게 증식시켰는지 확인해봅시다.",
-        "과거의 뼈아픈 교훈이 오늘날 우리를 이 자리로 이끌었습니다. 숫자의 변동성을 이해하는 것이 곧 미래의 리스크를 줄이는 가장 완벽한 방법입니다."
-      ]
+        "과거에는 직관과 경험에 의존했던 금융 예측은 이제 방대한 데이터와 첨단 통계 모델의 영역이 되었습니다. 매일 쏟아지는 엄청난 양의 금융 데이터를 분석하는 것은 인간의 능력으로는 불가능한 일이었습니다.",
+        "하지만 [[머신러닝|컴퓨터가 데이터를 학습해서 스스로 규칙을 찾아내고 미래를 예측하는 기술이에요. 금융에서는 투자 전략이나 위험 관리에 많이 쓰이죠.]] 알고리즘들은 수많은 변수 속에서 숨겨진 패턴을 찾아내고, 시장의 움직임을 이전과는 비교할 수 없는 정확도로 예측하기 시작했습니다.",
+        "이는 퀀트 금융의 새로운 황금기를 예고하는 것이었습니다. 주가 예측, 신용 평가, 사기 탐지 등 금융의 거의 모든 분야에서 데이터 과학의 영향력은 커져만 갔습니다."
+      ],
+      "theoryDetail": {
+        "content": [
+          "금융 데이터 과학은 빅데이터와 머신러닝 기술을 활용하여 금융 시장의 복잡한 패턴을 분석하고 예측 모델을 구축하는 학문입니다. 지도 학습(Supervised Learning)은 과거 데이터(특징과 정답)를 통해 모델을 훈련시켜 미래 값을 예측하는 데 사용되며, 주가 예측이나 신용 점수 평가에 활용됩니다.",
+          "비지도 학습(Unsupervised Learning)은 정답이 없는 데이터를 분석하여 숨겨진 구조나 패턴을 발견하는 데 사용되며, 시장 세분화나 이상 탐지(Anomaly Detection)에 유용합니다. 이러한 기술들은 금융 분석의 깊이와 정확도를 혁신적으로 향상시켰습니다."
+        ],
+        "title": "머신러닝을 활용한 금융 예측"
+      }
     },
     "en": {
-      "title": "몬테카를로 시뮬레이션 (EN)",
-      "subtitle": "난수를 이용한 가격 예측의 예술 (EN)",
+      "volume": "Volume 4",
+      "year": "2010s",
+      "title": "Financial Data Science: The Power of Prediction",
+      "subtitle": "The Era of Big Data and Machine Learning",
       "content": [
-        "We work with PaulSam Virtual Team. Tracking the intersection of finance and math throughout history.",
-        "The key is understanding the math principle.",
-        "Past lessons lead us to the transparent future."
-      ]
-    }
+        "Financial forecasting, once reliant on intuition and experience, has now become the domain of vast data and advanced statistical models. Analyzing the enormous volume of financial data generated daily was impossible with human capabilities.",
+        "However, [[Machine Learning|A technology where computers learn from data to discover rules themselves and predict the future. In finance, it's widely used for investment strategies and risk management.]] algorithms began uncovering hidden patterns within countless variables, predicting market movements with unprecedented accuracy.",
+        "This heralded a new golden age for quant finance. In almost all areas of finance, including stock price prediction, credit scoring, and fraud detection, the influence of data science grew."
+      ],
+      "theoryDetail": {
+        "content": [
+          "Financial data science is the study of analyzing complex patterns in financial markets and building predictive models using big data and machine learning technologies. Supervised Learning is used to train models with historical data (features and correct answers) to predict future values, applied in stock price prediction or credit score evaluation.",
+          "Unsupervised Learning analyzes data without predefined answers to discover hidden structures or patterns, useful for market segmentation or anomaly detection. These technologies have innovatively enhanced the depth and accuracy of financial analysis."
+        ],
+        "title": "Financial Prediction Using Machine Learning"
+      }
+    },
+    "tutorialType": "ai",
+    "imagePath": "/assets/images/ch34.png"
   },
   {
     "id": 35,
-    "volume": "VOL. 4",
-    "year": "2000s",
-    "tutorialType": "behavioral",
-    "imagePath": "/assets/images/ch4.png",
     "ko": {
-      "title": "행동경제학과 수학의 한계",
-      "subtitle": "인간의 심리와 완벽한 수식의 괴리",
+      "volume": "Volume 4",
+      "year": "2008-2010s",
+      "title": "탈중앙화의 새벽: 블록체인의 기본",
+      "subtitle": "신뢰를 코드로 구축하다",
       "content": [
-        "우리는 폴샘 버추얼팀과 함께 일합니다. 모든 지식이 공유되는 이 곳, 헤븐 프로젝트의 일환으로 역사 속 금융과 수학의 만남을 추적합니다.",
-        "이 시기 가장 중요한 것은 [[행동경제학과|선생님이 설명해주는 핵심 수학과 금융의 의미]]입니다. 이것이 인류의 자산을 어떻게 증식시켰는지 확인해봅시다.",
-        "과거의 뼈아픈 교훈이 오늘날 우리를 이 자리로 이끌었습니다. 숫자의 변동성을 이해하는 것이 곧 미래의 리스크를 줄이는 가장 완벽한 방법입니다."
-      ]
+        "2008년 금융 위기 이후, 중앙 집중식 시스템에 대한 불신이 깊어지면서 새로운 대안이 모색되었습니다. 바로 블록체인이었죠. 사토시 나카모토라는 익명의 인물이 제안한 이 기술은 금융의 근본을 뒤흔들 잠재력을 가지고 있었습니다.",
+        "분산된 장부에 모든 거래 기록을 투명하게 저장하고, 그 누구도 임의로 조작할 수 없는 혁명적인 기술이었습니다. 각 거래는 '블록'에 담겨 암호화된 방식으로 연결되어 '체인'을 형성합니다.",
+        "이는 금융의 패러다임을 근본적으로 뒤흔들 잠재력을 가지고 있었습니다. [[블록체인|거래 기록을 여러 컴퓨터에 분산해서 저장하고 암호화 기술로 연결한 디지털 장부예요. 투명하고 보안성이 높아서 해킹이 거의 불가능하죠.]]은 중개자 없이도 신뢰를 구축할 수 있는 새로운 방식이었습니다."
+      ],
+      "theoryDetail": {
+        "content": [
+          "블록체인은 분산 원장 기술(Distributed Ledger Technology, DLT)의 한 형태로, 모든 거래 기록을 네트워크 참여자들에게 분산 저장하고 공유합니다. 각 거래는 암호화 해시(Cryptographic Hash)로 이전 블록과 연결되어 위변조가 거의 불가능한 '불변성(Immutability)'을 가집니다.",
+          "주요 특징으로는 탈중앙화(Decentralization), 투명성(Transparency), 보안성(Security) 등이 있으며, 이는 중앙 기관 없이도 신뢰할 수 있는 시스템을 구축할 수 있게 합니다. 비트코인이 최초의 블록체인 기반 암호화폐입니다."
+        ],
+        "title": "블록체인의 작동 원리와 특징"
+      }
     },
     "en": {
-      "title": "행동경제학과 수학의 한계 (EN)",
-      "subtitle": "인간의 심리와 완벽한 수식의 괴리 (EN)",
+      "volume": "Volume 4",
+      "year": "2008-2010s",
+      "title": "The Dawn of Decentralization: Blockchain Basics",
+      "subtitle": "Building Trust with Code",
       "content": [
-        "We work with PaulSam Virtual Team. Tracking the intersection of finance and math throughout history.",
-        "The key is understanding the math principle.",
-        "Past lessons lead us to the transparent future."
-      ]
-    }
+        "Following the 2008 financial crisis, deep mistrust in centralized systems spurred the search for new alternatives. This led to blockchain. Proposed by an anonymous individual named Satoshi Nakamoto, this technology held the potential to fundamentally shake up the foundations of finance.",
+        "It was a revolutionary technology that transparently stored all transaction records in a distributed ledger, making it impossible for anyone to arbitrarily manipulate them. Each transaction is contained in a 'block' and cryptographically linked to form a 'chain'.",
+        "This held the potential to fundamentally shake up the financial paradigm. [[Blockchain|A digital ledger that stores transaction records across many computers, linked by cryptographic technology. It's transparent and highly secure, making hacking almost impossible.]] was a new way to build trust without intermediaries."
+      ],
+      "theoryDetail": {
+        "content": [
+          "Blockchain is a form of Distributed Ledger Technology (DLT) where all transaction records are distributed and shared among network participants. Each transaction is linked to the previous block with a cryptographic hash, giving it 'immutability,' making tampering virtually impossible.",
+          "Key features include decentralization, transparency, and security, enabling the creation of trustworthy systems without central authorities. Bitcoin was the first cryptocurrency based on blockchain."
+        ],
+        "title": "How Blockchain Works and Its Characteristics"
+      }
+    },
+    "tutorialType": "algorithm",
+    "imagePath": "/assets/images/ch35.png"
   },
   {
     "id": 36,
-    "volume": "VOL. 4",
-    "year": "2008",
-    "tutorialType": "probability",
-    "imagePath": "/assets/images/ch4.png",
     "ko": {
-      "title": "서브프라임 비극",
-      "subtitle": "완벽해 보였던 상관관계 모델의 붕괴",
+      "volume": "Volume 4",
+      "year": "2010s",
+      "title": "스마트 컨트랙트: 코드가 곧 법이다",
+      "subtitle": "자동화된 계약의 혁명",
       "content": [
-        "우리는 폴샘 버추얼팀과 함께 일합니다. 모든 지식이 공유되는 이 곳, 헤븐 프로젝트의 일환으로 역사 속 금융과 수학의 만남을 추적합니다.",
-        "이 시기 가장 중요한 것은 [[서브프라임|선생님이 설명해주는 핵심 수학과 금융의 의미]]입니다. 이것이 인류의 자산을 어떻게 증식시켰는지 확인해봅시다.",
-        "과거의 뼈아픈 교훈이 오늘날 우리를 이 자리로 이끌었습니다. 숫자의 변동성을 이해하는 것이 곧 미래의 리스크를 줄이는 가장 완벽한 방법입니다."
-      ]
+        "블록체인의 등장과 함께, 단순히 기록을 넘어선 새로운 가능성이 열렸습니다. 바로 스마트 컨트랙트였죠. 닉 자보가 1990년대에 처음 개념을 제시했지만, 블록체인 기술과 만나 비로소 현실이 되었습니다.",
+        "미리 정해진 조건이 충족되면 자동으로 계약이 실행되는 '코드화된 법'이었습니다. 중개자 없이 안전하고 효율적인 거래를 가능하게 하며, 금융 서비스의 미래를 다시 그리는 핵심 기술로 부상했습니다.",
+        "[[스마트 컨트랙트|블록체인 위에 미리 코드로 작성된 계약이에요. 특정 조건이 충족되면 자동으로 실행되니까, 사람의 개입 없이도 약속이 지켜지죠.]]는 보험금 지급, 부동산 거래, 자산 관리 등 다양한 분야에서 혁신을 가져올 잠재력을 가지고 있습니다."
+      ],
+      "theoryDetail": {
+        "content": [
+          "스마트 컨트랙트는 블록체인 상에서 미리 정해진 조건에 따라 자동으로 실행되는 컴퓨터 프로그램입니다. 'If-Then' 논리에 기반하여, 특정 이벤트(조건)가 발생하면 미리 약속된 행동(결과)이 자동으로 수행됩니다.",
+          "이는 중개인의 필요성을 없애고, 거래 비용을 절감하며, 계약의 투명성과 신뢰성을 높여줍니다. 이더리움(Ethereum)은 스마트 컨트랙트 기능을 대중화시킨 대표적인 블록체인 플랫폼입니다. 스마트 컨트랙트는 탈중앙화 금융(DeFi)의 핵심 구성 요소입니다."
+        ],
+        "title": "스마트 컨트랙트의 개념과 작동 방식"
+      }
     },
     "en": {
-      "title": "서브프라임 비극 (EN)",
-      "subtitle": "완벽해 보였던 상관관계 모델의 붕괴 (EN)",
+      "volume": "Volume 4",
+      "year": "2010s",
+      "title": "Smart Contracts: Code is Law",
+      "subtitle": "The Revolution of Automated Agreements",
       "content": [
-        "We work with PaulSam Virtual Team. Tracking the intersection of finance and math throughout history.",
-        "The key is understanding the math principle.",
-        "Past lessons lead us to the transparent future."
-      ]
-    }
+        "With the advent of blockchain, a new possibility beyond mere record-keeping emerged: smart contracts. First conceptualized by Nick Szabo in the 1990s, they finally became a reality with blockchain technology.",
+        "These were 'code-is-law' agreements that automatically executed when predetermined conditions were met. Enabling secure and efficient transactions without intermediaries, they rose as a core technology redrawing the future of financial services.",
+        "[[Smart Contract|A contract pre-written in code on a blockchain. When specific conditions are met, it executes automatically, ensuring agreements are kept without human intervention.]] has the potential to bring innovation to various fields, including insurance payouts, real estate transactions, and asset management."
+      ],
+      "theoryDetail": {
+        "content": [
+          "A smart contract is a computer program that automatically executes on a blockchain according to predetermined conditions. Based on 'If-Then' logic, when a specific event (condition) occurs, a pre-agreed action (result) is automatically performed.",
+          "This eliminates the need for intermediaries, reduces transaction costs, and enhances the transparency and trustworthiness of contracts. Ethereum is a prominent blockchain platform that popularized smart contract functionality. Smart contracts are a core component of Decentralized Finance (DeFi)."
+        ],
+        "title": "Concept and Operation of Smart Contracts"
+      }
+    },
+    "tutorialType": "algorithm",
+    "imagePath": "/assets/images/ch36.png"
   },
   {
     "id": 37,
-    "volume": "VOL. 4",
-    "year": "2010s",
-    "tutorialType": "algorithm",
-    "imagePath": "/assets/images/ch4.png",
     "ko": {
-      "title": "초단타 알고리즘 매매",
-      "subtitle": "기계가 주도하는 밀리초의 전쟁",
+      "volume": "Volume 4",
+      "year": "2018-",
+      "title": "디파이와 자동화된 시장 조성자(AMM)",
+      "subtitle": "탈중앙화 금융의 심장",
       "content": [
-        "우리는 폴샘 버추얼팀과 함께 일합니다. 모든 지식이 공유되는 이 곳, 헤븐 프로젝트의 일환으로 역사 속 금융과 수학의 만남을 추적합니다.",
-        "이 시기 가장 중요한 것은 [[초단타|선생님이 설명해주는 핵심 수학과 금융의 의미]]입니다. 이것이 인류의 자산을 어떻게 증식시켰는지 확인해봅시다.",
-        "과거의 뼈아픈 교훈이 오늘날 우리를 이 자리로 이끌었습니다. 숫자의 변동성을 이해하는 것이 곧 미래의 리스크를 줄이는 가장 완벽한 방법입니다."
-      ]
+        "블록체인과 스마트 컨트랙트가 만나 탈중앙화 금융, 즉 디파이(DeFi)라는 혁명이 시작되었습니다. 은행이나 증권사 같은 중앙 기관 없이도 대출, 예금, 거래 등 모든 금융 서비스를 제공하는 시스템이었죠.",
+        "이 디파이 생태계의 중심에는 유동성을 공급하고 가격을 결정하는 새로운 방식인 [[자동화된 시장 조성자|중앙화된 거래소처럼 매수-매도 주문을 연결해주는 대신, 미리 정해진 수학 공식(예: x*y=k)에 따라 자산의 가격을 결정하고 유동성을 제공하는 스마트 컨트랙트예요.]]인 AMM이 있었습니다.",
+        "AMM은 기존의 주문장 기반 거래소와는 전혀 다른 방식으로 작동하며, 누구나 유동성 공급자가 되어 수수료를 벌 수 있는 기회를 제공했습니다."
+      ],
+      "theoryDetail": {
+        "content": [
+          "자동화된 시장 조성자(AMM)는 탈중앙화 거래소(DEX)에서 유동성을 제공하고 자산 가격을 결정하는 스마트 컨트랙트 기반 시스템입니다. 가장 대표적인 AMM 모델은 '상수 곱 공식(Constant Product Formula)'인 x * y = k 입니다.",
+          "여기서 x와 y는 유동성 풀에 있는 두 자산의 수량이며, k는 상수입니다. 이 공식은 풀 내 두 자산의 곱이 항상 일정하게 유지되도록 하여, 한 자산의 수량이 증가하면 다른 자산의 수량은 감소하게 됩니다. 사용자는 유동성 풀에 자산을 예치(Liquidity Provision)하여 거래 수수료를 얻을 수 있습니다."
+        ],
+        "title": "AMM의 상수 곱 공식(x*y=k)"
+      }
     },
     "en": {
-      "title": "초단타 알고리즘 매매 (EN)",
-      "subtitle": "기계가 주도하는 밀리초의 전쟁 (EN)",
+      "volume": "Volume 4",
+      "year": "2018-",
+      "title": "DeFi and Automated Market Makers (AMM)",
+      "subtitle": "The Heart of Decentralized Finance",
       "content": [
-        "We work with PaulSam Virtual Team. Tracking the intersection of finance and math throughout history.",
-        "The key is understanding the math principle.",
-        "Past lessons lead us to the transparent future."
-      ]
-    }
+        "The convergence of blockchain and smart contracts ignited a revolution known as Decentralized Finance, or DeFi. It was a system offering all financial services—lending, borrowing, trading—without central institutions like banks or brokerages.",
+        "At the heart of this DeFi ecosystem was the [[Automated Market Maker (AMM)|A smart contract that, instead of matching buy and sell orders like a centralized exchange, determines asset prices and provides liquidity based on a predefined mathematical formula (e.g., x*y=k).]], a new way to provide liquidity and determine prices.",
+        "AMMs operate in a fundamentally different way from traditional order book exchanges, offering anyone the opportunity to become a liquidity provider and earn fees."
+      ],
+      "theoryDetail": {
+        "content": [
+          "An Automated Market Maker (AMM) is a smart contract-based system that provides liquidity and determines asset prices on decentralized exchanges (DEXs). The most representative AMM model is the 'Constant Product Formula': x * y = k.",
+          "Here, x and y are the quantities of two assets in the liquidity pool, and k is a constant. This formula ensures that the product of the two assets in the pool always remains constant, meaning if the quantity of one asset increases, the quantity of the other asset must decrease. Users can deposit assets into a liquidity pool (Liquidity Provision) to earn trading fees."
+        ],
+        "title": "AMM's Constant Product Formula (x*y=k)"
+      }
+    },
+    "tutorialType": "amm",
+    "imagePath": "/assets/images/ch37.png"
   },
   {
     "id": 38,
-    "volume": "VOL. 4",
-    "year": "2018",
-    "tutorialType": "amm",
-    "imagePath": "/assets/images/ch4.png",
     "ko": {
-      "title": "DeFi와 탈중앙화 금융",
-      "subtitle": "블록체인 위에 세워진 새로운 시장",
+      "volume": "Volume 4",
+      "year": "2018-",
+      "title": "비영구적 손실: AMM의 숨겨진 비용",
+      "subtitle": "유동성 공급자의 딜레마",
       "content": [
-        "2008년의 비극 이후, 인간의 개입 없이 코드로만 굴러가는 탈중앙화 시장(DeFi)이 등장했습니다.",
-        "AMM(자동화된 마켓 메이커)의 핵심은 [[x * y = k|두 자산의 곱이 항상 일정해야 한다는 상수 수식]]입니다. 수요와 공급이 수학에 의해 완벽하게 컨트롤됩니다.",
-        "이러한 투명한 코드는 헤븐 프로젝트가 지향하는 바와 완전히 일치합니다. 중앙화된 권력 없이 시스템이 리스크를 통제하는 이상적인 세계의 서막입니다."
-      ]
+        "AMM은 금융에 새로운 바람을 불어넣었지만, 그 이면에는 숨겨진 위험이 존재했습니다. 바로 유동성 공급자들이 겪을 수 있는 '비영구적 손실'이었습니다.",
+        "유동성 풀에 자산을 예치한 투자자들은 시장의 변동성 때문에 일시적으로 손실을 볼 수 있었고, 이는 디파이 생태계의 복잡성을 더하는 요소가 되었습니다. 자산 가격이 크게 변동할 때마다 이 손실은 더욱 커졌습니다.",
+        "[[비영구적 손실|유동성 풀에 자산을 예치했는데, 그 자산들의 가격이 변동해서 그냥 들고만 있었을 때보다 가치가 줄어드는 현상이에요. '비영구적'이라는 건 가격이 원래대로 돌아오면 손실도 사라질 수 있다는 뜻이죠.]]을 이해하는 것은 AMM에 참여하는 모든 이들에게 필수적인 지식이 되었습니다."
+      ],
+      "theoryDetail": {
+        "content": [
+          "비영구적 손실(Impermanent Loss)은 유동성 공급자가 AMM 유동성 풀에 자산을 예치했을 때, 예치된 자산의 가격 비율이 초기 예치 시점과 달라져 단순히 자산을 보유(HODL)했을 때보다 가치가 감소하는 현상을 말합니다. 이는 AMM의 상수 곱 공식(x*y=k)으로 인해 자산 가격 변동에 따라 풀 내 자산 비율이 자동으로 재조정되기 때문에 발생합니다.",
+          "예를 들어, ETH-USDC 풀에 1 ETH와 1000 USDC를 예치했는데 ETH 가격이 2000 USDC로 오르면, AMM은 ETH를 팔고 USDC를 사서 비율을 맞춥니다. 이 과정에서 유동성 공급자는 ETH가 올랐음에도 불구하고 손실을 보게 됩니다. 가격이 다시 원래대로 돌아오면 손실은 사라지지만, 그렇지 않으면 실현될 수 있습니다."
+        ],
+        "title": "비영구적 손실의 메커니즘"
+      }
     },
     "en": {
-      "title": "DeFi와 탈중앙화 금융 (EN)",
-      "subtitle": "블록체인 위에 세워진 새로운 시장 (EN)",
+      "volume": "Volume 4",
+      "year": "2018-",
+      "title": "Impermanent Loss: The Hidden Cost of AMM",
+      "subtitle": "The Liquidity Provider's Dilemma",
       "content": [
-        "We work with PaulSam Virtual Team. Tracking the intersection of finance and math throughout history.",
-        "The key is understanding the math principle.",
-        "Past lessons lead us to the transparent future."
-      ]
-    }
+        "While AMMs brought a fresh breeze to finance, a hidden risk lurked beneath: 'impermanent loss' that liquidity providers could experience.",
+        "Investors who deposited assets into liquidity pools could face temporary losses due to market volatility, adding to the complexity of the DeFi ecosystem. This loss grew larger with significant asset price fluctuations.",
+        "Understanding [[Impermanent Loss|A phenomenon where, after depositing assets into a liquidity pool, the value of those assets decreases due to price fluctuations, ending up less than if you had simply held them. 'Impermanent' means the loss can disappear if prices return to their original state.]] became essential knowledge for everyone participating in AMMs."
+      ],
+      "theoryDetail": {
+        "content": [
+          "Impermanent Loss refers to the phenomenon where, when a liquidity provider deposits assets into an AMM liquidity pool, the price ratio of the deposited assets changes from the initial deposit time, resulting in a decrease in value compared to simply holding (HODL) the assets. This occurs because the AMM's constant product formula (x*y=k) automatically rebalances the asset ratio in the pool according to price fluctuations.",
+          "For example, if you deposit 1 ETH and 1000 USDC into an ETH-USDC pool, and the price of ETH rises to 2000 USDC, the AMM will sell ETH and buy USDC to rebalance the ratio. In this process, the liquidity provider incurs a loss despite ETH's price increase. The loss can disappear if prices return to their original state, but it can be realized if they do not."
+        ],
+        "title": "Mechanism of Impermanent Loss"
+      }
+    },
+    "tutorialType": "amm",
+    "imagePath": "/assets/images/ch38.png"
   },
   {
     "id": 39,
-    "volume": "VOL. 4",
-    "year": "2018",
-    "tutorialType": "amm",
-    "imagePath": "/assets/images/ch4.png",
     "ko": {
-      "title": "AMM: 유동성 풀의 수학",
-      "subtitle": "x * y = k, 극적인 단순함의 미학",
+      "volume": "Volume 4",
+      "year": "2020s-",
+      "title": "금융의 미래: AI와 블록체인의 융합",
+      "subtitle": "새로운 시대의 서막",
       "content": [
-        "2008년의 비극 이후, 인간의 개입 없이 코드로만 굴러가는 탈중앙화 시장(DeFi)이 등장했습니다.",
-        "AMM(자동화된 마켓 메이커)의 핵심은 [[x * y = k|두 자산의 곱이 항상 일정해야 한다는 상수 수식]]입니다. 수요와 공급이 수학에 의해 완벽하게 컨트롤됩니다.",
-        "이러한 투명한 코드는 헤븐 프로젝트가 지향하는 바와 완전히 일치합니다. 중앙화된 권력 없이 시스템이 리스크를 통제하는 이상적인 세계의 서막입니다."
-      ]
+        "데이터와 알고리즘의 시대는 멈추지 않고 진화하고 있습니다. 이제 우리는 인공지능과 블록체인이라는 두 거대한 기술이 만나 금융의 미래를 새롭게 써 내려가는 변곡점에 서 있습니다.",
+        "인공지능은 방대한 금융 데이터를 분석하여 최적의 투자 전략을 제시하고, 블록체인은 이 모든 거래를 투명하고 안전하게 기록합니다. AI는 시장의 비효율성을 찾아내고, 블록체인은 그 해결책을 분산된 방식으로 구현합니다.",
+        "이 두 거대한 기술의 융합은 금융의 미래를 예측 불가능한 방향으로 이끌고 있으며, 퀀트들은 그 최전선에서 새로운 길을 개척하고 있습니다. [[인공지능|인간처럼 학습하고 추론하며 문제를 해결하는 컴퓨터 시스템이에요. 금융에서는 시장 예측, 사기 탐지, 자동화된 투자 상담 등에 활용돼요.]]과 블록체인이 만들어낼 시너지는 상상을 초월할 것입니다."
+      ],
+      "theoryDetail": {
+        "content": [
+          "AI와 블록체인의 융합은 금융 산업에 혁명적인 변화를 가져올 잠재력을 가지고 있습니다. AI는 블록체인 상의 방대한 거래 데이터를 분석하여 이상 거래를 감지하고, 시장 예측 모델의 정확도를 향상시킬 수 있습니다.",
+          "스마트 컨트랙트와 결합된 AI는 복잡한 금융 계약의 자동화 및 최적화를 가능하게 하며, 탈중앙화된 AI(Decentralized AI)는 데이터 프라이버시를 보호하면서도 AI 모델을 학습시키는 새로운 방안을 제시합니다. 이러한 융합은 금융 서비스의 효율성, 보안성, 접근성을 극대화할 것입니다."
+        ],
+        "title": "AI와 블록체인 융합의 시너지"
+      }
     },
     "en": {
-      "title": "AMM: 유동성 풀의 수학 (EN)",
-      "subtitle": "x * y = k, 극적인 단순함의 미학 (EN)",
+      "volume": "Volume 4",
+      "year": "2020s-",
+      "title": "The Future of Finance: Convergence of AI and Blockchain",
+      "subtitle": "The Dawn of a New Era",
       "content": [
-        "We work with PaulSam Virtual Team. Tracking the intersection of finance and math throughout history.",
-        "The key is understanding the math principle.",
-        "Past lessons lead us to the transparent future."
-      ]
-    }
+        "The era of data and algorithms continues to evolve without pause. We now stand at an inflection point where two monumental technologies, artificial intelligence and blockchain, converge to rewrite the future of finance.",
+        "Artificial intelligence analyzes vast financial data to propose optimal investment strategies, while blockchain transparently and securely records all these transactions. AI identifies market inefficiencies, and blockchain implements solutions in a decentralized manner.",
+        "The convergence of these two monumental technologies is steering the future of finance in unpredictable directions, with quants pioneering new paths at the forefront. The synergy created by [[Artificial Intelligence|A computer system that learns, reasons, and solves problems like a human. In finance, it's used for market prediction, fraud detection, and automated investment advice.]] and blockchain will be beyond imagination."
+      ],
+      "theoryDetail": {
+        "content": [
+          "The convergence of AI and blockchain holds the potential to bring revolutionary changes to the financial industry. AI can analyze vast transaction data on the blockchain to detect anomalous transactions and improve the accuracy of market prediction models.",
+          "AI combined with smart contracts enables the automation and optimization of complex financial agreements, while Decentralized AI offers new ways to train AI models while protecting data privacy. This convergence will maximize the efficiency, security, and accessibility of financial services."
+        ],
+        "title": "Synergy of AI and Blockchain Convergence"
+      }
+    },
+    "tutorialType": "ai",
+    "imagePath": "/assets/images/ch39.png"
   },
   {
     "id": 40,
-    "volume": "VOL. 4",
-    "year": "2026",
-    "tutorialType": "ai",
-    "imagePath": "/assets/images/ch4.png",
     "ko": {
-      "title": "헤븐 프로젝트의 비전",
-      "subtitle": "AI와 집단지성이 여는 투명한 금융의 미래",
+      "volume": "Volume 4",
+      "year": "2020s-",
+      "title": "퀀트의 새로운 지평: 윤리와 혁신",
+      "subtitle": "기술 발전의 책임 있는 항해",
       "content": [
-        "우리는 폴샘 버추얼팀과 함께 일합니다. 모든 지식이 공유되는 이 곳, 헤븐 프로젝트의 일환으로 역사 속 금융과 수학의 만남을 추적합니다.",
-        "이 시기 가장 중요한 것은 [[헤븐|선생님이 설명해주는 핵심 수학과 금융의 의미]]입니다. 이것이 인류의 자산을 어떻게 증식시켰는지 확인해봅시다.",
-        "과거의 뼈아픈 교훈이 오늘날 우리를 이 자리로 이끌었습니다. 숫자의 변동성을 이해하는 것이 곧 미래의 리스크를 줄이는 가장 완벽한 방법입니다."
-      ]
+        "기술의 발전은 언제나 새로운 질문을 던집니다. 알고리즘의 편향성, 데이터 프라이버시, 그리고 금융 시스템의 안정성 등, 퀀트들은 단순히 수익을 넘어선 윤리적, 사회적 책임에 직면하고 있습니다.",
+        "우리는 기술이 가져다줄 무한한 가능성을 탐구하면서도, 그 그림자를 간과해서는 안 됩니다. 데이터의 공정성, 알고리즘의 투명성, 그리고 모든 사람에게 공평한 기회를 제공하는 금융 시스템을 구축해야 합니다.",
+        "미래의 금융은 단순히 기술적 진보뿐만 아니라, [[책임감 있는 혁신|새로운 기술을 개발하고 적용할 때, 그것이 사회에 미칠 긍정적이고 부정적인 영향을 미리 고려하고, 윤리적 기준을 지키면서 지속 가능한 발전을 추구하는 것을 말해요.]]을 통해 더욱더 견고하고 공정해질 것입니다. 이것이 퀀트들이 나아가야 할 마지막이자 가장 중요한 길입니다."
+      ],
+      "theoryDetail": {
+        "content": [
+          "금융 기술의 발전은 알고리즘적 편향(Algorithmic Bias), 데이터 프라이버시 침해, 시스템적 위험 증가 등 다양한 윤리적 문제를 야기할 수 있습니다. 퀀트들은 이러한 문제들을 해결하기 위해 '설명 가능한 AI(Explainable AI, XAI)'를 개발하고, 데이터 사용에 대한 명확한 규제와 동의 절차를 마련하며, 알고리즘이 특정 집단에 불리하게 작용하지 않도록 공정성을 확보해야 합니다.",
+          "또한, 탈중앙화 금융(DeFi)의 규제 공백과 위험에 대한 논의도 중요합니다. 지속 가능한 금융 생태계를 구축하기 위해서는 기술적 전문성뿐만 아니라 사회적 책임감과 윤리적 가치 판단이 필수적입니다."
+        ],
+        "title": "퀀트 금융의 윤리적 과제"
+      }
     },
     "en": {
-      "title": "헤븐 프로젝트의 비전 (EN)",
-      "subtitle": "AI와 집단지성이 여는 투명한 금융의 미래 (EN)",
+      "volume": "Volume 4",
+      "year": "2020s-",
+      "title": "Quant's New Frontier: Ethics and Innovation",
+      "subtitle": "Responsible Navigation of Technological Advancement",
       "content": [
-        "We work with PaulSam Virtual Team. Tracking the intersection of finance and math throughout history.",
-        "The key is understanding the math principle.",
-        "Past lessons lead us to the transparent future."
-      ]
-    }
+        "Technological advancement always brings new questions. Quants are facing ethical and social responsibilities beyond mere profit, concerning algorithmic bias, data privacy, and the stability of the financial system.",
+        "While exploring the boundless possibilities technology offers, we must not overlook its shadows. We must build a financial system that ensures data fairness, algorithmic transparency, and equal opportunities for all.",
+        "The future of finance will become more robust and equitable not just through technological progress, but through [[Responsible Innovation|Developing and applying new technologies while proactively considering their positive and negative impacts on society, adhering to ethical standards, and pursuing sustainable development.]]. This is the final and most crucial path for quants to take."
+      ],
+      "theoryDetail": {
+        "content": [
+          "The advancement of financial technology can lead to various ethical issues, such as algorithmic bias, data privacy infringements, and increased systemic risk. To address these problems, quants must develop 'Explainable AI (XAI),' establish clear regulations and consent procedures for data usage, and ensure fairness so that algorithms do not disadvantage specific groups.",
+          "Furthermore, discussions on the regulatory gaps and risks of Decentralized Finance (DeFi) are also crucial. Building a sustainable financial ecosystem requires not only technical expertise but also a sense of social responsibility and ethical judgment."
+        ],
+        "title": "Ethical Challenges in Quant Finance"
+      }
+    },
+    "tutorialType": "behavioral",
+    "imagePath": "/assets/images/ch40.png"
   }
 ]

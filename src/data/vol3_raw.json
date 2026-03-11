@@ -1,0 +1,456 @@
+[
+  {
+    "id": 21,
+    "ko": {
+      "volume": "Vol 3",
+      "year": "2024",
+      "title": "델타의 그림자 - 시장의 방향을 읽다",
+      "subtitle": "옵션 가격 변화의 첫 번째 열쇠",
+      "content": [
+        "엘라라는 어둠이 깔린 퀀트 연구실에서 모니터 화면을 응시했다. 수많은 숫자들이 춤추는 가운데, 그녀의 눈은 한 가지 지표에 고정되어 있었다. 바로 '델타'였다. 옵션 시장의 복잡한 움직임을 이해하기 위한 첫걸음, 그것은 델타의 그림자를 쫓는 것이었다.",
+        "그녀는 델타가 마치 시장의 나침반과 같다고 생각했다. 기초자산 가격이 변할 때 옵션 가격이 얼마나 빠르게 반응하는지, 그 민감도를 델타가 알려주었기 때문이다. 델타 값이 0.5라면, 기초자산이 1달러 오를 때 옵션 가격은 0.5달러 오를 것이라는 의미였다.",
+        "엘라라는 이 델타 값을 활용하여 포지션의 방향성을 예측하고, 시장의 흐름에 따라 전략을 조절하는 연습을 반복했다. 그녀에게 델타는 단순한 숫자가 아니라, 시장의 숨결을 느끼게 해주는 [[델타|옵션 가격이 기초자산 가격 변동에 얼마나 민감하게 반응하는지를 나타내는 지표예요. 기초자산이 1단위 변할 때 옵션 가격이 얼마나 변하는지 알려주죠.]]였다."
+      ],
+      "theoryDetail": {
+        "content": [
+          "델타는 옵션 가격의 기초자산 가격에 대한 민감도를 나타내는 지표입니다. 기초자산 가격이 1단위 변할 때 옵션 가격이 얼마나 변하는지를 의미합니다.",
+          "콜옵션의 델타는 0과 1 사이의 값을 가지며, 풋옵션의 델타는 -1과 0 사이의 값을 가집니다. 이는 콜옵션이 기초자산 가격과 같은 방향으로 움직이고, 풋옵션은 반대 방향으로 움직이기 때문입니다.",
+          "델타는 옵션의 내가격, 등가격, 외가격 여부에 따라 달라집니다. 내가격 옵션은 델타가 1(콜) 또는 -1(풋)에 가까워지고, 외가격 옵션은 델타가 0에 가까워집니다. 등가격 옵션은 대략 0.5(콜) 또는 -0.5(풋)의 델타를 가집니다.",
+          "델타는 또한 델타 헤징(Delta Hedging) 전략의 핵심 요소로, 포트폴리오의 기초자산 가격 변동 위험을 상쇄하는 데 사용됩니다."
+        ],
+        "title": "델타(Delta) 심층 분석"
+      }
+    },
+    "en": {
+      "volume": "Vol 3",
+      "year": "2024",
+      "title": "The Shadow of Delta - Reading Market Direction",
+      "subtitle": "The First Key to Option Price Changes",
+      "content": [
+        "Elara stared at the monitor screen in the dimly lit quant lab. Amidst the dance of countless numbers, her eyes were fixed on one indicator: 'Delta'. The first step to understanding the complex movements of the options market was to chase the shadow of Delta.",
+        "She thought of Delta as the market's compass. Delta told her how sensitively option prices reacted to changes in the underlying asset's price. A Delta value of 0.5 meant that if the underlying asset rose by 1 dollar, the option price would rise by 0.5 dollars.",
+        "Elara repeatedly practiced using this Delta value to predict the direction of her positions and adjust her strategy according to market trends. To her, Delta was not just a number, but a [[Delta|It's an indicator that shows how sensitive an option's price is to changes in the underlying asset's price. It tells you how much the option price changes when the underlying asset changes by one unit.]] that allowed her to feel the market's breath."
+      ],
+      "theoryDetail": {
+        "content": [
+          "Delta is an indicator that represents the sensitivity of an option's price to the underlying asset's price. It signifies how much the option price changes when the underlying asset's price changes by one unit.",
+          "The Delta of a call option ranges between 0 and 1, while the Delta of a put option ranges between -1 and 0. This is because call options move in the same direction as the underlying asset price, and put options move in the opposite direction.",
+          "Delta varies depending on whether the option is in-the-money, at-the-money, or out-of-the-money. In-the-money options have a Delta closer to 1 (calls) or -1 (puts), while out-of-the-money options have a Delta closer to 0. At-the-money options typically have a Delta of approximately 0.5 (calls) or -0.5 (puts).",
+          "Delta is also a key component of the Delta Hedging strategy, used to offset the risk of underlying asset price fluctuations in a portfolio."
+        ],
+        "title": "In-depth Analysis of Delta"
+      }
+    },
+    "tutorialType": "derivatives",
+    "imagePath": "/assets/images/ch21.png"
+  },
+  {
+    "id": 22,
+    "ko": {
+      "volume": "Vol 3",
+      "year": "2024",
+      "title": "감마의 변덕 - 델타의 델타",
+      "subtitle": "가속도처럼 변하는 델타의 민감도",
+      "content": [
+        "델타를 이해한 엘라라는 곧 새로운 문제에 직면했다. 시장이 급변할 때, 델타 값 자체가 놀라울 정도로 빠르게 변한다는 사실이었다. 그녀의 헤지 전략은 한순간에 무용지물이 될 수 있었다. 마치 자동차의 속도(델타)가 가속도(감마)에 의해 끊임없이 변하는 것과 같았다.",
+        "선배 퀀트인 제이콥은 엘라라에게 '감마'라는 개념을 소개했다. \"델타는 시장의 방향을 알려주지만, 감마는 그 방향이 얼마나 빠르게 변할지 알려주는 거야.\" 제이콥의 말에 엘라라의 머릿속에 복잡했던 퍼즐 조각이 맞춰지는 느낌이었다.",
+        "감마는 델타의 변화율, 즉 옵션 가격이 기초자산 가격 변화에 대해 얼마나 가속도적으로 반응하는지를 나타내는 지표였다. 엘라라는 감마를 이해함으로써 변동성이 큰 시장에서 [[감마|델타가 기초자산 가격 변동에 얼마나 민감하게 반응하는지를 나타내는 지표예요. 즉, 기초자산이 움직일 때 델타가 얼마나 빠르게 변하는지 보여주죠.]]를 관리하는 방법을 깨닫기 시작했다."
+      ],
+      "theoryDetail": {
+        "content": [
+          "감마는 옵션의 델타가 기초자산 가격 변화에 대해 얼마나 민감하게 반응하는지를 나타내는 지표입니다. 즉, 기초자산 가격이 1단위 변할 때 델타가 얼마나 변하는지를 측정합니다.",
+          "감마는 옵션 가격의 볼록성(convexity)을 나타내며, 특히 등가격 옵션에서 감마 값이 가장 커집니다. 이는 등가격 옵션의 델타가 기초자산 가격 변화에 가장 민감하게 반응한다는 것을 의미합니다.",
+          "감마는 헤징 전략에서 매우 중요합니다. 높은 감마 값은 델타가 빠르게 변한다는 것을 의미하므로, 델타 헤징 포지션을 자주 조정해야 할 필요성을 시사합니다. 감마가 양수이면 기초자산 가격이 오를 때 포지션 가치가 더 빠르게 증가하고, 내릴 때는 더 느리게 감소합니다.",
+          "감마 헤징(Gamma Hedging)은 포트폴리오의 델타를 중립으로 유지하면서 동시에 감마도 중립으로 만들어, 기초자산 가격의 큰 변동에도 포트폴리오 가치의 변화를 최소화하는 전략입니다."
+        ],
+        "title": "감마(Gamma) 심층 분석"
+      }
+    },
+    "en": {
+      "volume": "Vol 3",
+      "year": "2024",
+      "title": "The Fickleness of Gamma - The Delta of Delta",
+      "subtitle": "The Sensitivity of Delta Changing Like Acceleration",
+      "content": [
+        "Having understood Delta, Elara soon faced a new problem. When the market changed rapidly, the Delta value itself changed surprisingly quickly. Her hedging strategy could become useless in an instant. It was like a car's speed (Delta) constantly changing due to acceleration (Gamma).",
+        "Jacob, a senior quant, introduced Elara to the concept of 'Gamma'. \"Delta tells you the market's direction, but Gamma tells you how fast that direction will change.\" Jacob's words made the complex puzzle pieces in Elara's mind click into place.",
+        "Gamma was the rate of change of Delta, an indicator that showed how acceleratively option prices reacted to changes in the underlying asset's price. By understanding Gamma, Elara began to realize how to manage [[Gamma|It's an indicator that shows how sensitive Delta is to changes in the underlying asset's price. In other words, it shows how quickly Delta changes when the underlying asset moves.]] in volatile markets."
+      ],
+      "theoryDetail": {
+        "content": [
+          "Gamma is an indicator that represents how sensitively an option's Delta reacts to changes in the underlying asset's price. In other words, it measures how much Delta changes when the underlying asset's price changes by one unit.",
+          "Gamma represents the convexity of an option's price, and Gamma values are highest for at-the-money options. This means that the Delta of at-the-money options is most sensitive to changes in the underlying asset's price.",
+          "Gamma is very important in hedging strategies. A high Gamma value implies that Delta changes rapidly, suggesting the need for frequent adjustments to Delta-hedged positions. If Gamma is positive, the portfolio value increases faster when the underlying asset price rises and decreases slower when it falls.",
+          "Gamma Hedging is a strategy that aims to keep both Delta and Gamma neutral in a portfolio, minimizing changes in portfolio value even with large fluctuations in the underlying asset price."
+        ],
+        "title": "In-depth Analysis of Gamma"
+      }
+    },
+    "tutorialType": "derivatives",
+    "imagePath": "/assets/images/ch22.png"
+  },
+  {
+    "id": 23,
+    "ko": {
+      "volume": "Vol 3",
+      "year": "2024",
+      "title": "세타의 속삭임 - 시간의 침식",
+      "subtitle": "옵션 가치를 갉아먹는 시간의 힘",
+      "content": [
+        "어느 날, 엘라라는 자신이 보유한 옵션 포지션의 가치가 특별한 시장 변동 없이도 서서히 줄어드는 것을 발견했다. 마치 모래시계의 모래가 끊임없이 흘러내리듯, 시간의 흐름이 옵션 가치를 갉아먹고 있었다. 그녀는 이 불가피한 현상의 원인을 파고들었다.",
+        "제이콥은 그녀에게 '세타'의 개념을 설명했다. \"옵션은 만기일이 다가올수록 가치가 줄어드는 경향이 있어. 이걸 시간 가치 하락이라고 하는데, 세타가 이 시간 가치 하락의 속도를 알려주는 지표야.\" 그의 말에 엘라라는 고개를 끄덕였다.",
+        "세타는 옵션의 잔존 만기일이 하루 감소할 때 옵션 가격이 얼마나 변하는지를 나타내는 지표였다. 특히 만기일이 임박한 등가격 옵션에서 세타 값이 크게 나타났다. 엘라라는 세타를 이해함으로써 [[세타|옵션의 잔존 만기일이 하루 감소할 때 옵션 가격이 얼마나 변하는지를 나타내는 지표예요. 시간이 흐르면 옵션 가치가 줄어드는 '시간 가치 하락'을 측정하죠.]]를 활용한 현명한 투자 시점을 결정할 수 있게 되었다."
+      ],
+      "theoryDetail": {
+        "content": [
+          "세타는 옵션의 시간 가치 하락(Time Decay)을 측정하는 지표입니다. 잔존 만기일이 하루 감소할 때 옵션 가격이 얼마나 변하는지를 나타냅니다.",
+          "대부분의 옵션, 특히 매수 포지션의 경우 세타 값은 음수입니다. 이는 시간이 흐를수록 옵션 가치가 감소한다는 것을 의미합니다. 반대로 옵션 매도 포지션은 양의 세타를 가져 시간 경과에 따른 이익을 얻습니다.",
+          "세타의 영향은 만기일이 가까워질수록 더욱 커집니다. 특히 등가격 옵션의 경우 만기일이 임박할수록 세타 값이 절댓값 기준으로 급격히 증가합니다.",
+          "세타는 옵션 전략을 수립할 때 중요한 고려 사항입니다. 장기 옵션은 세타의 영향이 비교적 적지만, 단기 옵션은 세타의 영향이 매우 커서 만기일 관리가 중요합니다."
+        ],
+        "title": "세타(Theta) 심층 분석"
+      }
+    },
+    "en": {
+      "volume": "Vol 3",
+      "year": "2024",
+      "title": "The Whisper of Theta - The Erosion of Time",
+      "subtitle": "The Power of Time Eating Away at Option Value",
+      "content": [
+        "One day, Elara discovered that the value of her option positions was slowly decreasing even without significant market fluctuations. Just as sand constantly flows through an hourglass, the passage of time was eroding the option's value. She delved into the cause of this inevitable phenomenon.",
+        "Jacob explained the concept of 'Theta' to her. \"Options tend to lose value as their expiration date approaches. This is called time decay, and Theta is the indicator that tells you the rate of this time decay.\" Elara nodded at his words.",
+        "Theta was an indicator that showed how much an option's price changed when its remaining time to expiration decreased by one day. Theta values were particularly large for at-the-money options nearing expiration. By understanding Theta, Elara was able to determine smart investment timing using [[Theta|It's an indicator that shows how much an option's price changes when its remaining time to expiration decreases by one day. It measures the 'time value decay' where option value decreases as time passes.]]"
+      ],
+      "theoryDetail": {
+        "content": [
+          "Theta is an indicator that measures the time decay of an option. It represents how much the option price changes when the remaining time to expiration decreases by one day.",
+          "For most options, especially long positions, Theta values are negative. This means that the option value decreases as time passes. Conversely, option short positions have positive Theta, benefiting from the passage of time.",
+          "The impact of Theta becomes more significant as the expiration date approaches. Especially for at-the-money options, Theta values increase sharply in absolute terms as the expiration date nears.",
+          "Theta is an important consideration when formulating option strategies. Long-term options are relatively less affected by Theta, but short-term options are highly affected, making expiration date management crucial."
+        ],
+        "title": "In-depth Analysis of Theta"
+      }
+    },
+    "tutorialType": "derivatives",
+    "imagePath": "/assets/images/ch23.png"
+  },
+  {
+    "id": 24,
+    "ko": {
+      "volume": "Vol 3",
+      "year": "2024",
+      "title": "베가의 폭풍 - 변동성의 그림자",
+      "subtitle": "시장의 불확실성을 측정하는 척도",
+      "content": [
+        "어느 날, 시장에 예상치 못한 급격한 변동성이 몰아쳤다. 엘라라의 포지션은 델타와 감마 헤징에도 불구하고 큰 흔들림을 보였다. 그녀는 시장의 공포와 탐욕이 만들어내는 '불확실성'이라는 거대한 힘 앞에서 무력감을 느꼈다. 대체 무엇이 이토록 옵션 가치를 뒤흔드는 것일까?",
+        "제이콥은 차분하게 '베가'라는 개념을 설명했다. \"옵션 가격은 기초자산의 가격 변동성에도 크게 영향을 받아. 시장이 불안정해질수록 변동성이 커지고, 옵션의 가치도 덩달아 오르는 경향이 있지. 베가는 바로 이 변동성에 대한 옵션 가격의 민감도를 나타내는 지표야.\"",
+        "베가는 기초자산의 내재 변동성이 1% 변할 때 옵션 가격이 얼마나 변하는지를 나타내는 지표였다. 엘라라는 베가를 통해 시장의 불확실성이 옵션 가치에 미치는 영향을 이해하고, [[베가|기초자산의 내재 변동성이 1% 변할 때 옵션 가격이 얼마나 변하는지를 나타내는 지표예요. 변동성이 높으면 옵션 가치가 올라가는 경향이 있죠.]]를 활용하여 변동성 변화에 대비하는 전략을 세울 수 있게 되었다."
+      ],
+      "theoryDetail": {
+        "content": [
+          "베가는 옵션 가격의 기초자산 내재 변동성에 대한 민감도를 나타내는 지표입니다. 내재 변동성이 1% 변할 때 옵션 가격이 얼마나 변하는지를 의미합니다.",
+          "콜옵션과 풋옵션 모두 베가 값은 양수입니다. 이는 변동성이 증가하면 옵션의 가치(시간 가치)가 증가하고, 변동성이 감소하면 옵션의 가치가 감소한다는 것을 의미합니다. 옵션 매수자는 변동성 증가에 이득을 보고, 옵션 매도자는 변동성 감소에 이득을 봅니다.",
+          "베가는 특히 등가격 옵션과 만기까지 시간이 많이 남은 옵션에서 높게 나타납니다. 이는 이러한 옵션들이 변동성 변화에 가장 민감하게 반응하기 때문입니다.",
+          "베가는 변동성 거래 전략(Volatility Trading)의 핵심 요소입니다. 시장의 변동성 변화를 예측하여 옵션 포지션을 조정하거나, 변동성 자체를 거래하는 데 활용됩니다."
+        ],
+        "title": "베가(Vega) 심층 분석"
+      }
+    },
+    "en": {
+      "volume": "Vol 3",
+      "year": "2024",
+      "title": "The Storm of Vega - The Shadow of Volatility",
+      "subtitle": "A Measure of Market Uncertainty",
+      "content": [
+        "One day, an unexpected surge of volatility swept through the market. Elara's positions showed significant fluctuations despite Delta and Gamma hedging. She felt helpless in the face of the immense power of 'uncertainty' created by market fear and greed. What on earth was shaking option values so much?",
+        "Jacob calmly explained the concept of 'Vega'. \"Option prices are also greatly affected by the volatility of the underlying asset. As the market becomes more unstable, volatility increases, and the value of options tends to rise with it. Vega is the indicator that represents the sensitivity of option prices to this volatility.\"",
+        "Vega was an indicator that showed how much an option's price changed when the implied volatility of the underlying asset changed by 1%. Through Vega, Elara understood the impact of market uncertainty on option values and could formulate strategies to prepare for volatility changes using [[Vega|It's an indicator that shows how much an option's price changes when the implied volatility of the underlying asset changes by 1%. When volatility is high, option values tend to go up.]]"
+      ],
+      "theoryDetail": {
+        "content": [
+          "Vega is an indicator that represents the sensitivity of an option's price to the implied volatility of the underlying asset. It signifies how much the option price changes when implied volatility changes by 1%.",
+          "Both call and put options have positive Vega values. This means that if volatility increases, the value (time value) of the option increases, and if volatility decreases, the value of the option decreases. Option buyers benefit from increased volatility, and option sellers benefit from decreased volatility.",
+          "Vega is particularly high for at-the-money options and options with a long time to expiration. This is because these options are most sensitive to changes in volatility.",
+          "Vega is a key component of Volatility Trading strategies. It is used to adjust option positions based on anticipated changes in market volatility or to trade volatility itself."
+        ],
+        "title": "In-depth Analysis of Vega"
+      }
+    },
+    "tutorialType": "derivatives",
+    "imagePath": "/assets/images/ch24.png"
+  },
+  {
+    "id": 25,
+    "ko": {
+      "volume": "Vol 3",
+      "year": "2024",
+      "title": "로의 미소 - 금리의 파동",
+      "subtitle": "옵션 가격에 미치는 금리 변화의 영향",
+      "content": [
+        "시장은 언제나 예상치 못한 변수들로 가득했다. 엘라라가 모든 위험 요소를 고려했다고 생각했을 때, 미묘한 금리 변화가 그녀의 포트폴리오에 잔잔한 파동을 일으키는 것을 발견했다. 작은 변화였지만, 장기적인 관점에서는 무시할 수 없는 영향이었다. 그녀는 이 숨겨진 힘의 정체를 밝히기로 했다.",
+        "제이콥은 '로(Rho)'라는 마지막 그리스 문자를 소개하며 말했다. \"금리도 옵션 가격에 영향을 미쳐. 특히 만기까지 시간이 긴 옵션일수록 그 영향이 커지지. 로는 바로 이 무위험 이자율 변화에 대한 옵션 가격의 민감도를 나타내.\"",
+        "로는 무위험 이자율이 1% 변할 때 옵션 가격이 얼마나 변하는지를 나타내는 지표였다. 엘라라는 로를 이해함으로써 거시 경제 지표인 금리 변화가 옵션 포트폴리오에 미치는 영향을 파악하고, [[로|무위험 이자율이 1% 변할 때 옵션 가격이 얼마나 변하는지를 나타내는 지표예요. 특히 장기 옵션이나 금리 변화에 민감한 상품에서 중요하게 다뤄져요.]]를 활용하여 금리 변동 위험에 대비하는 통찰력을 얻게 되었다."
+      ],
+      "theoryDetail": {
+        "content": [
+          "로는 옵션 가격의 무위험 이자율에 대한 민감도를 나타내는 지표입니다. 무위험 이자율이 1% 변할 때 옵션 가격이 얼마나 변하는지를 의미합니다.",
+          "일반적으로 콜옵션의 로는 양수이고, 풋옵션의 로는 음수입니다. 이는 금리가 상승하면 콜옵션 가치는 증가하고, 풋옵션 가치는 감소하는 경향이 있기 때문입니다. (단, 배당금이 있는 경우나 외가격 풋옵션의 경우 예외가 있을 수 있습니다.)",
+          "로의 영향은 만기까지 남은 시간이 길수록 커집니다. 단기 옵션의 경우 로의 영향은 미미하지만, 장기 옵션의 경우 금리 변화가 옵션 가격에 미치는 영향이 유의미해집니다.",
+          "로는 주로 장기 옵션 포지션을 관리하거나, 금리 변동 위험에 노출된 포트폴리오를 헤지할 때 중요한 고려 요소가 됩니다."
+        ],
+        "title": "로(Rho) 심층 분석"
+      }
+    },
+    "en": {
+      "volume": "Vol 3",
+      "year": "2024",
+      "title": "The Smile of Rho - The Ripple of Interest Rates",
+      "subtitle": "The Impact of Interest Rate Changes on Option Prices",
+      "content": [
+        "The market was always full of unexpected variables. Just when Elara thought she had considered all risk factors, she discovered that subtle changes in interest rates were creating gentle ripples in her portfolio. It was a small change, but its long-term impact was not to be ignored. She decided to uncover the identity of this hidden force.",
+        "Jacob introduced the last Greek letter, 'Rho', saying, \"Interest rates also affect option prices. The longer the time to expiration, the greater the impact. Rho represents the sensitivity of option prices to changes in this risk-free interest rate.\"",
+        "Rho was an indicator that showed how much an option's price changed when the risk-free interest rate changed by 1%. By understanding Rho, Elara gained insight into the impact of macroeconomic indicators like interest rate changes on option portfolios and how to prepare for interest rate volatility using [[Rho|It's an indicator that shows how much an option's price changes when the risk-free interest rate changes by 1%. It's particularly important for long-term options or products sensitive to interest rate changes.]]"
+      ],
+      "theoryDetail": {
+        "content": [
+          "Rho is an indicator that represents the sensitivity of an option's price to the risk-free interest rate. It signifies how much the option price changes when the risk-free interest rate changes by 1%.",
+          "Generally, the Rho of a call option is positive, and the Rho of a put option is negative. This is because call option values tend to increase and put option values tend to decrease when interest rates rise. (However, there may be exceptions for options with dividends or out-of-the-money put options.)",
+          "The impact of Rho increases with the length of time remaining until expiration. For short-term options, the impact of Rho is negligible, but for long-term options, interest rate changes have a significant impact on option prices.",
+          "Rho is mainly an important consideration when managing long-term option positions or hedging portfolios exposed to interest rate volatility."
+        ],
+        "title": "In-depth Analysis of Rho"
+      }
+    },
+    "tutorialType": "derivatives",
+    "imagePath": "/assets/images/ch25.png"
+  },
+  {
+    "id": 26,
+    "ko": {
+      "volume": "Vol 3",
+      "year": "2024",
+      "title": "그리스의 춤 - 헤지 전략의 서막",
+      "subtitle": "다양한 위험을 통제하는 퀀트의 기술",
+      "content": [
+        "엘라라는 이제 델타, 감마, 세타, 베가, 로까지, 다섯 가지 주요 그리스 지표들을 모두 이해하게 되었다. 각각의 지표는 시장의 특정 위험에 대한 옵션 가격의 민감도를 나타내고 있었다. 그녀는 이 지표들을 단순히 개별적으로 보는 것을 넘어, 서로 유기적으로 연결된 춤처럼 활용하는 방법을 고민했다.",
+        "제이콥은 여러 그리스 지표를 동시에 관리하는 '그리스 중립 헤징' 전략을 소개했다. \"우리는 시장의 다양한 움직임에 대비해야 해. 델타만 헤지해서는 부족해. 감마, 세타, 베가까지 모두 고려해서 포트폴리오를 균형 있게 만들어야 진정한 위험 관리가 가능해.\"",
+        "엘라라는 이제 하나의 포지션이 아니라 포트폴리오 전체의 그리스 지표들을 분석하고, 특정 위험에 대한 노출을 줄이기 위해 다양한 옵션과 기초자산을 조합하기 시작했다. 그녀에게 [[헤지|미래에 발생할 수 있는 불리한 가격 변동 위험을 줄이기 위해 현재 반대 포지션을 취하는 전략이에요. 보험을 드는 것과 비슷하다고 생각하면 쉬워요!]]는 단순히 손실을 막는 것을 넘어, 시장의 불확실성 속에서 안정적인 수익을 추구하는 예술이 되었다."
+      ],
+      "theoryDetail": {
+        "content": [
+          "헤징(Hedging)은 미래에 발생할 수 있는 불리한 가격 변동 위험을 줄이기 위해 현재 반대 포지션을 취하는 전략입니다. 옵션 시장에서는 주로 '그리스 중립 헤징' 전략이 사용됩니다.",
+          "델타 헤징(Delta Hedging)은 포트폴리오의 델타를 0으로 만들어 기초자산 가격 변동에 대한 노출을 없애는 가장 기본적인 헤징 방법입니다. 하지만 델타가 계속 변하기 때문에 지속적인 조정이 필요합니다.",
+          "감마 헤징(Gamma Hedging)은 델타가 변하는 속도를 통제하여 델타 헤징의 효율성을 높입니다. 감마를 0으로 만들면 기초자산 가격이 크게 변해도 델타가 크게 변하지 않아 재조정 빈도를 줄일 수 있습니다.",
+          "베가 헤징(Vega Hedging)은 변동성 변화에 대한 포트폴리오의 민감도를 줄이는 전략입니다. 시장의 변동성이 급변할 때 포트폴리오 가치의 손실을 막는 데 중요합니다.",
+          "그리스 중립 헤징은 델타, 감마, 베가 등 여러 그리스 지표를 동시에 0에 가깝게 만들어 포트폴리오를 다양한 시장 위험으로부터 보호하는 고급 헤징 전략입니다."
+        ],
+        "title": "그리스(Greeks)를 활용한 헤지 전략"
+      }
+    },
+    "en": {
+      "volume": "Vol 3",
+      "year": "2024",
+      "title": "The Dance of Greeks - The Overture of Hedging Strategies",
+      "subtitle": "The Quant's Art of Controlling Diverse Risks",
+      "content": [
+        "Elara now understood all five major Greek indicators: Delta, Gamma, Theta, Vega, and Rho. Each indicator represented the sensitivity of option prices to specific market risks. She pondered how to use these indicators not just individually, but like an organically connected dance.",
+        "Jacob introduced the 'Greeks-neutral hedging' strategy, which manages multiple Greek indicators simultaneously. \"We need to prepare for various market movements. Delta hedging alone isn't enough. True risk management is possible only by considering Gamma, Theta, and Vega to create a balanced portfolio.\"",
+        "Elara began to analyze the Greek indicators of her entire portfolio, not just a single position, and combine various options and underlying assets to reduce exposure to specific risks. For her, [[Hedging|It's a strategy to take an opposite position now to reduce the risk of unfavorable price changes that might occur in the future. It's similar to taking out insurance!]] became not just about preventing losses, but an art of pursuing stable returns amidst market uncertainty."
+      ],
+      "theoryDetail": {
+        "content": [
+          "Hedging is a strategy to take an opposite position now to reduce the risk of unfavorable price changes that may occur in the future. In the options market, 'Greeks-neutral hedging' strategies are primarily used.",
+          "Delta Hedging is the most basic hedging method that makes the portfolio's Delta zero, eliminating exposure to underlying asset price fluctuations. However, continuous adjustments are required as Delta constantly changes.",
+          "Gamma Hedging enhances the efficiency of Delta hedging by controlling the rate at which Delta changes. By making Gamma zero, Delta does not change significantly even with large changes in the underlying asset price, reducing the frequency of rebalancing.",
+          "Vega Hedging is a strategy that reduces the portfolio's sensitivity to volatility changes. It is important in preventing losses in portfolio value when market volatility changes rapidly.",
+          "Greeks-neutral hedging is an advanced hedging strategy that simultaneously brings multiple Greek indicators such as Delta, Gamma, and Vega close to zero, protecting the portfolio from various market risks."
+        ],
+        "title": "Hedging Strategies Using Greeks"
+      }
+    },
+    "tutorialType": "portfolio",
+    "imagePath": "/assets/images/ch26.png"
+  },
+  {
+    "id": 27,
+    "ko": {
+      "volume": "Vol 3",
+      "year": "2024",
+      "title": "블랙-숄즈의 재발견 - 가정과 한계",
+      "subtitle": "완벽한 이론의 그림자 속 현실",
+      "content": [
+        "그리스 지표들을 완벽하게 이해하고 헤지 전략을 구사하게 된 엘라라는 이제 옵션 가격 결정의 근간인 블랙-숄즈 모형을 다시 들여다보았다. 이 모형은 마치 퀀트 세계의 성서와 같았지만, 그녀는 그 완벽함 뒤에 숨겨진 현실적인 한계들을 탐구하고 싶었다.",
+        "제이콥은 말했다. \"블랙-숄즈는 위대한 모형이지만, 현실은 그 모형이 가정하는 것처럼 항상 완벽하지만은 않아. 예를 들어, 변동성이 항상 일정하다는 가정은 실제 시장에서는 거의 불가능한 이야기지.\" 그의 말에 엘라라는 고개를 끄덕였다.",
+        "블랙-숄즈 모형은 무위험 이자율 일정, 배당금 없음, 유럽형 옵션 등 여러 가지 이상적인 가정을 전제로 하고 있었다. 엘라라는 이러한 가정이 현실 시장에서 어떻게 벗어나는지 이해하는 것이 중요하다고 느꼈다. 완벽한 이론은 현실을 설명하는 강력한 도구이지만, 그 [[블랙-숄즈 모형|옵션 가격을 이론적으로 계산하는 가장 유명한 수학적 모형이에요. 특정 가정들 위에서 작동하며, 유럽형 옵션의 가격을 구하는 데 주로 사용되죠.]]의 한계를 아는 것이야말로 진정한 퀀트의 지혜였다."
+      ],
+      "theoryDetail": {
+        "content": [
+          "블랙-숄즈 모형(Black-Scholes Model)은 1973년 피셔 블랙, 마이런 숄즈, 로버트 머튼이 개발한 옵션 가격 결정 모형으로, 금융 공학의 초석이 되었습니다.",
+          "주요 가정은 다음과 같습니다: 1) 기초자산 가격은 기하 브라운 운동을 따릅니다(로그 정규 분포). 2) 변동성은 일정합니다. 3) 무위험 이자율은 일정합니다. 4) 배당금은 없습니다. 5) 거래 비용과 세금이 없습니다. 6) 공매도가 가능하며 무제한입니다. 7) 시장은 효율적입니다. 8) 유럽형 옵션에만 적용됩니다.",
+          "블랙-숄즈 모형의 한계는 이러한 가정들이 현실 시장과 괴리가 있다는 점입니다. 특히 변동성이 일정하다는 가정은 실제 시장의 '변동성 미소(Volatility Smile)' 현상을 설명하지 못합니다.",
+          "또한, 갑작스러운 시장의 '점프(Jump)'나 '꼬리 위험(Tail Risk)'을 반영하지 못하며, 미국형 옵션의 조기 행사 가능성도 고려하지 못합니다. 이러한 한계점들을 보완하기 위한 다양한 확장 모형들이 개발되었습니다."
+        ],
+        "title": "블랙-숄즈 모형의 가정과 한계"
+      }
+    },
+    "en": {
+      "volume": "Vol 3",
+      "year": "2024",
+      "title": "Rediscovering Black-Scholes - Assumptions and Limitations",
+      "subtitle": "Reality in the Shadow of a Perfect Theory",
+      "content": [
+        "Having perfectly understood the Greek indicators and mastered hedging strategies, Elara now revisited the Black-Scholes model, the foundation of option pricing. This model was like the scripture of the quant world, but she wanted to explore the realistic limitations hidden behind its perfection.",
+        "Jacob said, \"Black-Scholes is a great model, but reality is not always as perfect as the model assumes. For example, the assumption that volatility is always constant is almost impossible in real markets.\" Elara nodded at his words.",
+        "The Black-Scholes model was based on several ideal assumptions, such as a constant risk-free interest rate, no dividends, and European-style options. Elara felt it was crucial to understand how these assumptions deviated from real markets. A perfect theory is a powerful tool for explaining reality, but knowing the limitations of the [[Black-Scholes Model|It's the most famous mathematical model for theoretically calculating option prices. It operates under specific assumptions and is primarily used to price European-style options.]] was the true wisdom of a quant."
+      ],
+      "theoryDetail": {
+        "content": [
+          "The Black-Scholes Model, developed in 1973 by Fischer Black, Myron Scholes, and Robert Merton, is an option pricing model that became the cornerstone of financial engineering.",
+          "Its main assumptions are: 1) The underlying asset price follows a geometric Brownian motion (log-normal distribution). 2) Volatility is constant. 3) The risk-free interest rate is constant. 4) There are no dividends. 5) There are no transaction costs or taxes. 6) Short selling is possible and unlimited. 7) Markets are efficient. 8) It applies only to European-style options.",
+          "The limitation of the Black-Scholes model is that these assumptions diverge from real markets. In particular, the assumption of constant volatility cannot explain the 'Volatility Smile' phenomenon observed in actual markets.",
+          "Furthermore, it cannot account for sudden market 'jumps' or 'tail risks', nor can it consider the possibility of early exercise for American-style options. Various extended models have been developed to complement these limitations."
+        ],
+        "title": "Assumptions and Limitations of the Black-Scholes Model"
+      }
+    },
+    "tutorialType": "blackScholes",
+    "imagePath": "/assets/images/ch27.png"
+  },
+  {
+    "id": 28,
+    "ko": {
+      "volume": "Vol 3",
+      "year": "2024",
+      "title": "내재 변동성의 미스터리 - 시장의 속삭임",
+      "subtitle": "옵션 가격에 숨겨진 시장의 기대",
+      "content": [
+        "블랙-숄즈 모형의 한계를 인지한 엘라라는 새로운 의문에 사로잡혔다. 만약 변동성이 일정하지 않다면, 옵션 가격에 반영된 '시장 참여자들의 미래 변동성 예상치'는 어떻게 측정할 수 있을까? 그녀는 시장 자체가 변동성에 대한 중요한 정보를 담고 있을 것이라고 직감했다.",
+        "제이콥은 그녀에게 '내재 변동성'이라는 개념을 설명했다. \"우리는 블랙-숄즈 모형에 현재 시장에서 거래되는 옵션 가격을 대입해서, 그 가격을 만들어내기 위해 필요한 변동성 값을 역으로 찾아낼 수 있어. 그게 바로 내재 변동성이고, 시장이 미래에 변동성이 어떻게 될 것이라고 기대하는지를 알려주는 중요한 지표지.\"",
+        "내재 변동성은 옵션 가격 결정 모형을 거꾸로 사용하여 현재 시장 가격으로부터 도출되는 변동성 값이었다. 엘라라는 다양한 행사가격과 만기일을 가진 옵션들의 내재 변동성을 분석하면서, [[내재 변동성|현재 시장에서 거래되는 옵션 가격에 내포된 미래 변동성 예상치예요. 시장 참여자들이 앞으로 변동성이 어떻게 될 것이라고 보는지 알려주는 지표죠.]]가 행사가격에 따라 미소를 짓거나 찡그리는 '변동성 미소/찡그림(Volatility Smile/Smirk)' 현상을 발견하고 깊은 통찰력을 얻었다."
+      ],
+      "theoryDetail": {
+        "content": [
+          "내재 변동성(Implied Volatility)은 현재 시장에서 거래되는 옵션의 가격을 블랙-숄즈 모형(또는 다른 옵션 가격 결정 모형)에 대입하여 역산해낸 변동성 값입니다.",
+          "이는 시장 참여자들이 미래에 기초자산의 변동성이 어떻게 될 것이라고 기대하는지를 나타내는 지표로 해석됩니다. 따라서 시장의 기대와 공포, 탐욕 등이 반영된 '미래 변동성 예상치'라고 할 수 있습니다.",
+          "내재 변동성은 종종 '변동성 미소(Volatility Smile)' 또는 '변동성 찡그림(Volatility Smirk)' 현상을 보입니다. 이는 등가격 옵션의 내재 변동성보다 외가격 옵션(특히 풋옵션)의 내재 변동성이 더 높게 나타나는 현상으로, 블랙-숄즈 모형의 '변동성 일정' 가정에 대한 위반을 보여줍니다.",
+          "이러한 변동성 곡선은 시장이 급격한 하락(꼬리 위험)에 대한 보험료를 더 높게 책정하고 있음을 시사하며, 시장의 위험 인식을 이해하는 데 중요한 정보를 제공합니다."
+        ],
+        "title": "내재 변동성과 변동성 미소/찡그림"
+      }
+    },
+    "en": {
+      "volume": "Vol 3",
+      "year": "2024",
+      "title": "The Mystery of Implied Volatility - The Market's Whisper",
+      "subtitle": "Market Expectations Hidden in Option Prices",
+      "content": [
+        "Aware of the limitations of the Black-Scholes model, Elara was gripped by a new question. If volatility was not constant, how could she measure the 'market participants' expected future volatility' reflected in option prices? She had a hunch that the market itself contained crucial information about volatility.",
+        "Jacob explained the concept of 'Implied Volatility' to her. \"We can plug the current market price of an option into the Black-Scholes model (or another option pricing model) and inversely find the volatility value needed to generate that price. That's implied volatility, and it's an important indicator that tells us what the market expects future volatility to be.\"",
+        "Implied volatility was the volatility value derived from current market prices by using an option pricing model in reverse. By analyzing the implied volatility of options with various strike prices and expiration dates, Elara gained deep insights, discovering the 'Volatility Smile/Smirk' phenomenon where [[Implied Volatility|It's the estimated future volatility embedded in the current market price of an option. It tells you what market participants expect volatility to be in the future.]] smiles or frowns depending on the strike price."
+      ],
+      "theoryDetail": {
+        "content": [
+          "Implied Volatility is the volatility value derived by plugging the current market price of an option into the Black-Scholes model (or another option pricing model) and solving for volatility.",
+          "It is interpreted as an indicator of what market participants expect the future volatility of the underlying asset to be. Thus, it can be called an 'expected future volatility' that reflects market expectations, fear, and greed.",
+          "Implied volatility often exhibits a 'Volatility Smile' or 'Volatility Smirk' phenomenon. This is a phenomenon where the implied volatility of out-of-the-money options (especially put options) appears higher than that of at-the-money options, demonstrating a violation of the Black-Scholes model's 'constant volatility' assumption.",
+          "These volatility curves suggest that the market is pricing insurance against sharp declines (tail risk) at a higher premium, providing important information for understanding market risk perception."
+        ],
+        "title": "Implied Volatility and Volatility Smile/Smirk"
+      }
+    },
+    "tutorialType": "blackScholes",
+    "imagePath": "/assets/images/ch28.png"
+  },
+  {
+    "id": 29,
+    "ko": {
+      "volume": "Vol 3",
+      "year": "2024",
+      "title": "블랙-숄즈를 넘어서 - 점프와 확률",
+      "subtitle": "현실 시장의 불연속성을 포착하다",
+      "content": [
+        "엘라라는 블랙-숄즈 모형이 시장의 '연속적인 움직임'만을 가정한다는 한계를 깨달았다. 하지만 현실 시장에서는 갑작스러운 뉴스나 이벤트로 인해 주가가 급등락하는 '점프' 현상이 빈번하게 발생했다. 그녀는 이러한 불연속적인 움직임을 포착하고 싶었다.",
+        "제이콥은 그녀에게 '점프 확산 모형'과 '확률 변동성 모형'을 소개했다. \"블랙-숄즈는 주가가 부드럽게 움직인다고 보지만, 실제로는 갑자기 튀어 오르거나 떨어지기도 해. 점프 확산 모형은 이런 갑작스러운 변화까지 설명하려고 하고, 확률 변동성 모형은 변동성 자체도 시간에 따라 변한다는 걸 인정하는 거지.\"",
+        "엘라라는 이러한 고급 모형들이 블랙-숄즈 모형의 한계를 보완하며, 특히 극단적인 시장 상황이나 '꼬리 위험'을 더 잘 설명한다는 것을 이해했다. 그녀는 [[점프 확산 모형|주가 변동을 연속적인 움직임뿐만 아니라 갑작스러운 '점프'까지 고려하여 설명하는 모형이에요. 시장의 급격한 변화를 더 잘 반영할 수 있죠.]]과 같은 모형들을 통해 시장의 예측 불가능한 면모를 수학적으로 모델링하는 퀀트의 역할을 더욱 깊이 깨달았다."
+      ],
+      "theoryDetail": {
+        "content": [
+          "블랙-숄즈 모형은 기초자산 가격이 연속적으로 움직이는 '기하 브라운 운동'을 따른다고 가정합니다. 하지만 실제 시장에서는 기업 실적 발표, 거시 경제 지표 발표, 지정학적 이벤트 등으로 인해 주가가 갑자기 급등락하는 '점프(Jump)' 현상이 발생할 수 있습니다.",
+          "점프 확산 모형(Jump Diffusion Model)은 블랙-숄즈 모형의 연속적인 움직임에 더해, 푸아송 과정(Poisson Process)을 통해 갑작스러운 점프 현상을 모델링하여 시장의 불연속성을 설명합니다. 이는 특히 외가격 옵션의 가격을 더 정확하게 산출하고, '꼬리 위험(Tail Risk)'을 더 잘 반영합니다.",
+          "확률 변동성 모형(Stochastic Volatility Model)은 블랙-숄즈 모형의 '변동성 일정' 가정을 완화하여, 변동성 자체도 시간에 따라 확률적으로 변한다고 가정하는 모형입니다. 헤스톤 모형(Heston Model)이 대표적이며, 변동성 미소/찡그림 현상을 설명하는 데 유용합니다.",
+          "이러한 고급 모형들은 블랙-숄즈 모형의 한계를 보완하고, 현실 시장의 복잡성을 더 잘 포착하여 보다 정교한 옵션 가격 결정 및 위험 관리를 가능하게 합니다."
+        ],
+        "title": "블랙-숄즈를 넘어서는 고급 모형"
+      }
+    },
+    "en": {
+      "volume": "Vol 3",
+      "year": "2024",
+      "title": "Beyond Black-Scholes - Jumps and Probability",
+      "subtitle": "Capturing Discontinuity in Real Markets",
+      "content": [
+        "Elara realized the limitation of the Black-Scholes model, which assumes only 'continuous movements' in the market. However, in real markets, 'jump' phenomena, where stock prices fluctuate sharply due to sudden news or events, occurred frequently. She wanted to capture these discontinuous movements.",
+        "Jacob introduced her to 'Jump Diffusion Models' and 'Stochastic Volatility Models'. \"Black-Scholes assumes stock prices move smoothly, but in reality, they can suddenly jump up or down. Jump diffusion models try to explain these sudden changes, and stochastic volatility models acknowledge that volatility itself also changes over time.\"",
+        "Elara understood that these advanced models complemented the limitations of the Black-Scholes model and better explained extreme market conditions or 'tail risks'. Through models like the [[Jump Diffusion Model|It's a model that explains stock price movements by considering not only continuous movements but also sudden 'jumps'. It can better reflect rapid market changes.]] she gained a deeper understanding of the quant's role in mathematically modeling the unpredictable aspects of the market."
+      ],
+      "theoryDetail": {
+        "content": [
+          "The Black-Scholes model assumes that the underlying asset price follows a 'geometric Brownian motion', which implies continuous movement. However, in real markets, 'jump' phenomena, where stock prices suddenly surge or plummet due to corporate earnings announcements, macroeconomic data releases, or geopolitical events, can occur.",
+          "The Jump Diffusion Model extends the continuous movement of the Black-Scholes model by modeling sudden jump phenomena through a Poisson Process to explain market discontinuities. This allows for more accurate pricing of out-of-the-money options and better reflects 'Tail Risk'.",
+          "The Stochastic Volatility Model relaxes the 'constant volatility' assumption of the Black-Sholes model, assuming that volatility itself changes stochastically over time. The Heston Model is a prominent example and is useful for explaining the volatility smile/smirk phenomenon.",
+          "These advanced models complement the limitations of the Black-Scholes model, better capture the complexities of real markets, and enable more sophisticated option pricing and risk management."
+        ],
+        "title": "Advanced Models Beyond Black-Scholes"
+      }
+    },
+    "tutorialType": "derivatives",
+    "imagePath": "/assets/images/ch29.png"
+  },
+  {
+    "id": 30,
+    "ko": {
+      "volume": "Vol 3",
+      "year": "2024",
+      "title": "퀀트의 완성 - 위험 관리의 심장",
+      "subtitle": "그리스와 고급 모형으로 구축하는 견고한 방패",
+      "content": [
+        "수년간의 학습과 실전을 거치며, 엘라라는 이제 노련한 퀀트 금융가로 성장했다. 그녀는 단순한 옵션 가격 계산을 넘어, 그리스 지표와 블랙-숄즈 모형의 심층적인 이해, 그리고 그 한계를 보완하는 고급 모형들을 자유자재로 활용하여 복잡한 금융 시장의 위험을 관리할 수 있게 되었다. 그녀의 책상 위에는 수많은 차트와 데이터가 펼쳐져 있었지만, 그녀의 눈은 언제나 전체적인 균형을 향하고 있었다.",
+        "제이콥은 흐뭇한 미소를 지으며 말했다. \"이제 너는 시장의 단순한 파동뿐만 아니라, 예상치 못한 폭풍까지 대비할 수 있는 진정한 퀀트가 되었어. 그리스 지표는 너의 눈이고, 고급 모형들은 너의 방패가 될 거야. 하지만 가장 중요한 건, 언제나 시장을 겸손하게 대하고 끊임없이 배우려는 자세지.\"",
+        "엘라라는 자신의 포트폴리오를 구성하는 모든 자산과 파생상품의 그리스 지표를 실시간으로 모니터링하며, 잠재적인 위험을 사전에 파악하고 헤지 전략을 조정했다. 그녀에게 [[위험 관리|금융 시장에서 발생할 수 있는 손실 가능성을 사전에 파악하고, 이를 줄이거나 통제하는 일련의 과정이에요. 투자를 할 때 꼭 필요한 부분이죠!]]는 더 이상 피상적인 개념이 아니었다. 그것은 복잡한 금융 세계를 항해하는 퀀트의 심장이자, 끊임없는 탐구와 지혜가 필요한 예술이었다."
+      ],
+      "theoryDetail": {
+        "content": [
+          "옵션 그리스(Delta, Gamma, Theta, Vega, Rho)는 포트폴리오의 다양한 위험 요인에 대한 민감도를 측정하는 핵심 도구입니다. 이들을 통합적으로 관리하여 포트폴리오의 위험 노출을 줄이는 것이 위험 관리의 기본입니다.",
+          "블랙-숄즈 모형과 그 한계를 이해하는 것은 내재 변동성, 변동성 미소/찡그림과 같은 시장 현상을 파악하는 데 필수적입니다. 이를 통해 시장 참여자들의 미래 기대치를 읽어낼 수 있습니다.",
+          "점프 확산 모형, 확률 변동성 모형 등 블랙-숄즈를 넘어서는 고급 모형들은 시장의 불연속성, 변동성의 동적인 변화, 꼬리 위험과 같은 복잡한 현상을 더 잘 모델링하여 정교한 위험 관리를 가능하게 합니다.",
+          "실제 위험 관리에서는 VaR(Value at Risk)이나 스트레스 테스트(Stress Testing)와 같은 기법을 활용하여 포트폴리오의 잠재적 손실을 측정하고, 시장의 극단적인 시나리오에 대비합니다. 그리스 지표들은 이러한 위험 관리 기법들을 보완하고 강화하는 역할을 합니다.",
+          "결론적으로, 퀀트의 위험 관리는 단순한 공식 적용을 넘어, 시장에 대한 깊은 이해, 다양한 모형의 활용, 그리고 끊임없는 학습을 통해 이루어지는 종합적인 예술입니다."
+        ],
+        "title": "종합적인 위험 관리와 퀀트의 역할"
+      }
+    },
+    "en": {
+      "volume": "Vol 3",
+      "year": "2024",
+      "title": "The Completion of a Quant - The Heart of Risk Management",
+      "subtitle": "A Robust Shield Built with Greeks and Advanced Models",
+      "content": [
+        "Through years of learning and practical experience, Elara had grown into a seasoned quant financial professional. Beyond simple option price calculations, she could now manage the complex risks of the financial market by freely utilizing a deep understanding of Greek indicators and the Black-Scholes model, as well as advanced models that compensated for its limitations. While countless charts and data were spread across her desk, her eyes were always focused on the overall balance.",
+        "Jacob smiled contentedly and said, \"Now you've become a true quant who can prepare not only for simple market ripples but also for unexpected storms. Greek indicators will be your eyes, and advanced models will be your shield. But most importantly, it's about always approaching the market with humility and a continuous desire to learn.\"",
+        "Elara monitored the Greek indicators of all assets and derivatives in her portfolio in real-time, identifying potential risks in advance and adjusting her hedging strategies. To her, [[Risk Management|It's a series of processes to identify potential losses that may occur in financial markets in advance, and to reduce or control them. It's an essential part of investing!]] was no longer a superficial concept. It was the heart of a quant navigating the complex financial world, an art requiring continuous exploration and wisdom."
+      ],
+      "theoryDetail": {
+        "content": [
+          "Option Greeks (Delta, Gamma, Theta, Vega, Rho) are key tools for measuring the sensitivity of a portfolio to various risk factors. Managing them holistically to reduce portfolio risk exposure is fundamental to risk management.",
+          "Understanding the Black-Scholes model and its limitations is essential for grasping market phenomena such as implied volatility and volatility smiles/smirks. This allows for reading market participants' future expectations.",
+          "Advanced models beyond Black-Scholes, such as jump diffusion models and stochastic volatility models, better model complex phenomena like market discontinuities, dynamic changes in volatility, and tail risk, enabling sophisticated risk management.",
+          "In practical risk management, techniques such as VaR (Value at Risk) and Stress Testing are used to measure potential portfolio losses and prepare for extreme market scenarios. Greek indicators complement and strengthen these risk management techniques.",
+          "In conclusion, quant risk management is a comprehensive art that goes beyond simple formula application, achieved through a deep understanding of the market, the use of various models, and continuous learning."
+        ],
+        "title": "Comprehensive Risk Management and the Role of Quants"
+      }
+    },
+    "tutorialType": "portfolio",
+    "imagePath": "/assets/images/ch30.png"
+  }
+]

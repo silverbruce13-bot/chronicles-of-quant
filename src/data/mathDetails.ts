@@ -186,7 +186,15 @@ export const mathDetailsContent: Record<string, Record<string, MathDetail>> = {
                 { step: 3, title: "사용자 스왑(교환)", desc: "사용자가 토큰 X를 내고(Δx) 풀에서 토큰 Y를 가져갑니다(Δy)." },
                 { step: 4, title: "가격 자동 조정", desc: "K값을 유지하기 위해 새로운 X수량에 맞게 Y수량이 조정되며, 이로 인해 교환비율(가격)이 형성됩니다.", formula: "(X+Δx) × (Y-Δy) = K" }
             ]
-        }
+        },
+        portfolio: { concepts: [], detailedLearning: [], quizzes: [], flowchart: [] },
+        derivatives: { concepts: [], detailedLearning: [], quizzes: [], flowchart: [] },
+        calculus: { concepts: [], detailedLearning: [], quizzes: [], flowchart: [] },
+        probability: { concepts: [], detailedLearning: [], quizzes: [], flowchart: [] },
+        matrix: { concepts: [], detailedLearning: [], quizzes: [], flowchart: [] },
+        behavioral: { concepts: [], detailedLearning: [], quizzes: [], flowchart: [] },
+        algorithm: { concepts: [], detailedLearning: [], quizzes: [], flowchart: [] },
+        ai: { concepts: [], detailedLearning: [], quizzes: [], flowchart: [] }
     },
     en: {
         compound: {
@@ -364,6 +372,14 @@ export const mathDetailsContent: Record<string, Record<string, MathDetail>> = {
                 { step: 3, title: "User Swap", desc: "A user gives token X (Δx) and takes token Y (Δy) from the pool." },
                 { step: 4, title: "Auto Adjust Price", desc: "To maintain K, Y adjusts to the new X, forming an exchange rate (price).", formula: "(X+Δx) × (Y-Δy) = K" }
             ]
-        }
+        },
+        portfolio: { concepts: [], detailedLearning: [], quizzes: [], flowchart: [] },
+        derivatives: { concepts: [], detailedLearning: [], quizzes: [], flowchart: [] },
+        calculus: { concepts: [], detailedLearning: [], quizzes: [], flowchart: [] },
+        probability: { concepts: [], detailedLearning: [], quizzes: [], flowchart: [] },
+        matrix: { concepts: [], detailedLearning: [], quizzes: [], flowchart: [] },
+        behavioral: { concepts: [], detailedLearning: [], quizzes: [], flowchart: [] },
+        algorithm: { concepts: [], detailedLearning: [], quizzes: [], flowchart: [] },
+        ai: { concepts: [], detailedLearning: [], quizzes: [], flowchart: [] }
     }
 };

@@ -1,0 +1,412 @@
+[
+  {
+    "id": 31,
+    "ko": {
+      "volume": "Volume 4",
+      "year": "2008",
+      "title": "2008 서브프라임 위기: 신뢰의 붕괴",
+      "subtitle": "데이터와 탐욕이 빚어낸 비극",
+      "content": [
+        "2008년, 세계 경제는 유령에게 홀린 듯 혼란에 빠졌습니다. 복잡하게 얽힌 금융 상품들이 겉으로는 번영의 상징처럼 보였지만, 그 속에는 썩어가는 씨앗이 심겨져 있었죠.",
+        "모두가 탐욕에 눈이 멀어 위험을 무시하고, 상상조차 할 수 없었던 비극이 시작되었습니다. 주택 시장의 거품이 터지면서 전 세계 금융 시스템이 뿌리째 흔들렸습니다.",
+        "이 사건은 금융 공학의 어두운 면과 데이터의 오용이 얼마나 치명적인 결과를 초래할 수 있는지 여실히 보여주었습니다. 특히 [[서브프라임 모기지|신용도가 낮은 사람들에게 주택을 담보로 빌려주는 대출인데, 금리가 높아 이자 상환 부담이 컸어요. 이게 문제가 된 거죠.]]가 핵심적인 역할을 했습니다."
+      ],
+      "theoryDetail": {
+        "content": [
+          "서브프라임 모기지는 신용도가 낮은 차주에게 주택을 담보로 제공하는 고금리 대출을 의미합니다. 2000년대 중반 주택 가격 상승기에 이러한 대출이 무분별하게 확대되었고, 이를 기초자산으로 하는 주택담보부증권(MBS)과 부채담보부증권(CDO) 등 복잡한 파생상품이 대량 발행되었습니다.",
+          "주택 가격 하락과 함께 차주들의 채무 불이행이 급증하자, MBS와 CDO의 가치가 폭락하며 관련 금융기관들이 막대한 손실을 입었습니다. 이는 전 세계적인 금융 위기로 확산되었습니다."
+        ],
+        "title": "서브프라임 모기지와 파생상품의 위험"
+      }
+    },
+    "en": {
+      "volume": "Volume 4",
+      "year": "2008",
+      "title": "2008 Subprime Crisis: The Collapse of Trust",
+      "subtitle": "A Tragedy Born of Data and Greed",
+      "content": [
+        "In 2008, the global economy plunged into chaos as if possessed by a ghost. Complex financial products, seemingly symbols of prosperity, harbored a rotting seed within.",
+        "Everyone, blinded by greed, ignored the risks, and a tragedy beyond imagination began. As the housing bubble burst, the global financial system was shaken to its core.",
+        "This event vividly demonstrated how the dark side of financial engineering and the misuse of data could lead to catastrophic consequences. In particular, [[Subprime Mortgage|Loans given to individuals with poor credit history, secured by their homes. These loans carried high interest rates, making repayment a significant burden, which ultimately led to the crisis.]] played a pivotal role."
+      ],
+      "theoryDetail": {
+        "content": [
+          "Subprime mortgages refer to high-interest loans provided to borrowers with poor credit histories, secured by their homes. In the mid-2000s, during a period of rising housing prices, these loans expanded indiscriminately, and complex derivatives such as Mortgage-Backed Securities (MBS) and Collateralized Debt Obligations (CDO) were issued in large quantities, using these loans as underlying assets.",
+          "As housing prices fell and borrower defaults surged, the value of MBS and CDOs plummeted, causing massive losses for related financial institutions. This escalated into a global financial crisis."
+        ],
+        "title": "Subprime Mortgages and the Risk of Derivatives"
+      }
+    },
+    "tutorialType": "behavioral",
+    "imagePath": "/assets/images/ch31.png"
+  },
+  {
+    "id": 32,
+    "ko": {
+      "volume": "Volume 4",
+      "year": "2000s Late",
+      "title": "알고리즘의 부상: 초단타매매의 시대",
+      "subtitle": "인간의 한계를 넘어선 속도 경쟁",
+      "content": [
+        "2000년대 후반, 금융 시장에 새로운 지배자가 등장했습니다. 바로 알고리즘이었죠. 인간의 판단보다 빠르고, 감정 없이 거래를 수행하는 이 기계들은 시장의 속도를 혁명적으로 바꾸어 놓았습니다.",
+        "찰나의 순간에 수백, 수천 번의 거래가 이루어지는 시대가 열린 것입니다. 이들은 미세한 가격 차이와 시장의 불균형을 포착하여 순식간에 이익을 취했습니다.",
+        "이러한 [[초단타매매|아주 짧은 시간 동안 주식이나 다른 금융 상품을 사고팔아 작은 가격 변동에서도 이익을 얻으려는 전략이에요. 속도가 생명이죠!]]는 시장의 유동성을 높였지만, 동시에 새로운 종류의 위험과 도전을 가져왔습니다."
+      ],
+      "theoryDetail": {
+        "content": [
+          "초단타매매(HFT)는 밀리초(1/1000초) 단위의 극히 짧은 시간 동안 수많은 거래를 실행하여 미세한 가격 변동에서 이익을 얻는 전략입니다. 이를 위해 고성능 컴퓨터 시스템과 시장과 가까운 서버(Colocation)를 활용하여 거래 지연 시간(Latency)을 최소화합니다.",
+          "HFT는 시장에 유동성을 공급하고 가격 발견 효율성을 높이는 긍정적인 측면도 있지만, 시장 변동성을 증가시키고 불공정 경쟁을 유발할 수 있다는 비판도 받습니다."
+        ],
+        "title": "초단타매매(HFT)의 원리와 영향"
+      }
+    },
+    "en": {
+      "volume": "Volume 4",
+      "year": "2000s Late",
+      "title": "The Rise of Algorithms: The Era of High-Frequency Trading",
+      "subtitle": "A Speed Race Beyond Human Limits",
+      "content": [
+        "In the late 2000s, a new ruler emerged in financial markets: algorithms. Faster than human judgment and executing trades without emotion, these machines revolutionized the speed of the market.",
+        "An era began where hundreds, even thousands, of trades occurred in mere moments. They captured tiny price differences and market imbalances, seizing profits in an instant.",
+        "This [[High-Frequency Trading (HFT)|A strategy involving buying and selling stocks or other financial instruments in extremely short periods to profit from tiny price fluctuations. Speed is of the essence!]] increased market liquidity but simultaneously introduced new types of risks and challenges."
+      ],
+      "theoryDetail": {
+        "content": [
+          "High-Frequency Trading (HFT) is a strategy that executes numerous trades in extremely short periods, measured in milliseconds (1/1000th of a second), to profit from tiny price fluctuations. This involves utilizing high-performance computer systems and servers located close to the market (Colocation) to minimize trading latency.",
+          "While HFT has positive aspects, such as providing market liquidity and improving price discovery efficiency, it also faces criticism for potentially increasing market volatility and creating unfair competition."
+        ],
+        "title": "Principles and Impact of High-Frequency Trading (HFT)"
+      }
+    },
+    "tutorialType": "algorithm",
+    "imagePath": "/assets/images/ch32.png"
+  },
+  {
+    "id": 33,
+    "ko": {
+      "volume": "Volume 4",
+      "year": "2010",
+      "title": "플래시 크래시: 알고리즘이 폭주할 때",
+      "subtitle": "통제 불능의 시장과 시스템의 취약점",
+      "content": [
+        "2010년 5월 6일, 뉴욕 증시는 단 몇 분 만에 1,000포인트 가까이 폭락하는 전례 없는 사건을 겪었습니다. 인간의 개입 없이 알고리즘들이 서로에게 반응하며 시장을 나락으로 끌고 내려간 것이었죠.",
+        "이는 알고리즘의 힘과 동시에 그 위험성을 전 세계에 각인시킨 충격적인 순간이었습니다. 고도화된 시스템이 어떻게 한순간에 통제 불능 상태가 될 수 있는지를 보여주었습니다.",
+        "이 사건은 [[플래시 크래시|알고리즘 매매가 폭주하면서 순식간에 주가가 급락했다가 다시 회복된 사건이에요. 시장의 취약성을 보여준 사례죠.]]로 불리며, 금융 시장 규제 당국과 퀀트들에게 시스템 안정성에 대한 깊은 고민을 안겨주었습니다."
+      ],
+      "theoryDetail": {
+        "content": [
+          "2010년 플래시 크래시는 대규모 알고리즘 매도 주문이 연쇄적으로 다른 알고리즘의 매도를 유발하며 발생했습니다. 특정 주식의 가격이 급락하자 다른 알고리즘들이 이를 위험 신호로 인식하고 추가 매도에 나서면서 시장 전체로 확산되었습니다.",
+          "이 사건은 시장의 유동성이 순식간에 사라질 수 있음을 보여주었으며, 이후 시장 서킷 브레이커(Circuit Breaker)와 같은 자동 거래 중단 시스템의 중요성이 강조되었습니다. 또한, 알고리즘의 설계와 테스트 과정에서 잠재적 위험 요소를 면밀히 검토해야 할 필요성을 제기했습니다."
+        ],
+        "title": "플래시 크래시의 원인과 시장 안정성"
+      }
+    },
+    "en": {
+      "volume": "Volume 4",
+      "year": "2010",
+      "title": "The Flash Crash: When Algorithms Go Rogue",
+      "subtitle": "Uncontrolled Markets and System Vulnerabilities",
+      "content": [
+        "On May 6, 2010, the New York stock market experienced an unprecedented event, plummeting nearly 1,000 points in just minutes. Without human intervention, algorithms reacted to each other, dragging the market into an abyss.",
+        "It was a shocking moment that imprinted on the world both the power and the danger of algorithms, demonstrating how a highly advanced system could become uncontrollable in an instant.",
+        "This event, known as the [[Flash Crash|An event where stock prices rapidly plummeted and then recovered, primarily due to runaway algorithmic trading. It showcased the market's vulnerability.]], prompted deep concerns among financial market regulators and quants about system stability."
+      ],
+      "theoryDetail": {
+        "content": [
+          "The 2010 Flash Crash occurred when a large algorithmic sell order triggered a chain reaction of other algorithms selling. As the price of a specific stock plummeted, other algorithms perceived this as a risk signal and engaged in further selling, spreading across the entire market.",
+          "This event demonstrated that market liquidity can disappear in an instant, highlighting the importance of automatic trading halt systems like market circuit breakers. It also raised the need for careful consideration of potential risks during the design and testing of algorithms."
+        ],
+        "title": "Causes of the Flash Crash and Market Stability"
+      }
+    },
+    "tutorialType": "algorithm",
+    "imagePath": "/assets/images/ch33.png"
+  },
+  {
+    "id": 34,
+    "ko": {
+      "volume": "Volume 4",
+      "year": "2010s",
+      "title": "금융 데이터 과학: 예측의 힘",
+      "subtitle": "빅데이터와 머신러닝의 시대",
+      "content": [
+        "과거에는 직관과 경험에 의존했던 금융 예측은 이제 방대한 데이터와 첨단 통계 모델의 영역이 되었습니다. 매일 쏟아지는 엄청난 양의 금융 데이터를 분석하는 것은 인간의 능력으로는 불가능한 일이었습니다.",
+        "하지만 [[머신러닝|컴퓨터가 데이터를 학습해서 스스로 규칙을 찾아내고 미래를 예측하는 기술이에요. 금융에서는 투자 전략이나 위험 관리에 많이 쓰이죠.]] 알고리즘들은 수많은 변수 속에서 숨겨진 패턴을 찾아내고, 시장의 움직임을 이전과는 비교할 수 없는 정확도로 예측하기 시작했습니다.",
+        "이는 퀀트 금융의 새로운 황금기를 예고하는 것이었습니다. 주가 예측, 신용 평가, 사기 탐지 등 금융의 거의 모든 분야에서 데이터 과학의 영향력은 커져만 갔습니다."
+      ],
+      "theoryDetail": {
+        "content": [
+          "금융 데이터 과학은 빅데이터와 머신러닝 기술을 활용하여 금융 시장의 복잡한 패턴을 분석하고 예측 모델을 구축하는 학문입니다. 지도 학습(Supervised Learning)은 과거 데이터(특징과 정답)를 통해 모델을 훈련시켜 미래 값을 예측하는 데 사용되며, 주가 예측이나 신용 점수 평가에 활용됩니다.",
+          "비지도 학습(Unsupervised Learning)은 정답이 없는 데이터를 분석하여 숨겨진 구조나 패턴을 발견하는 데 사용되며, 시장 세분화나 이상 탐지(Anomaly Detection)에 유용합니다. 이러한 기술들은 금융 분석의 깊이와 정확도를 혁신적으로 향상시켰습니다."
+        ],
+        "title": "머신러닝을 활용한 금융 예측"
+      }
+    },
+    "en": {
+      "volume": "Volume 4",
+      "year": "2010s",
+      "title": "Financial Data Science: The Power of Prediction",
+      "subtitle": "The Era of Big Data and Machine Learning",
+      "content": [
+        "Financial forecasting, once reliant on intuition and experience, has now become the domain of vast data and advanced statistical models. Analyzing the enormous volume of financial data generated daily was impossible with human capabilities.",
+        "However, [[Machine Learning|A technology where computers learn from data to discover rules themselves and predict the future. In finance, it's widely used for investment strategies and risk management.]] algorithms began uncovering hidden patterns within countless variables, predicting market movements with unprecedented accuracy.",
+        "This heralded a new golden age for quant finance. In almost all areas of finance, including stock price prediction, credit scoring, and fraud detection, the influence of data science grew."
+      ],
+      "theoryDetail": {
+        "content": [
+          "Financial data science is the study of analyzing complex patterns in financial markets and building predictive models using big data and machine learning technologies. Supervised Learning is used to train models with historical data (features and correct answers) to predict future values, applied in stock price prediction or credit score evaluation.",
+          "Unsupervised Learning analyzes data without predefined answers to discover hidden structures or patterns, useful for market segmentation or anomaly detection. These technologies have innovatively enhanced the depth and accuracy of financial analysis."
+        ],
+        "title": "Financial Prediction Using Machine Learning"
+      }
+    },
+    "tutorialType": "ai",
+    "imagePath": "/assets/images/ch34.png"
+  },
+  {
+    "id": 35,
+    "ko": {
+      "volume": "Volume 4",
+      "year": "2008-2010s",
+      "title": "탈중앙화의 새벽: 블록체인의 기본",
+      "subtitle": "신뢰를 코드로 구축하다",
+      "content": [
+        "2008년 금융 위기 이후, 중앙 집중식 시스템에 대한 불신이 깊어지면서 새로운 대안이 모색되었습니다. 바로 블록체인이었죠. 사토시 나카모토라는 익명의 인물이 제안한 이 기술은 금융의 근본을 뒤흔들 잠재력을 가지고 있었습니다.",
+        "분산된 장부에 모든 거래 기록을 투명하게 저장하고, 그 누구도 임의로 조작할 수 없는 혁명적인 기술이었습니다. 각 거래는 '블록'에 담겨 암호화된 방식으로 연결되어 '체인'을 형성합니다.",
+        "이는 금융의 패러다임을 근본적으로 뒤흔들 잠재력을 가지고 있었습니다. [[블록체인|거래 기록을 여러 컴퓨터에 분산해서 저장하고 암호화 기술로 연결한 디지털 장부예요. 투명하고 보안성이 높아서 해킹이 거의 불가능하죠.]]은 중개자 없이도 신뢰를 구축할 수 있는 새로운 방식이었습니다."
+      ],
+      "theoryDetail": {
+        "content": [
+          "블록체인은 분산 원장 기술(Distributed Ledger Technology, DLT)의 한 형태로, 모든 거래 기록을 네트워크 참여자들에게 분산 저장하고 공유합니다. 각 거래는 암호화 해시(Cryptographic Hash)로 이전 블록과 연결되어 위변조가 거의 불가능한 '불변성(Immutability)'을 가집니다.",
+          "주요 특징으로는 탈중앙화(Decentralization), 투명성(Transparency), 보안성(Security) 등이 있으며, 이는 중앙 기관 없이도 신뢰할 수 있는 시스템을 구축할 수 있게 합니다. 비트코인이 최초의 블록체인 기반 암호화폐입니다."
+        ],
+        "title": "블록체인의 작동 원리와 특징"
+      }
+    },
+    "en": {
+      "volume": "Volume 4",
+      "year": "2008-2010s",
+      "title": "The Dawn of Decentralization: Blockchain Basics",
+      "subtitle": "Building Trust with Code",
+      "content": [
+        "Following the 2008 financial crisis, deep mistrust in centralized systems spurred the search for new alternatives. This led to blockchain. Proposed by an anonymous individual named Satoshi Nakamoto, this technology held the potential to fundamentally shake up the foundations of finance.",
+        "It was a revolutionary technology that transparently stored all transaction records in a distributed ledger, making it impossible for anyone to arbitrarily manipulate them. Each transaction is contained in a 'block' and cryptographically linked to form a 'chain'.",
+        "This held the potential to fundamentally shake up the financial paradigm. [[Blockchain|A digital ledger that stores transaction records across many computers, linked by cryptographic technology. It's transparent and highly secure, making hacking almost impossible.]] was a new way to build trust without intermediaries."
+      ],
+      "theoryDetail": {
+        "content": [
+          "Blockchain is a form of Distributed Ledger Technology (DLT) where all transaction records are distributed and shared among network participants. Each transaction is linked to the previous block with a cryptographic hash, giving it 'immutability,' making tampering virtually impossible.",
+          "Key features include decentralization, transparency, and security, enabling the creation of trustworthy systems without central authorities. Bitcoin was the first cryptocurrency based on blockchain."
+        ],
+        "title": "How Blockchain Works and Its Characteristics"
+      }
+    },
+    "tutorialType": "algorithm",
+    "imagePath": "/assets/images/ch35.png"
+  },
+  {
+    "id": 36,
+    "ko": {
+      "volume": "Volume 4",
+      "year": "2010s",
+      "title": "스마트 컨트랙트: 코드가 곧 법이다",
+      "subtitle": "자동화된 계약의 혁명",
+      "content": [
+        "블록체인의 등장과 함께, 단순히 기록을 넘어선 새로운 가능성이 열렸습니다. 바로 스마트 컨트랙트였죠. 닉 자보가 1990년대에 처음 개념을 제시했지만, 블록체인 기술과 만나 비로소 현실이 되었습니다.",
+        "미리 정해진 조건이 충족되면 자동으로 계약이 실행되는 '코드화된 법'이었습니다. 중개자 없이 안전하고 효율적인 거래를 가능하게 하며, 금융 서비스의 미래를 다시 그리는 핵심 기술로 부상했습니다.",
+        "[[스마트 컨트랙트|블록체인 위에 미리 코드로 작성된 계약이에요. 특정 조건이 충족되면 자동으로 실행되니까, 사람의 개입 없이도 약속이 지켜지죠.]]는 보험금 지급, 부동산 거래, 자산 관리 등 다양한 분야에서 혁신을 가져올 잠재력을 가지고 있습니다."
+      ],
+      "theoryDetail": {
+        "content": [
+          "스마트 컨트랙트는 블록체인 상에서 미리 정해진 조건에 따라 자동으로 실행되는 컴퓨터 프로그램입니다. 'If-Then' 논리에 기반하여, 특정 이벤트(조건)가 발생하면 미리 약속된 행동(결과)이 자동으로 수행됩니다.",
+          "이는 중개인의 필요성을 없애고, 거래 비용을 절감하며, 계약의 투명성과 신뢰성을 높여줍니다. 이더리움(Ethereum)은 스마트 컨트랙트 기능을 대중화시킨 대표적인 블록체인 플랫폼입니다. 스마트 컨트랙트는 탈중앙화 금융(DeFi)의 핵심 구성 요소입니다."
+        ],
+        "title": "스마트 컨트랙트의 개념과 작동 방식"
+      }
+    },
+    "en": {
+      "volume": "Volume 4",
+      "year": "2010s",
+      "title": "Smart Contracts: Code is Law",
+      "subtitle": "The Revolution of Automated Agreements",
+      "content": [
+        "With the advent of blockchain, a new possibility beyond mere record-keeping emerged: smart contracts. First conceptualized by Nick Szabo in the 1990s, they finally became a reality with blockchain technology.",
+        "These were 'code-is-law' agreements that automatically executed when predetermined conditions were met. Enabling secure and efficient transactions without intermediaries, they rose as a core technology redrawing the future of financial services.",
+        "[[Smart Contract|A contract pre-written in code on a blockchain. When specific conditions are met, it executes automatically, ensuring agreements are kept without human intervention.]] has the potential to bring innovation to various fields, including insurance payouts, real estate transactions, and asset management."
+      ],
+      "theoryDetail": {
+        "content": [
+          "A smart contract is a computer program that automatically executes on a blockchain according to predetermined conditions. Based on 'If-Then' logic, when a specific event (condition) occurs, a pre-agreed action (result) is automatically performed.",
+          "This eliminates the need for intermediaries, reduces transaction costs, and enhances the transparency and trustworthiness of contracts. Ethereum is a prominent blockchain platform that popularized smart contract functionality. Smart contracts are a core component of Decentralized Finance (DeFi)."
+        ],
+        "title": "Concept and Operation of Smart Contracts"
+      }
+    },
+    "tutorialType": "algorithm",
+    "imagePath": "/assets/images/ch36.png"
+  },
+  {
+    "id": 37,
+    "ko": {
+      "volume": "Volume 4",
+      "year": "2018-",
+      "title": "디파이와 자동화된 시장 조성자(AMM)",
+      "subtitle": "탈중앙화 금융의 심장",
+      "content": [
+        "블록체인과 스마트 컨트랙트가 만나 탈중앙화 금융, 즉 디파이(DeFi)라는 혁명이 시작되었습니다. 은행이나 증권사 같은 중앙 기관 없이도 대출, 예금, 거래 등 모든 금융 서비스를 제공하는 시스템이었죠.",
+        "이 디파이 생태계의 중심에는 유동성을 공급하고 가격을 결정하는 새로운 방식인 [[자동화된 시장 조성자|중앙화된 거래소처럼 매수-매도 주문을 연결해주는 대신, 미리 정해진 수학 공식(예: x*y=k)에 따라 자산의 가격을 결정하고 유동성을 제공하는 스마트 컨트랙트예요.]]인 AMM이 있었습니다.",
+        "AMM은 기존의 주문장 기반 거래소와는 전혀 다른 방식으로 작동하며, 누구나 유동성 공급자가 되어 수수료를 벌 수 있는 기회를 제공했습니다."
+      ],
+      "theoryDetail": {
+        "content": [
+          "자동화된 시장 조성자(AMM)는 탈중앙화 거래소(DEX)에서 유동성을 제공하고 자산 가격을 결정하는 스마트 컨트랙트 기반 시스템입니다. 가장 대표적인 AMM 모델은 '상수 곱 공식(Constant Product Formula)'인 x * y = k 입니다.",
+          "여기서 x와 y는 유동성 풀에 있는 두 자산의 수량이며, k는 상수입니다. 이 공식은 풀 내 두 자산의 곱이 항상 일정하게 유지되도록 하여, 한 자산의 수량이 증가하면 다른 자산의 수량은 감소하게 됩니다. 사용자는 유동성 풀에 자산을 예치(Liquidity Provision)하여 거래 수수료를 얻을 수 있습니다."
+        ],
+        "title": "AMM의 상수 곱 공식(x*y=k)"
+      }
+    },
+    "en": {
+      "volume": "Volume 4",
+      "year": "2018-",
+      "title": "DeFi and Automated Market Makers (AMM)",
+      "subtitle": "The Heart of Decentralized Finance",
+      "content": [
+        "The convergence of blockchain and smart contracts ignited a revolution known as Decentralized Finance, or DeFi. It was a system offering all financial services—lending, borrowing, trading—without central institutions like banks or brokerages.",
+        "At the heart of this DeFi ecosystem was the [[Automated Market Maker (AMM)|A smart contract that, instead of matching buy and sell orders like a centralized exchange, determines asset prices and provides liquidity based on a predefined mathematical formula (e.g., x*y=k).]], a new way to provide liquidity and determine prices.",
+        "AMMs operate in a fundamentally different way from traditional order book exchanges, offering anyone the opportunity to become a liquidity provider and earn fees."
+      ],
+      "theoryDetail": {
+        "content": [
+          "An Automated Market Maker (AMM) is a smart contract-based system that provides liquidity and determines asset prices on decentralized exchanges (DEXs). The most representative AMM model is the 'Constant Product Formula': x * y = k.",
+          "Here, x and y are the quantities of two assets in the liquidity pool, and k is a constant. This formula ensures that the product of the two assets in the pool always remains constant, meaning if the quantity of one asset increases, the quantity of the other asset must decrease. Users can deposit assets into a liquidity pool (Liquidity Provision) to earn trading fees."
+        ],
+        "title": "AMM's Constant Product Formula (x*y=k)"
+      }
+    },
+    "tutorialType": "amm",
+    "imagePath": "/assets/images/ch37.png"
+  },
+  {
+    "id": 38,
+    "ko": {
+      "volume": "Volume 4",
+      "year": "2018-",
+      "title": "비영구적 손실: AMM의 숨겨진 비용",
+      "subtitle": "유동성 공급자의 딜레마",
+      "content": [
+        "AMM은 금융에 새로운 바람을 불어넣었지만, 그 이면에는 숨겨진 위험이 존재했습니다. 바로 유동성 공급자들이 겪을 수 있는 '비영구적 손실'이었습니다.",
+        "유동성 풀에 자산을 예치한 투자자들은 시장의 변동성 때문에 일시적으로 손실을 볼 수 있었고, 이는 디파이 생태계의 복잡성을 더하는 요소가 되었습니다. 자산 가격이 크게 변동할 때마다 이 손실은 더욱 커졌습니다.",
+        "[[비영구적 손실|유동성 풀에 자산을 예치했는데, 그 자산들의 가격이 변동해서 그냥 들고만 있었을 때보다 가치가 줄어드는 현상이에요. '비영구적'이라는 건 가격이 원래대로 돌아오면 손실도 사라질 수 있다는 뜻이죠.]]을 이해하는 것은 AMM에 참여하는 모든 이들에게 필수적인 지식이 되었습니다."
+      ],
+      "theoryDetail": {
+        "content": [
+          "비영구적 손실(Impermanent Loss)은 유동성 공급자가 AMM 유동성 풀에 자산을 예치했을 때, 예치된 자산의 가격 비율이 초기 예치 시점과 달라져 단순히 자산을 보유(HODL)했을 때보다 가치가 감소하는 현상을 말합니다. 이는 AMM의 상수 곱 공식(x*y=k)으로 인해 자산 가격 변동에 따라 풀 내 자산 비율이 자동으로 재조정되기 때문에 발생합니다.",
+          "예를 들어, ETH-USDC 풀에 1 ETH와 1000 USDC를 예치했는데 ETH 가격이 2000 USDC로 오르면, AMM은 ETH를 팔고 USDC를 사서 비율을 맞춥니다. 이 과정에서 유동성 공급자는 ETH가 올랐음에도 불구하고 손실을 보게 됩니다. 가격이 다시 원래대로 돌아오면 손실은 사라지지만, 그렇지 않으면 실현될 수 있습니다."
+        ],
+        "title": "비영구적 손실의 메커니즘"
+      }
+    },
+    "en": {
+      "volume": "Volume 4",
+      "year": "2018-",
+      "title": "Impermanent Loss: The Hidden Cost of AMM",
+      "subtitle": "The Liquidity Provider's Dilemma",
+      "content": [
+        "While AMMs brought a fresh breeze to finance, a hidden risk lurked beneath: 'impermanent loss' that liquidity providers could experience.",
+        "Investors who deposited assets into liquidity pools could face temporary losses due to market volatility, adding to the complexity of the DeFi ecosystem. This loss grew larger with significant asset price fluctuations.",
+        "Understanding [[Impermanent Loss|A phenomenon where, after depositing assets into a liquidity pool, the value of those assets decreases due to price fluctuations, ending up less than if you had simply held them. 'Impermanent' means the loss can disappear if prices return to their original state.]] became essential knowledge for everyone participating in AMMs."
+      ],
+      "theoryDetail": {
+        "content": [
+          "Impermanent Loss refers to the phenomenon where, when a liquidity provider deposits assets into an AMM liquidity pool, the price ratio of the deposited assets changes from the initial deposit time, resulting in a decrease in value compared to simply holding (HODL) the assets. This occurs because the AMM's constant product formula (x*y=k) automatically rebalances the asset ratio in the pool according to price fluctuations.",
+          "For example, if you deposit 1 ETH and 1000 USDC into an ETH-USDC pool, and the price of ETH rises to 2000 USDC, the AMM will sell ETH and buy USDC to rebalance the ratio. In this process, the liquidity provider incurs a loss despite ETH's price increase. The loss can disappear if prices return to their original state, but it can be realized if they do not."
+        ],
+        "title": "Mechanism of Impermanent Loss"
+      }
+    },
+    "tutorialType": "amm",
+    "imagePath": "/assets/images/ch38.png"
+  },
+  {
+    "id": 39,
+    "ko": {
+      "volume": "Volume 4",
+      "year": "2020s-",
+      "title": "금융의 미래: AI와 블록체인의 융합",
+      "subtitle": "새로운 시대의 서막",
+      "content": [
+        "데이터와 알고리즘의 시대는 멈추지 않고 진화하고 있습니다. 이제 우리는 인공지능과 블록체인이라는 두 거대한 기술이 만나 금융의 미래를 새롭게 써 내려가는 변곡점에 서 있습니다.",
+        "인공지능은 방대한 금융 데이터를 분석하여 최적의 투자 전략을 제시하고, 블록체인은 이 모든 거래를 투명하고 안전하게 기록합니다. AI는 시장의 비효율성을 찾아내고, 블록체인은 그 해결책을 분산된 방식으로 구현합니다.",
+        "이 두 거대한 기술의 융합은 금융의 미래를 예측 불가능한 방향으로 이끌고 있으며, 퀀트들은 그 최전선에서 새로운 길을 개척하고 있습니다. [[인공지능|인간처럼 학습하고 추론하며 문제를 해결하는 컴퓨터 시스템이에요. 금융에서는 시장 예측, 사기 탐지, 자동화된 투자 상담 등에 활용돼요.]]과 블록체인이 만들어낼 시너지는 상상을 초월할 것입니다."
+      ],
+      "theoryDetail": {
+        "content": [
+          "AI와 블록체인의 융합은 금융 산업에 혁명적인 변화를 가져올 잠재력을 가지고 있습니다. AI는 블록체인 상의 방대한 거래 데이터를 분석하여 이상 거래를 감지하고, 시장 예측 모델의 정확도를 향상시킬 수 있습니다.",
+          "스마트 컨트랙트와 결합된 AI는 복잡한 금융 계약의 자동화 및 최적화를 가능하게 하며, 탈중앙화된 AI(Decentralized AI)는 데이터 프라이버시를 보호하면서도 AI 모델을 학습시키는 새로운 방안을 제시합니다. 이러한 융합은 금융 서비스의 효율성, 보안성, 접근성을 극대화할 것입니다."
+        ],
+        "title": "AI와 블록체인 융합의 시너지"
+      }
+    },
+    "en": {
+      "volume": "Volume 4",
+      "year": "2020s-",
+      "title": "The Future of Finance: Convergence of AI and Blockchain",
+      "subtitle": "The Dawn of a New Era",
+      "content": [
+        "The era of data and algorithms continues to evolve without pause. We now stand at an inflection point where two monumental technologies, artificial intelligence and blockchain, converge to rewrite the future of finance.",
+        "Artificial intelligence analyzes vast financial data to propose optimal investment strategies, while blockchain transparently and securely records all these transactions. AI identifies market inefficiencies, and blockchain implements solutions in a decentralized manner.",
+        "The convergence of these two monumental technologies is steering the future of finance in unpredictable directions, with quants pioneering new paths at the forefront. The synergy created by [[Artificial Intelligence|A computer system that learns, reasons, and solves problems like a human. In finance, it's used for market prediction, fraud detection, and automated investment advice.]] and blockchain will be beyond imagination."
+      ],
+      "theoryDetail": {
+        "content": [
+          "The convergence of AI and blockchain holds the potential to bring revolutionary changes to the financial industry. AI can analyze vast transaction data on the blockchain to detect anomalous transactions and improve the accuracy of market prediction models.",
+          "AI combined with smart contracts enables the automation and optimization of complex financial agreements, while Decentralized AI offers new ways to train AI models while protecting data privacy. This convergence will maximize the efficiency, security, and accessibility of financial services."
+        ],
+        "title": "Synergy of AI and Blockchain Convergence"
+      }
+    },
+    "tutorialType": "ai",
+    "imagePath": "/assets/images/ch39.png"
+  },
+  {
+    "id": 40,
+    "ko": {
+      "volume": "Volume 4",
+      "year": "2020s-",
+      "title": "퀀트의 새로운 지평: 윤리와 혁신",
+      "subtitle": "기술 발전의 책임 있는 항해",
+      "content": [
+        "기술의 발전은 언제나 새로운 질문을 던집니다. 알고리즘의 편향성, 데이터 프라이버시, 그리고 금융 시스템의 안정성 등, 퀀트들은 단순히 수익을 넘어선 윤리적, 사회적 책임에 직면하고 있습니다.",
+        "우리는 기술이 가져다줄 무한한 가능성을 탐구하면서도, 그 그림자를 간과해서는 안 됩니다. 데이터의 공정성, 알고리즘의 투명성, 그리고 모든 사람에게 공평한 기회를 제공하는 금융 시스템을 구축해야 합니다.",
+        "미래의 금융은 단순히 기술적 진보뿐만 아니라, [[책임감 있는 혁신|새로운 기술을 개발하고 적용할 때, 그것이 사회에 미칠 긍정적이고 부정적인 영향을 미리 고려하고, 윤리적 기준을 지키면서 지속 가능한 발전을 추구하는 것을 말해요.]]을 통해 더욱더 견고하고 공정해질 것입니다. 이것이 퀀트들이 나아가야 할 마지막이자 가장 중요한 길입니다."
+      ],
+      "theoryDetail": {
+        "content": [
+          "금융 기술의 발전은 알고리즘적 편향(Algorithmic Bias), 데이터 프라이버시 침해, 시스템적 위험 증가 등 다양한 윤리적 문제를 야기할 수 있습니다. 퀀트들은 이러한 문제들을 해결하기 위해 '설명 가능한 AI(Explainable AI, XAI)'를 개발하고, 데이터 사용에 대한 명확한 규제와 동의 절차를 마련하며, 알고리즘이 특정 집단에 불리하게 작용하지 않도록 공정성을 확보해야 합니다.",
+          "또한, 탈중앙화 금융(DeFi)의 규제 공백과 위험에 대한 논의도 중요합니다. 지속 가능한 금융 생태계를 구축하기 위해서는 기술적 전문성뿐만 아니라 사회적 책임감과 윤리적 가치 판단이 필수적입니다."
+        ],
+        "title": "퀀트 금융의 윤리적 과제"
+      }
+    },
+    "en": {
+      "volume": "Volume 4",
+      "year": "2020s-",
+      "title": "Quant's New Frontier: Ethics and Innovation",
+      "subtitle": "Responsible Navigation of Technological Advancement",
+      "content": [
+        "Technological advancement always brings new questions. Quants are facing ethical and social responsibilities beyond mere profit, concerning algorithmic bias, data privacy, and the stability of the financial system.",
+        "While exploring the boundless possibilities technology offers, we must not overlook its shadows. We must build a financial system that ensures data fairness, algorithmic transparency, and equal opportunities for all.",
+        "The future of finance will become more robust and equitable not just through technological progress, but through [[Responsible Innovation|Developing and applying new technologies while proactively considering their positive and negative impacts on society, adhering to ethical standards, and pursuing sustainable development.]]. This is the final and most crucial path for quants to take."
+      ],
+      "theoryDetail": {
+        "content": [
+          "The advancement of financial technology can lead to various ethical issues, such as algorithmic bias, data privacy infringements, and increased systemic risk. To address these problems, quants must develop 'Explainable AI (XAI),' establish clear regulations and consent procedures for data usage, and ensure fairness so that algorithms do not disadvantage specific groups.",
+          "Furthermore, discussions on the regulatory gaps and risks of Decentralized Finance (DeFi) are also crucial. Building a sustainable financial ecosystem requires not only technical expertise but also a sense of social responsibility and ethical judgment."
+        ],
+        "title": "Ethical Challenges in Quant Finance"
+      }
+    },
+    "tutorialType": "behavioral",
+    "imagePath": "/assets/images/ch40.png"
+  }
+]
