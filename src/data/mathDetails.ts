@@ -3,6 +3,10 @@ export type MathDetail = {
     detailedLearning: { title: string; content: string[] }[];
     quizzes: { question: string; options: string[]; answer: number; explanation: string; }[];
     flowchart: { step: number; title: string; desc: string; formula?: string }[];
+    discussionAndAssignment?: {
+        discussion: string;
+        assignment: string;
+    };
 };
 
 export const mathDetailsContent: Record<string, Record<string, MathDetail>> = {
@@ -48,7 +52,11 @@ export const mathDetailsContent: Record<string, Record<string, MathDetail>> = {
                 { step: 2, title: "1년 후 이자 계산", desc: "원금에 (1 + 이자율 r)을 곱합니다.", formula: "P × (1+r)" },
                 { step: 3, title: "n년 후 복리 계산", desc: "매년 불어난 금액에 다시 이자가 붙으므로 거듭제곱을 사용합니다.", formula: "P × (1+r)^n" },
                 { step: 4, title: "72의 법칙 도출", desc: "로그(log)를 취해 원금이 2배가 되는 시간(n)을 근사치로 구합니다.", formula: "n ≈ 72 / (r×100)" }
-            ]
+            ],
+            discussionAndAssignment: {
+                discussion: `"만약 당신이 은행가라면, 대출 고객에게는 어떤 방식을 적용하고 예금 고객에게는 어떤 방식을 권유하겠습니까? 그 이유는 무엇입니까?"`,
+                assignment: `부모님이 가입하신 적금이나 예금 상품의 약관을 확인해보고, 그것이 단리인지 복리인지, 그리고 이율은 얼마인지 조사해 오기.`
+            }
         },
         randomWalk: {
             concepts: [
@@ -222,7 +230,11 @@ export const mathDetailsContent: Record<string, Record<string, MathDetail>> = {
                 { step: 2, title: "1-Year Interest", desc: "Multiply the principal by (1 + interest rate r).", formula: "P × (1+r)" },
                 { step: 3, title: "N-Year Compound", desc: "Use exponentiation since interest grows on accumulated amount each year.", formula: "P × (1+r)^n" },
                 { step: 4, title: "Rule of 72", desc: "Derive the approximate time (n) for the principal to double using logarithm.", formula: "n ≈ 72 / (r×100)" }
-            ]
+            ],
+            discussionAndAssignment: {
+                discussion: `"If you were a banker, which interest method would you apply to loan customers, and which would you recommend to deposit customers? What is the reason?"`,
+                assignment: `Check the terms and conditions of a savings or deposit product your parents have subscribed to, and investigate whether it is simple or compound interest, and what the interest rate is.`
+            }
         },
         randomWalk: {
             concepts: [

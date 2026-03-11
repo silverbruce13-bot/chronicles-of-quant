@@ -26,6 +26,9 @@ const translations = {
         'chapter.correct': '정답입니다! 🎉',
         'chapter.incorrect': '오답입니다. 다시 시도해보세요.',
         'chapter.explanation': '해설:',
+        'chapter.discussion_assignment': '토론 및 실전 과제',
+        'chapter.discussion': '토론 (Discussion)',
+        'chapter.assignment': '실전 과제 (Assignment)',
         'chapter.footer_hint': 'HEAVEN PROJECT : PaulSam Virtual Team Active'
     },
     en: {
@@ -45,6 +48,9 @@ const translations = {
         'chapter.correct': 'Correct! 🎉',
         'chapter.incorrect': 'Incorrect. Try again.',
         'chapter.explanation': 'Explanation:',
+        'chapter.discussion_assignment': 'Discussion & Practical Assignment',
+        'chapter.discussion': 'Discussion',
+        'chapter.assignment': 'Assignment',
         'chapter.footer_hint': 'HEAVEN PROJECT : PaulSam Virtual Team Active'
     }
 };

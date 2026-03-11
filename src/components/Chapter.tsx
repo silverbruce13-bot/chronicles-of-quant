@@ -334,6 +334,34 @@ export default function Chapter({ chapter, onNext, onPrev, isFirst, isLast, tota
                                                 </div>
                                             </>
                                         )}
+
+                                        {mathData.discussionAndAssignment && (
+                                            <div className="mt-12 bg-gradient-to-br from-amber-500/10 to-orange-500/5 border border-amber-500/30 rounded-2xl p-6 shadow-xl relative overflow-hidden">
+                                                <div className="absolute top-0 left-0 w-1 h-full bg-gradient-to-b from-amber-400 to-orange-600"></div>
+                                                <h4 className="text-amber-500 uppercase text-xs font-bold tracking-widest mb-6 flex items-center gap-2">
+                                                    <Sparkles className="w-4 h-4" />
+                                                    {t('chapter.discussion_assignment') || "토론 및 실전 과제"}
+                                                </h4>
+                                                <div className="space-y-6">
+                                                    <div className="space-y-2">
+                                                        <div className="inline-flex items-center gap-2 text-neutral-300 font-bold text-sm bg-neutral-900/50 px-3 py-1 rounded-full border border-neutral-800">
+                                                            🗣️ {t('chapter.discussion') || "토론 (Discussion)"}
+                                                        </div>
+                                                        <p className="text-neutral-300 text-sm leading-relaxed pl-3 border-l-2 border-neutral-800 italic">
+                                                            {mathData.discussionAndAssignment.discussion}
+                                                        </p>
+                                                    </div>
+                                                    <div className="space-y-2">
+                                                        <div className="inline-flex items-center gap-2 text-neutral-300 font-bold text-sm bg-neutral-900/50 px-3 py-1 rounded-full border border-neutral-800">
+                                                            📝 {t('chapter.assignment') || "실전 과제 (Assignment)"}
+                                                        </div>
+                                                        <p className="text-neutral-300 text-sm leading-relaxed pl-3 border-l-2 border-neutral-800">
+                                                            {mathData.discussionAndAssignment.assignment}
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        )}
                                     </div>
                                 )}
                             </div>
