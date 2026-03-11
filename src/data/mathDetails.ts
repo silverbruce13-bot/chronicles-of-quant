@@ -99,7 +99,11 @@ export const mathDetailsContent: Record<string, Record<string, MathDetail>> = {
                 { step: 2, title: "평균과 분산", desc: "장기적인 평균 수익률(Drift)과 변동성(Volatility)을 분리합니다." },
                 { step: 3, title: "정규분포 적용", desc: "단기적인 가격 변화는 정규분포를 따른다고 모델링합니다." },
                 { step: 4, title: "로그 정규분포", desc: "주가는 0 밑으로 떨어질 수 없으므로 로그 정규분포를 사용하여 미래 가격 확률을 계산합니다." }
-            ]
+            ],
+            discussionAndAssignment: {
+                discussion: "대공황처럼 주가가 끝없이 폭락하는 것을 목격했다면, 내일은 쌀 테니 무조건 주식이 오를까요? 랜덤워크와 위너 과정 관점에서 과거의 데이터가 주는 '예측 불가능성'에 대해 토론해 봅시다.",
+                assignment: "관심 있는 실제 주식의 지난 1주일간 매일의 '수익률'을 직접 계산해 보고, 이 숫자들이 일정한 규칙을 띠는지 혹은 무작위로 흩어져(Variance) 있는지 관찰하여 제출하세요."
+            }
         },
         blackScholes: {
             concepts: [
@@ -142,7 +146,11 @@ export const mathDetailsContent: Record<string, Record<string, MathDetail>> = {
                 { step: 2, title: "무위험 수익률 적용", desc: "위험이 0인 포트폴리오의 수익률은 무위험 이자율이어야 합니다.", formula: "r × V" },
                 { step: 3, title: "이토의 보조정리 전개", desc: "기초자산의 무작위 한 움직임을 반영한 미분 방정식을 세웁니다." },
                 { step: 4, title: "편미분 방정식 도출", desc: "기초 방정식(블랙-숄스 편미분 방정식)을 풀면 옵션의 이론적 적정 가격이 도출됩니다.", formula: "C = S_0 N(d_1) - K e^{-rT} N(d_2)" }
-            ]
+            ],
+            discussionAndAssignment: {
+                discussion: "블랙-숄스 모형이 발견되면서 파생상품 시장이 폭발적으로 성장했습니다. 그러나 이 수식이 완벽하게 맞물려 작동하려면 미래의 '변동성'을 스스로 예측해야 합니다. 여러분이 퀀트라면 언제나 기계가 도출한 숫자를 무조건 신뢰하시겠습니까?",
+                assignment: "가상 자산이나 주식의 등락폭을 알려주는 '변동성 지수(VIX)'를 한번 검색해 보고, 현재 시장이 얼마나 다이나믹하게 흔들리고 있는지 숫자로 체감해 봅시다."
+            }
         },
         amm: {
             concepts: [
@@ -185,7 +193,11 @@ export const mathDetailsContent: Record<string, Record<string, MathDetail>> = {
                 { step: 2, title: "상수(K) 설정", desc: "초기 토큰 X의 갯수와 Y의 갯수를 곱해 불변의 상수 K를 만듭니다.", formula: "X × Y = K" },
                 { step: 3, title: "사용자 스왑(교환)", desc: "사용자가 토큰 X를 내고(Δx) 풀에서 토큰 Y를 가져갑니다(Δy)." },
                 { step: 4, title: "가격 자동 조정", desc: "K값을 유지하기 위해 새로운 X수량에 맞게 Y수량이 조정되며, 이로 인해 교환비율(가격)이 형성됩니다.", formula: "(X+Δx) × (Y-Δy) = K" }
-            ]
+            ],
+            discussionAndAssignment: {
+                discussion: "인간의 호가 없이 수학 수식(x * y = k)만으로 가격이 결정되는 시스템이 통제가 강한 전통적인 중앙은행이나 증권사보다 항상 더 투명하고 안전할까요? 이 극단적인 자율성의 양면성에 대해 토론해 봅시다.",
+                assignment: "유니스왑(Uniswap)과 같은 대표적인 AMM 기반 탈중앙화 거래소(DEX)의 작동 원리를 유튜브 등에서 5분간 시청해 보고, 딜러나 호가창이 없는 거래의 신비로움을 정리해 보세요."
+            }
         },
         portfolio: { concepts: [], detailedLearning: [], quizzes: [], flowchart: [] },
         derivatives: { concepts: [], detailedLearning: [], quizzes: [], flowchart: [] },
@@ -285,7 +297,11 @@ export const mathDetailsContent: Record<string, Record<string, MathDetail>> = {
                 { step: 2, title: "Mean and Variance", desc: "Separate long-term average return (Drift) and Volatility." },
                 { step: 3, title: "Apply Normal Distribution", desc: "Model short-term price changes following a normal distribution." },
                 { step: 4, title: "Log-Normal Distribution", desc: "Since prices cannot fall below 0, use a log-normal distribution to calculate future price probabilities." }
-            ]
+            ],
+            discussionAndAssignment: {
+                discussion: "If you witnessed a never-ending stock market crash like the Great Depression, would tomorrow's stock price definitively bounce back because it's cheap? Let's discuss 'unpredictability' from the perspective of the Random Walk and Wiener process.",
+                assignment: "Calculate the exact daily 'return rate' of a stock you're interested in over the past week. Submit your observations on whether these numbers follow a certain rule or if they are randomly scattered (Variance)."
+            }
         },
         blackScholes: {
             concepts: [
@@ -328,7 +344,11 @@ export const mathDetailsContent: Record<string, Record<string, MathDetail>> = {
                 { step: 2, title: "Apply Risk-Free Rate", desc: "The yield of a zero-risk portfolio must be the risk-free rate.", formula: "r × V" },
                 { step: 3, title: "Expand Itô's Lemma", desc: "Build a differential equation reflecting the random movement of underlying assets." },
                 { step: 4, title: "Derive PDE", desc: "Solve the basic equation (Black-Scholes PDE) to derive theoretical fair options price.", formula: "C = S_0 N(d_1) - K e^{-rT} N(d_2)" }
-            ]
+            ],
+            discussionAndAssignment: {
+                discussion: "The discovery of the Black-Scholes model led to explosive growth in the derivatives market. However, for this formula to work flawlessly, 'volatility' must be accurately predicted. If you were a quant, would you always blindly trust the machine's mathematical output?",
+                assignment: "Search for the 'VIX' (Volatility Index) online to see how dynamically the current stock market is fluctuating, and try to grasp how investors measure 'fear' and 'risk' in numbers."
+            }
         },
         amm: {
             concepts: [
@@ -371,7 +391,11 @@ export const mathDetailsContent: Record<string, Record<string, MathDetail>> = {
                 { step: 2, title: "Set Constant (K)", desc: "Multiply the initial number of tokens X and Y to create a fixed constant K.", formula: "X × Y = K" },
                 { step: 3, title: "User Swap", desc: "A user gives token X (Δx) and takes token Y (Δy) from the pool." },
                 { step: 4, title: "Auto Adjust Price", desc: "To maintain K, Y adjusts to the new X, forming an exchange rate (price).", formula: "(X+Δx) × (Y-Δy) = K" }
-            ]
+            ],
+            discussionAndAssignment: {
+                discussion: "Is a system where prices are determined solely by a mathematical formula (x * y = k) without any human order books always more transparent and safer than traditional, highly-regulated banks? Discuss the double-edged sword of this extreme mathematical autonomy.",
+                assignment: "Watch a 5-minute video on an AMM-based decentralized exchange (DEX) like Uniswap, and summarize the mystery and benefits of trading entirely without human brokers or order books."
+            }
         },
         portfolio: { concepts: [], detailedLearning: [], quizzes: [], flowchart: [] },
         derivatives: { concepts: [], detailedLearning: [], quizzes: [], flowchart: [] },
