@@ -3,7 +3,7 @@ import * as fs from 'fs';
 import * as path from 'path';
 
 // Read API Key
-const apiKey = process.env.VITE_GEMINI_API_KEY || "AIzaSyBerVAvN7uEr7714_C1ghm1Dll2RsKmelk";
+const apiKey = process.env.VITE_GEMINI_API_KEY || "REDACTED";
 const genAI = new GoogleGenerativeAI(apiKey);
 
 const chapterSchema = {
