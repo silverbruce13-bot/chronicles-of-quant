@@ -120,7 +120,7 @@ export default function Chapter({ chapter, onNext, onPrev, isFirst, isLast, tota
                 {/* Narrative Side */}
                 <div className={`flex flex-col flex-1 p-8 lg:p-12 transition-all duration-500`}>
                     <div className="flex items-center gap-3 mb-6">
-                        <span className="flex items-center justify-center bg-amber-500/10 text-amber-500 w-10 h-10 rounded-xl text-sm font-bold border border-amber-500/20">
+                        <span className="inline-flex items-center justify-center bg-amber-500/10 text-amber-500 px-3 py-1.5 rounded-xl text-sm font-bold border border-amber-500/20 whitespace-nowrap">
                             {chapter.volume}
                         </span>
                         <div className="text-amber-500/80 text-sm font-mono tracking-widest uppercase">{chapter.year}</div>
