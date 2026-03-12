@@ -22,7 +22,7 @@ export const storyContent: Record<string, ChapterType[]> = {
         "title": "이자(Interest)의 탄생",
         "subtitle": "돈에도 '시간의 가격'이 있다",
         "year": "15th C",
-        "imagePath": "/assets/images/ch1.png",
+        "imagePath": "/assets/images/compound.png",
         "tutorialType": "compound",
         "content": [
             "15세기 대항해 시대, 이탈리아 베니스의 상인들은 먼 바다로 나가는 탐험가들에게 자금을 빌려주었습니다. 폭풍우나 해적을 만나 배가 침몰하면 돈을 모두 잃는 엄청난 리스크가 있었죠. 상인들은 이 '위험'과 '기다리는 시간'에 대한 대가로 원금 외에 추가 금액을 요구하기 시작했는데, 이것이 현대적 의미의 [[이자|단순하게 남의 돈을 빌려 쓰는 비용이 아니라, '시간의 가치'와 '불확실성(리스크)'을 숫자로 바꾼 거란다!]]입니다.",
@@ -44,7 +44,7 @@ export const storyContent: Record<string, ChapterType[]> = {
         "title": "시간의 마법, 복리의 발견",
         "subtitle": "단순한 성장을 넘어서",
         "year": "BC 1000",
-        "imagePath": "/assets/images/ch2.png",
+        "imagePath": "/assets/images/compound.png",
         "tutorialType": "compound",
         "content": [
             "고대 사회에서 이자는 단순한 대여료를 넘어, 시간과 함께 자산이 불어나는 신비로운 현상으로 인식되기 시작했다. 특히 복리의 개념은 인류의 경제적 사고에 혁명적인 변화를 가져왔다.",
@@ -66,7 +66,7 @@ export const storyContent: Record<string, ChapterType[]> = {
         "title": "피렌체의 상인들, 현재 가치와 미래 가치",
         "subtitle": "시간을 넘나드는 돈의 가치",
         "year": "AD 1300",
-        "imagePath": "/assets/images/ch3.png",
+        "imagePath": "/assets/images/compound.png",
         "tutorialType": "compound",
         "content": [
             "중세 후기, 이탈리아 피렌체는 유럽 상업의 중심지였다. 메디치 가문과 같은 강력한 상인들은 먼 곳과의 무역을 통해 막대한 부를 축적했으며, 이 과정에서 미래의 현금 흐름을 현재의 가치로 평가하는 것이 중요해졌다.",
@@ -88,7 +88,7 @@ export const storyContent: Record<string, ChapterType[]> = {
         "title": "대항해시대, 위험과 불확실성의 그림자",
         "subtitle": "새로운 항로, 새로운 도전",
         "year": "AD 1600",
-        "imagePath": "/assets/images/ch4.png",
+        "imagePath": "/assets/images/probability.png",
         "tutorialType": "probability",
         "content": [
             "17세기, 유럽은 대항해시대를 맞이하며 미지의 바다를 향해 돛을 올렸다. 신대륙과의 무역은 엄청난 부를 약속했지만, 동시에 폭풍, 해적, 그리고 알 수 없는 질병이라는 막대한 위험을 안고 있었다.",
@@ -110,7 +110,7 @@ export const storyContent: Record<string, ChapterType[]> = {
         "title": "1929 대공황과 데이터의 배신",
         "subtitle": "위험을 숫자로 지배하라",
         "year": "1929",
-        "imagePath": "/assets/images/ch2.png",
+        "imagePath": "/assets/images/randomWalk.png",
         "content": [
             "복리의 마법으로 축적된 거대한 자본은 주식 시장으로 흘러들어갔고, 수많은 사람들은 가격이 오를지 내릴지 예측하려는 끝없는 욕망에 사로잡혔습니다. 1900년, 파리 증권거래소의 광기 어린 외침 속에서, 루이 바슐리에라는 이름 모를 젊은 수학자는 군중과는 전혀 다른 곳을 바라보고 있었습니다.",
             "그는 과거의 어떠한 패턴이나 호재, 악재도 내일의 주가를 알려주지 못한다는 섬뜩한 진실을 수학적으로 증명해냈습니다. 시장 가격은 마치 물 위에 떠 있는 꽃가루처럼 이리저리 부딪히며 무작위로 표류할 뿐이라는 것이죠. 내일의 주가는 오직 오늘의 주가에 아무런 방향성 없는 '[[랜덤워크|마치 술 취한 사람의 걸음걸이처럼, 과거의 움직임이 미래의 방향을 전혀 예측해주지 못하는 상태를 말해요!]]'를 더한 것과 같았습니다.",
@@ -132,7 +132,7 @@ export const storyContent: Record<string, ChapterType[]> = {
         "title": "산업혁명 시대, 포트폴리오 이론의 씨앗",
         "subtitle": "복잡해지는 경제, 체계적인 투자",
         "year": "AD 1800",
-        "imagePath": "/assets/images/ch6.png",
+        "imagePath": "/assets/images/portfolio.png",
         "tutorialType": "portfolio",
         "content": [
             "18세기 후반부터 19세기까지 이어진 산업혁명은 인류 사회에 전례 없는 변화를 가져왔다. 증기기관과 공장 시스템은 생산성을 폭발적으로 증가시켰고, 새로운 기업들이 우후죽순처럼 생겨났다.",
@@ -154,7 +154,7 @@ export const storyContent: Record<string, ChapterType[]> = {
         "title": "주식 시장의 혼돈, 랜덤워크 이론의 등장",
         "subtitle": "예측 불가능한 움직임 속에서",
         "year": "AD 1900",
-        "imagePath": "/assets/images/ch7.png",
+        "imagePath": "/assets/images/randomWalk.png",
         "tutorialType": "randomWalk",
         "content": [
             "20세기 초, 주식 시장은 점차 현대적인 형태로 발전했지만, 그 움직임은 여전히 예측 불가능하고 혼란스러워 보였다. 수많은 투자자와 학자들은 시장의 패턴을 찾아내어 미래를 예측하려 애썼다.",
@@ -176,7 +176,7 @@ export const storyContent: Record<string, ChapterType[]> = {
         "title": "대공황의 그림자, 기대수익률과 위험의 계량화",
         "subtitle": "불확실성 속에서 가치를 찾다",
         "year": "AD 1930",
-        "imagePath": "/assets/images/ch8.png",
+        "imagePath": "/assets/images/portfolio.png",
         "tutorialType": "portfolio",
         "content": [
             "1929년 월스트리트 대폭락으로 시작된 대공황은 전 세계 경제를 충격에 빠뜨렸다. 이 비극적인 사건은 단순히 시장의 붕괴를 넘어, 투자자들이 '위험'이라는 요소를 얼마나 간과했는지를 극명하게 보여주었다.",
@@ -198,7 +198,7 @@ export const storyContent: Record<string, ChapterType[]> = {
         "title": "마코위츠의 혁명, 현대 포트폴리오 이론의 서막",
         "subtitle": "위험과 수익의 과학적 조화",
         "year": "AD 1952",
-        "imagePath": "/assets/images/ch9.png",
+        "imagePath": "/assets/images/portfolio.png",
         "tutorialType": "portfolio",
         "content": [
             "1952년, 한 젊은 경제학자가 금융계에 지각 변동을 일으킬 논문을 발표했다. 바로 해리 마코위츠(Harry Markowitz)의 '포트폴리오 선택(Portfolio Selection)'이었다. 이 논문은 투자자들이 단순히 개별 자산의 수익률만 보는 것이 아니라, 여러 자산을 어떻게 조합하느냐에 따라 전체 포트폴리오의 위험과 수익이 달라진다는 것을 수학적으로 증명했다.",
@@ -220,7 +220,7 @@ export const storyContent: Record<string, ChapterType[]> = {
         "title": "나만의 최적 포트폴리오를 찾아서",
         "subtitle": "개인의 위험 성향과 투자 목표",
         "year": "AD 1960",
-        "imagePath": "/assets/images/ch10.png",
+        "imagePath": "/assets/images/portfolio.png",
         "tutorialType": "portfolio",
         "content": [
             "마코위츠의 현대 포트폴리오 이론은 투자자들에게 혁명적인 통찰력을 제공했지만, 모든 사람에게 '하나의' 최적 포트폴리오가 존재한다는 의미는 아니었다. 투자자의 나이, 재정 상태, 그리고 가장 중요한 [[위험 성향|투자로 인해 손실을 볼 가능성에 대해 어느 정도까지 받아들일 수 있는지를 말해. 어떤 사람은 아예 손실을 싫어하고, 어떤 사람은 높은 수익을 위해 큰 위험도 감수할 수 있지!]]에 따라 최적의 포트폴리오는 달라질 수 있었다.",
@@ -242,7 +242,7 @@ export const storyContent: Record<string, ChapterType[]> = {
         "title": "대항해시대의 서막: 위험과 기회의 교차로",
         "subtitle": "미지의 바다, 미지의 위험",
         "year": "2024",
-        "imagePath": "/assets/images/ch11.png",
+        "imagePath": "/assets/images/derivatives.png",
         "tutorialType": "derivatives",
         "content": [
             "15세기, 유럽은 미지의 바다 너머 황금과 향신료를 찾아 나섰다. 콜럼버스, 마젤란 같은 탐험가들의 용기는 새로운 시대를 열었지만, 항해는 미지의 위험으로 가득했다. 거친 폭풍우, 해적의 위협, 그리고 낯선 땅에서의 질병은 매 순간 선원들과 상인들을 위협했다.",
@@ -262,7 +262,7 @@ export const storyContent: Record<string, ChapterType[]> = {
         "title": "해상 보험의 탄생: 위험 분담의 지혜",
         "subtitle": "런던 로이드, 위험을 나누다",
         "year": "2024",
-        "imagePath": "/assets/images/ch12.png",
+        "imagePath": "/assets/images/derivatives.png",
         "tutorialType": "derivatives",
         "content": [
             "대항해시대의 상인들은 거대한 자본을 들여 배와 화물을 꾸렸지만, 한 번의 조난으로 모든 것을 잃을 수 있었다. 이러한 불안감 속에서, 상인들은 런던의 로이드 커피 하우스와 같은 장소에 모여 서로의 위험을 분담하는 방법을 모색했다. 이것이 바로 현대 보험의 효시인 해상 보험의 시작이었다.",
@@ -282,7 +282,7 @@ export const storyContent: Record<string, ChapterType[]> = {
         "title": "튤립 광풍과 최초의 파생상품",
         "subtitle": "네덜란드, 꽃이 된 부의 상징",
         "year": "2024",
-        "imagePath": "/assets/images/ch13.png",
+        "imagePath": "/assets/images/derivatives.png",
         "tutorialType": "derivatives",
         "content": [
             "17세기 네덜란드는 '튤립 광풍'이라는 전례 없는 투기 열풍에 휩싸였다. 이국적인 아름다움으로 귀족들의 사랑을 받던 튤립은 그 가치가 천정부지로 치솟았고, 사람들은 집과 땅을 팔아 튤립 구근에 투자하기 시작했다. 단순한 꽃이 아닌, 미래의 부를 약속하는 상징이 된 것이다.",
@@ -302,7 +302,7 @@ export const storyContent: Record<string, ChapterType[]> = {
         "title": "확률의 그림자: 우연을 계산하다",
         "subtitle": "파스칼과 페르마, 도박에서 발견한 진리",
         "year": "2024",
-        "imagePath": "/assets/images/ch14.png",
+        "imagePath": "/assets/images/probability.png",
         "tutorialType": "probability",
         "content": [
             "대항해시대의 위험과 튤립 광풍의 불확실성은 인간에게 우연의 본질을 탐구하게 만들었다. 17세기 중반, 프랑스의 수학자 파스칼과 페르마는 친구의 도박 문제에 대한 질문에서 영감을 받아 확률론의 기초를 다지기 시작했다. 그들은 주사위 게임이나 카드 게임에서 특정 결과가 나올 가능성을 수학적으로 계산하는 방법을 연구했다.",
@@ -322,7 +322,7 @@ export const storyContent: Record<string, ChapterType[]> = {
         "title": "미적분학의 서곡: 변화를 포착하는 언어",
         "subtitle": "뉴턴과 라이프니츠, 순간의 움직임",
         "year": "2024",
-        "imagePath": "/assets/images/ch15.png",
+        "imagePath": "/assets/images/calculus.png",
         "tutorialType": "calculus",
         "content": [
             "세상의 모든 것은 끊임없이 변한다. 주식 가격은 순간순간 요동치고, 이자율은 시간에 따라 미묘하게 움직인다. 이러한 '변화의 변화'를 정확하게 이해하고 예측하는 것은 금융 시장에서 성공하기 위한 핵심 열쇠였다. 17세기 후반, 아이작 뉴턴과 고트프리트 라이프니츠는 독립적으로 이 변화를 설명하는 강력한 수학적 도구, 바로 미적분학을 창조했다.",
@@ -342,7 +342,7 @@ export const storyContent: Record<string, ChapterType[]> = {
         "title": "이자율의 미분: 시간에 따른 가치의 변화",
         "subtitle": "연속 복리, 미적분으로 풀다",
         "year": "2024",
-        "imagePath": "/assets/images/ch16.png",
+        "imagePath": "/assets/images/calculus.png",
         "tutorialType": "calculus",
         "content": [
             "이자는 돈의 시간 가치를 반영하는 핵심 요소이다. 단순 이자나 복리 이자를 넘어, 금융 세계에서는 이자가 거의 연속적으로 붙는다고 가정하는 경우가 많다. 이러한 연속적인 변화 속에서 돈의 가치가 시간에 따라 어떻게 변하는지 정확히 이해하는 것은 매우 중요했다. 미분은 이 복잡한 문제를 해결할 열쇠를 제공했다.",
@@ -362,7 +362,7 @@ export const storyContent: Record<string, ChapterType[]> = {
         "title": "선물과 선도: 미래를 약속하는 계약",
         "subtitle": "헤지와 투기, 두 얼굴의 파생상품",
         "year": "2024",
-        "imagePath": "/assets/images/ch17.png",
+        "imagePath": "/assets/images/derivatives.png",
         "tutorialType": "derivatives",
         "content": [
             "튤립 광풍에서 시작된 미래 거래의 개념은 시간이 지나며 더욱 정교해졌다. 농부들은 수확 전에 곡물 가격이 떨어질까 걱정했고, 제분업자들은 미래에 곡물 가격이 오를까 불안해했다. 이러한 불확실성을 해소하기 위해 '선도 계약'이 등장했다. 이는 두 당사자가 미래의 특정 시점에 특정 자산을 미리 정해진 가격으로 사고팔기로 개별적으로 약속하는 비표준화된 계약이었다.",
@@ -382,7 +382,7 @@ export const storyContent: Record<string, ChapterType[]> = {
         "title": "블랙-숄스 모형",
         "subtitle": "파생상품의 가격을 매기다",
         "year": "1973",
-        "imagePath": "/assets/images/ch3.png",
+        "imagePath": "/assets/images/blackScholes.png",
         "content": [
             "바슐리에가 발견한 '예측 불가능성'은 1970년대 이르러 전 세계 투자자들에게 엄청난 공포로 다가왔습니다. 주가가 미친 듯이 요동치는 이 무작위의 폭풍 속에서, 사람들은 내 자산을 안전하게 지켜줄 일종의 보험인 '옵션'이라는 방패를 원했습니다. 하지만 이 방패의 적당한 가격이 얼마인지는 아무도 몰랐습니다.",
             "이때 시카고의 천재 학자들(블랙, 숄스, 머튼)이 등장합니다. 그들은 금속을 타고 퍼져나가는 열의 흐름을 계산하는 물리학의 열전도 방정식을 금융 시장에 가져왔습니다. 그리고 주식과 옵션을 정교한 비율로 섞어 위험(Risk)을 완벽하게 '0'으로 지워버리는 기적과도 같은 계산을 해냅니다. 이것이 바로 세상을 바꾼 '[[블랙-숄스 방정식|옵션 가격을 결정하는 노벨상 수상 공식이야. 위험을 완전히 제거하는 포트폴리오(무위험 헤지)를 수학적으로 증명해냈지!]]'입니다.",
@@ -404,7 +404,7 @@ export const storyContent: Record<string, ChapterType[]> = {
         "title": "이항 모형: 옵션 가격 결정의 첫걸음",
         "subtitle": "단순한 가정으로 복잡한 가치를 풀다",
         "year": "2024",
-        "imagePath": "/assets/images/ch19.png",
+        "imagePath": "/assets/images/derivatives.png",
         "tutorialType": "derivatives",
         "content": [
             "옵션이 금융 시장에 등장했지만, 그 가치를 어떻게 정량적으로 평가할 것인가는 오랫동안 풀리지 않는 숙제였다. 주식 가격처럼 시장에서 직접 결정되는 것이 아니라, 미래의 불확실한 움직임에 따라 가치가 변하는 '파생' 상품이었기 때문이다. 1970년대, 코스(Cox), 로스(Ross), 루빈스타인(Rubinstein)은 이 문제를 해결하기 위한 첫 번째 실용적인 모델인 '이항 옵션 가격 결정 모형'을 제시했다.",
@@ -424,7 +424,7 @@ export const storyContent: Record<string, ChapterType[]> = {
         "title": "블랙-숄즈 모형의 서막: 혁명으로 가는 길",
         "subtitle": "연속적인 변화, 미분 방정식으로 풀다",
         "year": "2024",
-        "imagePath": "/assets/images/ch20.png",
+        "imagePath": "/assets/images/blackScholes.png",
         "tutorialType": "blackScholes",
         "content": [
             "이항 모형이 옵션 가격 결정의 중요한 첫걸음이었지만, 주식 가격이 단 두 가지 방향으로만 움직인다는 가정은 현실성이 떨어졌다. 실제 주식 가격은 끊임없이 변하며, 그 변화는 무수히 많은 미세한 움직임의 연속이다. 이러한 연속적인 변화를 포착하고 옵션 가격을 보다 정확하게 계산할 수 있는 더 강력한 도구가 필요했다.",
@@ -444,7 +444,7 @@ export const storyContent: Record<string, ChapterType[]> = {
         "title": "델타의 그림자 - 시장의 방향을 읽다",
         "subtitle": "옵션 가격 변화의 첫 번째 열쇠",
         "year": "2024",
-        "imagePath": "/assets/images/ch21.png",
+        "imagePath": "/assets/images/derivatives.png",
         "tutorialType": "derivatives",
         "content": [
             "엘라라는 어둠이 깔린 퀀트 연구실에서 모니터 화면을 응시했다. 수많은 숫자들이 춤추는 가운데, 그녀의 눈은 한 가지 지표에 고정되어 있었다. 바로 '델타'였다. 옵션 시장의 복잡한 움직임을 이해하기 위한 첫걸음, 그것은 델타의 그림자를 쫓는 것이었다.",
@@ -467,7 +467,7 @@ export const storyContent: Record<string, ChapterType[]> = {
         "title": "감마의 변덕 - 델타의 델타",
         "subtitle": "가속도처럼 변하는 델타의 민감도",
         "year": "2024",
-        "imagePath": "/assets/images/ch22.png",
+        "imagePath": "/assets/images/derivatives.png",
         "tutorialType": "derivatives",
         "content": [
             "델타를 이해한 엘라라는 곧 새로운 문제에 직면했다. 시장이 급변할 때, 델타 값 자체가 놀라울 정도로 빠르게 변한다는 사실이었다. 그녀의 헤지 전략은 한순간에 무용지물이 될 수 있었다. 마치 자동차의 속도(델타)가 가속도(감마)에 의해 끊임없이 변하는 것과 같았다.",
@@ -490,7 +490,7 @@ export const storyContent: Record<string, ChapterType[]> = {
         "title": "세타의 속삭임 - 시간의 침식",
         "subtitle": "옵션 가치를 갉아먹는 시간의 힘",
         "year": "2024",
-        "imagePath": "/assets/images/ch23.png",
+        "imagePath": "/assets/images/derivatives.png",
         "tutorialType": "derivatives",
         "content": [
             "어느 날, 엘라라는 자신이 보유한 옵션 포지션의 가치가 특별한 시장 변동 없이도 서서히 줄어드는 것을 발견했다. 마치 모래시계의 모래가 끊임없이 흘러내리듯, 시간의 흐름이 옵션 가치를 갉아먹고 있었다. 그녀는 이 불가피한 현상의 원인을 파고들었다.",
@@ -513,7 +513,7 @@ export const storyContent: Record<string, ChapterType[]> = {
         "title": "베가의 폭풍 - 변동성의 그림자",
         "subtitle": "시장의 불확실성을 측정하는 척도",
         "year": "2024",
-        "imagePath": "/assets/images/ch24.png",
+        "imagePath": "/assets/images/derivatives.png",
         "tutorialType": "derivatives",
         "content": [
             "어느 날, 시장에 예상치 못한 급격한 변동성이 몰아쳤다. 엘라라의 포지션은 델타와 감마 헤징에도 불구하고 큰 흔들림을 보였다. 그녀는 시장의 공포와 탐욕이 만들어내는 '불확실성'이라는 거대한 힘 앞에서 무력감을 느꼈다. 대체 무엇이 이토록 옵션 가치를 뒤흔드는 것일까?",
@@ -536,7 +536,7 @@ export const storyContent: Record<string, ChapterType[]> = {
         "title": "로의 미소 - 금리의 파동",
         "subtitle": "옵션 가격에 미치는 금리 변화의 영향",
         "year": "2024",
-        "imagePath": "/assets/images/ch25.png",
+        "imagePath": "/assets/images/derivatives.png",
         "tutorialType": "derivatives",
         "content": [
             "시장은 언제나 예상치 못한 변수들로 가득했다. 엘라라가 모든 위험 요소를 고려했다고 생각했을 때, 미묘한 금리 변화가 그녀의 포트폴리오에 잔잔한 파동을 일으키는 것을 발견했다. 작은 변화였지만, 장기적인 관점에서는 무시할 수 없는 영향이었다. 그녀는 이 숨겨진 힘의 정체를 밝히기로 했다.",
@@ -559,7 +559,7 @@ export const storyContent: Record<string, ChapterType[]> = {
         "title": "그리스의 춤 - 헤지 전략의 서막",
         "subtitle": "다양한 위험을 통제하는 퀀트의 기술",
         "year": "2024",
-        "imagePath": "/assets/images/ch26.png",
+        "imagePath": "/assets/images/portfolio.png",
         "tutorialType": "portfolio",
         "content": [
             "엘라라는 이제 델타, 감마, 세타, 베가, 로까지, 다섯 가지 주요 그리스 지표들을 모두 이해하게 되었다. 각각의 지표는 시장의 특정 위험에 대한 옵션 가격의 민감도를 나타내고 있었다. 그녀는 이 지표들을 단순히 개별적으로 보는 것을 넘어, 서로 유기적으로 연결된 춤처럼 활용하는 방법을 고민했다.",
@@ -583,7 +583,7 @@ export const storyContent: Record<string, ChapterType[]> = {
         "title": "블랙-숄즈의 재발견 - 가정과 한계",
         "subtitle": "완벽한 이론의 그림자 속 현실",
         "year": "2024",
-        "imagePath": "/assets/images/ch27.png",
+        "imagePath": "/assets/images/blackScholes.png",
         "tutorialType": "blackScholes",
         "content": [
             "그리스 지표들을 완벽하게 이해하고 헤지 전략을 구사하게 된 엘라라는 이제 옵션 가격 결정의 근간인 블랙-숄즈 모형을 다시 들여다보았다. 이 모형은 마치 퀀트 세계의 성서와 같았지만, 그녀는 그 완벽함 뒤에 숨겨진 현실적인 한계들을 탐구하고 싶었다.",
@@ -606,7 +606,7 @@ export const storyContent: Record<string, ChapterType[]> = {
         "title": "내재 변동성의 미스터리 - 시장의 속삭임",
         "subtitle": "옵션 가격에 숨겨진 시장의 기대",
         "year": "2024",
-        "imagePath": "/assets/images/ch28.png",
+        "imagePath": "/assets/images/blackScholes.png",
         "tutorialType": "blackScholes",
         "content": [
             "블랙-숄즈 모형의 한계를 인지한 엘라라는 새로운 의문에 사로잡혔다. 만약 변동성이 일정하지 않다면, 옵션 가격에 반영된 '시장 참여자들의 미래 변동성 예상치'는 어떻게 측정할 수 있을까? 그녀는 시장 자체가 변동성에 대한 중요한 정보를 담고 있을 것이라고 직감했다.",
@@ -629,7 +629,7 @@ export const storyContent: Record<string, ChapterType[]> = {
         "title": "블랙-숄즈를 넘어서 - 점프와 확률",
         "subtitle": "현실 시장의 불연속성을 포착하다",
         "year": "2024",
-        "imagePath": "/assets/images/ch29.png",
+        "imagePath": "/assets/images/derivatives.png",
         "tutorialType": "derivatives",
         "content": [
             "엘라라는 블랙-숄즈 모형이 시장의 '연속적인 움직임'만을 가정한다는 한계를 깨달았다. 하지만 현실 시장에서는 갑작스러운 뉴스나 이벤트로 인해 주가가 급등락하는 '점프' 현상이 빈번하게 발생했다. 그녀는 이러한 불연속적인 움직임을 포착하고 싶었다.",
@@ -652,7 +652,7 @@ export const storyContent: Record<string, ChapterType[]> = {
         "title": "퀀트의 완성 - 위험 관리의 심장",
         "subtitle": "그리스와 고급 모형으로 구축하는 견고한 방패",
         "year": "2024",
-        "imagePath": "/assets/images/ch30.png",
+        "imagePath": "/assets/images/portfolio.png",
         "tutorialType": "portfolio",
         "content": [
             "수년간의 학습과 실전을 거치며, 엘라라는 이제 노련한 퀀트 금융가로 성장했다. 그녀는 단순한 옵션 가격 계산을 넘어, 그리스 지표와 블랙-숄즈 모형의 심층적인 이해, 그리고 그 한계를 보완하는 고급 모형들을 자유자재로 활용하여 복잡한 금융 시장의 위험을 관리할 수 있게 되었다. 그녀의 책상 위에는 수많은 차트와 데이터가 펼쳐져 있었지만, 그녀의 눈은 언제나 전체적인 균형을 향하고 있었다.",
@@ -676,7 +676,7 @@ export const storyContent: Record<string, ChapterType[]> = {
         "title": "2008 서브프라임 위기: 신뢰의 붕괴",
         "subtitle": "데이터와 탐욕이 빚어낸 비극",
         "year": "2008",
-        "imagePath": "/assets/images/ch31.png",
+        "imagePath": "/assets/images/behavioral.png",
         "tutorialType": "behavioral",
         "content": [
             "2008년, 세계 경제는 유령에게 홀린 듯 혼란에 빠졌습니다. 복잡하게 얽힌 금융 상품들이 겉으로는 번영의 상징처럼 보였지만, 그 속에는 썩어가는 씨앗이 심겨져 있었죠.",
@@ -697,7 +697,7 @@ export const storyContent: Record<string, ChapterType[]> = {
         "title": "알고리즘의 부상: 초단타매매의 시대",
         "subtitle": "인간의 한계를 넘어선 속도 경쟁",
         "year": "2000s Late",
-        "imagePath": "/assets/images/ch32.png",
+        "imagePath": "/assets/images/algorithm.png",
         "tutorialType": "algorithm",
         "content": [
             "2000년대 후반, 금융 시장에 새로운 지배자가 등장했습니다. 바로 알고리즘이었죠. 인간의 판단보다 빠르고, 감정 없이 거래를 수행하는 이 기계들은 시장의 속도를 혁명적으로 바꾸어 놓았습니다.",
@@ -718,7 +718,7 @@ export const storyContent: Record<string, ChapterType[]> = {
         "title": "플래시 크래시: 알고리즘이 폭주할 때",
         "subtitle": "통제 불능의 시장과 시스템의 취약점",
         "year": "2010",
-        "imagePath": "/assets/images/ch33.png",
+        "imagePath": "/assets/images/algorithm.png",
         "tutorialType": "algorithm",
         "content": [
             "2010년 5월 6일, 뉴욕 증시는 단 몇 분 만에 1,000포인트 가까이 폭락하는 전례 없는 사건을 겪었습니다. 인간의 개입 없이 알고리즘들이 서로에게 반응하며 시장을 나락으로 끌고 내려간 것이었죠.",
@@ -739,7 +739,7 @@ export const storyContent: Record<string, ChapterType[]> = {
         "title": "금융 데이터 과학: 예측의 힘",
         "subtitle": "빅데이터와 머신러닝의 시대",
         "year": "2010s",
-        "imagePath": "/assets/images/ch34.png",
+        "imagePath": "/assets/images/ai.png",
         "tutorialType": "ai",
         "content": [
             "과거에는 직관과 경험에 의존했던 금융 예측은 이제 방대한 데이터와 첨단 통계 모델의 영역이 되었습니다. 매일 쏟아지는 엄청난 양의 금융 데이터를 분석하는 것은 인간의 능력으로는 불가능한 일이었습니다.",
@@ -760,7 +760,7 @@ export const storyContent: Record<string, ChapterType[]> = {
         "title": "탈중앙화의 새벽: 블록체인의 기본",
         "subtitle": "신뢰를 코드로 구축하다",
         "year": "2008-2010s",
-        "imagePath": "/assets/images/ch35.png",
+        "imagePath": "/assets/images/algorithm.png",
         "tutorialType": "algorithm",
         "content": [
             "2008년 금융 위기 이후, 중앙 집중식 시스템에 대한 불신이 깊어지면서 새로운 대안이 모색되었습니다. 바로 블록체인이었죠. 사토시 나카모토라는 익명의 인물이 제안한 이 기술은 금융의 근본을 뒤흔들 잠재력을 가지고 있었습니다.",
@@ -781,7 +781,7 @@ export const storyContent: Record<string, ChapterType[]> = {
         "title": "스마트 컨트랙트: 코드가 곧 법이다",
         "subtitle": "자동화된 계약의 혁명",
         "year": "2010s",
-        "imagePath": "/assets/images/ch36.png",
+        "imagePath": "/assets/images/algorithm.png",
         "tutorialType": "algorithm",
         "content": [
             "블록체인의 등장과 함께, 단순히 기록을 넘어선 새로운 가능성이 열렸습니다. 바로 스마트 컨트랙트였죠. 닉 자보가 1990년대에 처음 개념을 제시했지만, 블록체인 기술과 만나 비로소 현실이 되었습니다.",
@@ -802,7 +802,7 @@ export const storyContent: Record<string, ChapterType[]> = {
         "title": "디파이와 자동화된 시장 조성자(AMM)",
         "subtitle": "탈중앙화 금융의 심장",
         "year": "2018-",
-        "imagePath": "/assets/images/ch37.png",
+        "imagePath": "/assets/images/amm.png",
         "tutorialType": "amm",
         "content": [
             "블록체인과 스마트 컨트랙트가 만나 탈중앙화 금융, 즉 디파이(DeFi)라는 혁명이 시작되었습니다. 은행이나 증권사 같은 중앙 기관 없이도 대출, 예금, 거래 등 모든 금융 서비스를 제공하는 시스템이었죠.",
@@ -823,7 +823,7 @@ export const storyContent: Record<string, ChapterType[]> = {
         "title": "DeFi와 AMM",
         "subtitle": "알고리즘이 마켓 메이커가 되다",
         "year": "2020",
-        "imagePath": "/assets/images/ch4.png",
+        "imagePath": "/assets/images/amm.png",
         "content": [
             "블랙-숄스 모형이 쌓아 올린 찬란한 금융 제국은 2008년 금융위기라는 뼈아픈 대가를 치러야 했습니다. 거대 은행과 중개자들의 탐욕이 시장을 무너뜨리는 것을 목격한 이름 모를 천재들은 어두운 디지털 블록체인의 세계에서 조용한 반란을 준비합니다. '인간의 개입이나 중개자 없이도 완벽하게 돌아가는 금융 시장을 만들 수는 없을까?'",
             "이들은 복잡한 월스트리트의 호가창 시스템을 전부 뜯어내고, 놀랍도록 단순하고 우아한 식 하나를 블록체인 위에 새겨 넣었습니다. 오직 두 자산의 곱은 항상 일정해야 한다(x*y=k)는 원리를 통해, 누군가 호가를 내지 않아도 알고리즘이 스스로 가격을 결정해 주는 '[[AMM|자동화된 마켓 메이커(Automated Market Maker). 누군가 호가를 내지 않아도, 수학 공식(x*y=k)에 의해 자동으로 가격이 결정되는 스마트 컨트랙트야!]]'를 탄생시킵니다.",
@@ -845,7 +845,7 @@ export const storyContent: Record<string, ChapterType[]> = {
         "title": "금융의 미래: AI와 블록체인의 융합",
         "subtitle": "새로운 시대의 서막",
         "year": "2020s-",
-        "imagePath": "/assets/images/ch39.png",
+        "imagePath": "/assets/images/ai.png",
         "tutorialType": "ai",
         "content": [
             "데이터와 알고리즘의 시대는 멈추지 않고 진화하고 있습니다. 이제 우리는 인공지능과 블록체인이라는 두 거대한 기술이 만나 금융의 미래를 새롭게 써 내려가는 변곡점에 서 있습니다.",
@@ -866,7 +866,7 @@ export const storyContent: Record<string, ChapterType[]> = {
         "title": "퀀트의 새로운 지평: 윤리와 혁신",
         "subtitle": "기술 발전의 책임 있는 항해",
         "year": "2020s-",
-        "imagePath": "/assets/images/ch40.png",
+        "imagePath": "/assets/images/behavioral.png",
         "tutorialType": "behavioral",
         "content": [
             "기술의 발전은 언제나 새로운 질문을 던집니다. 알고리즘의 편향성, 데이터 프라이버시, 그리고 금융 시스템의 안정성 등, 퀀트들은 단순히 수익을 넘어선 윤리적, 사회적 책임에 직면하고 있습니다.",
@@ -889,7 +889,7 @@ export const storyContent: Record<string, ChapterType[]> = {
         "title": "Birth of Interest",
         "subtitle": "Money has a 'Price of Time'",
         "year": "15th C",
-        "imagePath": "/assets/images/ch1.png",
+        "imagePath": "/assets/images/compound.png",
         "tutorialType": "compound",
         "content": [
             "During the Age of Discovery in the 15th century, Venetian merchants lent funds to explorers heading out to sea. There was an immense risk of losing all the money if a storm or pirates caused the ship to sink. Merchants began demanding an additional amount on top of the principal as compensation for this 'risk' and the 'time spent waiting', which is the modern concept of [[Interest|It is not simply the cost of borrowing someone else's money, but translating 'time value' and 'uncertainty (risk)' into numbers!]].",
@@ -911,7 +911,7 @@ export const storyContent: Record<string, ChapterType[]> = {
         "title": "The Magic of Time, The Discovery of Compound Interest",
         "subtitle": "Beyond Simple Growth",
         "year": "BC 1000",
-        "imagePath": "/assets/images/ch2.png",
+        "imagePath": "/assets/images/compound.png",
         "tutorialType": "compound",
         "content": [
             "In ancient societies, interest began to be perceived not merely as a lending fee, but as a mysterious phenomenon where assets grew with time. The concept of compound interest, in particular, brought about a revolutionary change in human economic thought.",
@@ -933,7 +933,7 @@ export const storyContent: Record<string, ChapterType[]> = {
         "title": "Merchants of Florence, Present Value and Future Value",
         "subtitle": "The Value of Money Across Time",
         "year": "AD 1300",
-        "imagePath": "/assets/images/ch3.png",
+        "imagePath": "/assets/images/compound.png",
         "tutorialType": "compound",
         "content": [
             "In the late Middle Ages, Florence, Italy, was the center of European commerce. Powerful merchants, such as the Medici family, accumulated immense wealth through long-distance trade, and in this process, it became crucial to evaluate future cash flows at their present value.",
@@ -955,7 +955,7 @@ export const storyContent: Record<string, ChapterType[]> = {
         "title": "Age of Exploration, The Shadow of Risk and Uncertainty",
         "subtitle": "New Routes, New Challenges",
         "year": "AD 1600",
-        "imagePath": "/assets/images/ch4.png",
+        "imagePath": "/assets/images/probability.png",
         "tutorialType": "probability",
         "content": [
             "In the 17th century, Europe embarked on the Age of Exploration, setting sail towards unknown seas. Trade with the New World promised immense wealth, but simultaneously carried enormous risks: storms, pirates, and unknown diseases.",
@@ -977,7 +977,7 @@ export const storyContent: Record<string, ChapterType[]> = {
         "title": "Great Depression of 1929",
         "subtitle": "Rule risk with numbers",
         "year": "1929",
-        "imagePath": "/assets/images/ch2.png",
+        "imagePath": "/assets/images/randomWalk.png",
         "content": [
             "The massive capital accumulated through the magic of compound interest rapidly flooded into the stock market. Countless people became consumed by the endless desire to predict whether prices would rise or fall. In 1900, amid the frantic shouting of the Paris Bourse, a young and obscure mathematician named Louis Bachelier was looking in an entirely different direction from the madness of the crowd.",
             "He mathematically proved a chilling truth: no past pattern, good news, or bad news could ever predict tomorrow's stock price. He argued that market prices merely drift aimlessly, colliding randomly like pollen suspended in water. Tomorrow's price is simply today's price plus a completely unpredictable '[[random walk|Just like a drunkard's walk, the past movement cannot predict the future direction at all!]]'.",
@@ -999,7 +999,7 @@ export const storyContent: Record<string, ChapterType[]> = {
         "title": "Industrial Revolution Era, Seeds of Portfolio Theory",
         "subtitle": "Complex Economy, Systematic Investment",
         "year": "AD 1800",
-        "imagePath": "/assets/images/ch6.png",
+        "imagePath": "/assets/images/portfolio.png",
         "tutorialType": "portfolio",
         "content": [
             "The Industrial Revolution, which spanned from the late 18th to the 19th century, brought unprecedented changes to human society. Steam engines and factory systems explosively increased productivity, and new enterprises sprang up like mushrooms.",
@@ -1021,7 +1021,7 @@ export const storyContent: Record<string, ChapterType[]> = {
         "title": "Chaos in the Stock Market, The Emergence of Random Walk Theory",
         "subtitle": "Amidst Unpredictable Movements",
         "year": "AD 1900",
-        "imagePath": "/assets/images/ch7.png",
+        "imagePath": "/assets/images/randomWalk.png",
         "tutorialType": "randomWalk",
         "content": [
             "In the early 20th century, the stock market gradually evolved into its modern form, but its movements still appeared unpredictable and chaotic. Numerous investors and scholars struggled to find patterns in the market to predict the future.",
@@ -1043,7 +1043,7 @@ export const storyContent: Record<string, ChapterType[]> = {
         "title": "Shadow of the Great Depression, Quantifying Expected Return and Risk",
         "subtitle": "Finding Value Amidst Uncertainty",
         "year": "AD 1930",
-        "imagePath": "/assets/images/ch8.png",
+        "imagePath": "/assets/images/portfolio.png",
         "tutorialType": "portfolio",
         "content": [
             "The Great Depression, which began with the Wall Street Crash of 1929, plunged the global economy into shock. This tragic event not only represented a market collapse but also vividly demonstrated how much investors had overlooked the factor of 'risk'.",
@@ -1065,7 +1065,7 @@ export const storyContent: Record<string, ChapterType[]> = {
         "title": "Markowitz's Revolution, The Dawn of Modern Portfolio Theory",
         "subtitle": "Scientific Harmony of Risk and Return",
         "year": "AD 1952",
-        "imagePath": "/assets/images/ch9.png",
+        "imagePath": "/assets/images/portfolio.png",
         "tutorialType": "portfolio",
         "content": [
             "In 1952, a young economist published a paper that would shake the financial world. It was Harry Markowitz's 'Portfolio Selection.' This paper mathematically proved that investors should not just look at the returns of individual assets, but that the overall portfolio's risk and return change depending on how multiple assets are combined.",
@@ -1087,7 +1087,7 @@ export const storyContent: Record<string, ChapterType[]> = {
         "title": "Searching for My Optimal Portfolio",
         "subtitle": "Individual Risk Tolerance and Investment Goals",
         "year": "AD 1960",
-        "imagePath": "/assets/images/ch10.png",
+        "imagePath": "/assets/images/portfolio.png",
         "tutorialType": "portfolio",
         "content": [
             "Markowitz's Modern Portfolio Theory offered revolutionary insights to investors, but it didn't mean that there was 'one' optimal portfolio for everyone. The optimal portfolio could vary depending on an investor's age, financial status, and most importantly, their [[risk tolerance|It refers to how much potential loss you are willing to accept from an investment. Some people hate any loss, while others are willing to take big risks for high returns!]].",
@@ -1109,7 +1109,7 @@ export const storyContent: Record<string, ChapterType[]> = {
         "title": "The Dawn of the Age of Discovery: Crossroads of Risk and Opportunity",
         "subtitle": "Unknown Seas, Unknown Risks",
         "year": "2024",
-        "imagePath": "/assets/images/ch11.png",
+        "imagePath": "/assets/images/derivatives.png",
         "tutorialType": "derivatives",
         "content": [
             "In the 15th century, Europe embarked on a quest for gold and spices across unknown seas. The courage of explorers like Columbus and Magellan ushered in a new era, but voyages were fraught with peril. Fierce storms, pirate threats, and diseases in unfamiliar lands constantly menaced sailors and merchants.",
@@ -1129,7 +1129,7 @@ export const storyContent: Record<string, ChapterType[]> = {
         "title": "The Birth of Marine Insurance: Wisdom of Risk Sharing",
         "subtitle": "Lloyd's of London, Sharing the Risk",
         "year": "2024",
-        "imagePath": "/assets/images/ch12.png",
+        "imagePath": "/assets/images/derivatives.png",
         "tutorialType": "derivatives",
         "content": [
             "Merchants of the Age of Discovery invested vast capital in ships and cargo, only to risk losing everything in a single shipwreck. Amidst this anxiety, merchants gathered in places like Lloyd's Coffee House in London, seeking ways to share their risks. This marked the beginning of marine insurance, the precursor to modern insurance.",
@@ -1149,7 +1149,7 @@ export const storyContent: Record<string, ChapterType[]> = {
         "title": "The Tulip Mania and the First Derivatives",
         "subtitle": "Netherlands, A Flower as a Symbol of Wealth",
         "year": "2024",
-        "imagePath": "/assets/images/ch13.png",
+        "imagePath": "/assets/images/derivatives.png",
         "tutorialType": "derivatives",
         "content": [
             "In the 17th century, the Netherlands was swept by an unprecedented speculative fever known as the 'Tulip Mania'. Tulips, beloved by nobles for their exotic beauty, saw their value skyrocket, and people began selling their homes and land to invest in tulip bulbs. They became a symbol promising future wealth, not just a simple flower.",
@@ -1169,7 +1169,7 @@ export const storyContent: Record<string, ChapterType[]> = {
         "title": "The Shadow of Probability: Calculating Chance",
         "subtitle": "Pascal and Fermat, Truth Found in Gambling",
         "year": "2024",
-        "imagePath": "/assets/images/ch14.png",
+        "imagePath": "/assets/images/probability.png",
         "tutorialType": "probability",
         "content": [
             "The risks of the Age of Discovery and the uncertainties of the Tulip Mania prompted humanity to explore the nature of chance. In the mid-17th century, French mathematicians Pascal and Fermat, inspired by a friend's gambling problem, began to lay the foundations of probability theory. They studied how to mathematically calculate the likelihood of specific outcomes in dice or card games.",
@@ -1189,7 +1189,7 @@ export const storyContent: Record<string, ChapterType[]> = {
         "title": "Prelude to Calculus: The Language of Capturing Change",
         "subtitle": "Newton and Leibniz, The Movement of a Moment",
         "year": "2024",
-        "imagePath": "/assets/images/ch15.png",
+        "imagePath": "/assets/images/calculus.png",
         "tutorialType": "calculus",
         "content": [
             "Everything in the world is constantly changing. Stock prices fluctuate moment by moment, and interest rates subtly shift over time. Accurately understanding and predicting these 'changes of change' was a critical key to success in financial markets. In the late 17th century, Isaac Newton and Gottfried Leibniz independently created a powerful mathematical tool to describe this change: calculus.",
@@ -1209,7 +1209,7 @@ export const storyContent: Record<string, ChapterType[]> = {
         "title": "Differentiation of Interest Rates: Value Change Over Time",
         "subtitle": "Continuous Compounding, Solved by Calculus",
         "year": "2024",
-        "imagePath": "/assets/images/ch16.png",
+        "imagePath": "/assets/images/calculus.png",
         "tutorialType": "calculus",
         "content": [
             "Interest is a core factor reflecting the time value of money. Beyond simple or compound interest, the financial world often assumes that interest accrues almost continuously. Accurately understanding how the value of money changes over time amidst this continuous variation was crucial. Differentiation provided the key to solving this complex problem.",
@@ -1229,7 +1229,7 @@ export const storyContent: Record<string, ChapterType[]> = {
         "title": "Futures and Forwards: Contracts Promising the Future",
         "subtitle": "Hedging and Speculation, Two Faces of Derivatives",
         "year": "2024",
-        "imagePath": "/assets/images/ch17.png",
+        "imagePath": "/assets/images/derivatives.png",
         "tutorialType": "derivatives",
         "content": [
             "The concept of future trading, which began with the Tulip Mania, became more sophisticated over time. Farmers worried about grain prices falling before harvest, while millers were anxious about future grain price increases. To alleviate this uncertainty, 'forward contracts' emerged. These were non-standardized agreements where two parties privately agreed to buy or sell a specific asset at a predetermined price at a specific future date.",
@@ -1249,7 +1249,7 @@ export const storyContent: Record<string, ChapterType[]> = {
         "title": "Black-Scholes Model",
         "subtitle": "Pricing derivatives",
         "year": "1973",
-        "imagePath": "/assets/images/ch3.png",
+        "imagePath": "/assets/images/blackScholes.png",
         "content": [
             "The 'unpredictability' discovered by Bachelier returned to haunt global investors in the 1970s as a terrifying reality. Amidst a chaotic storm of wildly fluctuating stock prices, people desperately sought a financial shield called an 'option' to protect their wealth. Yet, absolutely no one knew what the fair price for this shield should be.",
             "This is when brilliant scholars in Chicago (Black, Scholes, and Merton) stepped onto the stage. They essentially borrowed the heat equation from physics, originally designed to calculate how heat dissipates through metal, and applied it to the financial markets. By precisely blending stocks and options, they performed a miraculous calculation that mathematically erased all 'Risk' down to zero. This was the world-changing '[[Black-Scholes Equation|It's the Nobel Prize-winning formula for pricing options. It mathematically proved a portfolio that completely eliminates risk (risk-free hedging)!]]'.",
@@ -1271,7 +1271,7 @@ export const storyContent: Record<string, ChapterType[]> = {
         "title": "The Binomial Model: The First Step in Option Pricing",
         "subtitle": "Solving Complex Values with Simple Assumptions",
         "year": "2024",
-        "imagePath": "/assets/images/ch19.png",
+        "imagePath": "/assets/images/derivatives.png",
         "tutorialType": "derivatives",
         "content": [
             "Although options emerged in financial markets, how to quantitatively value them remained an unsolved puzzle for a long time. This was because they were 'derivative' products whose value changed based on uncertain future movements, rather than being directly determined by the market like stock prices. In the 1970s, Cox, Ross, and Rubinstein presented the 'Binomial Option Pricing Model,' the first practical model to address this problem.",
@@ -1291,7 +1291,7 @@ export const storyContent: Record<string, ChapterType[]> = {
         "title": "Prelude to Black-Scholes: The Road to Revolution",
         "subtitle": "Continuous Change, Solved by Differential Equations",
         "year": "2024",
-        "imagePath": "/assets/images/ch20.png",
+        "imagePath": "/assets/images/blackScholes.png",
         "tutorialType": "blackScholes",
         "content": [
             "While the binomial model was an important first step in option pricing, the assumption that stock prices move in only two directions was unrealistic. Actual stock prices change continuously, and their movements are a series of infinitely many tiny fluctuations. A more powerful tool was needed to capture these continuous changes and calculate option prices more accurately.",
@@ -1311,7 +1311,7 @@ export const storyContent: Record<string, ChapterType[]> = {
         "title": "The Shadow of Delta - Reading Market Direction",
         "subtitle": "The First Key to Option Price Changes",
         "year": "2024",
-        "imagePath": "/assets/images/ch21.png",
+        "imagePath": "/assets/images/derivatives.png",
         "tutorialType": "derivatives",
         "content": [
             "Elara stared at the monitor screen in the dimly lit quant lab. Amidst the dance of countless numbers, her eyes were fixed on one indicator: 'Delta'. The first step to understanding the complex movements of the options market was to chase the shadow of Delta.",
@@ -1334,7 +1334,7 @@ export const storyContent: Record<string, ChapterType[]> = {
         "title": "The Fickleness of Gamma - The Delta of Delta",
         "subtitle": "The Sensitivity of Delta Changing Like Acceleration",
         "year": "2024",
-        "imagePath": "/assets/images/ch22.png",
+        "imagePath": "/assets/images/derivatives.png",
         "tutorialType": "derivatives",
         "content": [
             "Having understood Delta, Elara soon faced a new problem. When the market changed rapidly, the Delta value itself changed surprisingly quickly. Her hedging strategy could become useless in an instant. It was like a car's speed (Delta) constantly changing due to acceleration (Gamma).",
@@ -1357,7 +1357,7 @@ export const storyContent: Record<string, ChapterType[]> = {
         "title": "The Whisper of Theta - The Erosion of Time",
         "subtitle": "The Power of Time Eating Away at Option Value",
         "year": "2024",
-        "imagePath": "/assets/images/ch23.png",
+        "imagePath": "/assets/images/derivatives.png",
         "tutorialType": "derivatives",
         "content": [
             "One day, Elara discovered that the value of her option positions was slowly decreasing even without significant market fluctuations. Just as sand constantly flows through an hourglass, the passage of time was eroding the option's value. She delved into the cause of this inevitable phenomenon.",
@@ -1380,7 +1380,7 @@ export const storyContent: Record<string, ChapterType[]> = {
         "title": "The Storm of Vega - The Shadow of Volatility",
         "subtitle": "A Measure of Market Uncertainty",
         "year": "2024",
-        "imagePath": "/assets/images/ch24.png",
+        "imagePath": "/assets/images/derivatives.png",
         "tutorialType": "derivatives",
         "content": [
             "One day, an unexpected surge of volatility swept through the market. Elara's positions showed significant fluctuations despite Delta and Gamma hedging. She felt helpless in the face of the immense power of 'uncertainty' created by market fear and greed. What on earth was shaking option values so much?",
@@ -1403,7 +1403,7 @@ export const storyContent: Record<string, ChapterType[]> = {
         "title": "The Smile of Rho - The Ripple of Interest Rates",
         "subtitle": "The Impact of Interest Rate Changes on Option Prices",
         "year": "2024",
-        "imagePath": "/assets/images/ch25.png",
+        "imagePath": "/assets/images/derivatives.png",
         "tutorialType": "derivatives",
         "content": [
             "The market was always full of unexpected variables. Just when Elara thought she had considered all risk factors, she discovered that subtle changes in interest rates were creating gentle ripples in her portfolio. It was a small change, but its long-term impact was not to be ignored. She decided to uncover the identity of this hidden force.",
@@ -1426,7 +1426,7 @@ export const storyContent: Record<string, ChapterType[]> = {
         "title": "The Dance of Greeks - The Overture of Hedging Strategies",
         "subtitle": "The Quant's Art of Controlling Diverse Risks",
         "year": "2024",
-        "imagePath": "/assets/images/ch26.png",
+        "imagePath": "/assets/images/portfolio.png",
         "tutorialType": "portfolio",
         "content": [
             "Elara now understood all five major Greek indicators: Delta, Gamma, Theta, Vega, and Rho. Each indicator represented the sensitivity of option prices to specific market risks. She pondered how to use these indicators not just individually, but like an organically connected dance.",
@@ -1450,7 +1450,7 @@ export const storyContent: Record<string, ChapterType[]> = {
         "title": "Rediscovering Black-Scholes - Assumptions and Limitations",
         "subtitle": "Reality in the Shadow of a Perfect Theory",
         "year": "2024",
-        "imagePath": "/assets/images/ch27.png",
+        "imagePath": "/assets/images/blackScholes.png",
         "tutorialType": "blackScholes",
         "content": [
             "Having perfectly understood the Greek indicators and mastered hedging strategies, Elara now revisited the Black-Scholes model, the foundation of option pricing. This model was like the scripture of the quant world, but she wanted to explore the realistic limitations hidden behind its perfection.",
@@ -1473,7 +1473,7 @@ export const storyContent: Record<string, ChapterType[]> = {
         "title": "The Mystery of Implied Volatility - The Market's Whisper",
         "subtitle": "Market Expectations Hidden in Option Prices",
         "year": "2024",
-        "imagePath": "/assets/images/ch28.png",
+        "imagePath": "/assets/images/blackScholes.png",
         "tutorialType": "blackScholes",
         "content": [
             "Aware of the limitations of the Black-Scholes model, Elara was gripped by a new question. If volatility was not constant, how could she measure the 'market participants' expected future volatility' reflected in option prices? She had a hunch that the market itself contained crucial information about volatility.",
@@ -1496,7 +1496,7 @@ export const storyContent: Record<string, ChapterType[]> = {
         "title": "Beyond Black-Scholes - Jumps and Probability",
         "subtitle": "Capturing Discontinuity in Real Markets",
         "year": "2024",
-        "imagePath": "/assets/images/ch29.png",
+        "imagePath": "/assets/images/derivatives.png",
         "tutorialType": "derivatives",
         "content": [
             "Elara realized the limitation of the Black-Scholes model, which assumes only 'continuous movements' in the market. However, in real markets, 'jump' phenomena, where stock prices fluctuate sharply due to sudden news or events, occurred frequently. She wanted to capture these discontinuous movements.",
@@ -1519,7 +1519,7 @@ export const storyContent: Record<string, ChapterType[]> = {
         "title": "The Completion of a Quant - The Heart of Risk Management",
         "subtitle": "A Robust Shield Built with Greeks and Advanced Models",
         "year": "2024",
-        "imagePath": "/assets/images/ch30.png",
+        "imagePath": "/assets/images/portfolio.png",
         "tutorialType": "portfolio",
         "content": [
             "Through years of learning and practical experience, Elara had grown into a seasoned quant financial professional. Beyond simple option price calculations, she could now manage the complex risks of the financial market by freely utilizing a deep understanding of Greek indicators and the Black-Scholes model, as well as advanced models that compensated for its limitations. While countless charts and data were spread across her desk, her eyes were always focused on the overall balance.",
@@ -1543,7 +1543,7 @@ export const storyContent: Record<string, ChapterType[]> = {
         "title": "2008 Subprime Crisis: The Collapse of Trust",
         "subtitle": "A Tragedy Born of Data and Greed",
         "year": "2008",
-        "imagePath": "/assets/images/ch31.png",
+        "imagePath": "/assets/images/behavioral.png",
         "tutorialType": "behavioral",
         "content": [
             "In 2008, the global economy plunged into chaos as if possessed by a ghost. Complex financial products, seemingly symbols of prosperity, harbored a rotting seed within.",
@@ -1564,7 +1564,7 @@ export const storyContent: Record<string, ChapterType[]> = {
         "title": "The Rise of Algorithms: The Era of High-Frequency Trading",
         "subtitle": "A Speed Race Beyond Human Limits",
         "year": "2000s Late",
-        "imagePath": "/assets/images/ch32.png",
+        "imagePath": "/assets/images/algorithm.png",
         "tutorialType": "algorithm",
         "content": [
             "In the late 2000s, a new ruler emerged in financial markets: algorithms. Faster than human judgment and executing trades without emotion, these machines revolutionized the speed of the market.",
@@ -1585,7 +1585,7 @@ export const storyContent: Record<string, ChapterType[]> = {
         "title": "The Flash Crash: When Algorithms Go Rogue",
         "subtitle": "Uncontrolled Markets and System Vulnerabilities",
         "year": "2010",
-        "imagePath": "/assets/images/ch33.png",
+        "imagePath": "/assets/images/algorithm.png",
         "tutorialType": "algorithm",
         "content": [
             "On May 6, 2010, the New York stock market experienced an unprecedented event, plummeting nearly 1,000 points in just minutes. Without human intervention, algorithms reacted to each other, dragging the market into an abyss.",
@@ -1606,7 +1606,7 @@ export const storyContent: Record<string, ChapterType[]> = {
         "title": "Financial Data Science: The Power of Prediction",
         "subtitle": "The Era of Big Data and Machine Learning",
         "year": "2010s",
-        "imagePath": "/assets/images/ch34.png",
+        "imagePath": "/assets/images/ai.png",
         "tutorialType": "ai",
         "content": [
             "Financial forecasting, once reliant on intuition and experience, has now become the domain of vast data and advanced statistical models. Analyzing the enormous volume of financial data generated daily was impossible with human capabilities.",
@@ -1627,7 +1627,7 @@ export const storyContent: Record<string, ChapterType[]> = {
         "title": "The Dawn of Decentralization: Blockchain Basics",
         "subtitle": "Building Trust with Code",
         "year": "2008-2010s",
-        "imagePath": "/assets/images/ch35.png",
+        "imagePath": "/assets/images/algorithm.png",
         "tutorialType": "algorithm",
         "content": [
             "Following the 2008 financial crisis, deep mistrust in centralized systems spurred the search for new alternatives. This led to blockchain. Proposed by an anonymous individual named Satoshi Nakamoto, this technology held the potential to fundamentally shake up the foundations of finance.",
@@ -1648,7 +1648,7 @@ export const storyContent: Record<string, ChapterType[]> = {
         "title": "Smart Contracts: Code is Law",
         "subtitle": "The Revolution of Automated Agreements",
         "year": "2010s",
-        "imagePath": "/assets/images/ch36.png",
+        "imagePath": "/assets/images/algorithm.png",
         "tutorialType": "algorithm",
         "content": [
             "With the advent of blockchain, a new possibility beyond mere record-keeping emerged: smart contracts. First conceptualized by Nick Szabo in the 1990s, they finally became a reality with blockchain technology.",
@@ -1669,7 +1669,7 @@ export const storyContent: Record<string, ChapterType[]> = {
         "title": "DeFi and Automated Market Makers (AMM)",
         "subtitle": "The Heart of Decentralized Finance",
         "year": "2018-",
-        "imagePath": "/assets/images/ch37.png",
+        "imagePath": "/assets/images/amm.png",
         "tutorialType": "amm",
         "content": [
             "The convergence of blockchain and smart contracts ignited a revolution known as Decentralized Finance, or DeFi. It was a system offering all financial services—lending, borrowing, trading—without central institutions like banks or brokerages.",
@@ -1690,7 +1690,7 @@ export const storyContent: Record<string, ChapterType[]> = {
         "title": "DeFi and AMM",
         "subtitle": "Algorithms become market makers",
         "year": "2020",
-        "imagePath": "/assets/images/ch4.png",
+        "imagePath": "/assets/images/amm.png",
         "content": [
             "The magnificent financial empire built upon the Black-Scholes model eventually paid a devastating price during the 2008 financial crisis. After witnessing the uncontrollable greed of mega-banks and hidden intermediaries collapse the market, nameless geniuses began plotting a quiet rebellion within the cryptic realm of the blockchain: 'Could we create a flawless financial market that operates entirely without human intervention or middlemen?'",
             "They completely tore down the complex order book systems of Wall Street and inscribed a shockingly simple, elegant equation onto the blockchain. By utilizing the principle that the product of two reserve assets must always remain constant (x*y=k), they birthed the '[[AMM|Automated Market Maker. Even without someone placing an order, the price is automatically determined by a smart contract mathematically (x*y=k)!]]'. This algorithm inherently determines prices and provides infinite liquidity entirely on its own.",
@@ -1712,7 +1712,7 @@ export const storyContent: Record<string, ChapterType[]> = {
         "title": "The Future of Finance: Convergence of AI and Blockchain",
         "subtitle": "The Dawn of a New Era",
         "year": "2020s-",
-        "imagePath": "/assets/images/ch39.png",
+        "imagePath": "/assets/images/ai.png",
         "tutorialType": "ai",
         "content": [
             "The era of data and algorithms continues to evolve without pause. We now stand at an inflection point where two monumental technologies, artificial intelligence and blockchain, converge to rewrite the future of finance.",
@@ -1733,7 +1733,7 @@ export const storyContent: Record<string, ChapterType[]> = {
         "title": "Quant's New Frontier: Ethics and Innovation",
         "subtitle": "Responsible Navigation of Technological Advancement",
         "year": "2020s-",
-        "imagePath": "/assets/images/ch40.png",
+        "imagePath": "/assets/images/behavioral.png",
         "tutorialType": "behavioral",
         "content": [
             "Technological advancement always brings new questions. Quants are facing ethical and social responsibilities beyond mere profit, concerning algorithmic bias, data privacy, and the stability of the financial system.",
