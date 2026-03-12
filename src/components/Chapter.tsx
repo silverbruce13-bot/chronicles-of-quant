@@ -145,7 +145,11 @@ export default function Chapter({ chapter, onNext, onPrev, isFirst, isLast, tota
                     )}
 
                     <div className="space-y-6 text-lg md:text-xl text-neutral-300 font-medium leading-relaxed flex-1">
-                        {chapter.content.map((paragraph, idx) => (
+                        {(!isTheoryOpen ? chapter.content : (chapter.deepStory && chapter.deepStory.length > 0 ? chapter.deepStory : [
+                            language === 'ko' ? `지금까지 우리는 [${chapter.title}]의 시대를 살아 숨 쉬듯 살펴보았습니다. 메인 스토리의 배경이었던 역사적 현장 이면에는, 보이지 않는 거대한 숫자와 논리의 세계가 숨쉬고 있었습니다.` : `So far, we have vividly explored the era of [${chapter.title}]. Behind the historical scenes of our main story, a massive, invisible world of numbers and logic was breathing.`,
+                            language === 'ko' ? `앞서 이야기 속 등장인물들이 마주했던 극단적인 불확실성과 선택의 순간들은 사실 단순한 우연이 아니라, '${chapter.theoryDetail?.title || chapter.tutorialType}'이라는 정교한 수학적 원리로 설명될 수 있습니다.` : `The extreme uncertainties and moments of choice faced by the characters were not mere coincidences, but can be explained by the sophisticated mathematical principles of '${chapter.theoryDetail?.title || chapter.tutorialType}'.`,
+                            language === 'ko' ? `과연 과거의 상인과 학자들이 머리를 싸매고 직관으로 부딪혔던 이 문제들이, 현대 퀀트 금융에서 어떻게 수식으로 증명되고 투자에 활용될까요? 이제 오른쪽 패널에서 그 깊이 있는 해답을 본격적으로 파헤쳐 보겠습니다.` : `How are these problems, which past merchants and scholars struggled with using only their intuition, proven mathematically and utilized in modern quantitative finance? Now, let's fundamentally uncover the deep answers in the right panel.`
+                        ])).map((paragraph, idx) => (
                             <motion.p
                                 key={idx}
                                 initial={{ opacity: 0, y: 10 }}

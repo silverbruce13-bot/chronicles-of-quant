@@ -6,6 +6,7 @@ export type ChapterType = {
     year: string;
     imagePath?: string;
     content: string[];
+    deepStory?: string[];
     tutorialType: 'compound' | 'randomWalk' | 'amm' | 'blackScholes' | 'portfolio' | 'derivatives' | 'calculus' | 'probability' | 'matrix' | 'behavioral' | 'algorithm' | 'ai';
     tutorialTitle?: string;
     theoryDetail?: {
