@@ -1,9 +1,11 @@
 import { GoogleGenerativeAI, SchemaType } from '@google/generative-ai';
 import * as fs from 'fs';
 import * as path from 'path';
+import 'dotenv/config';
 
 // Read API Key
-const apiKey = process.env.VITE_GEMINI_API_KEY || "REDACTED";
+const apiKey = process.env.VITE_GEMINI_API_KEY;
+if (!apiKey) throw new Error("Missing VITE_GEMINI_API_KEY in .env");
 const genAI = new GoogleGenerativeAI(apiKey);
 
 const chapterSchema = {
