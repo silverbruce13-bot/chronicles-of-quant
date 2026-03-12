@@ -17,7 +17,7 @@ Vol 4 (Week 31-40): 데이터와 알고리즘, 그리고 새로운 질서 선언
 `;
 
 async function generateVolume(volIndex: number) {
-    const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" }); // Using a faster model suitable for text gen
+    const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" }); // Using a faster model suitable for text gen
     const startWeek = (volIndex - 1) * 10 + 1;
     const endWeek = volIndex * 10;
     
