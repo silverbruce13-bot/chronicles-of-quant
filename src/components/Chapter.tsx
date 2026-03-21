@@ -1,6 +1,6 @@
 import { useState, useEffect, Fragment } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { ChevronLeft, ChevronRight, BookOpen, Fingerprint, Sparkles, X } from 'lucide-react';
+import { ChevronLeft, ChevronRight, BookOpen, Fingerprint, Sparkles, X, Zap, Swords, ShieldCheck, ArrowRight, Quote } from 'lucide-react';
 import type { ChapterType } from '../data/story';
 import { mathDetailsContent } from '../data/mathDetails';
 import TooltipText from './TooltipText';
@@ -208,15 +208,41 @@ export default function Chapter({ chapter, onNext, onPrev, isFirst, isLast, tota
                                 {renderTutorialGraph()}
 
                                 {mathData && (
-                                    <div className="mt-8">
-                                        <h4 className="text-neutral-500 uppercase text-xs font-bold tracking-widest mb-4">{t('chapter.core_concepts')}</h4>
-                                        <div className="grid gap-3">
+                                    <div className="mt-8 space-y-12">
+                                        
+                                        {/* LEVEL 1: INTUITION BRIDGE */}
+                                        {mathData.intuitionBridge && (
+                                            <motion.div 
+                                                initial={{ opacity: 0, scale: 0.95 }}
+                                                whileInView={{ opacity: 1, scale: 1 }}
+                                                className="bg-gradient-to-br from-amber-500/10 to-transparent border border-amber-500/20 rounded-2xl p-6 relative overflow-hidden"
+                                            >
+                                                <div className="absolute top-0 right-0 p-4 opacity-10"><Zap className="w-16 h-16" /></div>
+                                                <h4 className="text-amber-500 font-bold mb-3 flex items-center gap-2">
+                                                    <Zap className="w-4 h-4" />
+                                                    {t('chapter.intuition_title')}
+                                                </h4>
+                                                <div className="text-lg font-bold text-neutral-200 mb-4">{mathData.intuitionBridge.title}</div>
+                                                <div className="space-y-3">
+                                                    {mathData.intuitionBridge.content.map((p, i) => (
+                                                        <p key={i} className="text-sm text-neutral-300 leading-relaxed italic border-l-2 border-amber-500/30 pl-4">
+                                                            "{p}"
+                                                        </p>
+                                                    ))}
+                                                </div>
+                                            </motion.div>
+                                        )}
+
+                                        <div>
+                                            <h4 className="text-neutral-500 uppercase text-xs font-bold tracking-widest mb-4">{t('chapter.core_concepts')}</h4>
+                                            <div className="grid gap-3">
                                             {mathData.concepts.map((concept, i) => (
                                                 <div key={i} className="bg-neutral-900/50 border border-neutral-800 rounded-lg p-3">
                                                     <div className="font-bold text-neutral-200 mb-1">{concept.name}</div>
                                                     <div className="text-xs text-neutral-400">{concept.desc}</div>
                                                 </div>
                                             ))}
+                                        </div>
                                         </div>
 
                                         {mathData.detailedLearning && mathData.detailedLearning.length > 0 && (
@@ -258,6 +284,47 @@ export default function Chapter({ chapter, onNext, onPrev, isFirst, isLast, tota
                                                 </div>
                                             ))}
                                         </div>
+
+                                        {/* LEVEL 3: SCENARIO */}
+                                        {mathData.scenario && (
+                                            <div className="bg-neutral-900 border-2 border-dashed border-neutral-800 rounded-2xl p-6">
+                                                <h4 className="text-emerald-500 font-bold mb-4 flex items-center gap-2 uppercase tracking-tighter">
+                                                    <Swords className="w-5 h-5" />
+                                                    {t('chapter.scenario_title')}
+                                                </h4>
+                                                <div className="bg-black/30 rounded-lg p-4 mb-4 border border-neutral-800">
+                                                    <div className="text-xs text-neutral-500 uppercase font-bold mb-1">{t('chapter.challenge')}</div>
+                                                    <div className="text-sm text-neutral-200 leading-relaxed font-medium">{mathData.scenario.challenge}</div>
+                                                </div>
+                                                <details className="group">
+                                                    <summary className="cursor-pointer list-none flex items-center justify-between text-emerald-500/80 hover:text-emerald-400 font-bold text-sm transition-colors">
+                                                        <span>{t('chapter.solution')}</span>
+                                                        <ArrowRight className="w-4 h-4 group-open:rotate-90 transition-transform" />
+                                                    </summary>
+                                                    <div className="mt-4 text-sm text-neutral-400 leading-relaxed p-4 bg-emerald-500/5 rounded-lg border border-emerald-500/10">
+                                                        {mathData.scenario.solution}
+                                                    </div>
+                                                </details>
+                                            </div>
+                                        )}
+
+                                        {/* LEVEL 4: ETHOS */}
+                                        {mathData.ethos && (
+                                            <div className="pt-8 border-t border-neutral-800">
+                                                <div className="bg-gradient-to-r from-neutral-900/50 to-neutral-800/30 p-8 rounded-3xl text-center relative">
+                                                    <Quote className="absolute top-4 left-4 w-8 h-8 text-neutral-800" />
+                                                    <h4 className="text-neutral-500 text-xs font-bold uppercase tracking-[0.2em] mb-4">
+                                                        {t('chapter.ethos_title')}
+                                                    </h4>
+                                                    <div className="text-lg text-neutral-200 font-serif italic leading-relaxed">
+                                                        "{mathData.ethos.message}"
+                                                    </div>
+                                                    <div className="mt-6 flex justify-center">
+                                                        <ShieldCheck className="w-10 h-10 text-amber-500/40" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        )}
 
                                         {mathData.quizzes && mathData.quizzes.length > 0 && (
                                             <>

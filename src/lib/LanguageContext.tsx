@@ -29,6 +29,12 @@ const translations = {
         'chapter.discussion_assignment': '토론 및 실전 과제',
         'chapter.discussion': '토론 (Discussion)',
         'chapter.assignment': '실전 과제 (Assignment)',
+        'chapter.intuition_title': 'LEVEL 1. 직관의 다리 (Intuition)',
+        'chapter.another_story_title': 'LEVEL 2. 메인 스토리 비하인드 (Behind Story)',
+        'chapter.scenario_title': 'LEVEL 3. 퀀트의 실전 선택 (Scenario)',
+        'chapter.ethos_title': 'LEVEL 4. 퀀트의 철학과 윤리 (Ethos)',
+        'chapter.challenge': '위기 상황 (Challenge)',
+        'chapter.solution': '퀀트의 해법 (Solution)',
         'chapter.footer_hint': 'HEAVEN PROJECT : PaulSam Virtual Team Active'
     },
     en: {
@@ -51,6 +57,12 @@ const translations = {
         'chapter.discussion_assignment': 'Discussion & Practical Assignment',
         'chapter.discussion': 'Discussion',
         'chapter.assignment': 'Assignment',
+        'chapter.intuition_title': 'LEVEL 1. Intuition Bridge',
+        'chapter.another_story_title': 'LEVEL 2. Another Deep Story',
+        'chapter.scenario_title': 'LEVEL 3. Quant Scenario',
+        'chapter.ethos_title': 'LEVEL 4. Philosophy & Ethos',
+        'chapter.challenge': 'Challenge Scene',
+        'chapter.solution': 'Quant Solution',
         'chapter.footer_hint': 'HEAVEN PROJECT : PaulSam Virtual Team Active'
     }
 };

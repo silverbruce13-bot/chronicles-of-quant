@@ -1,8 +1,11 @@
 export type MathDetail = {
     concepts: { name: string; desc: string }[];
+    intuitionBridge?: { title: string; content: string[] };
     detailedLearning: { title: string; content: string[] }[];
     quizzes: { question: string; options: string[]; answer: number; explanation: string; }[];
     flowchart: { step: number; title: string; desc: string; formula?: string }[];
+    scenario?: { title?: string; challenge: string; solution: string };
+    ethos?: { message: string };
     discussionAndAssignment?: {
         discussion: string;
         assignment: string;
@@ -12,6 +15,22 @@ export type MathDetail = {
 export const mathDetailsContent: Record<string, Record<string, MathDetail>> = {
     ko: {
     "compound": {
+        "intuitionBridge": {
+            "title": "눈덩이가 산에서 굴러려 내려온다면?",
+            "content": [
+                "주먹만한 눈뭉치를 산 꼭대기에서 굴리면 어떻게 될까요?",
+                "처음에는 조금씩 커지지만, 눈덩이가 커질수록 표면적이 넓어져 눈이 붙는 속도는 엄청나게 빨라집니다.",
+                "돈에 이자가 붙는 방식 중 '복리'라는 것도 이와 똑같아요. 처음에는 적지만 나중에는 기하급수적으로 이자가 불어나는 마법 같은 힘이랍니다!"
+            ]
+        },
+        "scenario": {
+            "title": "위험한 고리대금업자와의 거래",
+            "challenge": "당신은 15세기의 가난한 상인입니다. 베네치아의 유대인 고리대금업자에게 원금 100더컷을 연이율 20%의 복리로 빌렸습니다. 폭풍우로 배가 난파되어 4년 동안 돈을 갚지 못했습니다.",
+            "solution": "단리라면 40더컷의 이자만 붙었겠지만, 복리는 이자에 이자가 붙습니다. 100 * (1.2)^4 = 약 207더컷! 당신은 배변상인으로서 복리에 대한 수학적 위험성을 깨닫고, 다음부터 무역 계약을 할 때는 이자율뿐만 아니라 '단리'와 '복리' 여부를 생사가 걸린 문제로 확인하게 됩니다."
+        },
+        "ethos": {
+            "message": "수학은 욕망을 부풀리는 도구가 될 수도 있고, 위험을 계산하여 파국을 막는 방패가 될 수도 있습니다. 금융 도구는 탐욕이 아닌 공영을 위해 통제되어야 합니다."
+        },
         "concepts": [
             {
                 "name": "거듭제곱",
