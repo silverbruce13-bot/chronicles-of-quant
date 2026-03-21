@@ -144,6 +144,19 @@ export default function Chapter({ chapter, onNext, onPrev, isFirst, isLast, tota
                         </div>
                     )}
 
+                    {isTheoryOpen && (
+                        <motion.div
+                            initial={{ opacity: 0, y: -10 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            className="mb-6 flex items-center gap-3"
+                        >
+                            <span className="inline-flex items-center gap-2 bg-gradient-to-r from-violet-500/10 to-purple-500/10 border border-violet-500/30 text-violet-400 px-4 py-2 rounded-xl text-sm font-bold tracking-wider uppercase">
+                                <BookOpen className="w-4 h-4" />
+                                {t('chapter.another_story_title')}
+                            </span>
+                        </motion.div>
+                    )}
+
                     <div className="space-y-6 text-lg md:text-xl text-neutral-300 font-medium leading-relaxed flex-1">
                         {(!isTheoryOpen ? chapter.content : (chapter.deepStory && chapter.deepStory.length > 0 ? chapter.deepStory : [
                             language === 'ko' ? `지금까지 우리는 [${chapter.title}]의 시대를 살아 숨 쉬듯 살펴보았습니다. 메인 스토리의 배경이었던 역사적 현장 이면에는, 보이지 않는 거대한 숫자와 논리의 세계가 숨쉬고 있었습니다.` : `So far, we have vividly explored the era of [${chapter.title}]. Behind the historical scenes of our main story, a massive, invisible world of numbers and logic was breathing.`,

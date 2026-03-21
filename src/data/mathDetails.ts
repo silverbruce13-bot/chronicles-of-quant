@@ -192,6 +192,22 @@ export const mathDetailsContent: Record<string, Record<string, MathDetail>> = {
                 "desc": "주가는 0 밑으로 떨어질 수 없으므로 로그 정규분포를 사용하여 미래 가격 확률을 계산합니다."
             }
         ],
+        "intuitionBridge": {
+            "title": "술 취한 사람이 집을 찾아갈 수 있을까?",
+            "content": [
+                "한밤중, 술에 만취한 사람이 가로등 아래에 서 있다고 상상해 보세요.",
+                "이 사람은 한 발짝 내딛을 때마다 왼쪽으로 갈지, 오른쪽으로 갈지 전혀 예측할 수 없어요. 직전에 오른쪽으로 갔다고 해서 다음에도 오른쪽으로 갈 거라는 보장이 없죠.",
+                "100걸음 뒤에 이 사람이 어디에 서 있을지는 아무도 모릅니다. 하지만 신기하게도, '가로등에서 대략 얼마나 멀어져 있을 수 있는지'의 범위는 수학으로 계산할 수 있어요! 주식 가격도 이와 똑같답니다. 방향은 몰라도, 흔들림의 크기는 잴 수 있는 거예요."
+            ]
+        },
+        "scenario": {
+            "title": "1929년 대공황, 월스트리트의 도박사",
+            "challenge": "당신은 1929년 10월, 뉴욕 월스트리트의 젊은 트레이더입니다. 지난 3년간 주가는 매년 30% 이상 올랐고, 모든 신문은 '영원한 번영'을 외치고 있습니다. 전 재산을 주식에 투자한 상태에서, 10월 24일 '검은 목요일' 주가가 갑자기 11% 폭락합니다. '지금까지 항상 올랐으니 곧 반등할 것이다'라는 확신으로 추가 매수해야 할까요?",
+            "solution": "랜덤워크 이론에 따르면, 과거 3년간 올랐다는 사실은 내일 오를 확률을 단 1%도 높여주지 않습니다. 주가의 각 움직임은 독립적이기 때문입니다. 실제로 '검은 목요일' 이후 시장은 3년간 계속 하락하여 89%가 증발했습니다. '과거의 패턴이 미래를 보장한다'는 믿음은 수학적으로 근거 없는 환상이었던 것입니다."
+        },
+        "ethos": {
+            "message": "시장의 방향을 예측할 수 있다는 오만은 파멸의 시작입니다. 진정한 지혜는 불확실성을 인정하고, 예측이 아닌 대비를 통해 미래를 준비하는 겸손함에 있습니다."
+        },
         "discussionAndAssignment": {
             "discussion": "대공황처럼 주가가 끝없이 폭락하는 것을 목격했다면, 내일은 쌀 테니 무조건 주식이 오를까요? 랜덤워크와 위너 과정 관점에서 과거의 데이터가 주는 '예측 불가능성'에 대해 토론해 봅시다.",
             "assignment": "관심 있는 실제 주식의 지난 1주일간 매일의 '수익률'을 직접 계산해 보고, 이 숫자들이 일정한 규칙을 띠는지 혹은 무작위로 흩어져(Variance) 있는지 관찰하여 제출하세요."
@@ -276,6 +292,22 @@ export const mathDetailsContent: Record<string, Record<string, MathDetail>> = {
                 "formula": "C = S_0 N(d_1) - K e^{-rT} N(d_2)"
             }
         ],
+        "intuitionBridge": {
+            "title": "복권의 '공정한 가격'은 얼마일까?",
+            "content": [
+                "친구가 동전을 던져서 앞면이 나오면 10,000원을 주고, 뒷면이 나오면 아무것도 안 주는 게임을 제안합니다.",
+                "이 '게임에 참여할 권리'의 공정한 가격은 얼마일까요? 50% 확률로 10,000원을 받으니 5,000원이 적정하다고 느껴지죠.",
+                "블랙-숄스 모형도 이와 본질적으로 같아요! 주식이 오르면 돈을 벌 수 있는 '권리(옵션)'의 공정한 가격을 확률과 시간, 그리고 흔들림의 크기만으로 정확히 계산해내는 마법의 수식이랍니다."
+            ]
+        },
+        "scenario": {
+            "title": "1973년 시카고, 옵션의 가격을 찾아라",
+            "challenge": "당신은 1973년 시카고 옵션거래소(CBOE)가 개장한 첫 해의 트레이더입니다. 고객이 IBM 주식을 6개월 뒤에 지금 가격으로 살 수 있는 '권리'를 사고 싶다고 합니다. 이 옵션에 얼마를 매겨야 할까요? 너무 비싸면 고객이 떠나고, 너무 싸면 당신이 파산합니다.",
+            "solution": "블랙-숄스 공식이 나오기 전, 트레이더들은 직감과 경험으로 가격을 매겼고, 같은 옵션도 사람마다 가격이 달랐습니다. 블랙-숄스 모형은 현재 주가, 행사 가격, 만기, 무위험 이자율, 변동성이라는 5가지 숫자만으로 '수학적으로 유일한 적정 가격'을 도출합니다. 이 공식은 주관적 판단을 객관적 숫자로 바꾸며, 파생상품 시장의 폭발적 성장을 이끌었습니다."
+        },
+        "ethos": {
+            "message": "수학적 정밀함은 시장의 투명성과 공정성을 높이는 도구여야 합니다. 가격의 근거가 명확해질 때, 정보 비대칭으로 인한 착취는 줄어들고, 모든 참여자가 동등한 출발선에 설 수 있습니다."
+        },
         "discussionAndAssignment": {
             "discussion": "블랙-숄스 모형이 발견되면서 파생상품 시장이 폭발적으로 성장했습니다. 그러나 이 수식이 완벽하게 맞물려 작동하려면 미래의 '변동성'을 스스로 예측해야 합니다. 여러분이 퀀트라면 언제나 기계가 도출한 숫자를 무조건 신뢰하시겠습니까?",
             "assignment": "가상 자산이나 주식의 등락폭을 알려주는 '변동성 지수(VIX)'를 한번 검색해 보고, 현재 시장이 얼마나 다이나믹하게 흔들리고 있는지 숫자로 체감해 봅시다."
@@ -360,6 +392,22 @@ export const mathDetailsContent: Record<string, Record<string, MathDetail>> = {
                 "formula": "(X+Δx) × (Y-Δy) = K"
             }
         ],
+        "intuitionBridge": {
+            "title": "연결된 두 물통의 수위는 왜 같아질까?",
+            "content": [
+                "투명한 호스로 연결된 두 개의 물통을 상상해 보세요. 왼쪽 물통에 물을 더 부으면 어떻게 될까요?",
+                "물은 자연스럽게 호스를 통해 오른쪽으로 흘러가서, 결국 양쪽 수위가 같아집니다. 아무도 시키지 않았는데 자동으로요!",
+                "AMM(자동화된 시장 조성자)도 이와 똑같아요. 유동성 풀 안의 두 토큰은 수학 공식(x * y = k)으로 연결되어 있어서, 누군가 한쪽을 많이 가져가면 자동으로 가격이 조정돼요. 은행원도, 중개인도 없이 수학만으로 시장이 돌아가는 거예요!"
+            ]
+        },
+        "scenario": {
+            "title": "DeFi 유동성 위기, 풀이 말라붙다",
+            "challenge": "당신은 2020년 초기 DeFi 유동성 제공자입니다. ETH-USDC 풀에 ETH 10개(개당 $200)와 USDC 2,000개를 예치했습니다. 갑자기 ETH 가격이 $400으로 2배 폭등합니다. 당신의 자산은 풀에 넣지 않고 그냥 들고 있었으면 $6,000(ETH $4,000 + USDC $2,000)이 됐을 텐데, 풀에서 인출하면 과연 얼마일까요?",
+            "solution": "상수곱 공식 x * y = k에 의해, ETH 가격이 2배가 되면 풀 안의 ETH는 약 7.07개, USDC는 약 2,828개로 재조정됩니다. 인출 시 총 가치는 약 $5,657로, 그냥 들고 있었을 때의 $6,000보다 약 $343(5.7%) 적습니다. 이것이 '비영구적 손실'입니다. 수학 공식이 자동으로 비싼 ETH를 내주고 싼 USDC를 받아들인 결과이죠."
+        },
+        "ethos": {
+            "message": "중개자 없이 수학만으로 운영되는 시장은 금융 접근성의 민주화를 약속합니다. 그러나 코드가 곧 법인 세계에서, 수식의 한계를 이해하지 못한 참여는 새로운 형태의 불평등을 낳을 수 있습니다."
+        },
         "discussionAndAssignment": {
             "discussion": "인간의 호가 없이 수학 수식(x * y = k)만으로 가격이 결정되는 시스템이 통제가 강한 전통적인 중앙은행이나 증권사보다 항상 더 투명하고 안전할까요? 이 극단적인 자율성의 양면성에 대해 토론해 봅시다.",
             "assignment": "유니스왑(Uniswap)과 같은 대표적인 AMM 기반 탈중앙화 거래소(DEX)의 작동 원리를 유튜브 등에서 5분간 시청해 보고, 딜러나 호가창이 없는 거래의 신비로움을 정리해 보세요."
@@ -398,6 +446,22 @@ export const mathDetailsContent: Record<string, Record<string, MathDetail>> = {
                 "title": "효율적 투자선"
             }
         ],
+        "intuitionBridge": {
+            "title": "달걀을 한 바구니에 담으면 왜 위험할까?",
+            "content": [
+                "달걀 10개를 하나의 바구니에 담아 걸어가다가 넘어지면? 달걀 10개 모두 깨져버립니다.",
+                "하지만 5개씩 두 바구니에 나눠 담으면? 한쪽을 떨어뜨려도 나머지 5개는 무사하죠.",
+                "투자도 마찬가지예요. 한 종목에 전 재산을 넣으면 그 회사가 망할 때 모든 것을 잃지만, 여러 종목에 나누면 하나가 떨어져도 다른 것이 올라서 전체 손실을 줄여줘요. 더 놀라운 건, 서로 반대로 움직이는 자산을 섞으면 위험이 마법처럼 사라진다는 거예요!"
+            ]
+        },
+        "scenario": {
+            "title": "1637년 튤립 광풍, 분산의 지혜를 몰랐던 대가",
+            "challenge": "당신은 1637년 네덜란드 암스테르담의 부유한 상인입니다. 튤립 구근 하나의 가격이 숙련 장인의 연봉 10배에 달하며, 모든 이웃이 전 재산을 튤립에 투자하고 있습니다. 당신의 전 재산 10,000길더를 모두 튤립에 투자해야 할까요, 아니면 나눠야 할까요?",
+            "solution": "역사적으로 1637년 2월, 튤립 가격은 하룻밤 사이에 90% 이상 폭락했습니다. 전 재산을 튤립에 넣은 사람들은 하루아침에 파산했죠. 만약 자산의 1/3은 튤립, 1/3은 동인도회사 주식, 1/3은 부동산에 분산했다면? 튤립에서 큰 손실을 보더라도 나머지 자산이 방패가 되어 생존할 수 있었을 것입니다. 이것이 포트폴리오 분산의 핵심입니다."
+        },
+        "ethos": {
+            "message": "분산 투자는 단순한 수학적 최적화가 아니라, 미래의 불확실성 앞에서 공동체가 함께 위험을 나누고 회복력을 키우는 집단적 지혜입니다."
+        },
         "discussionAndAssignment": {
             "assignment": "가상의 두 자산 포트폴리오를 구성해 보세요. 두 가지 다른 자산(예: 주식과 채권, 또는 두 가지 다른 주식)을 선택합니다. 이들의 과거 기대 수익률, 표준 편차, 그리고 자산 간 상관계수를 조사합니다. 최소 세 가지 다른 가중치 배분 방식(예: 50/50, 70/30, 30/70)에 대해 포트폴리오의 기대 수익률과 표준 편차를 계산합니다. 상관계수를 변경했을 때(예: +1에서 -1로) 포트폴리오의 전반적인 위험 및 수익 특성에 어떤 영향을 미치는지 분석하고 설명하세요.",
             "discussion": "현대 포트폴리오 이론(MPT)은 포트폴리오 최적화를 위한 강력한 프레임워크를 제공합니다. 그러나 이는 실제 세계에서는 항상 유효하지 않을 수 있는 여러 가정에 의존합니다. 거래 비용, 유동성 문제, 세금, 투자자 행동 편향과 같은 실제 제약 조건과 요인들이 MPT의 실제 적용과 효율적 투자선 상의 진정한 '효율적' 포트폴리오를 달성하는 능력에 어떻게 제한을 가할 수 있는지 토론하세요."
@@ -487,6 +551,22 @@ export const mathDetailsContent: Record<string, Record<string, MathDetail>> = {
                 "title": "파생상품의 위험과 이점"
             }
         ],
+        "intuitionBridge": {
+            "title": "맑은 날에도 우산을 가져가는 이유는?",
+            "content": [
+                "오늘 날씨가 화창해도 우산을 가방에 넣어가는 사람이 있어요. 왜일까요?",
+                "비가 올 확률이 작더라도, 비를 맞으면 감기에 걸리는 '손해'가 크니까요. 우산을 사는 데 든 비용은 작지만, 그것이 막아주는 피해는 훨씬 큽니다.",
+                "파생상품도 본질적으로 이 '우산'과 같아요. 미래에 가격이 떨어질 위험에 대비해서, 지금 작은 비용(프리미엄)을 내고 보험처럼 '권리'를 사두는 거예요. 비가 안 오면 우산값만 날리지만, 폭풍이 오면 그 우산이 전 재산을 지켜줍니다!"
+            ]
+        },
+        "scenario": {
+            "title": "1730년 오사카 도지마, 세계 최초의 선물시장",
+            "challenge": "당신은 1730년 일본 오사카 도지마 쌀 거래소의 쌀 상인입니다. 올해 풍작이 예상되어 3개월 뒤 쌀 가격이 폭락할 것 같습니다. 창고에 쌀 1,000가마가 있는데, 지금 당장 팔 수도 없습니다. 어떻게 하면 가격 하락의 위험에서 벗어날 수 있을까요?",
+            "solution": "도지마 거래소에서 3개월 뒤 현재 가격으로 쌀을 팔 수 있는 '선물 계약'을 체결합니다. 실제로 3개월 뒤 쌀 가격이 30% 하락하더라도, 선물 계약 덕분에 지금 가격으로 팔 수 있어 손실을 방어할 수 있습니다. 다만 만약 가격이 올랐다면 그 이익은 포기하게 되죠. 이것이 헤징의 본질입니다 - 확실한 것을 선택하고, 불확실한 이익을 포기하는 거래입니다."
+        },
+        "ethos": {
+            "message": "파생상품은 본래 농부와 상인이 생존을 지키기 위해 탄생했습니다. 위험을 분담하는 본래의 목적을 잊고 투기의 도구로 변질될 때, 금융은 보호막이 아닌 폭탄이 됩니다."
+        },
         "discussionAndAssignment": {
             "assignment": "최근의 금융 사건(예: 상품 가격 충격, 통화 위기)을 조사하고, 파생상품이 헤징을 위해 어떻게 사용될 수 있었는지 또는 투기를 위해 오용되어 중요한 결과로 이어진 사례를 분석해 보세요. 여러분의 조사 결과를 발표하세요.",
             "discussion": "순수한 투기를 위한 파생상품 사용과 위험 관리를 위한 사용의 윤리적 함의에 대해 토론해 보세요. 규제 기관은 파생상품 시장에서 혁신과 투자자 보호 사이의 균형을 어떻게 맞출 수 있을까요?"
@@ -573,6 +653,22 @@ export const mathDetailsContent: Record<string, Record<string, MathDetail>> = {
                 "title": "적분을 이용한 누적 및 현재 가치 계산"
             }
         ],
+        "intuitionBridge": {
+            "title": "자동차 속도계는 어떻게 '지금 이 순간'의 속도를 알까?",
+            "content": [
+                "고속도로를 달리는 자동차의 속도계를 보세요. 시속 100km라고 표시되어 있죠.",
+                "그런데 이건 '지난 1시간 동안 100km를 달렸다'는 뜻이 아니에요. '바로 지금 이 찰나의 순간'에 달리고 있는 빠르기를 보여주는 거예요. 이것이 바로 미분이에요 - 변화의 '순간 속도'를 재는 것!",
+                "금융에서도 마찬가지예요. 주가가 '지금 이 순간' 얼마나 빠르게 변하고 있는지, 이자율이 '찰나에' 얼마나 움직이는지를 포착하는 도구가 바로 미적분학이랍니다."
+            ]
+        },
+        "scenario": {
+            "title": "전시 공장의 한계비용 딜레마",
+            "challenge": "당신은 제2차 세계대전 중 군수품 공장의 관리자입니다. 정부가 탄약 생산량을 하루 1,000개에서 1,500개로 50% 늘리라고 명령합니다. 총 비용 함수가 C(x) = 0.001x³ - 2x² + 1500x일 때, 추가 500개를 생산하는 것이 경제적으로 합리적인지 판단해야 합니다.",
+            "solution": "한계비용(Marginal Cost)은 비용 함수를 미분하여 구합니다: C'(x) = 0.003x² - 4x + 1500. x=1,000일 때 한계비용은 $500이지만, x=1,500일 때는 $2,250으로 4.5배 폭증합니다. 미적분은 이처럼 '추가 1단위를 더 생산할 때의 비용 변화'를 정확히 계산해주어, 무작정 생산을 늘리면 비용이 기하급수적으로 치솟는다는 것을 수학적으로 증명합니다."
+        },
+        "ethos": {
+            "message": "미적분학은 자원이 한정된 세상에서 최적의 배분을 찾는 언어입니다. 이 도구가 소수의 이익 극대화가 아닌, 사회 전체의 효용을 극대화하는 데 쓰일 때 비로소 수학은 정의의 편에 섭니다."
+        },
         "discussionAndAssignment": {
             "assignment": "연속적인 현금 흐름 함수 f(t) = 100e^(0.05t) (연간 수천 달러)와 할인율 3%가 주어졌을 때, 적분을 사용하여 향후 5년간의 현금 흐름의 현재 가치를 계산하시오. 결과의 재무적 의미를 설명하시오.",
             "discussion": "미분의 \"순간 변화율\" 개념이 고빈도 거래나 실시간 위험 관리에 어떻게 적용될 수 있는지 토론해 봅시다. 미분 개념을 이해하는 것이 트레이더가 시장 움직임에 더 효과적으로 반응하는 데 어떻게 도움이 될까요?"
@@ -661,6 +757,22 @@ export const mathDetailsContent: Record<string, Record<string, MathDetail>> = {
                 "title": "기대값과 재무 의사 결정"
             }
         ],
+        "intuitionBridge": {
+            "title": "내일 비가 올 확률 70%라는 건 무슨 뜻일까?",
+            "content": [
+                "일기예보에서 '내일 비 올 확률 70%'라고 하면, 내일 무조건 비가 온다는 뜻일까요?",
+                "아니에요! 이와 비슷한 날씨 조건이 100번 있었다면, 그중 70번은 비가 왔고 30번은 맑았다는 뜻이에요. 내일이 그 70번에 속할지 30번에 속할지는 아무도 몰라요.",
+                "주식 투자도 똑같아요. '이 주식이 오를 확률 60%'라는 건, 비슷한 상황에서 10번 중 6번은 올랐다는 뜻이지 '무조건 오른다'는 보장이 아니에요. 확률은 미래를 확정하지 않지만, 더 현명한 선택을 할 수 있게 도와주는 '판단의 나침반'이랍니다!"
+            ]
+        },
+        "scenario": {
+            "title": "대항해시대, 배를 보험에 들 것인가",
+            "challenge": "당신은 1600년대 런던 로이즈 커피하우스의 해상 보험업자입니다. 동인도로 항해하는 배의 보험을 인수해달라는 요청을 받았습니다. 과거 기록에 따르면 이 항로에서 배가 무사히 도착할 확률은 80%, 침몰할 확률은 20%입니다. 배와 화물의 가치는 10,000파운드입니다. 보험료를 얼마로 책정해야 할까요?",
+            "solution": "기대 손실 = 침몰 확률 × 손실액 = 0.2 × 10,000 = 2,000파운드. 따라서 최소 2,000파운드 이상을 보험료로 받아야 손해를 보지 않습니다. 여기에 운영비와 이익을 더해 2,500파운드 정도가 적정합니다. 이것이 보험의 수학적 원리입니다 - 확률과 기대값을 계산하여 '위험의 가격'을 매기는 것이죠. 많은 배의 보험을 인수하면 대수의 법칙에 의해 실제 손실은 기대값에 수렴합니다."
+        },
+        "ethos": {
+            "message": "확률은 개인이 홀로 감당할 수 없는 거대한 위험을 공동체가 함께 나누는 도구입니다. 보험의 탄생이 보여주듯, 리스크를 수학적으로 공유할 때 한 사람의 재앙은 모두가 감내할 수 있는 작은 비용이 됩니다."
+        },
         "discussionAndAssignment": {
             "assignment": "새로운 스타트업에 투자하는 것을 고려하고 있다고 가정해 봅시다. 200% 수익을 얻을 확률이 30%, 10% 수익을 얻을 확률이 50%, 그리고 50% 손실을 볼 확률이 20%입니다. 이 투자의 기대 수익률을 계산하세요. 이 기대 수익률만으로 투자해야 할까요? 어떤 다른 요인들을 고려하시겠습니까?",
             "discussion": "금융 시장이 본질적으로 불확실하다는 점을 고려할 때, 확률에 대한 이해가 개인 투자자가 더 나은 결정을 내리는 데 어떻게 도움이 될 수 있을까요? 미래 예측을 위해 오로지 과거 확률에만 의존하는 것의 한계에 대해 토론해 보세요."
@@ -751,6 +863,22 @@ export const mathDetailsContent: Record<string, Record<string, MathDetail>> = {
                 "title": "리스크 관리와 행렬: VaR 계산 및 스트레스 테스트"
             }
         ],
+        "intuitionBridge": {
+            "title": "스프레드시트의 칸들은 어떻게 서로 연결되어 있을까?",
+            "content": [
+                "엑셀에서 성적표를 만들어 본 적 있나요? 세로줄에는 학생 이름, 가로줄에는 과목이 있고, 각 칸에 점수가 적혀 있죠.",
+                "이 표 전체를 한꺼번에 다룰 수 있는 수학 도구가 바로 '행렬(Matrix)'이에요. 30명의 학생과 5개 과목이 있으면 30×5 행렬이 되는 거죠.",
+                "금융에서도 마찬가지예요. 100개 종목이 서로 어떻게 움직이는지를 100×100 표(공분산 행렬)로 정리하면, 행렬 연산 한 번으로 '가장 안전한 투자 조합'을 순식간에 찾아낼 수 있답니다!"
+            ]
+        },
+        "scenario": {
+            "title": "1952년, 마코위츠의 포트폴리오 최적화",
+            "challenge": "당신은 1952년 시카고 대학의 대학원생 해리 마코위츠입니다. 지도교수가 '100개 주식 중에서 위험은 최소화하면서 기대 수익을 극대화하는 최적 조합을 찾아라'는 과제를 줬습니다. 100개 주식의 상호 관계를 어떻게 동시에 계산할 수 있을까요?",
+            "solution": "마코위츠는 100개 주식의 수익률 관계를 100×100 공분산 행렬로 정리했습니다. 이 행렬에 가중치 벡터를 곱하면 포트폴리오 전체의 위험(분산)이 한 번에 계산됩니다: σ²ₚ = wᵀΣw. 행렬 연산 없이는 100개 주식의 4,950개 상호 관계를 일일이 계산해야 했을 것입니다. 이 논문은 현대 포트폴리오 이론의 시작이 되었고, 마코위츠는 이 연구로 노벨 경제학상을 수상했습니다."
+        },
+        "ethos": {
+            "message": "행렬은 복잡한 세상의 연결 관계를 체계적으로 정리하는 도구입니다. 직감과 편견에 의존하지 않고, 데이터의 구조를 있는 그대로 바라볼 때 비로소 편향 없는 판단이 가능해집니다."
+        },
         "discussionAndAssignment": {
             "assignment": "특정 주식 3개(예: 삼성전자, 카카오, 네이버)를 선택하여 과거 1년치 일별 수익률 데이터를 수집하고, 이를 바탕으로 공분산 행렬을 계산해보세요. 이 공분산 행렬을 이용하여 최소 분산 포트폴리오를 구성하고, 그 가중치를 제시하시오.",
             "discussion": "금융 시장에서 행렬 연산이 필수적인 이유는 무엇이며, 특히 고유값과 고유벡터가 포트폴리오 분석에서 어떤 통찰력을 제공할 수 있을까요?"
@@ -841,6 +969,22 @@ export const mathDetailsContent: Record<string, Record<string, MathDetail>> = {
                 "title": "금융 시장에서 감정의 역할"
             }
         ],
+        "intuitionBridge": {
+            "title": "뮐러-라이어 착시를 아시나요?",
+            "content": [
+                "같은 길이의 두 직선인데, 하나는 화살표가 바깥으로, 하나는 안쪽으로 향해 있으면 길이가 다르게 보여요. 이게 유명한 '뮐러-라이어 착시'예요.",
+                "놀라운 건, 같은 길이라는 걸 알고 난 뒤에도 여전히 다르게 보인다는 거예요! 우리 뇌는 '안다'와 '느낀다'가 다르게 작동해요.",
+                "투자에서도 똑같은 일이 벌어져요. '주가가 떨어지면 싸게 사야 한다'는 걸 머리로는 알지만, 실제로 폭락장을 보면 공포에 질려 오히려 헐값에 팔아버리죠. 이렇게 인간의 심리적 편향이 합리적 판단을 방해하는 현상을 연구하는 것이 행동 재무학이에요!"
+            ]
+        },
+        "scenario": {
+            "title": "2008년 서브프라임 위기, 군중의 광기",
+            "challenge": "당신은 2006년 미국 주택시장의 투자자입니다. 지난 10년간 집값은 단 한 번도 떨어진 적이 없고, 은행들은 신용등급이 낮은 사람에게도 대출을 해주며, 모든 전문가가 '집값은 절대 떨어지지 않는다'고 말합니다. 주변 친구들 모두 집을 2~3채씩 사고 있습니다. 당신도 대출을 받아 추가로 집을 사야 할까요?",
+            "solution": "행동 재무학의 관점에서 이 상황에는 여러 편향이 작동하고 있습니다. 군중심리(모두가 하니까), 확증 편향(집값이 오른다는 증거만 수집), 가용성 편향(최근 10년의 상승만 기억). 실제로 2007년부터 미국 집값은 34% 폭락했고, 서브프라임 모기지 사태는 글로벌 금융위기로 번졌습니다. '모두가 동의할 때가 가장 위험하다'는 역설을 행동 재무학은 수학적으로 증명합니다."
+        },
+        "ethos": {
+            "message": "자신의 심리적 편향을 인식하는 것이야말로 가장 강력한 금융 방어막입니다. 군중이 탐욕에 눈멀 때 두려워하고, 군중이 공포에 질릴 때 냉정을 유지하는 자기인식이 진정한 퀀트의 무기입니다."
+        },
         "discussionAndAssignment": {
             "assignment": "최근 시장 사건(예: 주식 거품 또는 폭락)을 분석하고, 주요 역할을 했을 가능성이 있는 특정 행동 재무 개념(예: 군중심리, 손실 회피, 과신)을 식별하세요.",
             "discussion": "행동 편향에 대한 인식이 투자자들이 더 합리적인 결정을 내리는 데 어떻게 도움이 되는지 논의하세요. 실제 사례를 제시하세요."
@@ -927,6 +1071,22 @@ export const mathDetailsContent: Record<string, Record<string, MathDetail>> = {
                 "title": "실행 알고리즘"
             }
         ],
+        "intuitionBridge": {
+            "title": "택배 분류 센터는 어떻게 수만 개의 상자를 정리할까?",
+            "content": [
+                "택배 분류 센터에 하루 10만 개의 상자가 들어온다고 상상해 보세요. 사람이 하나하나 주소를 읽고 분류하면 며칠이 걸릴 거예요.",
+                "하지만 컨베이어 벨트와 바코드 스캐너가 정해진 규칙(알고리즘)에 따라 자동으로 분류하면? 몇 시간이면 끝나죠!",
+                "주식 거래에서의 알고리즘도 이와 같아요. '가격이 이동평균선 위로 올라가면 사라', '거래량이 평소의 2배를 넘으면 팔아라' 같은 규칙을 컴퓨터에 입력해두면, 사람보다 수백 배 빠르게 매매를 실행합니다. 감정 없이, 실수 없이, 0.001초 만에!"
+            ]
+        },
+        "scenario": {
+            "title": "2010년 5월 6일, 플래시 크래시",
+            "challenge": "당신은 2010년 5월 6일 오후 2시 32분, 뉴욕증권거래소의 리스크 관리자입니다. 갑자기 다우존스 지수가 5분 만에 600포인트(약 6%) 폭락하기 시작합니다. 알고리즘 매매 시스템들이 서로의 매도 신호에 반응하여 연쇄적으로 매도를 쏟아내고 있습니다. 어떻게 대응해야 할까요?",
+            "solution": "실제 플래시 크래시에서 다우존스는 불과 36분 만에 약 1,000포인트(9.2%)를 폭락한 뒤 급반등했습니다. 한 투자회사의 대규모 매도 알고리즘이 다른 고빈도 매매(HFT) 알고리즘들의 연쇄 매도를 촉발한 것이 원인이었습니다. 이 사건 이후 SEC는 '서킷 브레이커' 제도를 강화하여, 급격한 가격 변동 시 자동으로 거래를 일시 중단하도록 했습니다. 속도만 추구한 알고리즘에 '안전장치'라는 지혜를 더한 것입니다."
+        },
+        "ethos": {
+            "message": "속도는 인간의 능력을 확장하는 도구이지만, 지혜 없는 속도는 재앙을 가속할 뿐입니다. 알고리즘에는 반드시 '멈춤'의 논리가 내장되어야 합니다."
+        },
         "discussionAndAssignment": {
             "assignment": "간단한 알고리즘 매매 전략(예: 이동 평균 교차 전략)을 설계해 보세요. 전략의 진입/청산 규칙, 활용하려는 시장 조건 유형, 잠재적 이점 및 내재된 위험에 대해 설명하세요.",
             "discussion": "고빈도 매매(HFT)가 시장의 공정성과 안정성에 미치는 윤리적 함의에 대해 토론해 보세요. HFT 기업이 더 효율적인 시장을 만드는가, 아니면 불공정한 이점과 시스템적 위험을 초래하는가? 양측의 주장을 제시하세요."
@@ -1015,6 +1175,22 @@ export const mathDetailsContent: Record<string, Record<string, MathDetail>> = {
                 "title": "머신러닝 모델의 종류와 활용"
             }
         ],
+        "intuitionBridge": {
+            "title": "강아지에게 '앉아'를 가르치는 것처럼?",
+            "content": [
+                "강아지에게 '앉아'를 가르칠 때 어떻게 하나요? 앉으면 간식을 주고, 안 앉으면 안 주죠. 이걸 수백 번 반복하면 강아지는 '앉으면 좋은 일이 생긴다'는 패턴을 스스로 학습해요.",
+                "인공지능도 이와 똑같아요! 과거 데이터라는 '간식'을 수백만 번 먹이면서, 주가가 오를 때와 내릴 때의 패턴을 스스로 찾아내도록 훈련시키는 거예요.",
+                "다만 강아지 훈련과 다른 점이 하나 있어요. 금융 시장은 '규칙이 계속 변하는 게임'이라서, 어제 맞았던 패턴이 내일은 틀릴 수 있다는 거예요. 그래서 AI는 끊임없이 새로운 데이터로 재훈련되어야 합니다!"
+            ]
+        },
+        "scenario": {
+            "title": "AI 헤지펀드 vs 인간 트레이더",
+            "challenge": "당신은 2020년 세계 최대 AI 헤지펀드 '르네상스 테크놀로지'의 데이터 과학자입니다. 코로나19 팬데믹으로 주가가 한 달 만에 34% 폭락합니다. AI 모델은 과거 100년의 데이터로 훈련되었지만, 전 세계가 동시에 봉쇄되는 사태는 데이터에 없습니다. AI의 예측을 그대로 따를 것인가, 인간의 판단으로 오버라이드할 것인가?",
+            "solution": "실제로 코로나19 초기, 대부분의 AI 기반 퀀트 펀드는 심각한 손실을 겪었습니다. 학습 데이터에 '전 세계 동시 봉쇄'라는 패턴이 없었기 때문입니다. 반면 인간 펀드매니저 중 일부는 직관적으로 위기의 심각성을 파악하고 빠르게 포지션을 전환했습니다. 이 사건은 AI가 '과거의 패턴'에 기반한다는 근본적 한계를 보여줍니다. 최선의 접근은 AI의 데이터 처리 능력과 인간의 맥락 판단력을 결합하는 하이브리드 모델입니다."
+        },
+        "ethos": {
+            "message": "인공지능은 인간의 판단을 대체하는 것이 아니라 확장하는 도구여야 합니다. AI가 내리는 모든 결정의 최종 책임은 여전히 인간에게 있으며, 기술은 인간의 가치와 윤리를 반영해야 합니다."
+        },
         "discussionAndAssignment": {
             "assignment": "현재 금융 시장에서 사용되는 특정 AI 기반 트레이딩 전략(예: 퀀트 펀드의 머신러닝 전략, 챗봇을 활용한 투자 상담 등)을 하나 선택하여, 해당 전략의 작동 방식, 장단점, 그리고 규제적 측면에서의 과제를 조사하여 보고서를 작성하시오.",
             "discussion": "인공지능 트레이딩 시스템이 금융 시장의 안정성과 효율성에 미치는 긍정적 및 부정적 영향에 대해 토론해 봅시다. 특히, '블랙 스완'과 같은 예측 불가능한 사건에 AI가 어떻게 대응할 수 있을지에 대한 의견을 공유해 보세요."
@@ -1152,6 +1328,22 @@ export const mathDetailsContent: Record<string, Record<string, MathDetail>> = {
                 "formula": "n ≈ 72 / (r×100)"
             }
         ],
+        "intuitionBridge": {
+            "title": "What happens when a snowball rolls down a hill?",
+            "content": [
+                "Imagine rolling a fist-sized snowball from the top of a mountain. What happens?",
+                "At first it grows slowly, but as the snowball gets bigger, its surface area increases and snow sticks to it faster and faster.",
+                "The way money grows with 'compound interest' works exactly the same! It starts small, but over time the interest grows exponentially — like a magical force that makes your money snowball!"
+            ]
+        },
+        "scenario": {
+            "title": "A Dangerous Deal with the Moneylender",
+            "challenge": "You are a poor merchant in 15th-century Venice. You borrowed 100 ducats from a moneylender at 20% annual compound interest. A storm sank your ship, and you couldn't repay for 4 years.",
+            "solution": "With simple interest, only 40 ducats of interest would have accrued. But with compound interest, interest grows on interest: 100 × (1.2)⁴ ≈ 207 ducats! You realize the mathematical danger of compound interest and from now on, you check whether a contract uses 'simple' or 'compound' interest as a matter of life and death."
+        },
+        "ethos": {
+            "message": "Mathematics can be a tool that inflates greed, or a shield that calculates risk and prevents catastrophe. Financial tools must be controlled for the common good, not for avarice."
+        },
         "discussionAndAssignment": {
             "discussion": "If you were a banker, which interest method would you apply to loan customers, and which would you recommend to deposit customers? What is the reason?",
             "assignment": "Check the terms and conditions of a savings or deposit product your parents have subscribed to, and investigate whether it is simple or compound interest, and what the interest rate is."
@@ -1234,6 +1426,22 @@ export const mathDetailsContent: Record<string, Record<string, MathDetail>> = {
                 "desc": "Since prices cannot fall below 0, use a log-normal distribution to calculate future price probabilities."
             }
         ],
+        "intuitionBridge": {
+            "title": "Can a drunk person find their way home?",
+            "content": [
+                "Imagine a very drunk person standing under a streetlight late at night.",
+                "With each step, there's no way to predict whether they'll go left or right. Just because they went right last time doesn't mean they'll go right again.",
+                "After 100 steps, nobody knows where this person will be standing. But amazingly, math can calculate the 'range of how far they might be from the streetlight'! Stock prices work exactly the same way — you can't predict the direction, but you can measure the magnitude of the wobble."
+            ]
+        },
+        "scenario": {
+            "title": "1929 Great Depression: The Wall Street Gambler",
+            "challenge": "You are a young trader on Wall Street in October 1929. For the past 3 years, stocks have risen over 30% annually, and every newspaper proclaims 'eternal prosperity.' You've invested your entire fortune in stocks. On October 24th, 'Black Thursday,' prices suddenly crash 11%. Should you buy more, convinced that 'it's always gone up, so it must bounce back'?",
+            "solution": "According to Random Walk theory, the fact that stocks rose for 3 years increases tomorrow's probability of rising by exactly 0%. Each price movement is independent. In reality, after 'Black Thursday,' the market continued falling for 3 years, losing 89% of its value. The belief that 'past patterns guarantee the future' was a mathematically baseless illusion."
+        },
+        "ethos": {
+            "message": "The arrogance of believing you can predict the market's direction is the beginning of ruin. True wisdom lies in the humility to acknowledge uncertainty and prepare through readiness, not prediction."
+        },
         "discussionAndAssignment": {
             "discussion": "If you witnessed a never-ending stock market crash like the Great Depression, would tomorrow's stock price definitively bounce back because it's cheap? Let's discuss 'unpredictability' from the perspective of the Random Walk and Wiener process.",
             "assignment": "Calculate the exact daily 'return rate' of a stock you're interested in over the past week. Submit your observations on whether these numbers follow a certain rule or if they are randomly scattered (Variance)."
@@ -1318,6 +1526,22 @@ export const mathDetailsContent: Record<string, Record<string, MathDetail>> = {
                 "formula": "C = S_0 N(d_1) - K e^{-rT} N(d_2)"
             }
         ],
+        "intuitionBridge": {
+            "title": "What's the 'fair price' of a lottery ticket?",
+            "content": [
+                "Your friend proposes a game: flip a coin — heads, you get $100; tails, you get nothing.",
+                "What's the fair price to play this game? Since there's a 50% chance of winning $100, paying $50 feels about right.",
+                "The Black-Scholes model works essentially the same way! It's a magical formula that calculates the exact fair price of a 'right (option)' to profit if a stock goes up, using only probability, time, and the magnitude of price swings."
+            ]
+        },
+        "scenario": {
+            "title": "Chicago 1973: Finding the Price of an Option",
+            "challenge": "You're a trader in 1973, the first year of the Chicago Board Options Exchange (CBOE). A client wants to buy the 'right' to purchase IBM stock at today's price six months from now. How much should you charge? Too expensive and the client walks; too cheap and you go bankrupt.",
+            "solution": "Before Black-Scholes, traders priced options by gut feeling and experience — the same option could have different prices from different traders. The Black-Scholes formula derives a 'mathematically unique fair price' from just 5 numbers: current stock price, strike price, time to expiry, risk-free rate, and volatility. This formula transformed subjective judgment into objective numbers and fueled the explosive growth of the derivatives market."
+        },
+        "ethos": {
+            "message": "Mathematical precision should serve as a tool for market transparency and fairness. When the basis for pricing becomes clear, exploitation through information asymmetry diminishes, and all participants can stand on equal footing."
+        },
         "discussionAndAssignment": {
             "discussion": "The discovery of the Black-Scholes model led to explosive growth in the derivatives market. However, for this formula to work flawlessly, 'volatility' must be accurately predicted. If you were a quant, would you always blindly trust the machine's mathematical output?",
             "assignment": "Search for the 'VIX' (Volatility Index) online to see how dynamically the current stock market is fluctuating, and try to grasp how investors measure 'fear' and 'risk' in numbers."
@@ -1402,6 +1626,22 @@ export const mathDetailsContent: Record<string, Record<string, MathDetail>> = {
                 "formula": "(X+Δx) × (Y-Δy) = K"
             }
         ],
+        "intuitionBridge": {
+            "title": "Why does water level equalize between connected vessels?",
+            "content": [
+                "Imagine two water tanks connected by a transparent hose. What happens when you pour more water into the left tank?",
+                "The water naturally flows through the hose to the right side until both levels are equal. Nobody told it to — it just happens automatically!",
+                "An AMM (Automated Market Maker) works exactly like this. Two tokens in a liquidity pool are connected by a math formula (x × y = k), so when someone takes a lot of one token, the price automatically adjusts. No banker, no broker — just math running the entire market!"
+            ]
+        },
+        "scenario": {
+            "title": "DeFi Liquidity Crisis: When the Pool Runs Dry",
+            "challenge": "You're an early DeFi liquidity provider in 2020. You deposited 10 ETH (at $200 each) and 2,000 USDC into an ETH-USDC pool. Suddenly, ETH price surges to $400 (2x). If you'd simply held your assets, they'd be worth $6,000 (ETH $4,000 + USDC $2,000). How much will they be worth when you withdraw from the pool?",
+            "solution": "Due to the constant product formula x × y = k, when ETH doubles in price, the pool rebalances to approximately 7.07 ETH and 2,828 USDC. Your withdrawal value is about $5,657 — roughly $343 (5.7%) less than simply holding. This is 'impermanent loss.' The math formula automatically gave away expensive ETH and absorbed cheap USDC."
+        },
+        "ethos": {
+            "message": "A market run purely by mathematics promises the democratization of financial access. But in a world where code is law, participating without understanding the formula's limitations can create new forms of inequality."
+        },
         "discussionAndAssignment": {
             "discussion": "Is a system where prices are determined solely by a mathematical formula (x * y = k) without any human order books always more transparent and safer than traditional, highly-regulated banks? Discuss the double-edged sword of this extreme mathematical autonomy.",
             "assignment": "Watch a 5-minute video on an AMM-based decentralized exchange (DEX) like Uniswap, and summarize the mystery and benefits of trading entirely without human brokers or order books."
@@ -1440,6 +1680,22 @@ export const mathDetailsContent: Record<string, Record<string, MathDetail>> = {
                 "title": "The Efficient Frontier"
             }
         ],
+        "intuitionBridge": {
+            "title": "Why is it dangerous to put all your eggs in one basket?",
+            "content": [
+                "If you carry 10 eggs in a single basket and trip, all 10 eggs shatter.",
+                "But if you split them into two baskets of 5? Drop one, and the other 5 survive.",
+                "Investing works the same way. Putting all your money in one stock means losing everything if that company fails. But spreading across multiple stocks means when one falls, others may rise, reducing your overall loss. The amazing part? Mixing assets that move in opposite directions can make risk almost magically disappear!"
+            ]
+        },
+        "scenario": {
+            "title": "1637 Tulip Mania: The Price of Ignoring Diversification",
+            "challenge": "You are a wealthy merchant in 1637 Amsterdam. A single tulip bulb costs 10 times a skilled craftsman's annual salary, and all your neighbors are investing their entire fortunes in tulips. Should you put all 10,000 guilders into tulips, or diversify?",
+            "solution": "Historically, in February 1637, tulip prices crashed over 90% overnight. Those who invested everything in tulips were ruined in a single day. Had you diversified — 1/3 in tulips, 1/3 in Dutch East India Company shares, 1/3 in real estate — the tulip loss would have been devastating, but the remaining assets would have served as a shield for survival. This is the core of portfolio diversification."
+        },
+        "ethos": {
+            "message": "Diversification is not just mathematical optimization — it is the collective wisdom of sharing risk in the face of uncertainty, building resilience together as a community."
+        },
         "discussionAndAssignment": {
             "assignment": "Construct a hypothetical two-asset portfolio. Choose two different assets (e.g., a stock and a bond, or two different stocks). Research their historical expected returns, standard deviations, and the correlation coefficient between them. Calculate the portfolio's expected return and standard deviation for at least three different weighting schemes (e.g., 50/50, 70/30, 30/70). Analyze and explain how changing the correlation coefficient (e.g., from +1 to -1) would impact the portfolio's overall risk and return characteristics.",
             "discussion": "Modern Portfolio Theory (MPT) provides a powerful framework for portfolio optimization. However, it relies on several assumptions that may not always hold in the real world. Discuss how practical constraints and real-world factors such as transaction costs, liquidity issues, taxes, and investor behavioral biases might limit the practical application of MPT and the ability to achieve a truly 'efficient' portfolio on the efficient frontier."
@@ -1529,6 +1785,22 @@ export const mathDetailsContent: Record<string, Record<string, MathDetail>> = {
                 "title": "Risks and Benefits of Derivatives"
             }
         ],
+        "intuitionBridge": {
+            "title": "Why bring an umbrella on a sunny day?",
+            "content": [
+                "Some people carry an umbrella even when the sky is clear. Why?",
+                "Even if the chance of rain is small, getting drenched could mean catching a cold — a big cost. The umbrella costs very little, but the damage it prevents is much greater.",
+                "Derivatives are essentially this 'umbrella.' You pay a small cost (premium) now to protect against future price drops, like buying insurance. If it doesn't rain, you only lose the umbrella money. But when the storm hits, that umbrella saves your entire fortune!"
+            ]
+        },
+        "scenario": {
+            "title": "1730 Osaka Dojima: The World's First Futures Market",
+            "challenge": "You are a rice merchant at the Dojima Rice Exchange in 1730 Osaka, Japan. A bumper harvest is expected, and rice prices are likely to plummet in 3 months. You have 1,000 bales of rice in storage but can't sell them right now. How can you protect yourself from the price drop?",
+            "solution": "You enter a 'futures contract' at the Dojima Exchange to sell rice at today's price in 3 months. Even if rice prices fall 30% by then, your futures contract guarantees you can sell at today's price. However, if prices rise instead, you forfeit that gain. This is the essence of hedging — choosing certainty and giving up uncertain upside."
+        },
+        "ethos": {
+            "message": "Derivatives were born so that farmers and merchants could protect their livelihoods. When their original purpose of risk-sharing is forgotten and they become instruments of speculation, finance transforms from a shield into a bomb."
+        },
         "discussionAndAssignment": {
             "assignment": "Research a recent financial event (e.g., a commodity price shock, a currency crisis) and analyze how derivatives could have been used for hedging or were misused for speculation, leading to significant outcomes. Present your findings.",
             "discussion": "Discuss the ethical implications of using derivatives for pure speculation versus risk management. How can regulatory bodies balance innovation with investor protection in the derivatives market?"
@@ -1615,6 +1887,22 @@ export const mathDetailsContent: Record<string, Record<string, MathDetail>> = {
                 "title": "Accumulation and Present Value using Integration"
             }
         ],
+        "intuitionBridge": {
+            "title": "How does a car speedometer know your speed 'right now'?",
+            "content": [
+                "Look at the speedometer while driving on the highway. It says 60 mph.",
+                "But this doesn't mean 'you drove 60 miles in the last hour.' It shows how fast you're moving at this exact instant. That's what differentiation is — measuring the 'instantaneous speed' of change!",
+                "Finance works the same way. How fast is a stock price changing right now? How quickly is an interest rate shifting at this very moment? Calculus is the tool that captures these fleeting changes with precision."
+            ]
+        },
+        "scenario": {
+            "title": "Wartime Factory: The Marginal Cost Dilemma",
+            "challenge": "You're a factory manager during World War II. The government orders you to increase ammunition production from 1,000 to 1,500 units per day (a 50% increase). Given the total cost function C(x) = 0.001x³ - 2x² + 1500x, is this additional production economically rational?",
+            "solution": "Marginal cost is found by differentiating the cost function: C'(x) = 0.003x² - 4x + 1500. At x=1,000, marginal cost is $500, but at x=1,500, it skyrockets to $2,250 — a 4.5x increase. Calculus precisely reveals that blindly ramping up production causes costs to explode exponentially. It mathematically proves when 'more' stops being 'better.'"
+        },
+        "ethos": {
+            "message": "Calculus is the language for finding optimal allocation in a world of limited resources. When this tool is used to maximize the well-being of all rather than the profits of a few, mathematics truly stands on the side of justice."
+        },
         "discussionAndAssignment": {
             "assignment": "Given a continuous cash flow function f(t) = 100e^(0.05t) (in thousands of dollars per year) and a discount rate of 3%, calculate the present value of the cash flow over the next 5 years using integration. Explain the financial meaning of your result.",
             "discussion": "Discuss how the concept of \"instantaneous rate of change\" from differentiation applies to high-frequency trading or real-time risk management. How can understanding derivatives help a trader react to market movements more effectively?"
@@ -1703,6 +1991,22 @@ export const mathDetailsContent: Record<string, Record<string, MathDetail>> = {
                 "title": "Expected Value and Financial Decision Making"
             }
         ],
+        "intuitionBridge": {
+            "title": "What does '70% chance of rain tomorrow' really mean?",
+            "content": [
+                "When the weather forecast says '70% chance of rain tomorrow,' does that mean it will definitely rain?",
+                "No! It means that out of 100 similar weather conditions, it rained 70 times and stayed clear 30 times. Nobody knows if tomorrow falls in the 70 or the 30.",
+                "Stock investing is the same. 'This stock has a 60% chance of going up' means it rose 6 out of 10 times in similar conditions — not a guarantee. Probability doesn't determine the future, but it serves as a 'compass for wiser decisions'!"
+            ]
+        },
+        "scenario": {
+            "title": "Age of Exploration: To Insure or Not to Insure",
+            "challenge": "You're a marine insurance underwriter at Lloyd's Coffee House in 1600s London. You're asked to insure a ship sailing to the East Indies. Historical records show an 80% chance of safe arrival and 20% chance of sinking. The ship and cargo are worth £10,000. How much should you charge for the insurance premium?",
+            "solution": "Expected loss = probability of sinking × loss amount = 0.2 × £10,000 = £2,000. You must charge at least £2,000 to break even. Adding operating costs and profit, about £2,500 is appropriate. This is the mathematical principle of insurance — putting a 'price on risk' through probability and expected value. Insuring many ships means the Law of Large Numbers ensures actual losses converge to the expected value."
+        },
+        "ethos": {
+            "message": "Probability is a tool for communities to share risks that no individual can bear alone. As the birth of insurance shows, when risk is mathematically shared, one person's catastrophe becomes a manageable cost for all."
+        },
         "discussionAndAssignment": {
             "assignment": "Imagine you are considering investing in a new startup. There's a 30% chance of a 200% return, a 50% chance of a 10% return, and a 20% chance of a -50% loss. Calculate the expected return of this investment. Should you invest based on this expected return alone? What other factors would you consider?",
             "discussion": "Given that financial markets are inherently uncertain, how can understanding probability help an individual investor make better decisions? Discuss the limitations of relying solely on historical probabilities for future predictions."
@@ -1793,6 +2097,22 @@ export const mathDetailsContent: Record<string, Record<string, MathDetail>> = {
                 "title": "Risk Management and Matrices: VaR Calculation and Stress Testing"
             }
         ],
+        "intuitionBridge": {
+            "title": "How are spreadsheet cells connected to each other?",
+            "content": [
+                "Have you ever made a grade sheet in Excel? Student names go down the rows, subjects across the columns, and scores fill each cell.",
+                "The mathematical tool that handles this entire table at once is called a 'Matrix.' If you have 30 students and 5 subjects, that's a 30×5 matrix.",
+                "Finance works the same way. Organizing how 100 stocks move relative to each other into a 100×100 table (covariance matrix) lets you find the 'safest investment combination' in a single matrix operation!"
+            ]
+        },
+        "scenario": {
+            "title": "1952: Markowitz's Portfolio Optimization",
+            "challenge": "You are Harry Markowitz, a graduate student at the University of Chicago in 1952. Your advisor challenges you: 'Find the optimal combination of 100 stocks that minimizes risk while maximizing expected return.' How can you simultaneously calculate the interrelationships among all 100 stocks?",
+            "solution": "Markowitz organized the return relationships of 100 stocks into a 100×100 covariance matrix. Multiplying this matrix by a weight vector yields the entire portfolio's risk (variance) in one calculation: σ²ₚ = wᵀΣw. Without matrix operations, you'd have to individually compute 4,950 pairwise relationships. This paper launched Modern Portfolio Theory, and Markowitz won the Nobel Prize in Economics for this work."
+        },
+        "ethos": {
+            "message": "Matrices are tools for systematically organizing the interconnections of a complex world. When we rely on the structure of data rather than intuition and bias, unbiased judgment becomes possible."
+        },
         "discussionAndAssignment": {
             "assignment": "Choose three specific stocks (e.g., Samsung Electronics, Kakao, Naver), collect their daily return data for the past year, and calculate the covariance matrix. Using this covariance matrix, construct a minimum variance portfolio and present its weights.",
             "discussion": "Why are matrix operations essential in financial markets, and what insights can eigenvalues and eigenvectors specifically provide in portfolio analysis?"
@@ -1883,6 +2203,22 @@ export const mathDetailsContent: Record<string, Record<string, MathDetail>> = {
                 "title": "The Role of Emotions in Financial Markets"
             }
         ],
+        "intuitionBridge": {
+            "title": "Do you know the Muller-Lyer illusion?",
+            "content": [
+                "Two lines of exactly the same length — but one has arrows pointing outward, the other inward. They look different lengths. That's the famous 'Muller-Lyer illusion.'",
+                "The amazing thing? Even after you know they're the same length, they still look different! Our brains process 'knowing' and 'feeling' separately.",
+                "The same thing happens in investing. You might know intellectually that 'when prices drop, you should buy cheap,' but when you actually see a market crash, panic takes over and you sell at rock bottom. Studying how these psychological biases derail rational judgment is what behavioral finance is all about!"
+            ]
+        },
+        "scenario": {
+            "title": "2008 Subprime Crisis: The Madness of Crowds",
+            "challenge": "You're a US housing market investor in 2006. Home prices haven't fallen once in 10 years. Banks are lending to people with poor credit, and every expert says 'housing prices never go down.' All your friends are buying 2-3 houses each. Should you take out a loan to buy more property?",
+            "solution": "From a behavioral finance perspective, multiple biases are at work: herd mentality (everyone's doing it), confirmation bias (only seeing evidence that prices rise), availability bias (only remembering the recent 10-year rise). In reality, US home prices crashed 34% starting in 2007, and the subprime mortgage crisis triggered a global financial meltdown. Behavioral finance mathematically proves the paradox that 'the moment everyone agrees is the most dangerous.'"
+        },
+        "ethos": {
+            "message": "Recognizing your own psychological biases is the most powerful financial defense. Being fearful when the crowd is greedy, and staying calm when the crowd panics — this self-awareness is the true weapon of a quant."
+        },
         "discussionAndAssignment": {
             "assignment": "Analyze a recent market event (e.g., a stock bubble or crash) and identify specific behavioral finance concepts (e.g., herd behavior, loss aversion, overconfidence) that likely played a significant role.",
             "discussion": "Discuss how awareness of behavioral biases can help investors make more rational decisions. Provide real-world examples."
@@ -1969,6 +2305,22 @@ export const mathDetailsContent: Record<string, Record<string, MathDetail>> = {
                 "title": "Execution Algorithms"
             }
         ],
+        "intuitionBridge": {
+            "title": "How does a package sorting center handle tens of thousands of boxes?",
+            "content": [
+                "Imagine 100,000 packages arriving at a sorting center every day. If humans read each address and sort them one by one, it would take days.",
+                "But conveyor belts and barcode scanners following set rules (algorithms) sort them automatically — done in hours!",
+                "Algorithmic trading in stocks works the same way. Program rules like 'buy when price crosses above the moving average' or 'sell when volume exceeds 2x normal' into a computer, and it executes trades hundreds of times faster than any human. No emotions, no mistakes, in 0.001 seconds!"
+            ]
+        },
+        "scenario": {
+            "title": "May 6, 2010: The Flash Crash",
+            "challenge": "You're a risk manager at the New York Stock Exchange at 2:32 PM on May 6, 2010. The Dow Jones suddenly plunges 600 points (about 6%) in 5 minutes. Algorithmic trading systems are reacting to each other's sell signals in a cascading chain. How do you respond?",
+            "solution": "During the actual Flash Crash, the Dow plummeted about 1,000 points (9.2%) in just 36 minutes before sharply rebounding. A single firm's large sell algorithm triggered a chain reaction of high-frequency trading (HFT) sell orders. After this event, the SEC strengthened 'circuit breaker' rules to automatically halt trading during extreme price swings. It was adding the wisdom of 'knowing when to stop' to algorithms that only pursued speed."
+        },
+        "ethos": {
+            "message": "Speed is a tool that extends human capability, but speed without wisdom only accelerates disaster. Every algorithm must have the logic of 'stopping' built into its core."
+        },
         "discussionAndAssignment": {
             "assignment": "Design a simple algorithmic trading strategy (e.g., a moving average crossover strategy). Describe its entry/exit rules, the type of market conditions it aims to exploit, potential benefits, and inherent risks.",
             "discussion": "Discuss the ethical implications of high-frequency trading (HFT) on market fairness and stability. Do HFT firms create a more efficient market, or do they introduce unfair advantages and systemic risks? Provide arguments for both sides."
@@ -2057,6 +2409,22 @@ export const mathDetailsContent: Record<string, Record<string, MathDetail>> = {
                 "title": "Types and Applications of Machine Learning Models"
             }
         ],
+        "intuitionBridge": {
+            "title": "Like teaching a dog to 'sit' with treats?",
+            "content": [
+                "How do you teach a dog to sit? Give a treat when it sits, nothing when it doesn't. Repeat this hundreds of times and the dog learns 'sitting = good things happen.'",
+                "Artificial intelligence works exactly the same way! You feed it millions of pieces of past data as 'treats,' training it to discover patterns on its own for when prices go up and when they go down.",
+                "But here's one key difference from dog training: the financial market is a 'game where rules constantly change,' so patterns that worked yesterday might fail tomorrow. That's why AI must be continuously retrained with new data!"
+            ]
+        },
+        "scenario": {
+            "title": "AI Hedge Fund vs. Human Traders",
+            "challenge": "You're a data scientist at Renaissance Technologies, the world's largest AI hedge fund, in 2020. The COVID-19 pandemic causes a 34% market crash in one month. Your AI model was trained on 100 years of data, but a simultaneous global lockdown exists nowhere in the training set. Do you follow the AI's predictions, or override with human judgment?",
+            "solution": "In reality, most AI-based quant funds suffered severe losses in early COVID-19 because 'simultaneous global lockdown' was absent from their training data. Meanwhile, some human fund managers intuitively grasped the crisis's severity and quickly repositioned. This event exposed AI's fundamental limitation: it is based on 'past patterns.' The best approach is a hybrid model combining AI's data processing power with human contextual judgment."
+        },
+        "ethos": {
+            "message": "Artificial intelligence should extend human judgment, not replace it. The ultimate responsibility for every AI decision still lies with humans, and technology must reflect human values and ethics."
+        },
         "discussionAndAssignment": {
             "assignment": "Choose a specific AI-based trading strategy currently used in financial markets (e.g., machine learning strategies in quant funds, investment advisory using chatbots). Research and prepare a report on its operational mechanism, pros and cons, and regulatory challenges.",
             "discussion": "Discuss the positive and negative impacts of AI trading systems on the stability and efficiency of financial markets. Specifically, share your thoughts on how AI might respond to unpredictable events like 'black swans'."
